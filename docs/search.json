@@ -9,9 +9,9 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "First Blog Post!",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "🎉 Hi, this is my first blog post!\nThis blog is built as a project of the statistical computing class I’m taking."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -23,8 +23,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "quarto-blog",
+    "title": "Yunyi’s Blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 10, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "About this blog\nHi, I’m Yunyi Ru, a ScM student at Johns Hopkins Bloomberg School of Public Health.\nI am currently doing virology research at The Pekosz Lab and also work as a research assistant at R3ISE Center.\nLooking forward to sharing some useful information with you here! 🐾\n\nThis blog is built with Quarto."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Yunyi's Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nFirst Blog Post!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html#a-bit-of-information",
+    "href": "posts/welcome/index.html#a-bit-of-information",
+    "title": "First Blog Post",
+    "section": "",
+    "text": "This blog is built as a project of the statistical computing class I’m taking."
+  },
+  {
+    "objectID": "posts/welcome/index.html#resources-used-to-build-this-blog",
+    "href": "posts/welcome/index.html#resources-used-to-build-this-blog",
+    "title": "First Blog Post",
+    "section": "Resources Used to Build This Blog",
+    "text": "Resources Used to Build This Blog\nI used RStudio + GitHub Pages (rendered to docs) to build this page.\n\nQuarto Guide\nThe Ultimate Guide to Starting a Quarto Blog by Albert Rapp"
+  },
+  {
+    "objectID": "posts/welcome/index.html#resources",
+    "href": "posts/welcome/index.html#resources",
+    "title": "First Blog Post!",
+    "section": "Resources",
+    "text": "Resources\nI used RStudio + GitHub Pages (rendered to docs) to build this page.\nHere are some useful resources for a blogging newbie… Will add more in future definitely!\n\nQuarto Guide\nThe Ultimate Guide to Starting a Quarto Blog by Albert Rapp\nComplete List of Github Markdown Emoji Markup"
   }
 ]

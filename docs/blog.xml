@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Yunyi&#39;s Blog</title>
+<link>https://yunyi-ru.github.io/quarto-blog/blog.html</link>
+<atom:link href="https://yunyi-ru.github.io/quarto-blog/blog.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Fri, 13 Sep 2024 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>First Blog Post!</title>
+  <dc:creator>Yunyi Ru</dc:creator>
+  <link>https://yunyi-ru.github.io/quarto-blog/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><span class="emoji" data-emoji="tada">🎉</span> Hi, this is my first blog post!</p>
+<p>This blog is built as a project of the <a href="https://lcolladotor.github.io/jhustatcomputing/">statistical computing</a> class I’m taking.</p>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p>I used RStudio + GitHub Pages (rendered to <code>docs</code>) to build this page.</p>
+<p>Here are some useful resources for a blogging newbie… Will add more in future definitely!</p>
+<ul>
+<li><p><a href="https://quarto.org/docs/guide/"><strong>Quarto Guide</strong></a></p></li>
+<li><p><a href="https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html"><strong>The Ultimate Guide to Starting a Quarto Blog</strong> by Albert Rapp</a></p></li>
+<li><p><a href="https://gist.github.com/rxaviers/7360908"><strong>Complete List of Github Markdown Emoji Markup</strong></a></p></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://yunyi-ru.github.io/quarto-blog/posts/welcome/</guid>
+  <pubDate>Fri, 13 Sep 2024 04:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

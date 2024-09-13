@@ -1,12 +1,22 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2024-09-10"
+title: "First Blog Post!"
+author: "Yunyi Ru"
+date: "2024-09-13"
 categories: [news]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+:tada: Hi, this is my first blog post!
 
-![](thumbnail.jpg)
+This blog is built as a project of the [statistical computing](https://lcolladotor.github.io/jhustatcomputing/) class I'm taking.
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+## Resources
+
+I used RStudio + GitHub Pages (rendered to `docs`) to build this page.
+
+Here are some useful resources for a blogging newbie... Will add more in future definitely!
+
+-   [**Quarto Guide**](https://quarto.org/docs/guide/)
+
+-   [**The Ultimate Guide to Starting a Quarto Blog** by Albert Rapp](https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html)
+
+-   [**Complete List of Github Markdown Emoji Markup**](https://gist.github.com/rxaviers/7360908)
