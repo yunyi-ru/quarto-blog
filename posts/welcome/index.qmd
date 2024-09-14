@@ -1,8 +1,8 @@
 ---
-title: "First Blog Post!"
+title: "First Blog Post! & Blogging Resources"
 author: "Yunyi Ru"
 date: "2024-09-13"
-categories: [news]
+categories: [resources]
 ---
 
 :tada: Hi, this is my first blog post!
@@ -11,7 +11,7 @@ This blog is built as a project of the [statistical computing](https://lcolladot
 
 ## Resources
 
-I used RStudio + GitHub Pages (rendered to `docs`) to build this page.
+I used **RStudio** + **GitHub Pages** (rendered to `docs`) to build this page.
 
 Here are some useful resources for a blogging newbie... Will add more in future definitely!
 

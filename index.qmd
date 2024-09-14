@@ -3,7 +3,7 @@ title: "Yunyi's Blog"
 from: markdown+emoji
 image: seagull.jpg
 about:
-  template: trestles
+  template: jolla
   links:
     - icon: twitter
       text: Twitter
@@ -18,11 +18,9 @@ about:
       href: mailto:yru3@jh.edu
 ---
 
-# About this blog
+Hi, I’m Yunyi, a ScM student at the Johns Hopkins Bloomberg School of Public Health.
 
-Hi, I'm Yunyi, a ScM student at [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/).
-
-I am currently doing virology research at [The Pekosz Lab](https://pekoszlab.com/) and also work as a research assistant at [R3ISE Center](https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education). For more information, please visit [my profile page](https://yunyi-ru.github.io/).
+I am currently doing virology research at [The Pekosz Lab](https://pekoszlab.com/) and also work as a research assistant at [the R3ISE Center](https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education). For more information, please visit [my profile page](https://yunyi-ru.github.io/).
 
 Looking forward to sharing some useful information with you here! :paw_prints:
 

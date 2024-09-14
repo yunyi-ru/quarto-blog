@@ -12,7 +12,7 @@
 <generator>quarto-1.5.57</generator>
 <lastBuildDate>Fri, 13 Sep 2024 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>First Blog Post!</title>
+  <title>First Blog Post! &amp; Blogging Resources</title>
   <dc:creator>Yunyi Ru</dc:creator>
   <link>https://yunyi-ru.github.io/quarto-blog/posts/welcome/</link>
   <description><![CDATA[ 
@@ -24,7 +24,7 @@
 <p>This blog is built as a project of the <a href="https://lcolladotor.github.io/jhustatcomputing/">statistical computing</a> class I’m taking.</p>
 <section id="resources" class="level2">
 <h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<p>I used RStudio + GitHub Pages (rendered to <code>docs</code>) to build this page.</p>
+<p>I used <strong>RStudio</strong> + <strong>GitHub Pages</strong> (rendered to <code>docs</code>) to build this page.</p>
 <p>Here are some useful resources for a blogging newbie… Will add more in future definitely!</p>
 <ul>
 <li><p><a href="https://quarto.org/docs/guide/"><strong>Quarto Guide</strong></a></p></li>
@@ -36,7 +36,7 @@
 </section>
 
  ]]></description>
-  <category>news</category>
+  <category>resources</category>
   <guid>https://yunyi-ru.github.io/quarto-blog/posts/welcome/</guid>
   <pubDate>Fri, 13 Sep 2024 04:00:00 GMT</pubDate>
 </item>

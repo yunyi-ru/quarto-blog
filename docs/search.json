@@ -9,7 +9,7 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "First Blog Post!",
+    "title": "First Blog Post! & Blogging Resources",
     "section": "",
     "text": "🎉 Hi, this is my first blog post!\nThis blog is built as a project of the statistical computing class I’m taking."
   },
@@ -25,14 +25,14 @@
     "href": "index.html",
     "title": "Yunyi’s Blog",
     "section": "",
-    "text": "About this blog\nHi, I’m Yunyi, a ScM student at Johns Hopkins Bloomberg School of Public Health.\nI am currently doing virology research at The Pekosz Lab and also work as a research assistant at R3ISE Center. For more information, please visit my profile page.\nLooking forward to sharing some useful information with you here! 🐾\n\nThis blog is built with Quarto."
+    "text": "Hi, I’m Yunyi, a ScM student at the Johns Hopkins Bloomberg School of Public Health.\nI am currently doing virology research at The Pekosz Lab and also work as a research assistant at the R3ISE Center. For more information, please visit my profile page.\nLooking forward to sharing some useful information with you here! 🐾\n\nThis blog is built with Quarto."
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Yunyi's Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nFirst Blog Post!\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nFirst Blog Post! & Blogging Resources\n\n\n\n\n\n\nresources\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html#a-bit-of-information",
@@ -51,7 +51,7 @@
   {
     "objectID": "posts/welcome/index.html#resources",
     "href": "posts/welcome/index.html#resources",
-    "title": "First Blog Post!",
+    "title": "First Blog Post! & Blogging Resources",
     "section": "Resources",
     "text": "Resources\nI used RStudio + GitHub Pages (rendered to docs) to build this page.\nHere are some useful resources for a blogging newbie… Will add more in future definitely!\n\nQuarto Guide\nThe Ultimate Guide to Starting a Quarto Blog by Albert Rapp\nComplete List of Github Markdown Emoji Markup"
   }
