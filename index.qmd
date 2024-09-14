@@ -20,9 +20,10 @@ about:
 
 Hi, I’m Yunyi, a ScM student at the Johns Hopkins Bloomberg School of Public Health.
 
-I am currently doing virology research at [The Pekosz Lab](https://pekoszlab.com/) and also work as a research assistant at [the R3ISE Center](https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education). For more information, please visit [my profile page](https://yunyi-ru.github.io/).
+I am currently doing virology research at [the Pekosz lab](https://pekoszlab.com/) and also work as a research assistant at [the R3ISE center](https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education). For more information, please visit [my profile page](https://yunyi-ru.github.io/).
 
 Looking forward to sharing some useful information with you here! :paw_prints:
 
----
+------------------------------------------------------------------------
+
 *This blog is built with [Quarto](https://quarto.org/)*.
