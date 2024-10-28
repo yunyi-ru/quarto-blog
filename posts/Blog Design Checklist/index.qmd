@@ -19,5 +19,5 @@ categories: [blogging]
 ### Contents
 
 -   [ ] Sample Data Analysis: 90s Britain indie scene lyrics (140.777)
--   [ ] Move 'Useful links for Molecular Biology' here
+-   [ ] Move 'Useful links for A Molecular Biologist' here
 -   [ ] Add some blog posts about viral phylogenetics learning resources
