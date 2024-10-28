@@ -5,19 +5,22 @@ date: "2024-10-28"
 categories: [blogging]
 ---
 
+This is a checklist/memo for some elements I want to add to this blog.
+
 ## Checklist
 
 ### Functions
 
--   [ ] Move this blog to yunyi-ru.github.io
+-   [ ] Move this blog to yunyi-ru.github.io (is this necessary?)
 -   [ ] RSS Subscription
--   [ ] Comment
+-   [ ] Comment (use [utterances](https://utteranc.es/)?)
 -   [ ] Section
 -   [ ] Customized theme: minimal, light, serif font
 -   [ ] Gallery
+-   [ ] Site Map
 
 ### Contents
 
--   [ ] Sample Data Analysis: 90s Britain indie scene lyrics (140.777)
--   [ ] Move 'Useful links for A Molecular Biologist' here
--   [ ] Add some blog posts about viral phylogenetics learning resources
+-   [ ] Sample Data Analysis: 90s Britain indie scene lyrics (140.777), categories -> fun
+-   [ ] Move 'Useful links for A Molecular Biologist' here, categories -> molbio
+-   [ ] Add some blog posts about viral phylogenetics learning resources, categories -> genetics

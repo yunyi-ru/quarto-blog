@@ -20,25 +20,27 @@
 
 
 
+<p>This is a checklist/memo for some elements I want to add to this blog.</p>
 <section id="checklist" class="level2">
-
+<h2 class="anchored" data-anchor-id="checklist">Checklist</h2>
 <section id="functions" class="level3">
-
+<h3 class="anchored" data-anchor-id="functions">Functions</h3>
 <ul class="task-list">
-<li><label><input type="checkbox">Move this blog to yunyi-ru.github.io</label></li>
+<li><label><input type="checkbox">Move this blog to yunyi-ru.github.io (is this necessary?)</label></li>
 <li><label><input type="checkbox">RSS Subscription</label></li>
-<li><label><input type="checkbox">Comment</label></li>
+<li><label><input type="checkbox">Comment (use <a href="https://utteranc.es/">utterances</a>?)</label></li>
 <li><label><input type="checkbox">Section</label></li>
 <li><label><input type="checkbox">Customized theme: minimal, light, serif font</label></li>
 <li><label><input type="checkbox">Gallery</label></li>
+<li><label><input type="checkbox">Site Map</label></li>
 </ul>
 </section>
 <section id="contents" class="level3">
-
+<h3 class="anchored" data-anchor-id="contents">Contents</h3>
 <ul class="task-list">
-<li><label><input type="checkbox">Sample Data Analysis: 90s Britain indie scene lyrics (140.777)</label></li>
-<li><label><input type="checkbox">Move ‘Useful links for A Molecular Biologist’ here</label></li>
-<li><label><input type="checkbox">Add some blog posts about viral phylogenetics learning resources</label></li>
+<li><label><input type="checkbox">Sample Data Analysis: 90s Britain indie scene lyrics (140.777), categories -&gt; fun</label></li>
+<li><label><input type="checkbox">Move ‘Useful links for A Molecular Biologist’ here, categories -&gt; molbio</label></li>
+<li><label><input type="checkbox">Add some blog posts about viral phylogenetics learning resources, categories -&gt; genetics</label></li>
 </ul>
 
 
