@@ -32,7 +32,7 @@
     "href": "blog.html",
     "title": "Yunyi's Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nFirst Blog Post! & Blogging Resources\n\n\n\n\n\n\nresources\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nBlog Design Checklist\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n1 min\n\n\n\n\n\n\n\nFirst Blog Post! & Blogging Resources\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html#a-bit-of-information",
@@ -54,5 +54,26 @@
     "title": "First Blog Post! & Blogging Resources",
     "section": "Resources",
     "text": "Resources\nI used RStudio + GitHub Pages (rendered to docs) to build this page.\nHere are some useful resources for a blogging newbie… Will add more in future definitely!\n\nQuarto Guide\nThe Ultimate Guide to Starting a Quarto Blog by Albert Rapp\nComplete List of Github Markdown Emoji Markup"
+  },
+  {
+    "objectID": "posts/Blog Design Checklist/index.html",
+    "href": "posts/Blog Design Checklist/index.html",
+    "title": "Blog Design Checklist",
+    "section": "",
+    "text": "RSS Subscription\nContents (based on )\n\n\n\n\n\nSample Data Analysis: 90s Britain indie scene lyrics (140.777)\n[ ]"
+  },
+  {
+    "objectID": "posts/Blog Design Checklist/index.html#this-is-a-checklist-for-some-elements-i-want-to-add-to-this-blog",
+    "href": "posts/Blog Design Checklist/index.html#this-is-a-checklist-for-some-elements-i-want-to-add-to-this-blog",
+    "title": "Blog Design Checklist",
+    "section": "",
+    "text": "RSS Subscription\nContents (based on )\n\n\n\n\n\nSample Data Analysis: 90s Britain indie scene lyrics (140.777)\n[ ]"
+  },
+  {
+    "objectID": "posts/Blog Design Checklist/index.html#checklist",
+    "href": "posts/Blog Design Checklist/index.html#checklist",
+    "title": "Blog Design Checklist",
+    "section": "",
+    "text": "RSS Subscription\nContents (based on )\n\n\n\n\n\nSample Data Analysis: 90s Britain indie scene lyrics (140.777)\n[ ]"
   }
 ]

@@ -1,0 +1,23 @@
+---
+title: "Blog Design Checklist"
+author: "Yunyi Ru"
+date: "2024-10-28"
+categories: [blogging]
+---
+
+## Checklist
+
+### Functions
+
+-   [ ] Move this blog to yunyi-ru.github.io
+-   [ ] RSS Subscription
+-   [ ] Comment
+-   [ ] Section
+-   [ ] Customized theme: minimal, light, serif font
+-   [ ] Gallery
+
+### Contents
+
+-   [ ] Sample Data Analysis: 90s Britain indie scene lyrics (140.777)
+-   [ ] Move 'Useful links for Molecular Biology' here
+-   [ ] Add some blog posts about viral phylogenetics learning resources
