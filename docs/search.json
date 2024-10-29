@@ -89,5 +89,33 @@
     "title": "Coding Resources",
     "section": "Resources",
     "text": "Resources\nSetting up VS code for R users\nSetting up VS Code for Python Development like RStudio, R-bloggers\nHow to integrate Python and R in Visual Studio Code, Medium"
+  },
+  {
+    "objectID": "posts/blog_design/index.html",
+    "href": "posts/blog_design/index.html",
+    "title": "Blog Design Checklist",
+    "section": "",
+    "text": "This is a checklist/memo for some elements I want to add to this blog."
+  },
+  {
+    "objectID": "posts/blog_design/index.html#checklist",
+    "href": "posts/blog_design/index.html#checklist",
+    "title": "Blog Design Checklist",
+    "section": "Checklist",
+    "text": "Checklist\n\nFunctions\n\nMove this blog to yunyi-ru.github.io (is this necessary?)\nRSS Subscription\nComment (use utterances?)\nSection\nCustomized theme: minimal, light, serif font\nGallery\nSite Map\nCustomized favicon\nTry other CSS themes\n\n\n\nContents\n\nSample Data Analysis: 90s Britain indie scene lyrics (140.777), categories -&gt; fun\nMove ‘Useful links for A Molecular Biologist’ here, categories -&gt; molbio\nAdd some blog posts about viral phylogenetics learning resources, categories -&gt; genetics"
+  },
+  {
+    "objectID": "posts/coding_resources/index.html",
+    "href": "posts/coding_resources/index.html",
+    "title": "Coding Resources",
+    "section": "",
+    "text": "This page lists some coding resources that I find useful."
+  },
+  {
+    "objectID": "posts/coding_resources/index.html#resources",
+    "href": "posts/coding_resources/index.html#resources",
+    "title": "Coding Resources",
+    "section": "Resources",
+    "text": "Resources\nSetting up VS code for R users\nSetting up VS Code for Python Development like RStudio, R-bloggers\nHow to integrate Python and R in Visual Studio Code, Medium"
   }
 ]

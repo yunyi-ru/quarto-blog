@@ -9,8 +9,8 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/Blog Design Checklist/index.html",
-      "/posts/Coding Resources/index.html",
+      "/posts/blog_design/index.html",
+      "/posts/coding_resources/index.html",
       "/posts/welcome/index.html"
     ]
   }
