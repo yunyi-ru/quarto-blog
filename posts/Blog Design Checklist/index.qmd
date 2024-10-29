@@ -2,7 +2,7 @@
 title: "Blog Design Checklist"
 author: "Yunyi Ru"
 date: "2024-10-28"
-categories: [blogging]
+categories: [temporary]
 ---
 
 This is a checklist/memo for some elements I want to add to this blog.
@@ -18,11 +18,11 @@ This is a checklist/memo for some elements I want to add to this blog.
 -   [ ] Customized theme: minimal, light, serif font
 -   [ ] Gallery
 -   [ ] Site Map
-- [ ] Customized favicon
-- [ ] Try other CSS themes
+-   [ ] Customized favicon
+-   [ ] Try other CSS themes
 
 ### Contents
 
--   [ ] Sample Data Analysis: 90s Britain indie scene lyrics (140.777), categories -> fun
--   [ ] Move 'Useful links for A Molecular Biologist' here, categories -> molbio
--   [ ] Add some blog posts about viral phylogenetics learning resources, categories -> genetics
+-   [ ] Sample Data Analysis: 90s Britain indie scene lyrics (140.777), categories -\> fun
+-   [ ] Move 'Useful links for A Molecular Biologist' here, categories -\> molbio
+-   [ ] Add some blog posts about viral phylogenetics learning resources, categories -\> genetics
