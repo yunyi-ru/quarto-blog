@@ -32,7 +32,7 @@
     "href": "blog.html",
     "title": "Yunyi's Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nBlog Design Checklist\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n1 min\n\n\n\n\n\n\n\nFirst Blog Post! & Blogging Resources\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nBlog Design Checklist\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n1 min\n\n\n\n\n\n\n\nCoding Resources\n\n\n\n\n\n\ncoding\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n1 min\n\n\n\n\n\n\n\nFirst Blog Post! & Blogging Resources\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html#a-bit-of-information",
@@ -75,5 +75,19 @@
     "title": "Blog Design Checklist",
     "section": "Checklist",
     "text": "Checklist\n\nFunctions\n\nMove this blog to yunyi-ru.github.io (is this necessary?)\nRSS Subscription\nComment (use utterances?)\nSection\nCustomized theme: minimal, light, serif font\nGallery\nSite Map\nCustomized favicon\nTry other CSS themes\n\n\n\nContents\n\nSample Data Analysis: 90s Britain indie scene lyrics (140.777), categories -&gt; fun\nMove ‘Useful links for A Molecular Biologist’ here, categories -&gt; molbio\nAdd some blog posts about viral phylogenetics learning resources, categories -&gt; genetics"
+  },
+  {
+    "objectID": "posts/Coding Resources/index.html",
+    "href": "posts/Coding Resources/index.html",
+    "title": "Coding Resources",
+    "section": "",
+    "text": "This page lists some coding resources that I find useful."
+  },
+  {
+    "objectID": "posts/Coding Resources/index.html#resources",
+    "href": "posts/Coding Resources/index.html#resources",
+    "title": "Coding Resources",
+    "section": "Resources",
+    "text": "Resources\nSetting up VS code for R users\nSetting up VS Code for Python Development like RStudio, R-bloggers\nHow to integrate Python and R in Visual Studio Code, Medium"
   }
 ]

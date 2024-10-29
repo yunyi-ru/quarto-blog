@@ -2,7 +2,7 @@
 title: "Blog Design Checklist"
 author: "Yunyi Ru"
 date: "2024-10-28"
-categories: [temporary]
+categories: [blogging]
 ---
 
 This is a checklist/memo for some elements I want to add to this blog.
