@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yunyi Ru">
-<meta name="dcterms.date" content="2024-10-28">
+<meta name="dcterms.date" content="2024-11-08">
 
-<title>Blog Design Checklist – Yunyi’s Blog</title>
+<title>Sample Analysis: Who’s the most depressing shoegaze band? – Yunyi's Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -120,10 +154,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#checklist" id="toc-checklist" class="nav-link active" data-scroll-target="#checklist">Checklist</a>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
   <ul class="collapse">
-  <li><a href="#functions" id="toc-functions" class="nav-link" data-scroll-target="#functions">Functions</a></li>
-  <li><a href="#contents" id="toc-contents" class="nav-link" data-scroll-target="#contents">Contents</a></li>
+  <li><a href="#why-this-project" id="toc-why-this-project" class="nav-link" data-scroll-target="#why-this-project">Why This Project</a></li>
+  <li><a href="#my-questions" id="toc-my-questions" class="nav-link" data-scroll-target="#my-questions">My Questions</a></li>
+  </ul></li>
+  <li><a href="#project" id="toc-project" class="nav-link" data-scroll-target="#project">Project</a>
+  <ul class="collapse">
+  <li><a href="#data-acquisition-wragling" id="toc-data-acquisition-wragling" class="nav-link" data-scroll-target="#data-acquisition-wragling">Data Acquisition &amp; Wragling</a>
+  <ul class="collapse">
+  <li><a href="#data-acquisition" id="toc-data-acquisition" class="nav-link" data-scroll-target="#data-acquisition">Data Acquisition</a></li>
+  <li><a href="#data-cleaning" id="toc-data-cleaning" class="nav-link" data-scroll-target="#data-cleaning">Data Cleaning</a></li>
+  </ul></li>
+  <li><a href="#who-is-the-most-depressing-shoegaze-band" id="toc-who-is-the-most-depressing-shoegaze-band" class="nav-link" data-scroll-target="#who-is-the-most-depressing-shoegaze-band">1. Who is the most depressing shoegaze band?</a></li>
+  <li><a href="#who-is-the-most-depressed-lyricist" id="toc-who-is-the-most-depressed-lyricist" class="nav-link" data-scroll-target="#who-is-the-most-depressed-lyricist">2. Who is the most depressed lyricist?</a></li>
+  <li><a href="#is-shoegaze-bands-becoming-happiersadder-over-time" id="toc-is-shoegaze-bands-becoming-happiersadder-over-time" class="nav-link" data-scroll-target="#is-shoegaze-bands-becoming-happiersadder-over-time">3. Is shoegaze bands becoming happier/sadder over time?</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -133,9 +178,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog Design Checklist</h1>
+<h1 class="title">Sample Analysis: Who’s the most depressing shoegaze band?</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">blogging</div>
+    <div class="quarto-category">fun</div>
   </div>
   </div>
 
@@ -153,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 28, 2024</p>
+      <p class="date">November 8, 2024</p>
     </div>
   </div>
   
@@ -165,29 +210,124 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a checklist/memo for some elements I want to add to this blog.</p>
-<section id="checklist" class="level2">
-<h2 class="anchored" data-anchor-id="checklist">Checklist</h2>
-<section id="functions" class="level3">
-<h3 class="anchored" data-anchor-id="functions">Functions</h3>
-<ul class="task-list">
-<li><label><input type="checkbox">Move this blog to yunyi-ru.github.io (is this necessary?)</label></li>
-<li><label><input type="checkbox">RSS Subscription</label></li>
-<li><label><input type="checkbox">Comment (use <a href="https://utteranc.es/">utterances</a>?)</label></li>
-<li><label><input type="checkbox">Section</label></li>
-<li><label><input type="checkbox">Customized theme: minimal, light, serif font</label></li>
-<li><label><input type="checkbox">Gallery</label></li>
-<li><label><input type="checkbox">Site Map</label></li>
-<li><label><input type="checkbox">Customized favicon</label></li>
-<li><label><input type="checkbox">Try other CSS themes</label></li>
-</ul>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<section id="why-this-project" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-project">Why This Project</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pedalboard.jpg" class="img-fluid figure-img"></p>
+<figcaption>Shoegaze is a effect-heavy subgenre of indie rock.</figcaption>
+</figure>
+</div>
 </section>
-<section id="contents" class="level3">
-<h3 class="anchored" data-anchor-id="contents">Contents</h3>
-<ul class="task-list">
-<li><label><input type="checkbox">Move ‘Useful links for A Molecular Biologist’ here, categories -&gt; molbio</label></li>
-<li><label><input type="checkbox">Add some blog posts about viral phylogenetics learning resources, categories -&gt; genetics</label></li>
-</ul>
+<section id="my-questions" class="level2">
+<h2 class="anchored" data-anchor-id="my-questions">My Questions</h2>
+<ol type="1">
+<li>Who is the most depressing shoegaze band?</li>
+<li>Who is the most depressed lyricist?</li>
+<li>Is shoegaze bands becoming happier/sadder over time?</li>
+</ol>
+</section>
+</section>
+<section id="project" class="level1">
+<h1>Project</h1>
+<section id="data-acquisition-wragling" class="level2">
+<h2 class="anchored" data-anchor-id="data-acquisition-wragling">Data Acquisition &amp; Wragling</h2>
+<section id="data-acquisition" class="level3">
+<h3 class="anchored" data-anchor-id="data-acquisition">Data Acquisition</h3>
+<p>Lyrics from all studio albums of the ‘big three’ bands in the shoegaze genre - <strong>my bloody valentine, Ride, and slowdive</strong> - are retrieved from <a href="https://genius.com/">Genius.com</a> using a Python package named <a href="https://www.johnwmillr.com/scraping-genius-lyrics/">lyricsgenius</a> based on Genius API. Please see the author’s instructions for details.</p>
+<p>The downloaded <code>.json</code> files were written into a <code>.csv</code> file for further processing.</p>
+</section>
+<section id="data-cleaning" class="level3">
+<h3 class="anchored" data-anchor-id="data-cleaning">Data Cleaning</h3>
+<p>Here is a typical piece of lyrics retrieved directly from the website. It has some problems:</p>
+<blockquote class="blockquote">
+<p>16 ContributorsBallad of Sister Sue Lyrics Don√¢¬Ä¬ôt tell me I√¢¬Ä¬ôm lost if I don√¢¬Ä¬ôt seem too sure what to wear Don√¢¬Ä¬ôt tell me I√¢¬Ä¬ôm lost if I don√¢¬Ä¬ôt seem too sure what to wear There√¢¬Ä¬ôs a fire in my head and I√¢¬Ä¬ôm blinded by all I can√¢¬Ä¬ôt see There√¢¬Ä¬ôs a fire in my head and I√¢¬Ä¬ôm blinded by all I can√¢¬Ä¬ôt see Dancing to nowhere, I√¢¬Ä¬ôm losing my head among thieves Dancing to nowhere, I√¢¬Ä¬ôm losing my head among thieves And the man at the bar looked like all that he needed was gone And the man at the bar looked like all that he needed was gone Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before The man said the drink in his hand would be all he required The man said the drink in his hand would be all he required And it seemed much the same when he pointed the gun at his head And it seemed much the same when he pointed the gun at his head Filled it with lead It made so much noise that I checked out of town, yeah Blood on my face and the words of a sage in my mind (It made so much noise that I checked out of town, yeah) See Slowdive LiveGet tickets as low as $55You might also like Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before6Embed</p>
+</blockquote>
+<ol type="1">
+<li>‘16 ContributorsBallad of Sister Sue Lyrics’ at the beginning and ‘6Embed’ at the end are not part of the lyrics.</li>
+<li>‘√¢¬Ä¬ô’ - some problem with Unicode encoding/decoding.</li>
+<li>‘See Slowdive LiveGet tickets as low as $55’ - ads is also not part of the lyrics.</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'stringi'</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'tidyverse'</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'tidytext'</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'lubridate'</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># import data</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>lyrics <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"lyrics_data.csv"</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># clean text</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>lyrics_clean <span class="ot">&lt;-</span> lyrics <span class="sc">%&gt;%</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Lyrics =</span> <span class="fu">stri_enc_toutf8</span>(Lyrics)) <span class="sc">%&gt;%</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Lyrics =</span> <span class="fu">str_replace_all</span>(Lyrics, <span class="st">'â\u0080\u0099'</span>, <span class="st">"'"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Lyrics =</span> Lyrics <span class="sc">%&gt;%</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_remove</span>(<span class="st">".*Lyrics"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_remove</span>(<span class="st">"See.*tickets as low as </span><span class="sc">\\</span><span class="st">$</span><span class="sc">\\</span><span class="st">d+"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_remove</span>(<span class="st">'You might also like'</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_remove</span>(<span class="st">'</span><span class="sc">\\</span><span class="st">d*</span><span class="sc">\\</span><span class="st">s*Embed$'</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_trim</span>()) <span class="sc">%&gt;%</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">str_detect</span>(Lyrics, <span class="st">"^</span><span class="sc">\\</span><span class="st">s*$"</span>)) <span class="sc">%&gt;%</span> <span class="co"># remove instrumental</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Release.Date =</span> <span class="fu">dmy</span>(Release.Date)) <span class="co"># set date using lubridate</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>It now gives a clear output -</p>
+<blockquote class="blockquote">
+<p>Don’t tell me I’m lost if I don’t seem too sure what to wear Don’t tell me I’m lost if I don’t seem too sure what to wear There’s a fire in my head and I’m blinded by all I can’t see There’s a fire in my head and I’m blinded by all I can’t see Dancing to nowhere, I’m losing my head among thieves Dancing to nowhere, I’m losing my head among thieves And the man at the bar looked like all that he needed was gone And the man at the bar looked like all that he needed was gone Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before The man said the drink in his hand would be all he required The man said the drink in his hand would be all he required And it seemed much the same when he pointed the gun at his head And it seemed much the same when he pointed the gun at his head Filled it with lead It made so much noise that I checked out of town, yeah Blood on my face and the words of a sage in my mind (It made so much noise that I checked out of town, yeah) Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before</p>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># text analysis</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>token <span class="ot">&lt;-</span> lyrics_clean <span class="sc">%&gt;%</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_tokens</span>(<span class="at">output =</span> Word, </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>                <span class="at">input =</span> Lyrics, </span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>                <span class="at">token =</span> <span class="st">'words'</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># stopwords dropped</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>token_clean <span class="ot">&lt;-</span> token <span class="sc">%&gt;%</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anti_join</span>(stop_words, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"Word"</span> <span class="ot">=</span> <span class="st">"word"</span>))</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co"># make a word cloud</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'wordcloud'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>token_count <span class="ot">&lt;-</span> token_clean <span class="sc">%&gt;%</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Artist) <span class="sc">%&gt;%</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(Word, <span class="at">name =</span> <span class="st">'Word_count'</span>, <span class="at">sort =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>token_count_head <span class="ot">&lt;-</span> token_count <span class="sc">%&gt;%</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Artist) <span class="sc">%&gt;%</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">40</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Word =</span> <span class="fu">fct_reorder</span>(Word, Word_count, <span class="at">.desc =</span> <span class="cn">FALSE</span>))</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggwordcloud)</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>palette <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"my bloody valentine"</span> <span class="ot">=</span> <span class="st">"#DC143C"</span>,</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Ride"</span> <span class="ot">=</span> <span class="st">"#1569C2"</span>,</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Slowdive"</span> <span class="ot">=</span> <span class="st">"#CCBA16"</span>)</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>token_count_head <span class="sc">%&gt;%</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">label =</span> Word, <span class="at">size =</span> Word_count, <span class="at">color =</span> Artist)) <span class="sc">+</span> </span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_wordcloud</span>(<span class="at">word.ratio =</span> <span class="fl">0.2</span>, <span class="co"># adjust for overall word size</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>                      <span class="at">max_size =</span> <span class="dv">30</span>) <span class="sc">+</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>Artist) <span class="sc">+</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> palette)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="who-is-the-most-depressing-shoegaze-band" class="level2">
+<h2 class="anchored" data-anchor-id="who-is-the-most-depressing-shoegaze-band">1. Who is the most depressing shoegaze band?</h2>
+</section>
+<section id="who-is-the-most-depressed-lyricist" class="level2">
+<h2 class="anchored" data-anchor-id="who-is-the-most-depressed-lyricist">2. Who is the most depressed lyricist?</h2>
+</section>
+<section id="is-shoegaze-bands-becoming-happiersadder-over-time" class="level2">
+<h2 class="anchored" data-anchor-id="is-shoegaze-bands-becoming-happiersadder-over-time">3. Is shoegaze bands becoming happier/sadder over time?</h2>
 
 
 </section>

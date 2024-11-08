@@ -10,7 +10,418 @@
 <atom:link href="https://yunyi-ru.github.io/quarto-blog/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Mon, 28 Oct 2024 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 08 Nov 2024 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>Sample Analysis: Who’s the most depressing shoegaze band?</title>
+  <dc:creator>Yunyi Ru</dc:creator>
+  <link>https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<section id="why-this-project" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-project">Why This Project</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/pedalboard.jpg" class="img-fluid figure-img"></p>
+<figcaption>Shoegaze is a effect-heavy subgenre of indie rock.</figcaption>
+</figure>
+</div>
+</section>
+<section id="my-questions" class="level2">
+<h2 class="anchored" data-anchor-id="my-questions">My Questions</h2>
+<ol type="1">
+<li>Who is the most depressing shoegaze band?</li>
+<li>Who is the most depressed lyricist?</li>
+<li>Is shoegaze bands becoming happier/sadder over time?</li>
+</ol>
+</section>
+</section>
+<section id="project" class="level1">
+<h1>Project</h1>
+<section id="data-acquisition-wragling" class="level2">
+<h2 class="anchored" data-anchor-id="data-acquisition-wragling">Data Acquisition &amp; Wragling</h2>
+<section id="data-acquisition" class="level3">
+<h3 class="anchored" data-anchor-id="data-acquisition">Data Acquisition</h3>
+<p>Lyrics from all studio albums of the ‘big three’ bands in the shoegaze genre - <strong>my bloody valentine, Ride, and slowdive</strong> - are retrieved from <a href="https://genius.com/">Genius.com</a> using a Python package named <a href="https://www.johnwmillr.com/scraping-genius-lyrics/">lyricsgenius</a> based on Genius API. Please see the author’s instructions for details.</p>
+<p>The downloaded <code>.json</code> files were written into a <code>.csv</code> file for further processing.</p>
+</section>
+<section id="data-cleaning" class="level3">
+<h3 class="anchored" data-anchor-id="data-cleaning">Data Cleaning</h3>
+<p>Here is a typical piece of lyrics retrieved directly from the website. It has some problems:</p>
+<blockquote class="blockquote">
+<p>16 ContributorsBallad of Sister Sue Lyrics Don√¢¬Ä¬ôt tell me I√¢¬Ä¬ôm lost if I don√¢¬Ä¬ôt seem too sure what to wear Don√¢¬Ä¬ôt tell me I√¢¬Ä¬ôm lost if I don√¢¬Ä¬ôt seem too sure what to wear There√¢¬Ä¬ôs a fire in my head and I√¢¬Ä¬ôm blinded by all I can√¢¬Ä¬ôt see There√¢¬Ä¬ôs a fire in my head and I√¢¬Ä¬ôm blinded by all I can√¢¬Ä¬ôt see Dancing to nowhere, I√¢¬Ä¬ôm losing my head among thieves Dancing to nowhere, I√¢¬Ä¬ôm losing my head among thieves And the man at the bar looked like all that he needed was gone And the man at the bar looked like all that he needed was gone Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before The man said the drink in his hand would be all he required The man said the drink in his hand would be all he required And it seemed much the same when he pointed the gun at his head And it seemed much the same when he pointed the gun at his head Filled it with lead It made so much noise that I checked out of town, yeah Blood on my face and the words of a sage in my mind (It made so much noise that I checked out of town, yeah) See Slowdive LiveGet tickets as low as $55You might also like Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before6Embed</p>
+</blockquote>
+<ol type="1">
+<li>‘16 ContributorsBallad of Sister Sue Lyrics’ at the beginning and ‘6Embed’ at the end are not part of the lyrics.</li>
+<li>‘√¢¬Ä¬ô’ - some problem with Unicode encoding/decoding.</li>
+<li>‘See Slowdive LiveGet tickets as low as $55’ - ads is also not part of the lyrics.</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'stringi'</span>)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'tidyverse'</span>)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'tidytext'</span>)</span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'lubridate'</span>)</span>
+<span id="cb1-5"></span>
+<span id="cb1-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># import data</span></span>
+<span id="cb1-7">lyrics <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"lyrics_data.csv"</span>)</span>
+<span id="cb1-8"></span>
+<span id="cb1-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># clean text</span></span>
+<span id="cb1-10">lyrics_clean <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> lyrics <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-11">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Lyrics =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">stri_enc_toutf8</span>(Lyrics)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-12">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Lyrics =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">str_replace_all</span>(Lyrics, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'â\u0080\u0099'</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"'"</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-13">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Lyrics =</span> Lyrics <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-14">           <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">str_remove</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">".*Lyrics"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-15">           <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">str_remove</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"See.*tickets as low as </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\\</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">$</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\\</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">d+"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-16">           <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">str_remove</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'You might also like'</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-17">           <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">str_remove</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\\</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">d*</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\\</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">s*Embed$'</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-18">           <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">str_trim</span>()) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-19">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">str_detect</span>(Lyrics, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"^</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\\</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">s*$"</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># remove instrumental</span></span>
+<span id="cb1-20">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Release.Date =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">dmy</span>(Release.Date)) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># set date using lubridate</span></span></code></pre></div>
+</div>
+<p>It now gives a clear output -</p>
+<blockquote class="blockquote">
+<p>Don’t tell me I’m lost if I don’t seem too sure what to wear Don’t tell me I’m lost if I don’t seem too sure what to wear There’s a fire in my head and I’m blinded by all I can’t see There’s a fire in my head and I’m blinded by all I can’t see Dancing to nowhere, I’m losing my head among thieves Dancing to nowhere, I’m losing my head among thieves And the man at the bar looked like all that he needed was gone And the man at the bar looked like all that he needed was gone Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before The man said the drink in his hand would be all he required The man said the drink in his hand would be all he required And it seemed much the same when he pointed the gun at his head And it seemed much the same when he pointed the gun at his head Filled it with lead It made so much noise that I checked out of town, yeah Blood on my face and the words of a sage in my mind (It made so much noise that I checked out of town, yeah) Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before</p>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># text analysis</span></span>
+<span id="cb2-2">token <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> lyrics_clean <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">unnest_tokens</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">output =</span> Word, </span>
+<span id="cb2-4">                <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">input =</span> Lyrics, </span>
+<span id="cb2-5">                <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">token =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'words'</span>)</span>
+<span id="cb2-6"></span>
+<span id="cb2-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># stopwords dropped</span></span>
+<span id="cb2-8">token_clean <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> token <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-9">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">anti_join</span>(stop_words, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">by =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Word"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"word"</span>))</span>
+<span id="cb2-10"></span>
+<span id="cb2-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># make a word cloud</span></span>
+<span id="cb2-12"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'wordcloud'</span>)</span>
+<span id="cb2-13">token_count <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> token_clean <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-14">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">group_by</span>(Artist) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-15">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">count</span>(Word, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">name =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Word_count'</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">sort =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>)</span>
+<span id="cb2-16"></span>
+<span id="cb2-17">token_count_head <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> token_count <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-18">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">group_by</span>(Artist) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-19">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">slice</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">40</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-20">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Word =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">fct_reorder</span>(Word, Word_count, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">.desc =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span>))</span>
+<span id="cb2-21"></span>
+<span id="cb2-22"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggplot2)</span>
+<span id="cb2-23"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggwordcloud)</span>
+<span id="cb2-24">palette <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"my bloody valentine"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#DC143C"</span>,</span>
+<span id="cb2-25">                   <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Ride"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#1569C2"</span>,</span>
+<span id="cb2-26">                   <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Slowdive"</span> <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#CCBA16"</span>)</span>
+<span id="cb2-27"></span>
+<span id="cb2-28">token_count_head <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-29">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">label =</span> Word, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> Word_count, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> Artist)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb2-30">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_text_wordcloud</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">word.ratio =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.2</span>, <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># adjust for overall word size</span></span>
+<span id="cb2-31">                      <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">max_size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">30</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-32">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">facet_wrap</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span>Artist) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-33">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_color_manual</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">values =</span> palette)</span></code></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="who-is-the-most-depressing-shoegaze-band" class="level2">
+<h2 class="anchored" data-anchor-id="who-is-the-most-depressing-shoegaze-band">1. Who is the most depressing shoegaze band?</h2>
+</section>
+<section id="who-is-the-most-depressed-lyricist" class="level2">
+<h2 class="anchored" data-anchor-id="who-is-the-most-depressed-lyricist">2. Who is the most depressed lyricist?</h2>
+</section>
+<section id="is-shoegaze-bands-becoming-happiersadder-over-time" class="level2">
+<h2 class="anchored" data-anchor-id="is-shoegaze-bands-becoming-happiersadder-over-time">3. Is shoegaze bands becoming happier/sadder over time?</h2>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>fun</category>
+  <guid>https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/</guid>
+  <pubDate>Fri, 08 Nov 2024 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Blog Design Checklist</title>
   <dc:creator>Yunyi Ru</dc:creator>
@@ -40,7 +451,6 @@
 <section id="contents" class="level3">
 <h3 class="anchored" data-anchor-id="contents">Contents</h3>
 <ul class="task-list">
-<li><label><input type="checkbox">Sample Data Analysis: 90s Britain indie scene lyrics (140.777), categories -&gt; fun</label></li>
 <li><label><input type="checkbox">Move ‘Useful links for A Molecular Biologist’ here, categories -&gt; molbio</label></li>
 <li><label><input type="checkbox">Add some blog posts about viral phylogenetics learning resources, categories -&gt; genetics</label></li>
 </ul>
@@ -88,7 +498,7 @@
 
 
 <p><span class="emoji" data-emoji="tada">🎉</span> Hi, this is my first blog post!</p>
-<p>This blog is built as a project of the <a href="https://lcolladotor.github.io/jhustatcomputing/">statistical computing</a> class I’m taking.</p>
+<p>This blog was initially built as a project of the <a href="https://lcolladotor.github.io/jhustatcomputing/">statistical computing</a> class I’m taking.</p>
 <section id="resources" class="level2">
 <h2 class="anchored" data-anchor-id="resources">Resources</h2>
 <p>I used <strong>RStudio</strong> + <strong>GitHub Pages</strong> (rendered to <code>docs</code>) to build this page.</p>

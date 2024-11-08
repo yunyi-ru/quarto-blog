@@ -9,6 +9,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/lyric_analysis/index.html",
       "/posts/blog_design/index.html",
       "/posts/coding_resources/index.html",
       "/posts/welcome/index.html"

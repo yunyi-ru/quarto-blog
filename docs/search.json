@@ -11,7 +11,7 @@
     "href": "posts/welcome/index.html",
     "title": "First Blog Post! & Blogging Resources",
     "section": "",
-    "text": "🎉 Hi, this is my first blog post!\nThis blog is built as a project of the statistical computing class I’m taking."
+    "text": "🎉 Hi, this is my first blog post!\nThis blog was initially built as a project of the statistical computing class I’m taking."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -25,14 +25,14 @@
     "href": "index.html",
     "title": "Yunyi’s Blog",
     "section": "",
-    "text": "Hi, I’m Yunyi, a ScM student at the Johns Hopkins Bloomberg School of Public Health.\nI am currently doing virology research at the Pekosz lab and also work as a research assistant at the R3ISE center. For more information, please visit my profile page.\nLooking forward to sharing some useful information with you here! 🐾\n\nThis blog is built with Quarto."
+    "text": "Hi, I’m Yunyi, a ScM student at the Johns Hopkins Bloomberg School of Public Health.\nI am currently doing virology research at the Pekosz lab. I also worked as a research assistant for resposible science communication at the R3ISE center. For more information, please visit my profile page.\nLooking forward to sharing some useful information with you here! 🐾\n\nThis blog is built with Quarto."
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Yunyi's Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nBlog Design Checklist\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n1 min\n\n\n\n\n\n\n\nCoding Resources\n\n\n\n\n\n\ncoding\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n1 min\n\n\n\n\n\n\n\nFirst Blog Post! & Blogging Resources\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nSample Analysis: Who’s the most depressing shoegaze band?\n\n\n\n\n\n\nfun\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n6 min\n\n\n\n\n\n\n\nBlog Design Checklist\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n1 min\n\n\n\n\n\n\n\nCoding Resources\n\n\n\n\n\n\ncoding\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n1 min\n\n\n\n\n\n\n\nFirst Blog Post! & Blogging Resources\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html#a-bit-of-information",
@@ -102,7 +102,7 @@
     "href": "posts/blog_design/index.html#checklist",
     "title": "Blog Design Checklist",
     "section": "Checklist",
-    "text": "Checklist\n\nFunctions\n\nMove this blog to yunyi-ru.github.io (is this necessary?)\nRSS Subscription\nComment (use utterances?)\nSection\nCustomized theme: minimal, light, serif font\nGallery\nSite Map\nCustomized favicon\nTry other CSS themes\n\n\n\nContents\n\nSample Data Analysis: 90s Britain indie scene lyrics (140.777), categories -&gt; fun\nMove ‘Useful links for A Molecular Biologist’ here, categories -&gt; molbio\nAdd some blog posts about viral phylogenetics learning resources, categories -&gt; genetics"
+    "text": "Checklist\n\nFunctions\n\nMove this blog to yunyi-ru.github.io (is this necessary?)\nRSS Subscription\nComment (use utterances?)\nSection\nCustomized theme: minimal, light, serif font\nGallery\nSite Map\nCustomized favicon\nTry other CSS themes\n\n\n\nContents\n\nMove ‘Useful links for A Molecular Biologist’ here, categories -&gt; molbio\nAdd some blog posts about viral phylogenetics learning resources, categories -&gt; genetics"
   },
   {
     "objectID": "posts/coding_resources/index.html",
@@ -117,5 +117,82 @@
     "title": "Coding Resources",
     "section": "Resources",
     "text": "Resources\nSetting up VS code for R users\nSetting up VS Code for Python Development like RStudio, R-bloggers\nHow to integrate Python and R in Visual Studio Code, Medium"
+  },
+  {
+    "objectID": "posts/lyric_analysis/index.html",
+    "href": "posts/lyric_analysis/index.html",
+    "title": "Sample Analysis: Who’s the most depressing shoegaze band?",
+    "section": "",
+    "text": "Shoegaze is a effect-heavy subgenre of indie rock.\n\n\n\n\n\n\nWho is the most depressing shoegaze band?\nWho is the most depressed lyricist?\nIs shoegaze bands becoming happier/sadder over time?"
+  },
+  {
+    "objectID": "posts/lyric_analysis/index.html#why-this-project",
+    "href": "posts/lyric_analysis/index.html#why-this-project",
+    "title": "Sample Analysis: Who’s the most depressing shoegaze band?",
+    "section": "",
+    "text": "Shoegaze is a effect-heavy subgenre of indie rock."
+  },
+  {
+    "objectID": "posts/lyric_analysis/index.html#my-auestions",
+    "href": "posts/lyric_analysis/index.html#my-auestions",
+    "title": "Sample Analysis: Who’s the most depressing shoegazing band?",
+    "section": "",
+    "text": "Who is the most depressing shoegazing band?\nWho is the most depressed lyricist?\nIs shoegazing bands becoming happier/sadder over time?"
+  },
+  {
+    "objectID": "posts/lyric_analysis/index.html#data-acquisition-wragling",
+    "href": "posts/lyric_analysis/index.html#data-acquisition-wragling",
+    "title": "Sample Analysis: Who’s the most depressing shoegaze band?",
+    "section": "Data Acquisition & Wragling",
+    "text": "Data Acquisition & Wragling\n\nData Acquisition\nLyrics from all studio albums of the ‘big three’ bands in the shoegaze genre - my bloody valentine, Ride, and slowdive - are retrieved from Genius.com using a Python package named lyricsgenius based on Genius API. Please see the author’s instructions for details.\nThe downloaded .json files were written into a .csv file for further processing.\n\n\nData Cleaning\nHere is a typical piece of lyrics retrieved directly from the website. It has some problems:\n\n16 ContributorsBallad of Sister Sue Lyrics Don√¢¬Ä¬ôt tell me I√¢¬Ä¬ôm lost if I don√¢¬Ä¬ôt seem too sure what to wear Don√¢¬Ä¬ôt tell me I√¢¬Ä¬ôm lost if I don√¢¬Ä¬ôt seem too sure what to wear There√¢¬Ä¬ôs a fire in my head and I√¢¬Ä¬ôm blinded by all I can√¢¬Ä¬ôt see There√¢¬Ä¬ôs a fire in my head and I√¢¬Ä¬ôm blinded by all I can√¢¬Ä¬ôt see Dancing to nowhere, I√¢¬Ä¬ôm losing my head among thieves Dancing to nowhere, I√¢¬Ä¬ôm losing my head among thieves And the man at the bar looked like all that he needed was gone And the man at the bar looked like all that he needed was gone Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before The man said the drink in his hand would be all he required The man said the drink in his hand would be all he required And it seemed much the same when he pointed the gun at his head And it seemed much the same when he pointed the gun at his head Filled it with lead It made so much noise that I checked out of town, yeah Blood on my face and the words of a sage in my mind (It made so much noise that I checked out of town, yeah) See Slowdive LiveGet tickets as low as $55You might also like Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before6Embed\n\n\n‘16 ContributorsBallad of Sister Sue Lyrics’ at the beginning and ‘6Embed’ at the end are not part of the lyrics.\n‘√¢¬Ä¬ô’ - some problem with Unicode encoding/decoding.\n‘See Slowdive LiveGet tickets as low as $55’ - ads is also not part of the lyrics.\n\n\nlibrary('stringi')\nlibrary('tidyverse')\nlibrary('tidytext')\nlibrary('lubridate')\n\n# import data\nlyrics &lt;- read.csv(\"lyrics_data.csv\")\n\n# clean text\nlyrics_clean &lt;- lyrics %&gt;%\n  mutate(Lyrics = stri_enc_toutf8(Lyrics)) %&gt;%\n  mutate(Lyrics = str_replace_all(Lyrics, 'â\\u0080\\u0099', \"'\")) %&gt;%\n  mutate(Lyrics = Lyrics %&gt;%\n           str_remove(\".*Lyrics\") %&gt;%\n           str_remove(\"See.*tickets as low as \\\\$\\\\d+\") %&gt;%\n           str_remove('You might also like') %&gt;%\n           str_remove('\\\\d*\\\\s*Embed$') %&gt;%\n           str_trim()) %&gt;%\n  filter(!str_detect(Lyrics, \"^\\\\s*$\")) %&gt;% # remove instrumental\n  mutate(Release.Date = dmy(Release.Date)) # set date using lubridate\n\nIt now gives a clear output -\n\nDon’t tell me I’m lost if I don’t seem too sure what to wear Don’t tell me I’m lost if I don’t seem too sure what to wear There’s a fire in my head and I’m blinded by all I can’t see There’s a fire in my head and I’m blinded by all I can’t see Dancing to nowhere, I’m losing my head among thieves Dancing to nowhere, I’m losing my head among thieves And the man at the bar looked like all that he needed was gone And the man at the bar looked like all that he needed was gone Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before The man said the drink in his hand would be all he required The man said the drink in his hand would be all he required And it seemed much the same when he pointed the gun at his head And it seemed much the same when he pointed the gun at his head Filled it with lead It made so much noise that I checked out of town, yeah Blood on my face and the words of a sage in my mind (It made so much noise that I checked out of town, yeah) Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before\n\n\n# text analysis\ntoken &lt;- lyrics_clean %&gt;%\n  unnest_tokens(output = Word, \n                input = Lyrics, \n                token = 'words')\n\n# stopwords dropped\ntoken_clean &lt;- token %&gt;%\n  anti_join(stop_words, by = c(\"Word\" = \"word\"))\n\n# make a word cloud\nlibrary('wordcloud')\ntoken_count &lt;- token_clean %&gt;%\n  group_by(Artist) %&gt;%\n  count(Word, name = 'Word_count', sort = TRUE)\n\ntoken_count_head &lt;- token_count %&gt;%\n  group_by(Artist) %&gt;%\n  slice(1:40) %&gt;%\n  mutate(Word = fct_reorder(Word, Word_count, .desc = FALSE))\n\nlibrary(ggplot2)\nlibrary(ggwordcloud)\npalette &lt;- c(\"my bloody valentine\" = \"#DC143C\",\n                   \"Ride\" = \"#1569C2\",\n                   \"Slowdive\" = \"#CCBA16\")\n\ntoken_count_head %&gt;%\n  ggplot(aes(label = Word, size = Word_count, color = Artist)) + \n  geom_text_wordcloud(word.ratio = 0.2, # adjust for overall word size\n                      max_size = 30) +\n  facet_wrap(~Artist) +\n  scale_color_manual(values = palette)"
+  },
+  {
+    "objectID": "posts/lyric_analysis/index.html#section",
+    "href": "posts/lyric_analysis/index.html#section",
+    "title": "Sample Analysis: Who’s the most depressing shoegazing band?",
+    "section": "1.",
+    "text": "1."
+  },
+  {
+    "objectID": "posts/lyric_analysis/index.html#section-1",
+    "href": "posts/lyric_analysis/index.html#section-1",
+    "title": "Sample Analysis: Who’s the most depressing shoegazing band?",
+    "section": "2.",
+    "text": "2."
+  },
+  {
+    "objectID": "posts/lyric_analysis/index.html#section-2",
+    "href": "posts/lyric_analysis/index.html#section-2",
+    "title": "Sample Analysis: Who’s the most depressing shoegazing band?",
+    "section": "3.",
+    "text": "3."
+  },
+  {
+    "objectID": "posts/lyric_analysis/index.html#my-questions",
+    "href": "posts/lyric_analysis/index.html#my-questions",
+    "title": "Sample Analysis: Who’s the most depressing shoegaze band?",
+    "section": "",
+    "text": "Who is the most depressing shoegaze band?\nWho is the most depressed lyricist?\nIs shoegaze bands becoming happier/sadder over time?"
+  },
+  {
+    "objectID": "posts/lyric_analysis/index.html#who-is-the-most-depressing-shoegaze-band",
+    "href": "posts/lyric_analysis/index.html#who-is-the-most-depressing-shoegaze-band",
+    "title": "Sample Analysis: Who’s the most depressing shoegaze band?",
+    "section": "1. Who is the most depressing shoegaze band?",
+    "text": "1. Who is the most depressing shoegaze band?"
+  },
+  {
+    "objectID": "posts/lyric_analysis/index.html#who-is-the-most-depressed-lyricist",
+    "href": "posts/lyric_analysis/index.html#who-is-the-most-depressed-lyricist",
+    "title": "Sample Analysis: Who’s the most depressing shoegaze band?",
+    "section": "2. Who is the most depressed lyricist?",
+    "text": "2. Who is the most depressed lyricist?"
+  },
+  {
+    "objectID": "posts/lyric_analysis/index.html#is-shoegaze-bands-becoming-happiersadder-over-time",
+    "href": "posts/lyric_analysis/index.html#is-shoegaze-bands-becoming-happiersadder-over-time",
+    "title": "Sample Analysis: Who’s the most depressing shoegaze band?",
+    "section": "3. Is shoegaze bands becoming happier/sadder over time?",
+    "text": "3. Is shoegaze bands becoming happier/sadder over time?"
   }
 ]

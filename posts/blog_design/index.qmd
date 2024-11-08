@@ -23,6 +23,5 @@ This is a checklist/memo for some elements I want to add to this blog.
 
 ### Contents
 
--   [ ] Sample Data Analysis: 90s Britain indie scene lyrics (140.777), categories -\> fun
 -   [ ] Move 'Useful links for A Molecular Biologist' here, categories -\> molbio
 -   [ ] Add some blog posts about viral phylogenetics learning resources, categories -\> genetics
