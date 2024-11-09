@@ -9,7 +9,7 @@
 <meta name="author" content="Yunyi Ru">
 <meta name="dcterms.date" content="2024-11-08">
 
-<title>Sample Analysis: Who’s the most depressing shoegaze band? – Yunyi's Blog</title>
+<title>Example Analysis: Who is the most depressing shoegaze band? – Yunyi's Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -166,19 +166,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#data-acquisition" id="toc-data-acquisition" class="nav-link" data-scroll-target="#data-acquisition">Data Acquisition</a></li>
   <li><a href="#data-cleaning" id="toc-data-cleaning" class="nav-link" data-scroll-target="#data-cleaning">Data Cleaning</a></li>
   </ul></li>
-  <li><a href="#who-is-the-most-depressing-shoegaze-band" id="toc-who-is-the-most-depressing-shoegaze-band" class="nav-link" data-scroll-target="#who-is-the-most-depressing-shoegaze-band">1. Who is the most depressing shoegaze band?</a></li>
-  <li><a href="#who-is-the-most-depressed-lyricist" id="toc-who-is-the-most-depressed-lyricist" class="nav-link" data-scroll-target="#who-is-the-most-depressed-lyricist">2. Who is the most depressed lyricist?</a></li>
-  <li><a href="#is-shoegaze-bands-becoming-happiersadder-over-time" id="toc-is-shoegaze-bands-becoming-happiersadder-over-time" class="nav-link" data-scroll-target="#is-shoegaze-bands-becoming-happiersadder-over-time">3. Is shoegaze bands becoming happier/sadder over time?</a></li>
+  <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link" data-scroll-target="#data-analysis">Data Analysis</a>
+  <ul class="collapse">
+  <li><a href="#what-words-frequently-appear-in-their-lyrics" id="toc-what-words-frequently-appear-in-their-lyrics" class="nav-link" data-scroll-target="#what-words-frequently-appear-in-their-lyrics">What words frequently appear in their lyrics?</a></li>
+  <li><a href="#which-bands-have-the-longest-and-shortest-lyrics" id="toc-which-bands-have-the-longest-and-shortest-lyrics" class="nav-link" data-scroll-target="#which-bands-have-the-longest-and-shortest-lyrics">Which bands have the longest and shortest lyrics?</a></li>
+  <li><a href="#who-is-the-most-depressing-shoegaze-band" id="toc-who-is-the-most-depressing-shoegaze-band" class="nav-link" data-scroll-target="#who-is-the-most-depressing-shoegaze-band">Who is the most depressing shoegaze band?</a></li>
+  <li><a href="#are-bands-trending-towards-happiness-or-sadness-over-time" id="toc-are-bands-trending-towards-happiness-or-sadness-over-time" class="nav-link" data-scroll-target="#are-bands-trending-towards-happiness-or-sadness-over-time">Are bands trending towards happiness or sadness over time?</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a>
+  <ul class="collapse">
+  <li><a href="#functions-used" id="toc-functions-used" class="nav-link" data-scroll-target="#functions-used">Functions Used</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sample Analysis: Who’s the most depressing shoegaze band?</h1>
+<h1 class="title">Example Analysis: Who is the most depressing shoegaze band?</h1>
   <div class="quarto-categories">
     <div class="quarto-category">fun</div>
   </div>
@@ -210,124 +218,431 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="introduction" class="level1">
+<section id="introduction" class="level1 page-columns page-full">
 <h1>Introduction</h1>
-<section id="why-this-project" class="level2">
+<section id="why-this-project" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="why-this-project">Why This Project</h2>
+<p>I’m interested in the ‘shoegaze’ subgenre of indie rock. This genre, also called ‘the scene that celebrates itself’, rose from the noise pop scene from the late 80s and early 90s. An article titled <em>‘The Shoegaze Revival Hit Its Stride in 2023’</em> <span class="citation" data-cites="sherburne_shoegaze_2023">[@sherburne_shoegaze_2023]</span> by pitchfork also captures the revival of shoegaze among GenZ populations.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="pedalboard.jpg" class="img-fluid figure-img"></p>
-<figcaption>Shoegaze is a effect-heavy subgenre of indie rock.</figcaption>
+<figcaption>Shoegaze is an effect-heavy subgenre of indie rock.</figcaption>
 </figure>
 </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Youmademerealise.png" class="img-fluid figure-img"></p>
+<figcaption>My bloody valentine’s 1988 EP ‘You made me realise’ is a classic shoegaze record.</figcaption>
+</figure>
+</div>
+</div></div><p>Shoegaze is characterized by heavy use of overdriven guitar and various effect pedals with the combination of the ethereal vocals; the lyrics are often regarded as blank, poetic, and sometimes difficult to distinguish from the instruments. So here come this project for the indieheads - I want to analyze those usually overlooked lyrics, especially from the perspective of sentiment.</p>
+<p>The bands I want to study are the so-called classic ‘big-three’ of shoegaze: <em>my bloody valentine</em>, <em>Ride</em>, and <em>slowdive</em>. They were all on the independent record label <em>Creation</em> from London, UK, reached their peak in early 90s, disbanded in late 90s due to the fading of the subgenre, and reunited in the 21st century, which make them a perfect fit to study the changes in the lyrics over the years.</p>
 </section>
 <section id="my-questions" class="level2">
 <h2 class="anchored" data-anchor-id="my-questions">My Questions</h2>
 <ol type="1">
+<li>What words frequently appear in their lyrics?</li>
+<li>Which bands have the longest and shortest lyrics?</li>
 <li>Who is the most depressing shoegaze band?</li>
-<li>Who is the most depressed lyricist?</li>
-<li>Is shoegaze bands becoming happier/sadder over time?</li>
+<li>Are bands trending towards happiness or sadness over time?</li>
 </ol>
 </section>
 </section>
-<section id="project" class="level1">
+<section id="project" class="level1 page-columns page-full">
 <h1>Project</h1>
-<section id="data-acquisition-wragling" class="level2">
+<section id="data-acquisition-wragling" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="data-acquisition-wragling">Data Acquisition &amp; Wragling</h2>
-<section id="data-acquisition" class="level3">
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="loveless.png" class="img-fluid"> <img src="nowhere.jpg" class="img-fluid"> <img src="souvlaki.jpeg" class="img-fluid"></p>
+</div></div><section id="data-acquisition" class="level3">
 <h3 class="anchored" data-anchor-id="data-acquisition">Data Acquisition</h3>
-<p>Lyrics from all studio albums of the ‘big three’ bands in the shoegaze genre - <strong>my bloody valentine, Ride, and slowdive</strong> - are retrieved from <a href="https://genius.com/">Genius.com</a> using a Python package named <a href="https://www.johnwmillr.com/scraping-genius-lyrics/">lyricsgenius</a> based on Genius API. Please see the author’s instructions for details.</p>
-<p>The downloaded <code>.json</code> files were written into a <code>.csv</code> file for further processing.</p>
+<p>Lyrics from all studio albums of the ‘big three’ bands in the shoegaze genre - <em>my bloody valentine (mbv)</em>, <em>Ride</em>, and <em>slowdive</em> - are retrieved from <a href="https://genius.com/">Genius.com</a> using a Python package named <a href="https://www.johnwmillr.com/scraping-genius-lyrics/">lyricsgenius</a><span class="citation" data-cites="miller_johnwmillrlyricsgenius_2024">[@miller_johnwmillrlyricsgenius_2024]</span> based on Genius API. Please see the author’s instructions for details.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The downloaded <code>.json</code> files were written into a <code>.csv</code> file for further processing. Please go to the <a href="https://github.com/yunyi-ru/quarto-blog">source repository</a> for more details.</p>
+</div>
+</div>
 </section>
 <section id="data-cleaning" class="level3">
 <h3 class="anchored" data-anchor-id="data-cleaning">Data Cleaning</h3>
-<p>Here is a typical piece of lyrics retrieved directly from the website. It has some problems:</p>
+<p>Here is a typical piece of lyrics retrieved directly from the website.</p>
 <blockquote class="blockquote">
 <p>16 ContributorsBallad of Sister Sue Lyrics Don√¢¬Ä¬ôt tell me I√¢¬Ä¬ôm lost if I don√¢¬Ä¬ôt seem too sure what to wear Don√¢¬Ä¬ôt tell me I√¢¬Ä¬ôm lost if I don√¢¬Ä¬ôt seem too sure what to wear There√¢¬Ä¬ôs a fire in my head and I√¢¬Ä¬ôm blinded by all I can√¢¬Ä¬ôt see There√¢¬Ä¬ôs a fire in my head and I√¢¬Ä¬ôm blinded by all I can√¢¬Ä¬ôt see Dancing to nowhere, I√¢¬Ä¬ôm losing my head among thieves Dancing to nowhere, I√¢¬Ä¬ôm losing my head among thieves And the man at the bar looked like all that he needed was gone And the man at the bar looked like all that he needed was gone Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before The man said the drink in his hand would be all he required The man said the drink in his hand would be all he required And it seemed much the same when he pointed the gun at his head And it seemed much the same when he pointed the gun at his head Filled it with lead It made so much noise that I checked out of town, yeah Blood on my face and the words of a sage in my mind (It made so much noise that I checked out of town, yeah) See Slowdive LiveGet tickets as low as $55You might also like Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before6Embed</p>
 </blockquote>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>It has some problems -</p>
 <ol type="1">
 <li>‘16 ContributorsBallad of Sister Sue Lyrics’ at the beginning and ‘6Embed’ at the end are not part of the lyrics.</li>
 <li>‘√¢¬Ä¬ô’ - some problem with Unicode encoding/decoding.</li>
 <li>‘See Slowdive LiveGet tickets as low as $55’ - ads is also not part of the lyrics.</li>
 </ol>
+</div>
+</div>
+<p>And it requires some data cleaning.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'stringi'</span>)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'tidyverse'</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'tidytext'</span>)</span>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load packages</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'stringi'</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'tidyverse'</span>)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'lubridate'</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># import data</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>lyrics <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"lyrics_data.csv"</span>)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># clean text</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>lyrics_clean <span class="ot">&lt;-</span> lyrics <span class="sc">%&gt;%</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Lyrics =</span> <span class="fu">stri_enc_toutf8</span>(Lyrics)) <span class="sc">%&gt;%</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Lyrics =</span> <span class="fu">str_replace_all</span>(Lyrics, <span class="st">'â\u0080\u0099'</span>, <span class="st">"'"</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Lyrics =</span> Lyrics <span class="sc">%&gt;%</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_remove</span>(<span class="st">".*Lyrics"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_remove</span>(<span class="st">"See.*tickets as low as </span><span class="sc">\\</span><span class="st">$</span><span class="sc">\\</span><span class="st">d+"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_remove</span>(<span class="st">'You might also like'</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_remove</span>(<span class="st">'</span><span class="sc">\\</span><span class="st">d*</span><span class="sc">\\</span><span class="st">s*Embed$'</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>           <span class="fu">str_trim</span>()) <span class="sc">%&gt;%</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">str_detect</span>(Lyrics, <span class="st">"^</span><span class="sc">\\</span><span class="st">s*$"</span>)) <span class="sc">%&gt;%</span> <span class="co"># remove instrumental</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Release.Date =</span> <span class="fu">dmy</span>(Release.Date)) <span class="co"># set date using lubridate</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># reference</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">write_bib</span>(<span class="st">"rmarkdown"</span>, <span class="at">file =</span> <span class="st">"my-refs.bib"</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># import data</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>lyrics <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"lyrics_data.csv"</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># clean text</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>lyrics_clean <span class="ot">&lt;-</span> lyrics <span class="sc">%&gt;%</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Lyrics =</span> <span class="fu">stri_enc_toutf8</span>(Lyrics)) <span class="sc">%&gt;%</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Lyrics =</span> <span class="fu">str_replace_all</span>(Lyrics, <span class="st">'â\u0080\u0099'</span>, <span class="st">"'"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">Lyrics =</span> Lyrics <span class="sc">%&gt;%</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_remove</span>(<span class="st">".*Lyrics"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_remove</span>(<span class="st">"See.*tickets as low as </span><span class="sc">\\</span><span class="st">$</span><span class="sc">\\</span><span class="st">d+"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_remove</span>(<span class="st">'You might also like'</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_remove</span>(<span class="st">'</span><span class="sc">\\</span><span class="st">d*</span><span class="sc">\\</span><span class="st">s*Embed$'</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>      <span class="fu">str_trim</span>()</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">str_detect</span>(Lyrics, <span class="st">"^</span><span class="sc">\\</span><span class="st">s*$"</span>)) <span class="sc">%&gt;%</span> <span class="co"># remove instrumental</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Release.Date =</span> <span class="fu">dmy</span>(Release.Date)) <span class="co"># set date using lubridate</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>lyrics_clean <span class="ot">&lt;-</span> lyrics_clean <span class="sc">%&gt;%</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">lyric.length =</span> <span class="fu">nchar</span>(Lyrics),</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>         <span class="at">Release.Year =</span> <span class="fu">year</span>(Release.Date), </span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>         <span class="at">Album =</span> <span class="fu">factor</span>(Album, </span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>                        <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Isn't Anything"</span>, <span class="st">"loveless"</span>, <span class="st">"m b v"</span>, </span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">"Nowhere"</span>, <span class="st">"Going Blank Again"</span>, <span class="st">"Carnival of Light"</span>, <span class="st">"Tarantula"</span>, <span class="st">"Weather Diaries"</span>, <span class="st">"This is Not a Safe Place"</span>, <span class="st">"Interplay"</span>, </span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>                                   <span class="st">"Just for a Day"</span>, <span class="st">"Souvlaki"</span>, <span class="st">"Pygmalion"</span>, <span class="st">"slowdive"</span>, <span class="st">"everything is alive"</span>)), </span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>         <span class="at">Reunite =</span> <span class="fu">year</span>(Release.Date) <span class="sc">&lt;</span> <span class="dv">2000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>It now gives a clear output -</p>
 <blockquote class="blockquote">
 <p>Don’t tell me I’m lost if I don’t seem too sure what to wear Don’t tell me I’m lost if I don’t seem too sure what to wear There’s a fire in my head and I’m blinded by all I can’t see There’s a fire in my head and I’m blinded by all I can’t see Dancing to nowhere, I’m losing my head among thieves Dancing to nowhere, I’m losing my head among thieves And the man at the bar looked like all that he needed was gone And the man at the bar looked like all that he needed was gone Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before The man said the drink in his hand would be all he required The man said the drink in his hand would be all he required And it seemed much the same when he pointed the gun at his head And it seemed much the same when he pointed the gun at his head Filled it with lead It made so much noise that I checked out of town, yeah Blood on my face and the words of a sage in my mind (It made so much noise that I checked out of town, yeah) Sister, I’ve lost all the feeling I’m lost and I’m sold I lay down beside you Sister, I’m blinded It’s only my eyes I’ve sold them before</p>
 </blockquote>
+<p>And it’s now ready for further processing.</p>
+</section>
+</section>
+<section id="data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="data-analysis">Data Analysis</h2>
+<section id="what-words-frequently-appear-in-their-lyrics" class="level3">
+<h3 class="anchored" data-anchor-id="what-words-frequently-appear-in-their-lyrics">What words frequently appear in their lyrics?</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># text analysis</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>token <span class="ot">&lt;-</span> lyrics_clean <span class="sc">%&gt;%</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_tokens</span>(<span class="at">output =</span> Word, </span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>                <span class="at">input =</span> Lyrics, </span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>                <span class="at">token =</span> <span class="st">'words'</span>)</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># stopwords dropped</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>token_clean <span class="ot">&lt;-</span> token <span class="sc">%&gt;%</span></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anti_join</span>(stop_words, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"Word"</span> <span class="ot">=</span> <span class="st">"word"</span>))</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="co"># make a word cloud</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'wordcloud'</span>)</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>token_count <span class="ot">&lt;-</span> token_clean <span class="sc">%&gt;%</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Artist) <span class="sc">%&gt;%</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(Word, <span class="at">name =</span> <span class="st">'Word_count'</span>, <span class="at">sort =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>token_count_head <span class="ot">&lt;-</span> token_count <span class="sc">%&gt;%</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Artist) <span class="sc">%&gt;%</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">40</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Word =</span> <span class="fu">fct_reorder</span>(Word, Word_count, <span class="at">.desc =</span> <span class="cn">FALSE</span>))</span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'tidytext'</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># tokenize</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>token <span class="ot">&lt;-</span> lyrics_clean <span class="sc">%&gt;%</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_tokens</span>(<span class="at">output =</span> Word,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>                <span class="at">input =</span> Lyrics,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>                <span class="at">token =</span> <span class="st">'words'</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co"># stopwords dropped</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>token_clean <span class="ot">&lt;-</span> token <span class="sc">%&gt;%</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anti_join</span>(stop_words, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"Word"</span> <span class="ot">=</span> <span class="st">"word"</span>))</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>token_count <span class="ot">&lt;-</span> token_clean <span class="sc">%&gt;%</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Artist, Album, Release.Year) <span class="sc">%&gt;%</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(Word, <span class="at">name =</span> <span class="st">'Word_count'</span>, <span class="at">sort =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>token_count_head <span class="ot">&lt;-</span> token_count <span class="sc">%&gt;%</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Artist) <span class="sc">%&gt;%</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">30</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Word =</span> <span class="fu">fct_reorder</span>(Word, Word_count, <span class="at">.desc =</span> <span class="cn">FALSE</span>))</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="co"># make a word cloud</span></span>
 <span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggwordcloud)</span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>palette <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"my bloody valentine"</span> <span class="ot">=</span> <span class="st">"#DC143C"</span>,</span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Ride"</span> <span class="ot">=</span> <span class="st">"#1569C2"</span>,</span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>                   <span class="st">"Slowdive"</span> <span class="ot">=</span> <span class="st">"#CCBA16"</span>)</span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>token_count_head <span class="sc">%&gt;%</span></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">label =</span> Word, <span class="at">size =</span> Word_count, <span class="at">color =</span> Artist)) <span class="sc">+</span> </span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_wordcloud</span>(<span class="at">word.ratio =</span> <span class="fl">0.2</span>, <span class="co"># adjust for overall word size</span></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>                      <span class="at">max_size =</span> <span class="dv">30</span>) <span class="sc">+</span></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>Artist) <span class="sc">+</span></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> palette)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="fu">theme_set</span>(<span class="fu">theme_bw</span>())</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggwordcloud)</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>palette <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>  <span class="st">"my bloody valentine"</span> <span class="ot">=</span> <span class="st">"#DC143C"</span>,</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Ride"</span> <span class="ot">=</span> <span class="st">"#1569C2"</span>,</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Slowdive"</span> <span class="ot">=</span> <span class="st">"#CCBA16"</span>,</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>  <span class="st">"when you sleep"</span> <span class="ot">=</span> <span class="st">"#f28fa3"</span>,</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Vapour Trail"</span> <span class="ot">=</span> <span class="st">"#77b0ed"</span>,</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  <span class="st">"When the Sun Hits"</span> <span class="ot">=</span> <span class="st">"#f0e371"</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(token_count_head, <span class="fu">aes</span>(</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>  <span class="at">label =</span> Word,</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>  <span class="at">size =</span> Word_count,</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>  <span class="at">color =</span> Artist</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>)) <span class="sc">+</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_wordcloud</span>(<span class="at">word.ratio =</span> <span class="fl">0.2</span>, <span class="co"># adjust for overall word size</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>                      <span class="at">max_size =</span> <span class="dv">30</span>) <span class="sc">+</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> Artist) <span class="sc">+</span></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> palette) <span class="sc">+</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">'Most Frequent Words Used in Lyrics'</span>,</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Slowdive seems to have the most 'meaningful' lyrics."</span>,</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Word size based on frequency. Only the top 30 results are shown here.'</span></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="index_files/figure-html/q1-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
+<p>The result is kind of amusing. Ride and mbv rely their vocals heavily on harmonies and hummings - and it’s reflected honestly here, while slowdive has the most ‘meaningful’ lyrics among the three. ‘Love’ is the ultimate meaning of rock and roll, and it indeed appears in high frequency in all of their lyrics.</p>
+</section>
+<section id="which-bands-have-the-longest-and-shortest-lyrics" class="level3">
+<h3 class="anchored" data-anchor-id="which-bands-have-the-longest-and-shortest-lyrics">Which bands have the longest and shortest lyrics?</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>palettetf <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="st">"TRUE"</span> <span class="ot">=</span> <span class="st">"black"</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="st">"FALSE"</span> <span class="ot">=</span> <span class="st">"white"</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(lyrics_clean, <span class="fu">aes</span>(<span class="at">x =</span> Album, <span class="at">y =</span> lyric.length, <span class="at">fill =</span> Artist, <span class="at">color =</span> Reunite)) <span class="sc">+</span> </span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> palette) <span class="sc">+</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> palettetf) <span class="sc">+</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">'Which bands have the Longest/Shortest Lyrics?'</span>,</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">'Mbv has the shortest lyrics while Ride has the longest.'</span>,</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Boxplot showing the range and median of lyric lengths for each Album.'</span>, </span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">'Before Reunion?'</span>, </span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Lyric Length (character)'</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/q2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Among the three bands, Mbv always has the shortest lyrics overall while Ride has the longest. An interesting trend is that while Ride and slowdive have similar lyric length back in the 90s, after reunion, Ride tends to have longer lyrics - and the length increases for each album.</p>
+</section>
+<section id="who-is-the-most-depressing-shoegaze-band" class="level3">
+<h3 class="anchored" data-anchor-id="who-is-the-most-depressing-shoegaze-band">Who is the most depressing shoegaze band?</h3>
+<p>I used <em>afinn</em> from package <code>tidytext</code> for sentiment analysis based on this paper<span class="citation" data-cites="koto_comparative_2015">[@koto_comparative_2015]</span>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># data processing: sentiment 'afinn'</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>token_afinn <span class="ot">&lt;-</span> token_count <span class="sc">%&gt;%</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(<span class="fu">get_sentiments</span>(<span class="st">'afinn'</span>), <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"Word"</span> <span class="ot">=</span> <span class="st">"word"</span>))</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>afinn_score_by_artist <span class="ot">&lt;-</span> token_afinn <span class="sc">%&gt;%</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Artist) <span class="sc">%&gt;%</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">avg =</span> <span class="fu">round</span>(<span class="fu">mean</span>(value), <span class="dv">2</span>))</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(afinn_score_by_artist)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Artist</th>
+<th style="text-align: right;">avg</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Ride</td>
+<td style="text-align: right;">-0.06</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Slowdive</td>
+<td style="text-align: right;">0.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">my bloody valentine</td>
+<td style="text-align: right;">-0.11</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Among the three bands, mbv has the lowest sentiment score, which means it is the most depressing shoegaze band (if we only look at the lyrics). All three bands got sentiment scores less than or equal to zero, with slowdive holding the highest score (0.00).</p>
+<section id="what-about-their-greatest-hits" class="level4">
+<h4 class="anchored" data-anchor-id="what-about-their-greatest-hits">What about their greatest hits?</h4>
+<p>Using data from <a href="last.fm">last.fm</a>, we find out that the greatest hits of the three bands are:</p>
+<ul>
+<li><em>when you sleep</em> - my bloody valentine (32171 weekly listeners),</li>
+<li><em>Vapour Trail</em> - Ride (1943 weekly listeners), and</li>
+<li><em>When the Sun Hits</em> - Slowdive (53055 weekly listeners).</li>
+</ul>
+<p>I’m interested that whether those songs have a happier or sadder vibe compared to their other songs -</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># by song</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>token_count_bysong <span class="ot">&lt;-</span> token_clean <span class="sc">%&gt;%</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Artist, Song.Title) <span class="sc">%&gt;%</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(Word, <span class="at">name =</span> <span class="st">'Word_count'</span>, <span class="at">sort =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>token_afinn_bysong <span class="ot">&lt;-</span> token_count_bysong <span class="sc">%&gt;%</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(<span class="fu">get_sentiments</span>(<span class="st">'afinn'</span>), <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"Word"</span> <span class="ot">=</span> <span class="st">"word"</span>))</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>afinn_score_all <span class="ot">&lt;-</span> token_afinn_bysong <span class="sc">%&gt;%</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Song.Title, Artist) <span class="sc">%&gt;%</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">avg_song =</span> <span class="fu">mean</span>(value))</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># look at the greatest hits</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>afinn_score_bysong <span class="ot">&lt;-</span> afinn_score_all <span class="sc">%&gt;%</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(Song.Title <span class="sc">==</span> <span class="st">'Vapour Trail'</span> <span class="sc">|</span> Song.Title <span class="sc">==</span> <span class="st">'When the Sun Hits'</span> <span class="sc">|</span> Song.Title <span class="sc">==</span> <span class="st">'when you sleep'</span>)</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>afinn_score_bysong <span class="ot">&lt;-</span> <span class="fu">inner_join</span>(afinn_score_bysong, afinn_score_by_artist, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"Artist"</span> <span class="ot">=</span> <span class="st">"Artist"</span>))</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="co"># plot</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(afinn_score_bysong, <span class="fu">aes</span>(<span class="at">x =</span> Artist)) <span class="sc">+</span></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape =</span> <span class="dv">16</span>, <span class="at">size =</span> <span class="dv">3</span>, <span class="fu">aes</span>(<span class="at">y =</span> afinn_score_bysong<span class="sc">$</span>avg, <span class="at">color =</span> Artist)) <span class="sc">+</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">shape =</span> <span class="dv">17</span>, <span class="at">size =</span> <span class="dv">3</span>, <span class="fu">aes</span>(<span class="at">y =</span> afinn_score_bysong<span class="sc">$</span>avg_song, <span class="at">color =</span> </span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>Song.Title)) <span class="sc">+</span></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> palette) <span class="sc">+</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">'dashed'</span>, <span class="at">color =</span> <span class="st">'black'</span>) <span class="sc">+</span></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">'Who is the Most Depressing Shoegaze Band?'</span>,</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">'Mbv has the lowest overall sentiment score.</span><span class="sc">\n</span><span class="st">The most popular songs have a higher sentiment score than average.'</span>,</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Average sentiment score calculated based on afinn scores.</span><span class="sc">\n</span><span class="st">&lt;0: sad/negative, &gt;0: happy/positive.'</span>, </span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Sentiment Score'</span>, </span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Time'</span>, </span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">'Artist average/</span><span class="sc">\n</span><span class="st">greatest hits'</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/q3.2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>All those songs have a slightly higher sentiment score than their artist’s average scores. People seem to prefer happy songs!</p>
+</section>
+<section id="so-what-are-their-happiestsaddest-songs" class="level4">
+<h4 class="anchored" data-anchor-id="so-what-are-their-happiestsaddest-songs">So what are their happiest/saddest songs?</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>extreme_song <span class="ot">&lt;-</span> afinn_score_all <span class="sc">%&gt;%</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Artist) <span class="sc">%&gt;%</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(avg_song <span class="sc">==</span> <span class="fu">max</span>(avg_song) <span class="sc">|</span> avg_song <span class="sc">==</span> <span class="fu">min</span>(avg_song))</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>sorted_tibble <span class="ot">&lt;-</span> extreme_song <span class="sc">%&gt;%</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Artist) <span class="sc">%&gt;%</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(Artist, avg_song) <span class="sc">%&gt;%</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(sorted_tibble)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Song.Title</th>
+<th style="text-align: left;">Artist</th>
+<th style="text-align: right;">avg_song</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">OX4</td>
+<td style="text-align: left;">Ride</td>
+<td style="text-align: right;">-3.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mary Anne</td>
+<td style="text-align: left;">Ride</td>
+<td style="text-align: right;">3.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ride The Wind</td>
+<td style="text-align: left;">Ride</td>
+<td style="text-align: right;">3.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Spanish Air</td>
+<td style="text-align: left;">Slowdive</td>
+<td style="text-align: right;">-2.5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">30th June</td>
+<td style="text-align: left;">Slowdive</td>
+<td style="text-align: right;">3.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Everyone Knows</td>
+<td style="text-align: left;">Slowdive</td>
+<td style="text-align: right;">3.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">No More Sorry</td>
+<td style="text-align: left;">my bloody valentine</td>
+<td style="text-align: right;">-2.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Nothing Much to Lose</td>
+<td style="text-align: left;">my bloody valentine</td>
+<td style="text-align: right;">-2.0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">new you</td>
+<td style="text-align: left;">my bloody valentine</td>
+<td style="text-align: right;">4.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>With the table above, we find that Ride’s saddest song is <em>‘OX4’</em>, and happiest songs are <em>‘Mary Anne’</em> and <em>‘Ride the Wind’</em>; Slowdive’s saddest song is <em>‘Spanish Air’</em>, and happiest songs are <em>‘30th June’</em> and <em>‘Everyone Knows’</em>; mbv’s saddest songs are <em>‘No More Sorry’</em> and <em>‘Nothing Much to Lose’</em>, and happiest song is <em>new you</em>.</p>
 </section>
 </section>
-<section id="who-is-the-most-depressing-shoegaze-band" class="level2">
-<h2 class="anchored" data-anchor-id="who-is-the-most-depressing-shoegaze-band">1. Who is the most depressing shoegaze band?</h2>
+<section id="are-bands-trending-towards-happiness-or-sadness-over-time" class="level3">
+<h3 class="anchored" data-anchor-id="are-bands-trending-towards-happiness-or-sadness-over-time">Are bands trending towards happiness or sadness over time?</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>afinn_score <span class="ot">&lt;-</span> token_afinn <span class="sc">%&gt;%</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Artist, Album, Release.Year) <span class="sc">%&gt;%</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">avg =</span> <span class="fu">mean</span>(value))</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggrepel)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(afinn_score,</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> Release.Year, <span class="at">y =</span> avg, <span class="at">color =</span> Artist, <span class="at">label =</span> Album)) <span class="sc">+</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(<span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">'dashed'</span>, <span class="at">color =</span> <span class="st">'black'</span>) <span class="sc">+</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> palette) <span class="sc">+</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">'Sentiment Trend of Lyrics Over Time'</span>,</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">'The bands are saddest around 1990.'</span>,</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Average sentiment score calculated based on afinn scores.</span><span class="sc">\n</span><span class="st">&lt;0: sad/negative, &gt;0: happy/positive.'</span>,</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">'Artist'</span>,</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Sentiment Score'</span>, </span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Time'</span></span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/q4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>When examining the trend over time, it is noteworthy that at the beginning of their careers, the bands all had very sad lyrics; in the middle of their careers, their lyrics became more positive. It is also interesting to observe that the latest albums of mbv, Ride, and Slowdive are all among the saddest of their entire careers.</p>
 </section>
-<section id="who-is-the-most-depressed-lyricist" class="level2">
-<h2 class="anchored" data-anchor-id="who-is-the-most-depressed-lyricist">2. Who is the most depressed lyricist?</h2>
 </section>
-<section id="is-shoegaze-bands-becoming-happiersadder-over-time" class="level2">
-<h2 class="anchored" data-anchor-id="is-shoegaze-bands-becoming-happiersadder-over-time">3. Is shoegaze bands becoming happier/sadder over time?</h2>
+</section>
+<section id="notes" class="level1">
+<h1>Notes</h1>
+<section id="functions-used" class="level2">
+<h2 class="anchored" data-anchor-id="functions-used">Functions Used</h2>
+<p><code>Tidyverse</code> (<code>dplyr</code>, <code>tidyr</code>): <code>%&gt;%</code>, <code>filter</code>, <code>summarize</code>, <code>group_by</code>, <code>str_remove</code>, <code>mutate</code>, <code>inner_join</code>, <code>anti_join</code>, etc.</p>
+<p><code>ggplot2</code>: <code>geom_point</code>, <code>geom_boxplot</code>, <code>geom_line</code>, etc.</p>
 
 
 </section>

@@ -1,47 +1,77 @@
 ---
-title: "Sample Analysis: Who's the most depressing shoegaze band?"
+title: "Example Analysis: Who is the most depressing shoegaze band?"
 author: "Yunyi Ru"
 date: "2024-11-08"
 categories: [fun]
+bibliography: 
+ - my-refs.bib
+ - my-refs2.bib
 ---
 
 # Introduction
 
 ## Why This Project
 
-![Shoegaze is a effect-heavy subgenre of indie rock.](pedalboard.jpg)
+I'm interested in the 'shoegaze' subgenre of indie rock. This genre, also called 'the scene that celebrates itself', rose from the noise pop scene from the late 80s and early 90s. An article titled *'The Shoegaze Revival Hit Its Stride in 2023'* [@sherburne_shoegaze_2023] by pitchfork also captures the revival of shoegaze among GenZ populations.
+
+::: column-margin
+![Shoegaze is an effect-heavy subgenre of indie rock.](pedalboard.jpg)
+
+![My bloody valentine's 1988 EP 'You made me realise' is a classic shoegaze record.](Youmademerealise.png)
+:::
+
+Shoegaze is characterized by heavy use of overdriven guitar and various effect pedals with the combination of the ethereal vocals; the lyrics are often regarded as blank, poetic, and sometimes difficult to distinguish from the instruments. So here come this project for the indieheads - I want to analyze those usually overlooked lyrics, especially from the perspective of sentiment.
+
+The bands I want to study are the so-called classic 'big-three' of shoegaze: *my bloody valentine*, *Ride*, and *slowdive*. They were all on the independent record label *Creation* from London, UK, reached their peak in early 90s, disbanded in late 90s due to the fading of the subgenre, and reunited in the 21st century, which make them a perfect fit to study the changes in the lyrics over the years.
 
 ## My Questions
 
-1.  Who is the most depressing shoegaze band?
-2.  Who is the most depressed lyricist?
-3.  Is shoegaze bands becoming happier/sadder over time?
+1.  What words frequently appear in their lyrics?
+2.  Which bands have the longest and shortest lyrics?
+3.  Who is the most depressing shoegaze band?
+4.  Are bands trending towards happiness or sadness over time?
 
 # Project
 
 ## Data Acquisition & Wragling
 
+::: column-margin
+![](loveless.png) ![](nowhere.jpg) ![](souvlaki.jpeg)
+:::
+
 ### Data Acquisition
 
-Lyrics from all studio albums of the 'big three' bands in the shoegaze genre - **my bloody valentine, Ride, and slowdive** - are retrieved from [Genius.com](https://genius.com/) using a Python package named [lyricsgenius](https://www.johnwmillr.com/scraping-genius-lyrics/) based on Genius API. Please see the author's instructions for details.
+Lyrics from all studio albums of the 'big three' bands in the shoegaze genre - *my bloody valentine (mbv)*, *Ride*, and *slowdive* - are retrieved from [Genius.com](https://genius.com/) using a Python package named [lyricsgenius](https://www.johnwmillr.com/scraping-genius-lyrics/)[@miller_johnwmillrlyricsgenius_2024] based on Genius API. Please see the author's instructions for details.
 
-The downloaded `.json` files were written into a `.csv` file for further processing.
+::: callout-note
+The downloaded `.json` files were written into a `.csv` file for further processing. Please go to the [source repository](https://github.com/yunyi-ru/quarto-blog) for more details.
+:::
 
 ### Data Cleaning
 
-Here is a typical piece of lyrics retrieved directly from the website. It has some problems:
+Here is a typical piece of lyrics retrieved directly from the website.
 
 > 16 ContributorsBallad of Sister Sue Lyrics Don√¢¬Ä¬ôt tell me I√¢¬Ä¬ôm lost if I don√¢¬Ä¬ôt seem too sure what to wear Don√¢¬Ä¬ôt tell me I√¢¬Ä¬ôm lost if I don√¢¬Ä¬ôt seem too sure what to wear There√¢¬Ä¬ôs a fire in my head and I√¢¬Ä¬ôm blinded by all I can√¢¬Ä¬ôt see There√¢¬Ä¬ôs a fire in my head and I√¢¬Ä¬ôm blinded by all I can√¢¬Ä¬ôt see Dancing to nowhere, I√¢¬Ä¬ôm losing my head among thieves Dancing to nowhere, I√¢¬Ä¬ôm losing my head among thieves And the man at the bar looked like all that he needed was gone And the man at the bar looked like all that he needed was gone Sister, I've lost all the feeling I'm lost and I'm sold I lay down beside you Sister, I'm blinded It's only my eyes I've sold them before The man said the drink in his hand would be all he required The man said the drink in his hand would be all he required And it seemed much the same when he pointed the gun at his head And it seemed much the same when he pointed the gun at his head Filled it with lead It made so much noise that I checked out of town, yeah Blood on my face and the words of a sage in my mind (It made so much noise that I checked out of town, yeah) See Slowdive LiveGet tickets as low as \$55You might also like Sister, I've lost all the feeling I'm lost and I'm sold I lay down beside you Sister, I'm blinded It's only my eyes I've sold them before6Embed
+
+::: callout-warning
+It has some problems -
 
 1.  '16 ContributorsBallad of Sister Sue Lyrics' at the beginning and '6Embed' at the end are not part of the lyrics.
 2.  '√¢¬Ä¬ô' - some problem with Unicode encoding/decoding.
 3.  'See Slowdive LiveGet tickets as low as \$55' - ads is also not part of the lyrics.
+:::
 
-```{r, message = FALSE}
+And it requires some data cleaning.
+
+```{r data loading & cleaning, message = FALSE}
+# load packages
 library('stringi')
 library('tidyverse')
-library('tidytext')
 library('lubridate')
+library(knitr)
+
+# reference
+knitr::write_bib("rmarkdown", file = "my-refs.bib")
 
 # import data
 lyrics <- read.csv("lyrics_data.csv")
@@ -50,71 +80,225 @@ lyrics <- read.csv("lyrics_data.csv")
 lyrics_clean <- lyrics %>%
   mutate(Lyrics = stri_enc_toutf8(Lyrics)) %>%
   mutate(Lyrics = str_replace_all(Lyrics, 'â\u0080\u0099', "'")) %>%
-  mutate(Lyrics = Lyrics %>%
-           str_remove(".*Lyrics") %>%
-           str_remove("See.*tickets as low as \\$\\d+") %>%
-           str_remove('You might also like') %>%
-           str_remove('\\d*\\s*Embed$') %>%
-           str_trim()) %>%
+  mutate(
+    Lyrics = Lyrics %>%
+      str_remove(".*Lyrics") %>%
+      str_remove("See.*tickets as low as \\$\\d+") %>%
+      str_remove('You might also like') %>%
+      str_remove('\\d*\\s*Embed$') %>%
+      str_trim()
+  ) %>%
   filter(!str_detect(Lyrics, "^\\s*$")) %>% # remove instrumental
   mutate(Release.Date = dmy(Release.Date)) # set date using lubridate
+
+lyrics_clean <- lyrics_clean %>%
+  mutate(lyric.length = nchar(Lyrics),
+         Release.Year = year(Release.Date), 
+         Album = factor(Album, 
+                        levels = c("Isn't Anything", "loveless", "m b v", 
+                                   "Nowhere", "Going Blank Again", "Carnival of Light", "Tarantula", "Weather Diaries", "This is Not a Safe Place", "Interplay", 
+                                   "Just for a Day", "Souvlaki", "Pygmalion", "slowdive", "everything is alive")), 
+         Reunite = year(Release.Date) < 2000)
 ```
 
 It now gives a clear output -
 
 > Don't tell me I'm lost if I don't seem too sure what to wear Don't tell me I'm lost if I don't seem too sure what to wear There's a fire in my head and I'm blinded by all I can't see There's a fire in my head and I'm blinded by all I can't see Dancing to nowhere, I'm losing my head among thieves Dancing to nowhere, I'm losing my head among thieves And the man at the bar looked like all that he needed was gone And the man at the bar looked like all that he needed was gone Sister, I've lost all the feeling I'm lost and I'm sold I lay down beside you Sister, I'm blinded It's only my eyes I've sold them before The man said the drink in his hand would be all he required The man said the drink in his hand would be all he required And it seemed much the same when he pointed the gun at his head And it seemed much the same when he pointed the gun at his head Filled it with lead It made so much noise that I checked out of town, yeah Blood on my face and the words of a sage in my mind (It made so much noise that I checked out of town, yeah) Sister, I've lost all the feeling I'm lost and I'm sold I lay down beside you Sister, I'm blinded It's only my eyes I've sold them before
 
-```{r, warning = FALSE, message = FALSE}
-# text analysis
+And it's now ready for further processing.
+
+## Data Analysis
+
+### What words frequently appear in their lyrics?
+
+```{r q1, warning = FALSE, message = FALSE}
+library('tidytext')
+# tokenize
 token <- lyrics_clean %>%
-  unnest_tokens(output = Word, 
-                input = Lyrics, 
+  unnest_tokens(output = Word,
+                input = Lyrics,
                 token = 'words')
 
 # stopwords dropped
 token_clean <- token %>%
   anti_join(stop_words, by = c("Word" = "word"))
 
-# make a word cloud
-library('wordcloud')
 token_count <- token_clean %>%
-  group_by(Artist) %>%
+  group_by(Artist, Album, Release.Year) %>%
   count(Word, name = 'Word_count', sort = TRUE)
 
 token_count_head <- token_count %>%
   group_by(Artist) %>%
-  slice(1:40) %>%
+  slice(1:30) %>%
   mutate(Word = fct_reorder(Word, Word_count, .desc = FALSE))
 
+# make a word cloud
 library(ggplot2)
+theme_set(theme_bw())
 library(ggwordcloud)
-palette <- c("my bloody valentine" = "#DC143C",
-                   "Ride" = "#1569C2",
-                   "Slowdive" = "#CCBA16")
+palette <- c(
+  "my bloody valentine" = "#DC143C",
+  "Ride" = "#1569C2",
+  "Slowdive" = "#CCBA16",
+  "when you sleep" = "#f28fa3",
+  "Vapour Trail" = "#77b0ed",
+  "When the Sun Hits" = "#f0e371"
+  )
 
-token_count_head %>%
-  ggplot(aes(label = Word, size = Word_count, color = Artist)) + 
+ggplot(token_count_head, aes(
+  label = Word,
+  size = Word_count,
+  color = Artist
+)) +
   geom_text_wordcloud(word.ratio = 0.2, # adjust for overall word size
                       max_size = 30) +
-  facet_wrap(~Artist) +
-  scale_color_manual(values = palette)
-
+  facet_wrap(~ Artist) +
+  scale_color_manual(values = palette) +
+  labs(
+    title = 'Most Frequent Words Used in Lyrics',
+    subtitle = "Slowdive seems to have the most 'meaningful' lyrics.",
+    caption = 'Word size based on frequency. Only the top 30 results are shown here.'
+  )
 ```
 
-## 1. Who is the most depressing shoegaze band?
+The result is kind of amusing. Ride and mbv rely their vocals heavily on harmonies and hummings - and it's reflected honestly here, while slowdive has the most 'meaningful' lyrics among the three. 'Love' is the ultimate meaning of rock and roll, and it indeed appears in high frequency in all of their lyrics.
 
-```{r}
+### Which bands have the longest and shortest lyrics?
 
+```{r q2, warning = FALSE, message = FALSE}
+# plotting
+palettetf <- c(
+"TRUE" = "black",
+"FALSE" = "white")
+
+ggplot(lyrics_clean, aes(x = Album, y = lyric.length, fill = Artist, color = Reunite)) + 
+  geom_boxplot() +
+  scale_fill_manual(values = palette) +
+  scale_color_manual(values = palettetf) +
+  labs(
+    title = 'Which bands have the Longest/Shortest Lyrics?',
+    subtitle = 'Mbv has the shortest lyrics while Ride has the longest.',
+    caption = 'Boxplot showing the range and median of lyric lengths for each Album.', 
+    color = 'Before Reunion?', 
+    y = 'Lyric Length (character)'
+  ) +
+  theme(axis.text.x = element_text(angle = 90))
 ```
 
-## 2. Who is the most depressed lyricist?
+Among the three bands, Mbv always has the shortest lyrics overall while Ride has the longest. An interesting trend is that while Ride and slowdive have similar lyric length back in the 90s, after reunion, Ride tends to have longer lyrics - and the length increases for each album.
 
-```{r}
+### Who is the most depressing shoegaze band?
 
+I used *afinn* from package `tidytext` for sentiment analysis based on this paper[@koto_comparative_2015].
+
+```{r q3, warning = FALSE, message = FALSE}
+# data processing: sentiment 'afinn'
+token_afinn <- token_count %>%
+  inner_join(get_sentiments('afinn'), by = c("Word" = "word"))
+
+afinn_score_by_artist <- token_afinn %>%
+  group_by(Artist) %>%
+  summarize(avg = round(mean(value), 2))
+
+kable(afinn_score_by_artist)
 ```
 
-## 3. Is shoegaze bands becoming happier/sadder over time?
+Among the three bands, mbv has the lowest sentiment score, which means it is the most depressing shoegaze band (if we only look at the lyrics). All three bands got sentiment scores less than or equal to zero, with slowdive holding the highest score (0.00).
 
-```{r}
+#### What about their greatest hits?
 
+Using data from [last.fm](last.fm), we find out that the greatest hits of the three bands are:
+
+-   *when you sleep* - my bloody valentine (32171 weekly listeners),
+-   *Vapour Trail* - Ride (1943 weekly listeners), and
+-   *When the Sun Hits* - Slowdive (53055 weekly listeners).
+
+I'm interested that whether those songs have a happier or sadder vibe compared to their other songs -
+
+```{r q3.2, warning = FALSE, message = FALSE}
+# by song
+token_count_bysong <- token_clean %>%
+  group_by(Artist, Song.Title) %>%
+  count(Word, name = 'Word_count', sort = TRUE)
+
+token_afinn_bysong <- token_count_bysong %>%
+  inner_join(get_sentiments('afinn'), by = c("Word" = "word"))
+
+afinn_score_all <- token_afinn_bysong %>%
+  group_by(Song.Title, Artist) %>%
+  summarize(avg_song = mean(value))
+
+# look at the greatest hits
+afinn_score_bysong <- afinn_score_all %>%
+  filter(Song.Title == 'Vapour Trail' | Song.Title == 'When the Sun Hits' | Song.Title == 'when you sleep')
+
+afinn_score_bysong <- inner_join(afinn_score_bysong, afinn_score_by_artist, by = c("Artist" = "Artist"))
+
+# plot
+ggplot(afinn_score_bysong, aes(x = Artist)) +
+  geom_point(shape = 16, size = 3, aes(y = afinn_score_bysong$avg, color = Artist)) +
+  geom_point(shape = 17, size = 3, aes(y = afinn_score_bysong$avg_song, color = 
+Song.Title)) +
+  scale_color_manual(values = palette) +
+  geom_hline(yintercept = 0, linetype = 'dashed', color = 'black') +
+  labs(
+    title = 'Who is the Most Depressing Shoegaze Band?',
+    subtitle = 'Mbv has the lowest overall sentiment score.\nThe most popular songs have a higher sentiment score than average.',
+    caption = 'Average sentiment score calculated based on afinn scores.\n<0: sad/negative, >0: happy/positive.', 
+    y = 'Sentiment Score', 
+    x = 'Time', 
+    color = 'Artist average/\ngreatest hits'
+  )
 ```
+
+All those songs have a slightly higher sentiment score than their artist's average scores. People seem to prefer happy songs!
+
+#### So what are their happiest/saddest songs?
+
+```{r q3.3}
+extreme_song <- afinn_score_all %>%
+  group_by(Artist) %>%
+  filter(avg_song == max(avg_song) | avg_song == min(avg_song))
+
+sorted_tibble <- extreme_song %>%
+  group_by(Artist) %>%
+  arrange(Artist, avg_song) %>%
+  ungroup()
+
+kable(sorted_tibble)
+```
+
+With the table above, we find that Ride's saddest song is *'OX4'*, and happiest songs are *'Mary Anne'* and *'Ride the Wind'*; Slowdive's saddest song is *'Spanish Air'*, and happiest songs are *'30th June'* and *'Everyone Knows'*; mbv's saddest songs are *'No More Sorry'* and *'Nothing Much to Lose'*, and happiest song is *new you*.
+
+### Are bands trending towards happiness or sadness over time?
+
+```{r q4, warning = FALSE, message = FALSE}
+afinn_score <- token_afinn %>%
+  group_by(Artist, Album, Release.Year) %>%
+  summarize(avg = mean(value))
+
+library(ggrepel)
+ggplot(afinn_score,
+       aes(x = Release.Year, y = avg, color = Artist, label = Album)) +
+  geom_point() +
+  geom_line() +
+  geom_text_repel(size = 3) +
+  geom_hline(yintercept = 0, linetype = 'dashed', color = 'black') +
+  scale_color_manual(values = palette) +
+  labs(
+    title = 'Sentiment Trend of Lyrics Over Time',
+    subtitle = 'The bands are saddest around 1990.',
+    caption = 'Average sentiment score calculated based on afinn scores.\n<0: sad/negative, >0: happy/positive.',
+    color = 'Artist',
+    y = 'Sentiment Score', 
+    x = 'Time'
+  )
+```
+
+When examining the trend over time, it is noteworthy that at the beginning of their careers, the bands all had very sad lyrics; in the middle of their careers, their lyrics became more positive. It is also interesting to observe that the latest albums of mbv, Ride, and Slowdive are all among the saddest of their entire careers.
+
+# Notes
+
+`Tidyverse` (`dplyr`, `tidyr`): `%>%`, `filter`, `summarize`, `group_by`, `str_remove`, `mutate`, `inner_join`, `anti_join`, etc.
+
+`ggplot2`: `geom_point`, `geom_boxplot`, `geom_line`, etc.
