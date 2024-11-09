@@ -1,5 +1,5 @@
 ---
-title: "Example Analysis: Who is the most depressing shoegaze band?"
+title: "Example Analysis: Who is the saddest shoegaze band?"
 author: "Yunyi Ru"
 date: "2024-11-08"
 categories: [fun]
@@ -12,7 +12,7 @@ bibliography:
 
 ## Why This Project
 
-I'm interested in the 'shoegaze' subgenre of indie rock. This genre, also called 'the scene that celebrates itself', rose from the noise pop scene from the late 80s and early 90s. An article titled *'The Shoegaze Revival Hit Its Stride in 2023'* [@sherburne_shoegaze_2023] by pitchfork also captures the revival of shoegaze among GenZ populations.
+I'm interested in the 'shoegaze' subgenre of indie rock. This less-known genre, also called 'the scene that celebrates itself', rose from the noise pop scene in the late 80s and early 90s, and has regained popularity recently. An article titled *'The Shoegaze Revival Hit Its Stride in 2023'* [@sherburne_shoegaze_2023] by pitchfork also captures the revival of shoegaze among GenZ populations.
 
 ::: column-margin
 ![Shoegaze is an effect-heavy subgenre of indie rock.](pedalboard.jpg)
@@ -20,7 +20,7 @@ I'm interested in the 'shoegaze' subgenre of indie rock. This genre, also called
 ![My bloody valentine's 1988 EP 'You made me realise' is a classic shoegaze record.](Youmademerealise.png)
 :::
 
-Shoegaze is characterized by heavy use of overdriven guitar and various effect pedals with the combination of the ethereal vocals; the lyrics are often regarded as blank, poetic, and sometimes difficult to distinguish from the instruments. So here come this project for the indieheads - I want to analyze those usually overlooked lyrics, especially from the perspective of sentiment.
+Shoegaze is characterized by heavy use of overdriven guitar and various effect pedals with the combination of the ethereal vocals; the lyrics are often regarded as blank, poetic, and sometimes difficult to distinguish from the instruments. So here comes this project for the indieheads - I want to analyze those usually overlooked lyrics, especially from the perspective of sentiment.
 
 The bands I want to study are the so-called classic 'big-three' of shoegaze: *my bloody valentine*, *Ride*, and *slowdive*. They were all on the independent record label *Creation* from London, UK, reached their peak in early 90s, disbanded in late 90s due to the fading of the subgenre, and reunited in the 21st century, which make them a perfect fit to study the changes in the lyrics over the years.
 
@@ -28,7 +28,7 @@ The bands I want to study are the so-called classic 'big-three' of shoegaze: *my
 
 1.  What words frequently appear in their lyrics?
 2.  Which bands have the longest and shortest lyrics?
-3.  Who is the most depressing shoegaze band?
+3.  Who is the saddest shoegaze band?
 4.  Are bands trending towards happiness or sadness over time?
 
 # Project
@@ -47,35 +47,45 @@ Lyrics from all studio albums of the 'big three' bands in the shoegaze genre - *
 The downloaded `.json` files were written into a `.csv` file for further processing. Please go to the [source repository](https://github.com/yunyi-ru/quarto-blog) for more details.
 :::
 
-### Data Cleaning
-
-Here is a typical piece of lyrics retrieved directly from the website.
-
-> 16 ContributorsBallad of Sister Sue Lyrics Don√¢¬Ä¬ôt tell me I√¢¬Ä¬ôm lost if I don√¢¬Ä¬ôt seem too sure what to wear Don√¢¬Ä¬ôt tell me I√¢¬Ä¬ôm lost if I don√¢¬Ä¬ôt seem too sure what to wear There√¢¬Ä¬ôs a fire in my head and I√¢¬Ä¬ôm blinded by all I can√¢¬Ä¬ôt see There√¢¬Ä¬ôs a fire in my head and I√¢¬Ä¬ôm blinded by all I can√¢¬Ä¬ôt see Dancing to nowhere, I√¢¬Ä¬ôm losing my head among thieves Dancing to nowhere, I√¢¬Ä¬ôm losing my head among thieves And the man at the bar looked like all that he needed was gone And the man at the bar looked like all that he needed was gone Sister, I've lost all the feeling I'm lost and I'm sold I lay down beside you Sister, I'm blinded It's only my eyes I've sold them before The man said the drink in his hand would be all he required The man said the drink in his hand would be all he required And it seemed much the same when he pointed the gun at his head And it seemed much the same when he pointed the gun at his head Filled it with lead It made so much noise that I checked out of town, yeah Blood on my face and the words of a sage in my mind (It made so much noise that I checked out of town, yeah) See Slowdive LiveGet tickets as low as \$55You might also like Sister, I've lost all the feeling I'm lost and I'm sold I lay down beside you Sister, I'm blinded It's only my eyes I've sold them before6Embed
-
-::: callout-warning
-It has some problems -
-
-1.  '16 ContributorsBallad of Sister Sue Lyrics' at the beginning and '6Embed' at the end are not part of the lyrics.
-2.  '√¢¬Ä¬ô' - some problem with Unicode encoding/decoding.
-3.  'See Slowdive LiveGet tickets as low as \$55' - ads is also not part of the lyrics.
-:::
-
-And it requires some data cleaning.
-
-```{r data loading & cleaning, message = FALSE}
+```{r load data, message = FALSE}
 # load packages
 library('stringi')
 library('tidyverse')
 library('lubridate')
-library(knitr)
+library('knitr')
 
 # reference
 knitr::write_bib("rmarkdown", file = "my-refs.bib")
 
 # import data
 lyrics <- read.csv("lyrics_data.csv")
+kable(head(lyrics, n = 1))
+```
 
+### Data Dictionary
+
+| Field Name   | Data Type | Description                                         |
+|--------------|-----------|-----------------------------------------------------|
+| `Track.Number` | Integer   | The track number of the song in the album            | 
+| `Song.Title`   | String    | The title of the song                               |
+| `Album`        | String    | The name of the album the song belongs to           |
+| `Artist`       | String    | The artist performing the song              |
+| `Release.Date` | String      | The date the song was released                      |
+| `Lyrics`       | String      | The lyrics of the song                              |
+
+### Data Cleaning
+
+You might notice that the lyrics above have some problems -
+
+::: callout-warning
+1.  '16 ContributorsBallad of Sister Sue Lyrics' at the beginning and '6Embed' at the end are not part of the lyrics.
+2.  '√¢¬Ä¬ô' - some problem with Unicode encoding/decoding.
+3.  'See Slowdive LiveGet tickets as low as \$55' - ads is also not part of the lyrics.
+:::
+
+So, it requires some data cleaning.
+
+```{r data cleaning, message = FALSE}
 # clean text
 lyrics_clean <- lyrics %>%
   mutate(Lyrics = stri_enc_toutf8(Lyrics)) %>%
@@ -88,24 +98,21 @@ lyrics_clean <- lyrics %>%
       str_remove('\\d*\\s*Embed$') %>%
       str_trim()
   ) %>%
-  filter(!str_detect(Lyrics, "^\\s*$")) %>% # remove instrumental
-  mutate(Release.Date = dmy(Release.Date)) # set date using lubridate
+  filter(!str_detect(Lyrics, "^\\s*$")) # set date using lubridate
 
+# add some factors for further processing
 lyrics_clean <- lyrics_clean %>%
   mutate(lyric.length = nchar(Lyrics),
+         Release.Date = dmy(Release.Date),
          Release.Year = year(Release.Date), 
          Album = factor(Album, 
                         levels = c("Isn't Anything", "loveless", "m b v", 
                                    "Nowhere", "Going Blank Again", "Carnival of Light", "Tarantula", "Weather Diaries", "This is Not a Safe Place", "Interplay", 
                                    "Just for a Day", "Souvlaki", "Pygmalion", "slowdive", "everything is alive")), 
          Reunite = year(Release.Date) < 2000)
+
+print(lyrics_clean[1,6])
 ```
-
-It now gives a clear output -
-
-> Don't tell me I'm lost if I don't seem too sure what to wear Don't tell me I'm lost if I don't seem too sure what to wear There's a fire in my head and I'm blinded by all I can't see There's a fire in my head and I'm blinded by all I can't see Dancing to nowhere, I'm losing my head among thieves Dancing to nowhere, I'm losing my head among thieves And the man at the bar looked like all that he needed was gone And the man at the bar looked like all that he needed was gone Sister, I've lost all the feeling I'm lost and I'm sold I lay down beside you Sister, I'm blinded It's only my eyes I've sold them before The man said the drink in his hand would be all he required The man said the drink in his hand would be all he required And it seemed much the same when he pointed the gun at his head And it seemed much the same when he pointed the gun at his head Filled it with lead It made so much noise that I checked out of town, yeah Blood on my face and the words of a sage in my mind (It made so much noise that I checked out of town, yeah) Sister, I've lost all the feeling I'm lost and I'm sold I lay down beside you Sister, I'm blinded It's only my eyes I've sold them before
-
-And it's now ready for further processing.
 
 ## Data Analysis
 
@@ -187,7 +194,7 @@ ggplot(lyrics_clean, aes(x = Album, y = lyric.length, fill = Artist, color = Reu
 
 Among the three bands, Mbv always has the shortest lyrics overall while Ride has the longest. An interesting trend is that while Ride and slowdive have similar lyric length back in the 90s, after reunion, Ride tends to have longer lyrics - and the length increases for each album.
 
-### Who is the most depressing shoegaze band?
+### Who is the saddest shoegaze band?
 
 I used *afinn* from package `tidytext` for sentiment analysis based on this paper[@koto_comparative_2015].
 
@@ -203,7 +210,7 @@ afinn_score_by_artist <- token_afinn %>%
 kable(afinn_score_by_artist)
 ```
 
-Among the three bands, mbv has the lowest sentiment score, which means it is the most depressing shoegaze band (if we only look at the lyrics). All three bands got sentiment scores less than or equal to zero, with slowdive holding the highest score (0.00).
+Among the three bands, mbv has the lowest sentiment score, which means it is the saddest shoegaze band (if we only look at the lyrics). All three bands got sentiment scores less than or equal to zero, with slowdive holding the highest score (0.00).
 
 #### What about their greatest hits?
 
@@ -221,28 +228,37 @@ token_count_bysong <- token_clean %>%
   group_by(Artist, Song.Title) %>%
   count(Word, name = 'Word_count', sort = TRUE)
 
+# give afinn score
 token_afinn_bysong <- token_count_bysong %>%
   inner_join(get_sentiments('afinn'), by = c("Word" = "word"))
 
+# clean data set, drop songs with only 1/2 rows
+token_afinn_bysong <- token_afinn_bysong %>%
+  group_by(Song.Title) %>%
+  filter(n() > 2) %>%
+  ungroup()
+
+# calculate average scores
 afinn_score_all <- token_afinn_bysong %>%
   group_by(Song.Title, Artist) %>%
-  summarize(avg_song = mean(value))
+  summarize(avg_song = mean(value)) 
 
 # look at the greatest hits
-afinn_score_bysong <- afinn_score_all %>%
+afinn_score_gh <- afinn_score_all %>%
   filter(Song.Title == 'Vapour Trail' | Song.Title == 'When the Sun Hits' | Song.Title == 'when you sleep')
 
-afinn_score_bysong <- inner_join(afinn_score_bysong, afinn_score_by_artist, by = c("Artist" = "Artist"))
+# combine datasets for plotting
+afinn_score_gh <- inner_join(afinn_score_gh, afinn_score_by_artist, by = c("Artist" = "Artist"))
 
 # plot
-ggplot(afinn_score_bysong, aes(x = Artist)) +
-  geom_point(shape = 16, size = 3, aes(y = afinn_score_bysong$avg, color = Artist)) +
-  geom_point(shape = 17, size = 3, aes(y = afinn_score_bysong$avg_song, color = 
+ggplot(afinn_score_gh, aes(x = Artist)) +
+  geom_point(shape = 16, size = 3, aes(y = afinn_score_gh$avg, color = Artist)) +
+  geom_point(shape = 17, size = 3, aes(y = afinn_score_gh$avg_song, color = 
 Song.Title)) +
   scale_color_manual(values = palette) +
   geom_hline(yintercept = 0, linetype = 'dashed', color = 'black') +
   labs(
-    title = 'Who is the Most Depressing Shoegaze Band?',
+    title = 'Who is the Saddest Shoegaze Band?',
     subtitle = 'Mbv has the lowest overall sentiment score.\nThe most popular songs have a higher sentiment score than average.',
     caption = 'Average sentiment score calculated based on afinn scores.\n<0: sad/negative, >0: happy/positive.', 
     y = 'Sentiment Score', 
@@ -268,7 +284,7 @@ sorted_tibble <- extreme_song %>%
 kable(sorted_tibble)
 ```
 
-With the table above, we find that Ride's saddest song is *'OX4'*, and happiest songs are *'Mary Anne'* and *'Ride the Wind'*; Slowdive's saddest song is *'Spanish Air'*, and happiest songs are *'30th June'* and *'Everyone Knows'*; mbv's saddest songs are *'No More Sorry'* and *'Nothing Much to Lose'*, and happiest song is *new you*.
+With the table above, we find that Ride's saddest songs are *'I Came to See the Wreck'* and *'Only Now'*, and happiest songs is *'The Dawn Patrol'*; Slowdive's saddest song is *'The Sadman'*, and happiest songs is *'Everyone Knows'*; mbv's saddest songs are *'if i am'*, and happiest song is *only shallow*. The sadman is really sad. 
 
 ### Are bands trending towards happiness or sadness over time?
 
