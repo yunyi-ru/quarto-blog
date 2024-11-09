@@ -8,7 +8,7 @@ bibliography:
  - my-refs2.bib
 ---
 
-::: {.column-screen}
+::: column-screen
 ![Shoegaze is an effect-heavy subgenre of indie rock.](pedalboard.jpg)
 :::
 
@@ -18,7 +18,7 @@ bibliography:
 
 I'm interested in the 'shoegaze' subgenre of indie rock. This less-known genre, also called 'the scene that celebrates itself', rose from the noise pop scene in the late 80s and early 90s, and has regained popularity recently. An article titled *'The Shoegaze Revival Hit Its Stride in 2023'* [@sherburne_shoegaze_2023] by pitchfork also captures the revival of shoegaze among GenZ populations.
 
-::: {.column-margin}
+::: column-margin
 ![My bloody valentine's 1988 EP 'You made me realise' is a classic shoegaze record.](Youmademerealise.png)
 :::
 
@@ -77,7 +77,7 @@ kable(head(lyrics, n = 1))
 
 ### Data Cleaning
 
-You might notice that the lyrics above have some problems -
+You might notice that the lyrics above have some problems like this -
 
 ::: callout-warning
 1.  '16 ContributorsBallad of Sister Sue Lyrics' at the beginning and '6Embed' at the end are not part of the lyrics.
@@ -132,11 +132,11 @@ token <- lyrics_clean %>%
 token_clean <- token %>%
   anti_join(stop_words, by = c("Word" = "word"))
 
-token_count <- token_clean %>%
-  group_by(Artist, Album, Release.Year) %>%
+token_count_cloud <- token_clean %>%
+  group_by(Artist) %>%
   count(Word, name = 'Word_count', sort = TRUE)
 
-token_count_head <- token_count %>%
+token_count_head <- token_count_cloud %>%
   group_by(Artist) %>%
   slice(1:30) %>%
   mutate(Word = fct_reorder(Word, Word_count, .desc = FALSE))
@@ -193,10 +193,14 @@ Among the three bands, Mbv always has the shortest lyrics overall while Ride has
 
 ### Who is the saddest shoegaze band?
 
-I used *afinn* from package `tidytext` for sentiment analysis based on this paper[@koto_comparative_2015].
+I used `afinn` from package `tidytext` for sentiment analysis based on this paper[@koto_comparative_2015].
 
 ```{r q3, warning = FALSE, message = FALSE}
 # data processing: sentiment 'afinn'
+token_count <- token_clean %>%
+  group_by(Artist, Album, Release.Year) %>%
+  count(Word, name = 'Word_count', sort = TRUE)
+
 token_afinn <- token_count %>%
   inner_join(get_sentiments('afinn'), by = c("Word" = "word"))
 
