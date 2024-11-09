@@ -32,7 +32,7 @@
     "href": "blog.html",
     "title": "Yunyi's Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nExample Analysis: Who is the saddest shoegaze band?\n\n\n\n\n\n\nfun\n\n\ndata analysis\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n11 min\n\n\n\n\n\n\n\nBlog Design Checklist\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n1 min\n\n\n\n\n\n\n\nCoding Resources\n\n\n\n\n\n\ncoding\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n1 min\n\n\n\n\n\n\n\nFirst Blog Post! & Blogging Resources\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nBookmarks for Biologists\n\n\n\n\n\n\nbiology\n\n\n\n\n\n\n\n\n\nNov 9, 2024\n\n\n3 min\n\n\n\n\n\n\n\nExample Analysis: Who is the saddest shoegaze band?\n\n\n\n\n\n\nfun\n\n\ndata analysis\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n11 min\n\n\n\n\n\n\n\nBlog Design Checklist\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n1 min\n\n\n\n\n\n\n\nCoding Resources\n\n\n\n\n\n\ncoding\n\n\n\n\n\n\n\n\n\nOct 28, 2024\n\n\n1 min\n\n\n\n\n\n\n\nFirst Blog Post! & Blogging Resources\n\n\n\n\n\n\nblogging\n\n\n\n\n\n\n\n\n\nSep 13, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html#a-bit-of-information",
@@ -285,5 +285,152 @@
     "title": "About Me",
     "section": "Experience",
     "text": "Experience\n\nResearch\nThe Pekosz Lab, Johns Hopkins University | Graduate Student Researcher | October 2023 - Present\n\nIsolated and characterized lab-adapted and circulating respiratory syncytial virus using various molecular biology and genetics methods.\n\nThe Lin Lab, Duke Kunshan University | Undergraduate Student Researcher | October 2021 - May 2023\n\nMonitored and analyzed changes in antibiotic resistance gene prevalence in a local shallow lake over the year.\n\niGEM Competition 2022, Duke Kunshan University | Team Leader | December 2021 - October 2022\n\nDesigned an engineered bacteria strain by molecular cloning and protein expression.\n\nGlobal Health Resource Center, Duke Kunshan University | Undergraduate Student Researcher | August 2020 - December 2020\n\nConducted surveys and interviews to assess the current situation of chronic disease management and control in 4 local communities.\n\n\n\nOthers\nR3ISE Center, Johns Hopkins University | Research Assistant | October 2023 - Present\n\nInitiated the ‘R3 Read Today’ project by selecting and presenting content on important topics related to responsible scientific practices for science communication on X and Instagram.\n\nAcademic Resource Center, Duke Kunshan University | Teaching Assistant | October 2021 - December 2021\nHOB Biotech Group Suzhou Co., Ltd | R&D Intern | July 2021 - August 2021\nCrystal Pharmatech Co., Ltd | R&D Intern | May 2020 - June 2020"
+  },
+  {
+    "objectID": "posts/useful_bio_links/index.html#molecular-cloning",
+    "href": "posts/useful_bio_links/index.html#molecular-cloning",
+    "title": "Bookmarks for Biologists",
+    "section": "Molecular Cloning",
+    "text": "Molecular Cloning\n\nYouTube Tutorial: Choose Expression Vectors\nAAT Bioquest: Restriction Enzymes Cut Sizes Reference Table\nBlog (CN): 双酶切\nBlog (CN): 蛋白标签_1\nBlog (CN): 蛋白标签_2\nResearchGate: 3xHA Linker\nBlog (CN): 密码子优化\nBlog (CN): 保护碱基_1\nBlog (CN): 保护碱基_2\nAddgene: Primer Design\nYouTube Tutorial: Primer Design using Benchling\nBlog (CN): 引物设计_知乎\nResearchGate: Universal Primers vs. Degenerate Primers\nBL21-DE3 Competent Cell Transformation_NEB\nBlog (CN): 质粒的转化\nPlasmid Miniprep\nAlkaline Lysis\nGuide of Analyzing Gel Electrophoresis Results\nCauses of Faint Bands in Gel Electrophoresis"
+  },
+  {
+    "objectID": "posts/useful_bio_links/index.html#protein-analysis",
+    "href": "posts/useful_bio_links/index.html#protein-analysis",
+    "title": "Bookmarks for Biologists",
+    "section": "Protein Analysis",
+    "text": "Protein Analysis\n\nAddgene: Western Blot\nAbsorption Spectroscopy\nNinhydrin Reaction Mechanism"
+  },
+  {
+    "objectID": "posts/useful_bio_links/index.html#sequencing",
+    "href": "posts/useful_bio_links/index.html#sequencing",
+    "title": "Bookmarks for Biologists",
+    "section": "Sequencing",
+    "text": "Sequencing\n\nSanger Sequencing\n\nSequencing Chromatograms Interpretation\nDNA Barcoding: Promise and Pitfalls\n\n\n\nNGS/Next-Generation Sequencing\n\nGenomic Data Science_Coursera\nSpacer DNA\nDADA2 Tutorial\nBlog (CN): DADA2 中文教程\n16s RefSeq Records Processing and Curation\nBioinformatics_Coursera\nBioinformatic Methods I_Coursera\nAlgorithms for DNA Sequencing_Coursera\nphyloseq: R package for learning microbiome"
+  },
+  {
+    "objectID": "posts/useful_bio_links/index.html#quantitative-pcr",
+    "href": "posts/useful_bio_links/index.html#quantitative-pcr",
+    "title": "Bookmarks for Biologists",
+    "section": "Quantitative PCR",
+    "text": "Quantitative PCR\n\nBlog (CN): 提升扩增效率_1\nBlog (CN): 提升扩增效率_2\nCRAN: Analysis of qPCR Data, R package\nPublish qPCR data with bar graph_ggplot2"
+  },
+  {
+    "objectID": "posts/useful_bio_links/index.html#crispr",
+    "href": "posts/useful_bio_links/index.html#crispr",
+    "title": "Bookmarks for Biologists",
+    "section": "CRISPR",
+    "text": "CRISPR\n\nGPP sgRNA Designer\nGenScript gRNA Design Tool\nAddgene CRISPR\nThermofisher CRISPR\nSynthego"
+  },
+  {
+    "objectID": "posts/useful_bio_links/index.html#databasetools",
+    "href": "posts/useful_bio_links/index.html#databasetools",
+    "title": "Bookmarks for Biologists",
+    "section": "",
+    "text": "NCBI BLAST/Basic Local Alignment Search Tool: Just BLAST.\nAddgene: A database for plasmids and vectors.\nCARD/The Comprehensive Antibiotic Resistance Database: A database for ARGs/ARBs.\nRCSB PDB/Protein Data Bank: A database for protein structures.\nThe Jackson Laboratory: A database for mouse models.\nAlphaFold: A database/tool for protein structures predicted by AlphaFold.\nTALEN Designer: A TALEN vector designer.\nUCSF Chimera: A tool for protein 3D structure analysis.\nBenchling: A cloud-based platform for biotech R&D. Similar to SnapGene.\nSignalP: Predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms.\nBioconductor: A powerful R package for bioinformatics analysis.\nTimeTree: The Timescale of Life: A tool for phylogenetic analysis (for fun).\nMelting Temperature (Tm) Calculation\nPrimer Designing Tool\n\n\n\n\nChoose Expression Vectors\nAAT Bioquest: Restriction Enzymes Cut Sizes Reference Table\n双酶切\n蛋白标签_1\n蛋白标签_2\n3xHA Linker\n密码子优化\n保护碱基_1\n保护碱基_2\nPrimer Design_Addgene\nPrimer Design using Benchling\n引物设计_知乎\nUniversal Primers vs. Degenerate Primers\n\n\n\n\n\nBL21-DE3 Competent Cell Transformation_NEB\n质粒的转化\n\n\n\n\n\nPlasmid Miniprep\nAlkaline Lysis\n\n\n\n\n\nGuide of Analyzing Gel Electrophoresis Results\nCauses of Faint Bands in Gel Electrophoresis"
+  },
+  {
+    "objectID": "posts/useful_bio_links/index.html#vendors",
+    "href": "posts/useful_bio_links/index.html#vendors",
+    "title": "Useful Links for Biologists",
+    "section": "",
+    "text": "Genewiz-Azenta/金唯智-安升达\nTAKARA/宝日升"
+  },
+  {
+    "objectID": "posts/useful_bio_links/index.html#pharmacogenomics",
+    "href": "posts/useful_bio_links/index.html#pharmacogenomics",
+    "title": "Bookmarks for Biologists",
+    "section": "Pharmacogenomics",
+    "text": "Pharmacogenomics\n\nPolyPhen-2: A tool for prediction of functional effects of human nsSNPs.\nPROVEAN: A database for prediction of protein functional changes.\nNCBI-dbSNP: A mutation database.\nPharmVar/Pharmacogene Variation Consortium: A database for drug-related genes.\nCPIC/Clinical Pharmacogenetics Implementation Consortium: A database for drug-related genes.\nPharmGKB: A database for drug-related genes."
+  },
+  {
+    "objectID": "posts/useful_bio_links/index.html#drug-crystallization",
+    "href": "posts/useful_bio_links/index.html#drug-crystallization",
+    "title": "Bookmarks for Biologists",
+    "section": "Drug Crystallization",
+    "text": "Drug Crystallization\n\nXRPD/X-Ray Powder Diffraction\nBlog (CN): XRPD:布拉格定律\nDSC/Differential Scanning Calorimetry\nBlog (CN): 热重分析"
+  },
+  {
+    "objectID": "posts/useful_bio_links/index.html#databasetools-1",
+    "href": "posts/useful_bio_links/index.html#databasetools-1",
+    "title": "Bookmarks for Biologists",
+    "section": "Database/Tools",
+    "text": "Database/Tools\n\n国家气象信息中心-中国气象数据网\n中国气象局国家气候中心"
+  },
+  {
+    "objectID": "posts/useful_bio_links/biolpages.html#molecular-cloning",
+    "href": "posts/useful_bio_links/biolpages.html#molecular-cloning",
+    "title": "Biology Websites Collection",
+    "section": "Molecular Cloning",
+    "text": "Molecular Cloning\n\nPlasmid Construction\n\nChoose Expression Vectors\nAAT Bioquest: Restriction Enzymes Cut Sizes Reference Table\n双酶切\n蛋白标签_1\n蛋白标签_2\n3xHA Linker\n密码子优化\n保护碱基_1\n保护碱基_2\nPrimer Design_Addgene\nPrimer Design using Benchling\n引物设计_知乎\nUniversal Primers vs. Degenerate Primers\n\n\n\nTransformation\n\nBL21-DE3 Competent Cell Transformation_NEB\n质粒的转化\n\n\n\nDNA Extraction\n\nPlasmid Miniprep\nAlkaline Lysis\n\n\n\nGel Electrophoresis\n\nGuide of Analyzing Gel Electrophoresis Results\nCauses of Faint Bands in Gel Electrophoresis"
+  },
+  {
+    "objectID": "posts/useful_bio_links/biolpages.html#protein-analysis",
+    "href": "posts/useful_bio_links/biolpages.html#protein-analysis",
+    "title": "Biology Websites Collection",
+    "section": "Protein Analysis",
+    "text": "Protein Analysis\n\nWestern Blot\n\nWestern Blot_Addgene\n\n\n\nQuantitative/Qualitative Assays\n\nAbsorption Spectroscopy\nNinhydrin Reaction Mechanism"
+  },
+  {
+    "objectID": "posts/useful_bio_links/biolpages.html#sequencing",
+    "href": "posts/useful_bio_links/biolpages.html#sequencing",
+    "title": "Biology Websites Collection",
+    "section": "Sequencing",
+    "text": "Sequencing\n\nSanger Sequencing\n\nSequencing Chromatograms Interpretation\nDNA Barcoding: Promise and Pitfalls\n\n\n\nNGS/Next-Generation Sequencing\n\nMechanism\n\nGenomic Data Science_Coursera\nSpacer DNA\n\n\n\nAnalysis\n\nDADA2 Tutorial\nDADA2 中文教程\n16s RefSeq Records Processing and Curation\nBioinformatics_Coursera\nBioinformatic Methods I_Coursera\nAlgorithms for DNA Sequencing_Coursera\nphyloseq: R package for learning microbiome"
+  },
+  {
+    "objectID": "posts/useful_bio_links/biolpages.html#quantitative-pcr",
+    "href": "posts/useful_bio_links/biolpages.html#quantitative-pcr",
+    "title": "Biology Websites Collection",
+    "section": "Quantitative PCR",
+    "text": "Quantitative PCR\n\nTechniques\n\n提升扩增效率_1\n提升扩增效率_2\n\n\n\nAnalysis\n\nAnalysis of qPCR Data\nPublish data with bar graph_ggplot2"
+  },
+  {
+    "objectID": "posts/useful_bio_links/biolpages.html#crispr",
+    "href": "posts/useful_bio_links/biolpages.html#crispr",
+    "title": "Biology Websites Collection",
+    "section": "CRISPR",
+    "text": "CRISPR\n\nsgRNA Design\n\nGPP sgRNA Designer\nGenScript\n\n\n\nCRISPR Plasmids & Protocols\n\nAddgene CRISPR\nThermofisher\nSynthego"
+  },
+  {
+    "objectID": "posts/useful_bio_links/biolpages.html#databasetools",
+    "href": "posts/useful_bio_links/biolpages.html#databasetools",
+    "title": "Biology Websites Collection",
+    "section": "Database/Tools",
+    "text": "Database/Tools\n\nNCBI BLAST/Basic Local Alignment Search Tool: A tool finding regions of similarity between biological sequences.\nAddgene: A database for plasmids and vectors.\nCARD/The Comprehensive Antibiotic Resistance Database: A database for ARGs/ARBs.\nRCSB PDB/Protein Data Bank: A database for protein structures.\nThe Jackson Laboratory: A database for mouse models.\nAlphaFold: A database/tool for protein structures predicted by AlphaFold.\nTALEN Designer: A TALEN vector designer.\nUCSF Chimera: A tool for protein 3D structure analysis.\nBenchling: A cloud-based platform for biotech R&D. Similar to SnapGene.\nSignalP: Predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms.\nBioconductor: A powerful R package for bioinformatics analysis.\nTimeTree: The Timescale of Life: A tool for phylogenetic analysis (for fun).\nMelting Temperature (Tm) Calculation\nPrimer Designing Tool"
+  },
+  {
+    "objectID": "posts/useful_bio_links/biolpages.html#vendors",
+    "href": "posts/useful_bio_links/biolpages.html#vendors",
+    "title": "Biology Websites Collection",
+    "section": "Vendors",
+    "text": "Vendors\n\nGenewiz-Azenta/金唯智-安升达\nTAKARA/宝日升"
+  },
+  {
+    "objectID": "posts/useful_bio_links/biolpages.html#pharmacogenomics",
+    "href": "posts/useful_bio_links/biolpages.html#pharmacogenomics",
+    "title": "Biology Websites Collection",
+    "section": "Pharmacogenomics",
+    "text": "Pharmacogenomics\n\nDatabases/Tools\n\nPolyPhen-2: A tool for prediction of functional effects of human nsSNPs.\nPROVEAN: A database for prediction of protein functional changes.\nNCBI-dbSNP: A mutation database.\nPharmVar/Pharmacogene Variation Consortium: A database for drug-related genes.\nCPIC/Clinical Pharmacogenetics Implementation Consortium: A database for drug-related genes.\nPharmGKB: A database for drug-related genes."
+  },
+  {
+    "objectID": "posts/useful_bio_links/biolpages.html#drug-crystallization",
+    "href": "posts/useful_bio_links/biolpages.html#drug-crystallization",
+    "title": "Biology Websites Collection",
+    "section": "Drug Crystallization",
+    "text": "Drug Crystallization\n\nMechanism\n\nXRPD/X-Ray Powder Diffraction\nXRPD:布拉格定律\nDSC/Differential Scanning Calorimetry\n热重分析"
+  },
+  {
+    "objectID": "posts/useful_bio_links/biolpages.html#databasetools-1",
+    "href": "posts/useful_bio_links/biolpages.html#databasetools-1",
+    "title": "Biology Websites Collection",
+    "section": "Database/Tools",
+    "text": "Database/Tools\n\n国家气象信息中心-中国气象数据网\n中国气象局国家气候中心"
+  },
+  {
+    "objectID": "posts/useful_bio_links/index.html",
+    "href": "posts/useful_bio_links/index.html",
+    "title": "Bookmarks for Biologists",
+    "section": "",
+    "text": "NCBI BLAST/Basic Local Alignment Search Tool: Just BLAST.\nAddgene: A database for plasmids and vectors.\nCARD/The Comprehensive Antibiotic Resistance Database: A database for ARGs/ARBs.\nRCSB PDB/Protein Data Bank: A database for protein structures.\nThe Jackson Laboratory: A database for mouse models.\nAlphaFold: A database/tool for protein structures predicted by AlphaFold.\nTALEN Designer: A TALEN vector designer.\nUCSF Chimera: A tool for protein 3D structure analysis.\nBenchling: A cloud-based platform for biotech R&D. Similar to SnapGene.\nSignalP: Predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms.\nBioconductor: A powerful R package for bioinformatics analysis.\nTimeTree: The Timescale of Life: A tool for phylogenetic analysis (for fun).\nVitascientific.com: Melting Temperature (Tm) Calculation\nNCBI Primer Blast: Primer Designing Tool\nBioRender: A tool to make scientific graphs.\n国家气象信息中心-中国气象数据网\n中国气象局国家气候中心"
   }
 ]

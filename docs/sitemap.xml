@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/index.html</loc>
-    <lastmod>2024-11-09T16:50:13.862Z</lastmod>
+    <lastmod>2024-11-09T17:45:19.262Z</lastmod>
   </url>
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/blog.html</loc>
@@ -47,5 +47,13 @@
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/aboutme.html</loc>
     <lastmod>2024-11-09T16:59:03.107Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/index.html</loc>
+    <lastmod>2024-11-09T18:00:53.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/biolpages.html</loc>
+    <lastmod>2023-10-26T17:39:13.460Z</lastmod>
   </url>
 </urlset>
