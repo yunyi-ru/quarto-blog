@@ -2,7 +2,7 @@
 title: "Example Analysis: Who is the saddest shoegaze band?"
 author: "Yunyi Ru"
 date: "2024-11-08"
-categories: [fun]
+categories: [fun, data analysis]
 bibliography: 
  - my-refs.bib
  - my-refs2.bib
@@ -285,7 +285,7 @@ sorted_tibble <- extreme_song %>%
 kable(sorted_tibble)
 ```
 
-With the table above, we find that Ride's saddest songs are *'I Came to See the Wreck'* and *'Only Now'*, and happiest songs is *'The Dawn Patrol'*; Slowdive's saddest song is *'The Sadman'*, and happiest songs is *'Everyone Knows'*; mbv's saddest songs are *'if i am'*, and happiest song is *'only shallow'*. The sadman is really sad.
+With the table above, we find that Ride's saddest songs are *'I Came to See the Wreck'* and *'Only Now'*, and happiest songs is *'The Dawn Patrol'*; Slowdive's saddest song is *'The Sadman'*, and happiest songs is *'Everyone Knows'*; mbv's saddest song is *'if i am'*, and happiest song is *'only shallow'*. **The Sadman is really sad**.
 
 ### Are bands trending towards happiness or sadness over time?
 

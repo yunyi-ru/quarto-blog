@@ -1263,7 +1263,7 @@ font-style: inherit;">kable</span>(sorted_tibble)</span></code></pre></div>
 </table>
 </div>
 </div>
-<p>With the table above, we find that Ride’s saddest songs are <em>‘I Came to See the Wreck’</em> and <em>‘Only Now’</em>, and happiest songs is <em>‘The Dawn Patrol’</em>; Slowdive’s saddest song is <em>‘The Sadman’</em>, and happiest songs is <em>‘Everyone Knows’</em>; mbv’s saddest songs are <em>‘if i am’</em>, and happiest song is <em>‘only shallow’</em>. The sadman is really sad.</p>
+<p>With the table above, we find that Ride’s saddest songs are <em>‘I Came to See the Wreck’</em> and <em>‘Only Now’</em>, and happiest songs is <em>‘The Dawn Patrol’</em>; Slowdive’s saddest song is <em>‘The Sadman’</em>, and happiest songs is <em>‘Everyone Knows’</em>; mbv’s saddest song is <em>‘if i am’</em>, and happiest song is <em>‘only shallow’</em>. <strong>The Sadman is really sad</strong>.</p>
 </section>
 </section>
 <section id="are-bands-trending-towards-happiness-or-sadness-over-time" class="level3">
@@ -1420,6 +1420,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 </div>
 </div></section></div> ]]></description>
   <category>fun</category>
+  <category>data analysis</category>
   <guid>https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/</guid>
   <pubDate>Fri, 08 Nov 2024 05:00:00 GMT</pubDate>
 </item>

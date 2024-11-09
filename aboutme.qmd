@@ -6,6 +6,10 @@ title: "About Me"
 
 My name is Yunyi Ru, and I am a 2nd year master's student in the Molecular Microbiology and Immunology department of [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/). I currently work as a graduate student researcher at [The Pekosz Lab](https://pekoszlab.com/) on virology. Outside of lab, I enjoy painting, reading, travelling, and listening and playing music.
 
+::: column-screen
+![Fell's Point in Baltimore, March '24, by *Procreate*.](the_shape_of_water.jpeg)
+:::
+
 # About This Blog
 
 I made this blog to share things that I find useful and interesting, and hopefully you will also enjoy my contents.
@@ -59,7 +63,3 @@ B.S. in Cell and Molecular Biology (Dual Degree) \| August 2019 - May 2023
 **HOB Biotech Group Suzhou Co., Ltd** \| *R&D Intern* \| July 2021 - August 2021
 
 **Crystal Pharmatech Co., Ltd** \| *R&D Intern* \| May 2020 - June 2020
-
-::: column-screen
-![](the_shape_of_water.jpeg)
-:::
