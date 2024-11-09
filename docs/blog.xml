@@ -152,6 +152,7 @@
 
  ]]></description>
   <category>biology</category>
+  <category>resources</category>
   <guid>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/</guid>
   <pubDate>Sat, 09 Nov 2024 05:00:00 GMT</pubDate>
 </item>
@@ -487,7 +488,7 @@ font-style: inherit;">\\</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">s*$"</span>)) <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># set date using lubridate</span></span>
+font-style: inherit;"># filter out instrumental pieces</span></span>
 <span id="cb2-14"></span>
 <span id="cb2-15"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -1583,21 +1584,16 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 <section id="functions" class="level3">
 <h3 class="anchored" data-anchor-id="functions">Functions</h3>
 <ul class="task-list">
-<li><label><input type="checkbox">Move this blog to yunyi-ru.github.io (is this necessary?)</label></li>
 <li><label><input type="checkbox">RSS Subscription</label></li>
-<li><label><input type="checkbox">Comment (use <a href="https://utteranc.es/">utterances</a>?)</label></li>
-<li><label><input type="checkbox">Section</label></li>
+<li><label><input type="checkbox" checked="">Comment section (use <a href="https://utteranc.es/">utterances</a>) <em>241109</em></label></li>
 <li><label><input type="checkbox">Customized theme: minimal, light, serif font</label></li>
-<li><label><input type="checkbox">Gallery</label></li>
-<li><label><input type="checkbox">Site Map</label></li>
-<li><label><input type="checkbox">Customized favicon</label></li>
-<li><label><input type="checkbox">Try other CSS themes</label></li>
+<li><label><input type="checkbox" checked="">Customized favicon <em>241109</em></label></li>
 </ul>
 </section>
 <section id="contents" class="level3">
 <h3 class="anchored" data-anchor-id="contents">Contents</h3>
 <ul class="task-list">
-<li><label><input type="checkbox">Move ‘Useful links for A Molecular Biologist’ here, categories -&gt; molbio</label></li>
+<li><label><input type="checkbox" checked="">Move ‘Useful links for A Molecular Biologist’ here, categories -&gt; molbio <em>241109</em></label></li>
 <li><label><input type="checkbox">Add some blog posts about viral phylogenetics learning resources, categories -&gt; genetics</label></li>
 </ul>
 
@@ -1631,6 +1627,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 
  ]]></description>
   <category>coding</category>
+  <category>resources</category>
   <guid>https://yunyi-ru.github.io/quarto-blog/posts/coding_resources/</guid>
   <pubDate>Mon, 28 Oct 2024 04:00:00 GMT</pubDate>
 </item>
@@ -1660,6 +1657,7 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 
  ]]></description>
   <category>blogging</category>
+  <category>resources</category>
   <guid>https://yunyi-ru.github.io/quarto-blog/posts/welcome/</guid>
   <pubDate>Fri, 13 Sep 2024 04:00:00 GMT</pubDate>
 </item>

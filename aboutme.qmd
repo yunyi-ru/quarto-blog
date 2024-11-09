@@ -4,15 +4,11 @@ title: "About Me"
 
 # Introduction
 
-My name is Yunyi Ru, and I am a 2nd year master's student in the Molecular Microbiology and Immunology department of [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/). I currently work as a graduate student researcher at [The Pekosz Lab](https://pekoszlab.com/) on virology. Outside of lab, I enjoy painting, reading, travelling, and listening and playing music.
+My name is Yunyi Ru. I am a 2nd year master's student in the Molecular Microbiology and Immunology department of [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/). I currently work as a graduate student researcher at [The Pekosz Lab](https://pekoszlab.com/) on respiratory syncytial virus. 
 
-::: column-screen
-![Fell's Point in Baltimore, March '24, by *Procreate*.](the_shape_of_water.jpeg)
-:::
+## Why Blogging
 
-# About This Blog
-
-I made this blog to share things that I find useful and interesting, and hopefully you will also enjoy my contents.
+I made this blog to share things that I find useful and interesting regarding science, and hopefully you will also enjoy my contents.
 
 ::: column-margin
 **Recent Highlights**
@@ -20,7 +16,18 @@ I made this blog to share things that I find useful and interesting, and hopeful
 If you are into indie music, please check the ['Example Analysis: Who is the saddest shoegaze band?'](https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/) page.
 :::
 
-# Resume
+## Fun Facts About Me
+
+Outside of lab, I enjoy painting, reading, travelling, and listening and playing music.
+
+![Fell's Point in Baltimore, March '24, made by *Procreate*.](the_shape_of_water.jpeg)
+
+My name Yunyi writes as 云衣 in Chinese - it comes from a poem by Li Bai, a poet my mom loves: 
+
+> *云想衣裳花想容，春风拂槛露华浓。* *The clouds resemble her dress, and the flowers mirror her beauty.
+In the spring breeze brushing against the balcony, the dewdrops gleam richly. (English Translation provided by ChatGPT)*
+
+# Résumé
 
 ## Education
 

@@ -2,8 +2,9 @@
 title: "Bookmarks for Biologists"
 author: "Yunyi Ru"
 date: "2024-11-9"
-categories: [biology]
+categories: [biology, resources]
 ---
+
 # Online Database/Tools
 
 -   [NCBI BLAST/Basic Local Alignment Search Tool](https://blast.ncbi.nlm.nih.gov/Blast.cgi): Just BLAST.

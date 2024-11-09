@@ -100,7 +100,7 @@ lyrics_clean <- lyrics %>%
       str_remove('\\d*\\s*Embed$') %>%
       str_trim()
   ) %>%
-  filter(!str_detect(Lyrics, "^\\s*$")) # set date using lubridate
+  filter(!str_detect(Lyrics, "^\\s*$")) # filter out instrumental pieces
 
 # add some factors for further processing
 lyrics_clean <- lyrics_clean %>%

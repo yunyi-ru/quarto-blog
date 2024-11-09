@@ -2,7 +2,7 @@
 title: "First Blog Post! & Blogging Resources"
 author: "Yunyi Ru"
 date: "2024-09-13"
-categories: [blogging]
+categories: [blogging, resources]
 ---
 
 :tada: Hi, this is my first blog post!

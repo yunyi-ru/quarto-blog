@@ -11,17 +11,12 @@ This is a checklist/memo for some elements I want to add to this blog.
 
 ### Functions
 
--   [ ] Move this blog to yunyi-ru.github.io (is this necessary?)
 -   [ ] RSS Subscription
--   [ ] Comment (use [utterances](https://utteranc.es/)?)
--   [ ] Section
+-   [x] Comment section (use [utterances](https://utteranc.es/)) *241109*
 -   [ ] Customized theme: minimal, light, serif font
--   [ ] Gallery
--   [ ] Site Map
--   [ ] Customized favicon
--   [ ] Try other CSS themes
+-   [x] Customized favicon *241109*
 
 ### Contents
 
--   [ ] Move 'Useful links for A Molecular Biologist' here, categories -\> molbio
+-   [x] Move 'Useful links for A Molecular Biologist' here, categories -\> molbio *241109*
 -   [ ] Add some blog posts about viral phylogenetics learning resources, categories -\> genetics

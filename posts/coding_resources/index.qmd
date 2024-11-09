@@ -2,7 +2,7 @@
 title: "Coding Resources"
 author: "Yunyi Ru"
 date: "2024-10-28"
-categories: [coding]
+categories: [coding, resources]
 ---
 
 This page lists some coding resources that I find useful.
