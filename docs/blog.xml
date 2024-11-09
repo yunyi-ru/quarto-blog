@@ -20,6 +20,14 @@
 
 
 
+<div class="page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/pedalboard.jpg" class="img-fluid figure-img column-screen"></p>
+<figcaption>Shoegaze is an effect-heavy subgenre of indie rock.</figcaption>
+</figure>
+</div>
+</div>
 <section id="introduction" class="level1 page-columns page-full">
 <h1>Introduction</h1>
 <section id="why-this-project" class="level2 page-columns page-full">
@@ -27,12 +35,6 @@
 <p>I’m interested in the ‘shoegaze’ subgenre of indie rock. This less-known genre, also called ‘the scene that celebrates itself’, rose from the noise pop scene in the late 80s and early 90s, and has regained popularity recently. An article titled <em>‘The Shoegaze Revival Hit Its Stride in 2023’</em> <span class="citation" data-cites="sherburne_shoegaze_2023">(Sherburne 2023)</span> by pitchfork also captures the revival of shoegaze among GenZ populations.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/pedalboard.jpg" class="img-fluid figure-img"></p>
-<figcaption>Shoegaze is an effect-heavy subgenre of indie rock.</figcaption>
-</figure>
-</div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/Youmademerealise.png" class="img-fluid figure-img"></p>
@@ -172,9 +174,9 @@ font-style: inherit;">1</span>))</span></code></pre></div>
 <h3 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 17%">
-<col style="width: 14%">
-<col style="width: 67%">
+<col style="width: 22%">
+<col style="width: 15%">
+<col style="width: 61%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -567,42 +569,42 @@ font-style: inherit;">"my bloody valentine"</span> <span class="ot" style="color
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"#DC143C"</span>,</span>
+font-style: inherit;">"#d83c7a"</span>,</span>
 <span id="cb4-27">  <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Ride"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"#1569C2"</span>,</span>
+font-style: inherit;">"#4b8ab8"</span>,</span>
 <span id="cb4-28">  <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Slowdive"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"#CCBA16"</span>,</span>
+font-style: inherit;">"#ae8f32"</span>,</span>
 <span id="cb4-29">  <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"when you sleep"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"#f28fa3"</span>,</span>
+font-style: inherit;">"#f576a8"</span>,</span>
 <span id="cb4-30">  <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Vapour Trail"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"#77b0ed"</span>,</span>
+font-style: inherit;">"#56a8e3"</span>,</span>
 <span id="cb4-31">  <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"When the Sun Hits"</span> <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"#f0e371"</span></span>
+font-style: inherit;">"#d1b971"</span></span>
 <span id="cb4-32">  )</span>
 <span id="cb4-33"></span>
 <span id="cb4-34"><span class="fu" style="color: #4758AB;
@@ -687,27 +689,7 @@ font-style: inherit;">'Word size based on frequency. Only the top 30 results are
 <div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># plotting</span></span>
-<span id="cb5-2">palettetf <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">c</span>(</span>
-<span id="cb5-3"><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"TRUE"</span> <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"black"</span>,</span>
-<span id="cb5-4"><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"FALSE"</span> <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"white"</span>)</span>
-<span id="cb5-5"></span>
-<span id="cb5-6"><span class="fu" style="color: #4758AB;
+<span id="cb5-2"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>(lyrics_clean, <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -717,62 +699,57 @@ font-style: inherit;">x =</span> Album, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> lyric.length, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">fill =</span> Artist, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">color =</span> Reunite)) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">fill =</span> Artist)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span id="cb5-7">  <span class="fu" style="color: #4758AB;
+<span id="cb5-3">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">geom_boxplot</span>() <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">geom_boxplot</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'black'</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb5-8">  <span class="fu" style="color: #4758AB;
+<span id="cb5-4">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">scale_fill_manual</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">values =</span> palette) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb5-9">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">scale_color_manual</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">values =</span> palettetf) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb5-10">  <span class="fu" style="color: #4758AB;
+<span id="cb5-5">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(</span>
-<span id="cb5-11">    <span class="at" style="color: #657422;
+<span id="cb5-6">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Which bands have the Longest/Shortest Lyrics?'</span>,</span>
-<span id="cb5-12">    <span class="at" style="color: #657422;
+<span id="cb5-7">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Mbv has the shortest lyrics while Ride has the longest.'</span>,</span>
-<span id="cb5-13">    <span class="at" style="color: #657422;
+<span id="cb5-8">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Boxplot showing the range and median of lyric lengths for each Album.'</span>, </span>
-<span id="cb5-14">    <span class="at" style="color: #657422;
+<span id="cb5-9">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Before Reunion?'</span>, </span>
-<span id="cb5-15">    <span class="at" style="color: #657422;
+<span id="cb5-10">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Lyric Length (character)'</span></span>
-<span id="cb5-16">  ) <span class="sc" style="color: #5E5E5E;
+<span id="cb5-11">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb5-17">  <span class="fu" style="color: #4758AB;
+<span id="cb5-12">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -1264,7 +1241,7 @@ font-style: inherit;">kable</span>(sorted_tibble)</span></code></pre></div>
 </table>
 </div>
 </div>
-<p>With the table above, we find that Ride’s saddest songs are <em>‘I Came to See the Wreck’</em> and <em>‘Only Now’</em>, and happiest songs is <em>‘The Dawn Patrol’</em>; Slowdive’s saddest song is <em>‘The Sadman’</em>, and happiest songs is <em>‘Everyone Knows’</em>; mbv’s saddest songs are <em>‘if i am’</em>, and happiest song is <em>only shallow</em>. The sadman is really sad.</p>
+<p>With the table above, we find that Ride’s saddest songs are <em>‘I Came to See the Wreck’</em> and <em>‘Only Now’</em>, and happiest songs is <em>‘The Dawn Patrol’</em>; Slowdive’s saddest song is <em>‘The Sadman’</em>, and happiest songs is <em>‘Everyone Knows’</em>; mbv’s saddest songs are <em>‘if i am’</em>, and happiest song is <em>‘only shallow’</em>. The sadman is really sad.</p>
 </section>
 </section>
 <section id="are-bands-trending-towards-happiness-or-sadness-over-time" class="level3">

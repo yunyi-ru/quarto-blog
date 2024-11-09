@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>blog – Yunyi's Blog</title>
+<title>About Me – Yunyi’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,68 +66,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Yunyi's Blog" href="blog.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed">
 
@@ -153,11 +93,11 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./aboutme.html"> 
+    <a class="nav-link active" href="./aboutme.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog Posts</span></a>
   </li>  
   <li class="nav-item compact">
@@ -178,163 +118,92 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="blogging">blogging <span class="quarto-category-count">(2)</span></div><div class="category" data-category="coding">coding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fun">fun <span class="quarto-category-count">(1)</span></div></div></div>
-<!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
     </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">About Me</h1>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="fun" data-listing-date-sort="1731042000000" data-listing-file-modified-sort="1731134097270" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2067">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/lyric_analysis/index.html" class="no-external">Example Analysis: Who is the saddest shoegaze band?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/lyric_analysis/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fun'); return false;">
-fun
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/lyric_analysis/index.html" class="no-external">I’m interested in the ‘shoegaze’ subgenre of indie rock. This less-known genre, also called ‘the scene that celebrates itself’, rose from the noise pop scene in the late 80s…<em></em><span class="citation" data-cites="sherburne_shoegaze_2023"></span></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/lyric_analysis/index.html" class="no-external">
-<div class="listing-date">
-Nov 8, 2024
-</div>
-<div class="listing-reading-time">
-11 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="blogging" data-listing-date-sort="1730088000000" data-listing-file-modified-sort="1731133329445" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/blog_design/index.html" class="no-external">Blog Design Checklist</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/blog_design/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blogging'); return false;">
-blogging
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/blog_design/index.html" class="no-external">This is a checklist/memo for some elements I want to add to this blog.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/blog_design/index.html" class="no-external">
-<div class="listing-date">
-Oct 28, 2024
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="coding" data-listing-date-sort="1730088000000" data-listing-file-modified-sort="1730161214828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/coding_resources/index.html" class="no-external">Coding Resources</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/coding_resources/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('coding'); return false;">
-coding
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/coding_resources/index.html" class="no-external">This page lists some coding resources that I find useful.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/coding_resources/index.html" class="no-external">
-<div class="listing-date">
-Oct 28, 2024
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="blogging" data-listing-date-sort="1726200000000" data-listing-file-modified-sort="1731081996641" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">First Blog Post! &amp; Blogging Resources</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blogging'); return false;">
-blogging
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/index.html" class="no-external"><span class="emoji" data-emoji="tada">🎉</span> Hi, this is my first blog post!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Sep 13, 2024
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>My name is Yunyi Ru, and I am a 2nd year master’s student in the Molecular Microbiology and Immunology department of <a href="https://publichealth.jhu.edu/">Johns Hopkins Bloomberg School of Public Health</a>. I currently work as a graduate student researcher at <a href="https://pekoszlab.com/">The Pekosz Lab</a> on virology. Outside of lab, I enjoys painting, reading, travelling, and listening and playing music.</p>
+</section>
+<section id="about-this-blog" class="level1 page-columns page-full">
+<h1>About This Blog</h1>
+<p>I made this blog to share things that I find useful and interesting, and hopefully you will also enjoy my contents.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>Recent Highlights</strong></p>
+<p>If you are into indie music, please check the <a href="https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/">‘Example Analysis: Who is the saddest shoegaze band?’</a> page.</p>
+</div></div></section>
+<section id="resume" class="level1">
+<h1>Resume</h1>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<p><strong>Johns Hopkins University</strong> | Baltimore, MD</p>
+<p>ScM in Molecular Microbiology and Immunology | August 2023 - May 2025</p>
+<p><strong>Duke Kunshan University/Duke University</strong> | Kunshan, China/Durham, NC</p>
+<p>B.S. in Cell and Molecular Biology (Dual Degree) | August 2019 - May 2023</p>
+</section>
+<section id="experience" class="level2">
+<h2 class="anchored" data-anchor-id="experience">Experience</h2>
+<section id="research" class="level4">
+<h4 class="anchored" data-anchor-id="research">Research</h4>
+<p><a href="https://pekoszlab.com/"><strong>The Pekosz Lab</strong></a><strong>, Johns Hopkins University</strong> | <em>Graduate Student Researcher</em> | October 2023 - Present</p>
+<ul>
+<li>Isolated and characterized lab-adapted and circulating respiratory syncytial virus using various molecular biology and genetics methods.</li>
+</ul>
+<p><a href="https://yajuanlin.github.io/"><strong>The Lin Lab</strong></a><strong>, Duke Kunshan University</strong> | <em>Undergraduate Student Researcher</em> | October 2021 - May 2023</p>
+<ul>
+<li>Monitored and analyzed changes in antibiotic resistance gene prevalence in a local shallow lake over the year.</li>
+</ul>
+<p><a href="https://2022.igem.wiki/dku/index.html"><strong>iGEM Competition 2022</strong></a><strong>, Duke Kunshan University</strong> | <em>Team Leader</em> | December 2021 - October 2022</p>
+<ul>
+<li>Designed an engineered bacteria strain by molecular cloning and protein expression.</li>
+</ul>
+<p><strong>Global Health Resource Center, Duke Kunshan University</strong> | <em>Undergraduate Student Researcher</em> | August 2020 - December 2020</p>
+<ul>
+<li>Conducted surveys and interviews to assess the current situation of chronic disease management and control in 4 local communities.</li>
+</ul>
+</section>
+<section id="others" class="level4">
+<h4 class="anchored" data-anchor-id="others">Others</h4>
+<p><a href="https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education"><strong>R3ISE Center</strong></a><strong>, Johns Hopkins University</strong> | <em>Research Assistant</em> | October 2023 - Present</p>
+<ul>
+<li>Initiated the ‘R3 Read Today’ project by selecting and presenting content on important topics related to responsible scientific practices for science communication on <a href="https://twitter.com/R3_JHSPH">X</a> and <a href="https://www.instagram.com/r3_jhsph/">Instagram</a>.</li>
+</ul>
+<p><strong>Academic Resource Center, Duke Kunshan University</strong> | <em>Teaching Assistant</em> | October 2021 - December 2021</p>
+<p><strong>HOB Biotech Group Suzhou Co., Ltd</strong> | <em>R&amp;D Intern</em> | July 2021 - August 2021</p>
+<p><strong>Crystal Pharmatech Co., Ltd</strong> | <em>R&amp;D Intern</em> | May 2020 - June 2020</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

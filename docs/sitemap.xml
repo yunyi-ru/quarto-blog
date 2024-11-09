@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/index.html</loc>
-    <lastmod>2024-11-08T16:08:03.757Z</lastmod>
+    <lastmod>2024-11-09T06:52:15.020Z</lastmod>
   </url>
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/blog.html</loc>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/posts/blog_design/index.html</loc>
-    <lastmod>2024-11-08T16:08:41.595Z</lastmod>
+    <lastmod>2024-11-09T06:22:09.445Z</lastmod>
   </url>
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/posts/coding_resources/index.html</loc>
@@ -34,6 +34,18 @@
   </url>
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/index.html</loc>
-    <lastmod>2024-11-09T06:06:08.846Z</lastmod>
+    <lastmod>2024-11-09T06:34:57.270Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yunyi-ru.github.io/quarto-blog/posts/about/index.html</loc>
+    <lastmod>2024-11-09T06:39:56.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yunyi-ru.github.io/quarto-blog/about.html</loc>
+    <lastmod>2024-11-09T06:47:25.079Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yunyi-ru.github.io/quarto-blog/aboutme.html</loc>
+    <lastmod>2024-11-09T07:00:18.593Z</lastmod>
   </url>
 </urlset>

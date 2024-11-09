@@ -4,9 +4,14 @@ project:
 
 website:
   title: "Yunyi's Blog"
-  site-url: https://yunyi-ru.github.io/quarto-blog/
+  site-url: "https://yunyi-ru.github.io/quarto-blog/"
+  site-path: "/"
   navbar:
     right:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: aboutme.qmd
       - text: Blog Posts
         href: blog.qmd
       - icon: github

@@ -18,9 +18,7 @@ about:
       href: mailto:yru3@jh.edu
 ---
 
-Hi, I’m Yunyi, a ScM student at the Johns Hopkins Bloomberg School of Public Health.
-
-I am currently doing virology research at [the Pekosz lab](https://pekoszlab.com/). I also worked as a research assistant for resposible science communication at [the R3ISE center](https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education). For more information, please visit [my profile page](https://yunyi-ru.github.io/).
+Hi, I’m Yunyi, a ScM student at the Johns Hopkins Bloomberg School of Public Health and a member of [the Pekosz lab](https://pekoszlab.com/). 
 
 Looking forward to sharing some useful information with you here! :paw_prints:
 

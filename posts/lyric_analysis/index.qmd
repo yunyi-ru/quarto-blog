@@ -8,15 +8,17 @@ bibliography:
  - my-refs2.bib
 ---
 
+::: {.column-screen}
+![Shoegaze is an effect-heavy subgenre of indie rock.](pedalboard.jpg)
+:::
+
 # Introduction
 
 ## Why This Project
 
 I'm interested in the 'shoegaze' subgenre of indie rock. This less-known genre, also called 'the scene that celebrates itself', rose from the noise pop scene in the late 80s and early 90s, and has regained popularity recently. An article titled *'The Shoegaze Revival Hit Its Stride in 2023'* [@sherburne_shoegaze_2023] by pitchfork also captures the revival of shoegaze among GenZ populations.
 
-::: column-margin
-![Shoegaze is an effect-heavy subgenre of indie rock.](pedalboard.jpg)
-
+::: {.column-margin}
 ![My bloody valentine's 1988 EP 'You made me realise' is a classic shoegaze record.](Youmademerealise.png)
 :::
 
@@ -64,14 +66,14 @@ kable(head(lyrics, n = 1))
 
 ### Data Dictionary
 
-| Field Name   | Data Type | Description                                         |
-|--------------|-----------|-----------------------------------------------------|
-| `Track.Number` | Integer   | The track number of the song in the album            | 
-| `Song.Title`   | String    | The title of the song                               |
-| `Album`        | String    | The name of the album the song belongs to           |
-| `Artist`       | String    | The artist performing the song              |
-| `Release.Date` | String      | The date the song was released                      |
-| `Lyrics`       | String      | The lyrics of the song                              |
+| Field Name     | Data Type | Description                               |
+|----------------|-----------|-------------------------------------------|
+| `Track.Number` | Integer   | The track number of the song in the album |
+| `Song.Title`   | String    | The title of the song                     |
+| `Album`        | String    | The name of the album the song belongs to |
+| `Artist`       | String    | The artist performing the song            |
+| `Release.Date` | String    | The date the song was released            |
+| `Lyrics`       | String    | The lyrics of the song                    |
 
 ### Data Cleaning
 
@@ -144,12 +146,12 @@ library(ggplot2)
 theme_set(theme_bw())
 library(ggwordcloud)
 palette <- c(
-  "my bloody valentine" = "#DC143C",
-  "Ride" = "#1569C2",
-  "Slowdive" = "#CCBA16",
-  "when you sleep" = "#f28fa3",
-  "Vapour Trail" = "#77b0ed",
-  "When the Sun Hits" = "#f0e371"
+  "my bloody valentine" = "#d83c7a",
+  "Ride" = "#4b8ab8",
+  "Slowdive" = "#ae8f32",
+  "when you sleep" = "#f576a8",
+  "Vapour Trail" = "#56a8e3",
+  "When the Sun Hits" = "#d1b971"
   )
 
 ggplot(token_count_head, aes(
@@ -174,14 +176,9 @@ The result is kind of amusing. Ride and mbv rely their vocals heavily on harmoni
 
 ```{r q2, warning = FALSE, message = FALSE}
 # plotting
-palettetf <- c(
-"TRUE" = "black",
-"FALSE" = "white")
-
-ggplot(lyrics_clean, aes(x = Album, y = lyric.length, fill = Artist, color = Reunite)) + 
-  geom_boxplot() +
+ggplot(lyrics_clean, aes(x = Album, y = lyric.length, fill = Artist)) + 
+  geom_boxplot(color = 'black') +
   scale_fill_manual(values = palette) +
-  scale_color_manual(values = palettetf) +
   labs(
     title = 'Which bands have the Longest/Shortest Lyrics?',
     subtitle = 'Mbv has the shortest lyrics while Ride has the longest.',
@@ -284,7 +281,7 @@ sorted_tibble <- extreme_song %>%
 kable(sorted_tibble)
 ```
 
-With the table above, we find that Ride's saddest songs are *'I Came to See the Wreck'* and *'Only Now'*, and happiest songs is *'The Dawn Patrol'*; Slowdive's saddest song is *'The Sadman'*, and happiest songs is *'Everyone Knows'*; mbv's saddest songs are *'if i am'*, and happiest song is *only shallow*. The sadman is really sad. 
+With the table above, we find that Ride's saddest songs are *'I Came to See the Wreck'* and *'Only Now'*, and happiest songs is *'The Dawn Patrol'*; Slowdive's saddest song is *'The Sadman'*, and happiest songs is *'Everyone Knows'*; mbv's saddest songs are *'if i am'*, and happiest song is *'only shallow'*. The sadman is really sad.
 
 ### Are bands trending towards happiness or sadness over time?
 
