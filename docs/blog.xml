@@ -1283,14 +1283,11 @@ font-style: inherit;">'Time'</span></span>
 </section>
 <section id="notes" class="level1">
 <h1>Notes</h1>
-<section id="functions-used" class="level2">
-<h2 class="anchored" data-anchor-id="functions-used">Functions Used</h2>
 <p><code>Tidyverse</code> (<code>dplyr</code>, <code>tidyr</code>): <code>%&gt;%</code>, <code>filter</code>, <code>summarize</code>, <code>group_by</code>, <code>str_remove</code>, <code>mutate</code>, <code>inner_join</code>, <code>anti_join</code>, etc.</p>
 <p><code>ggplot2</code>: <code>geom_point</code>, <code>geom_boxplot</code>, <code>geom_line</code>, etc.</p>
 
 
 
-</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
