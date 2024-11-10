@@ -195,7 +195,7 @@ ggplot(lyrics_clean, aes(x = Album, y = lyric.length, fill = Artist)) +
     color = 'Before Reunion?', 
     y = 'Lyric Length (character)'
   ) +
-  theme(axis.text.x = element_text(angle = 1, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
 Among the three bands, Mbv always has the shortest lyrics overall while Ride has the longest. An interesting trend is that while Ride and slowdive have similar lyric length back in the 90s, after reunion, Ride tends to have longer lyrics - and the length increases for each album.
