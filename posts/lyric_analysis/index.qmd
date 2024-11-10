@@ -9,7 +9,7 @@ bibliography:
 ---
 
 ::: column-screen
-![Shoegaze is an effect-heavy subgenre of indie rock.](pedalboard.jpg)
+![Shoegaze is an effect-heavy subgenre of indie rock.](photo/pedalboard.jpg)
 :::
 
 # Introduction
@@ -19,7 +19,7 @@ bibliography:
 I'm interested in the 'shoegaze' subgenre of indie rock. This less-known genre, also called 'the scene that celebrates itself', rose from the noise pop scene in the late 80s and early 90s, and has regained popularity recently. An article titled *'The Shoegaze Revival Hit Its Stride in 2023'* [@sherburne_shoegaze_2023] by pitchfork also captures the revival of shoegaze among GenZ populations.
 
 ::: column-margin
-![My bloody valentine's 1988 EP 'You made me realise' is a classic shoegaze record.](Youmademerealise.png)
+![My bloody valentine's 1988 EP 'You made me realise' is a classic shoegaze record.](photo/Youmademerealise.png)
 :::
 
 Shoegaze is characterized by heavy use of overdriven guitar and various effect pedals with the combination of the ethereal vocals; the lyrics are often regarded as blank, poetic, and sometimes difficult to distinguish from the instruments. So here comes this project for the indieheads - I want to analyze those usually overlooked lyrics, especially from the perspective of sentiment.
@@ -38,7 +38,7 @@ The bands I want to study are the so-called classic 'big-three' of shoegaze: *my
 ## Data Acquisition & Wragling
 
 ::: column-margin
-![](loveless.png) ![](nowhere.jpg) ![](souvlaki.jpeg)
+![](photo/loveless.png) ![](photo/nowhere.jpg) ![](photo/souvlaki.jpeg)
 :::
 
 ### Data Acquisition
@@ -60,7 +60,7 @@ library('knitr')
 knitr::write_bib("rmarkdown", file = "my-refs.bib")
 
 # import data
-lyrics <- read.csv("lyrics_data.csv")
+lyrics <- read.csv("data/lyrics_data.csv")
 kable(head(lyrics, n = 1))
 ```
 
@@ -70,14 +70,14 @@ kable(head(lyrics, n = 1))
 |----------------|-----------|-------------------------------------------|
 | `Track.Number` | Integer   | The track number of the song in the album |
 | `Song.Title`   | String    | The title of the song                     |
-| `Album`        | String    | The name of the album the song belongs to |
+| `Album.Name`   | String    | The name of the album the song belongs to |
 | `Artist`       | String    | The artist performing the song            |
 | `Release.Date` | String    | The date the song was released            |
 | `Lyrics`       | String    | The lyrics of the song                    |
 
-### Data Cleaning
+### Data Wrangling
 
-You might notice that the lyrics above have some problems like this -
+The lyrics directly retrieved from Genius.com usually have some problems -
 
 ::: callout-warning
 1.  '16 ContributorsBallad of Sister Sue Lyrics' at the beginning and '6Embed' at the end are not part of the lyrics.
@@ -100,20 +100,28 @@ lyrics_clean <- lyrics %>%
       str_remove('\\d*\\s*Embed$') %>%
       str_trim()
   ) %>%
+  rename(Album = Album.Name) %>%
   filter(!str_detect(Lyrics, "^\\s*$")) # filter out instrumental pieces
 
 # add some factors for further processing
 lyrics_clean <- lyrics_clean %>%
   mutate(lyric.length = nchar(Lyrics),
          Release.Date = dmy(Release.Date),
-         Release.Year = year(Release.Date), 
-         Album = factor(Album, 
-                        levels = c("Isn't Anything", "loveless", "m b v", 
-                                   "Nowhere", "Going Blank Again", "Carnival of Light", "Tarantula", "Weather Diaries", "This is Not a Safe Place", "Interplay", 
-                                   "Just for a Day", "Souvlaki", "Pygmalion", "slowdive", "everything is alive")), 
-         Reunite = year(Release.Date) < 2000)
+         Release.Year = year(Release.Date))
 
-print(lyrics_clean[1,6])
+print(lyrics_clean[1,'Lyrics'])
+
+# this is for ride-only analysis
+lyrics_ride <- lyrics_clean %>%
+  filter(Artist == 'Ride')
+
+# this keeps the dataset working for the original analysis
+lyrics_clean <- lyrics_clean %>%
+  filter(!str_detect(Album, "\\[EP\\]")) %>%
+  mutate(Album = factor(Album, 
+                        levels = c("Isn’t Anything", "loveless", "m b v", 
+                                   "Nowhere", "Going Blank Again", "Carnival of Light", "Tarantula", "Weather Diaries", "This Is Not a Safe Place", "Interplay", 
+                                   "Just for a Day", "Souvlaki", "Pygmalion", "Slowdive", "​​​everything is alive")))
 ```
 
 ## Data Analysis
@@ -122,7 +130,8 @@ print(lyrics_clean[1,6])
 
 ```{r q1, warning = FALSE, message = FALSE}
 library('tidytext')
-# tokenize
+
+# tokenize by word
 token <- lyrics_clean %>%
   unnest_tokens(output = Word,
                 input = Lyrics,
@@ -186,7 +195,7 @@ ggplot(lyrics_clean, aes(x = Album, y = lyric.length, fill = Artist)) +
     color = 'Before Reunion?', 
     y = 'Lyric Length (character)'
   ) +
-  theme(axis.text.x = element_text(angle = 90))
+  theme(axis.text.x = element_text(angle = 1, hjust = 1))
 ```
 
 Among the three bands, Mbv always has the shortest lyrics overall while Ride has the longest. An interesting trend is that while Ride and slowdive have similar lyric length back in the 90s, after reunion, Ride tends to have longer lyrics - and the length increases for each album.
@@ -199,14 +208,16 @@ I used `afinn` from package `tidytext` for sentiment analysis based on this pape
 # data processing: sentiment 'afinn'
 token_count <- token_clean %>%
   group_by(Artist, Album, Release.Year) %>%
-  count(Word, name = 'Word_count', sort = TRUE)
+  count(Word, name = 'Word_count', sort = TRUE) %>%
+  ungroup()
 
 token_afinn <- token_count %>%
   inner_join(get_sentiments('afinn'), by = c("Word" = "word"))
 
 afinn_score_by_artist <- token_afinn %>%
   group_by(Artist) %>%
-  summarize(avg = round(mean(value), 2))
+  summarize(avg = round(mean(value), 2)) %>%
+  ungroup()
 
 kable(afinn_score_by_artist)
 ```
@@ -227,7 +238,8 @@ I'm interested that whether those songs have a happier or sadder vibe compared t
 # by song
 token_count_bysong <- token_clean %>%
   group_by(Artist, Song.Title) %>%
-  count(Word, name = 'Word_count', sort = TRUE)
+  count(Word, name = 'Word_count', sort = TRUE) %>%
+  ungroup()
 
 # give afinn score
 token_afinn_bysong <- token_count_bysong %>%
@@ -242,7 +254,7 @@ token_afinn_bysong <- token_afinn_bysong %>%
 # calculate average scores
 afinn_score_all <- token_afinn_bysong %>%
   group_by(Song.Title, Artist) %>%
-  summarize(avg_song = mean(value)) 
+  summarize(avg_song = mean(value))
 
 # look at the greatest hits
 afinn_score_gh <- afinn_score_all %>%
@@ -275,7 +287,8 @@ All those songs have a slightly higher sentiment score than their artist's avera
 ```{r q3.3}
 extreme_song <- afinn_score_all %>%
   group_by(Artist) %>%
-  filter(avg_song == max(avg_song) | avg_song == min(avg_song))
+  filter(avg_song == max(avg_song) | avg_song == min(avg_song)) %>%
+  ungroup()
 
 sorted_tibble <- extreme_song %>%
   group_by(Artist) %>%
@@ -314,8 +327,210 @@ ggplot(afinn_score,
 
 When examining the trend over time, it is noteworthy that at the beginning of their careers, the bands all had very sad lyrics; in the middle of their careers, their lyrics became more positive. It is also interesting to observe that the latest albums of mbv, Ride, and Slowdive are all among the saddest of their entire careers.
 
-# Notes
+::: callout-note
+**Packages Used**
 
-`Tidyverse` (`dplyr`, `tidyr`): `%>%`, `filter`, `summarize`, `group_by`, `str_remove`, `mutate`, `inner_join`, `anti_join`, etc.
+* `Tidyverse`: `%>%`, `group_by()`, `mutate()`, `arrange()`, `filter()`, etc.
 
-`ggplot2`: `geom_point`, `geom_boxplot`, `geom_line`, etc.
+* `ggplot2`: `geom_text_repel()`, `geom_point()`, `geom_boxplot()`, etc.
+:::
+
+# Bonus
+
+Here Comes the Ride Fan!
+
+::: callout-warning
+This is not a part of the 140.777 homework but I'm a huge fan of this band so I did this for my own good!
+:::
+
+## Data Wrangling
+
+```{r ride data processing}
+# assign lyricist
+andy_bell_songs <- c("Drive Blind", "Close My Eyes", "Like A Daydream",
+"Silver", "Dreams Burn Down", "Here And Now", "Seagull", "Kaleidoscope", "In a Different Place", "Polar Bear", "Paralysed", "Vapour Trail", "Sennen", "Beneath", "Today", "Not Fazed", "Chrome Waves", "Time of Her Time", "Cool Your Boots", "Making Judy Smile", "Going Blank Again", "Howard Hughes", "Birdman", "Crown of Creation", "Endless Road", "Magical Spring", "I Don’t Know Where It Comes From", "Sunshine/Nowhere To Run", "Dead Man", "Walk on Water", "Mary Anne", "Castle On The Hill", "Gonna Be Alright", "The Dawn Patrol", "Ride The Wind", "Burnin’", "Starlight Motel", "Charm Assault", "Home Is A Feeling", "Weather Diaries", "Lateral Alice", "Cali", "Impermanence","Cold Water People", "Catch You Dreaming", "Future Love", "Repetition", "Kill Switch", "Clouds of Saint Marie", "Fifteen Minutes", "Jump Jet", "Dial Up", "End Game", "In This Room", "Peace Sign", "Last Frontier", "Light in a Quiet Room", "Stay Free", "Last Night I Went Somewhere to Dream", "Midnight Rider", "Portland Rocks", "Yesterday Is Just a Song")
+
+mark_gardener_songs <- c("Chelsea Girl", "All I Can See", "Furthest Sense", "Perfect Time", "Taste", "Decay", "Unfamiliar", "Leave Them All Behind", "Twisterella", "Mouse Trap", "Time Machine", "OX4", "Stampede", "Moonlight Medicine", "1000 Miles", "From Time To Time", "Only Now", "Deep Inside My Pocket", "Lannoy Point", "White Sands", "Pulsar", "Keep It Surreal", "Shadows Behind the Sun", "Monaco", "I Came to See the Wreck", "Sunrise Chaser", "Essaouira")
+
+loz_colbert_songs <- c("Nowhere", "Natural Grace", "Rocket Silver Symphony", "R.I.D.E.")
+
+collab_songs <- c("All I Want", "Eternal Recurrence")
+
+cover_songs <- c("How Does It Feel to Feel?")
+
+lyrics_ride <- lyrics_ride %>%
+  mutate(
+    lyricist = case_when(
+      Song.Title %in% andy_bell_songs ~ "Andy.Bell",
+      Song.Title %in% mark_gardener_songs ~ "Mark.Gardener",
+      Song.Title %in% loz_colbert_songs ~ "Loz.Colbert",
+      Song.Title %in% collab_songs ~ "collaboration",
+      Song.Title %in% cover_songs ~ "cover",
+      TRUE ~ NA_character_
+    ),
+    Album = fct_reorder(Album, Release.Date), 
+    is90 = Release.Year < 2000
+  )
+```
+
+## Data Analysis
+
+```{r ride tokenize}
+# tokenize
+# tokenize by word
+ride_token <- lyrics_ride %>%
+  unnest_tokens(output = Word,
+                input = Lyrics,
+                token = 'words')
+
+# unique by song
+ride_token_unique <- ride_token %>%
+  group_by(Song.Title) %>%
+  distinct(Song.Title, Word, .keep_all = TRUE) %>%
+  ungroup()
+
+# stopwords dropped
+ride_token_clean <- ride_token_unique %>%
+  anti_join(stop_words, by = c("Word" = "word"))
+```
+
+### Who writes the lyrics in each album?
+
+```{r ride who writes what}
+# who writes what
+ggplot(lyrics_ride, aes(x = Album, fill = lyricist)) +
+geom_bar() +
+scale_fill_brewer(palette = 'Set2') +
+scale_y_continuous(breaks = 1:12, minor_breaks = 1:12) +
+theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  labs(title = 'Who writes the lyrics in each album?',
+    fill = 'lyricist',
+    y = 'percent', 
+    x = 'album'
+  )
+```
+
+### What's the most frequently used words for each lyricist before/after reunion?
+
+```{r ride most frequent words}
+# count - lyricist, is90
+ride_token_count <- ride_token_clean %>%
+  group_by(lyricist, is90) %>%
+  count(Word, name = 'Word_count', sort = TRUE) %>% 
+  ungroup()
+
+# find top 15
+ride_token_count_head_bylyricist <- ride_token_count %>%
+  group_by(lyricist, is90) %>%
+  filter(lyricist == 'Andy.Bell' | lyricist == 'Mark.Gardener') %>%
+  slice(1:15) %>%
+  mutate(Word = fct_reorder(Word, Word_count, .desc = FALSE)) %>%
+  ungroup()
+
+# most frequent words
+ggplot(ride_token_count_head_bylyricist, aes(x = Word_count, y = Word, fill = is90)) +
+  geom_col() +
+  facet_wrap( ~ lyricist) +
+  scale_fill_brewer(palette = 'Set2') +
+  scale_x_continuous(breaks = c(0, 5, 10, 15, 20, 25), minor_breaks = 1:25) +
+  labs(title = "What's the most frequently used words for each lyricist\nbefore/after reunion?",
+    fill = 'Before Reunion',
+    y = 'Word', 
+    x = 'Count'
+  )
+```
+
+### Top 5 Words for Each Album
+
+```{r ride the word for each album}
+# The Word for each album?
+ride_token_count_album <- ride_token_clean %>%
+  group_by(Album) %>%
+  count(Word, name = 'Word_count', sort = TRUE)
+
+# find top 5
+ride_token_count_album_head <- ride_token_count_album %>%
+  group_by(Album) %>%
+  slice(1:5) %>%
+  filter(!Word_count == 1) %>%
+  mutate(Word = fct_reorder(Word, Word_count, .desc = FALSE)) %>%
+  ungroup()
+
+# plotting
+ggplot(ride_token_count_album_head, aes(x = Album, y = Word, label = Word)) +
+  geom_text(size = 3, aes(color = Word_count)) +
+  scale_color_continuous(high = '#0874c2', low = '#ccd8e0') +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(title = 'Top 5 Words for Each Album',
+    color = 'Count',
+    y = 'Word', 
+    x = 'Album'
+  )
+```
+
+### Who is the Most Depressed Shoegazer?
+
+```{r ride who is more depressed}
+# who is more depressed
+ride_token_count_aa <- ride_token_clean %>%
+  group_by(lyricist, Album, Release.Date) %>%
+  count(Word, name = 'Word_count', sort = TRUE) %>%
+  ungroup()
+
+# apply sentiment value
+ride_token_afinn_aa <- ride_token_count_aa %>%
+  inner_join(get_sentiments('afinn'), by = c("Word" = "word")) %>% 
+  filter(lyricist == 'Mark.Gardener' | lyricist == 'Andy.Bell' | lyricist == 'Loz.Colbert')
+
+# calculate overall score
+ride_afinn_score_by_lyricist <- ride_token_afinn_aa %>%
+  group_by(lyricist) %>%
+  summarize(weighted_avg = round(sum(value * Word_count) / sum(Word_count),2)) %>%
+  ungroup()
+
+# plotting
+ggplot(ride_afinn_score_by_lyricist, aes(x = lyricist, y = weighted_avg, fill = lyricist, label = weighted_avg)) +
+  geom_col() +
+  geom_text() +
+  scale_y_continuous(breaks = c(-2, -1, 0, 1, 2)) +
+  scale_fill_brewer(palette = 'Set2') +
+  labs(title = 'Who is the Most Depressed Shoegazer?',
+    y = 'Sentiment Score', 
+    caption = 'Average sentiment score calculated based on afinn scores.\n<0: sad/negative, >0: happy/positive.',
+    x = 'Lyricist'
+  )
+```
+
+### Are they trending towards happiness or sadness over time?
+
+```{r ride who is getting more depressed}
+# Is anyone getting more depressed over time?
+# Affin score for each person for each album
+ride_afinn_score_by_lyricist_album <- ride_token_afinn_aa %>%
+  group_by(lyricist, Album, Release.Date) %>%
+  summarize(weighted_avg = round(sum(value * Word_count) / sum(Word_count),2))
+
+# geom_line()must work with numeric factor
+ride_afinn_score_by_lyricist_album$Album_num <- as.numeric(ride_afinn_score_by_lyricist_album$Album)
+
+# plotting
+ggplot(ride_afinn_score_by_lyricist_album, 
+       aes(x = Album_num, y = weighted_avg, color = lyricist, shape = lyricist, label = Album)) +
+  geom_point(size = 3) + 
+  geom_line() +
+  scale_color_brewer(palette = 'Set2') +
+  scale_x_continuous(
+    breaks = ride_afinn_score_by_lyricist_album$Album_num,
+    labels = ride_afinn_score_by_lyricist_album$Album
+  ) +
+  geom_hline(yintercept = 0, linetype = 'dashed', color = 'black') +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(
+    title = 'Sentiment Trend of Lyrics Over Time',
+    caption = 'Average sentiment score calculated based on afinn scores.\n<0: sad/negative, >0: happy/positive.',
+    color = 'lyricist',
+    y = 'Sentiment Score', 
+    x = 'Album'
+  )
+```
+
