@@ -31,13 +31,16 @@ with open('lyrics_data.csv', mode='w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     
     # Write the header row (only once)
-    writer.writerow(["Track Number", "Song Title", "Artist", "Release Date", "Lyrics"])
+    writer.writerow(["Track Number", "Song Title", "Artist", "Release Date", "Lyrics", "Album Name"])
     
     # Loop through each JSON file
     for json_file in json_files:
         with open(json_file, 'r', encoding='utf-8') as f:
             # Load the JSON data
             data = json.load(f)
+
+        # Extract the album name from the JSON file (assuming it's under the "name" key)
+        album_name = data.get("name", "Unknown Album")  # Default to "Unknown Album" if not found
         
         # Iterate over the tracks in the current JSON file
         for track in data.get("tracks", []):  # Use .get to avoid KeyError if "tracks" is missing
@@ -48,10 +51,13 @@ with open('lyrics_data.csv', mode='w', newline='', encoding='utf-8') as file:
             release_date = song["release_date_for_display"]
             lyrics = song.get("lyrics", "")  # Ensure lyrics are fetched correctly
 
-            # Clean the lyrics text to remove unwanted characters
+            # Clean lyrics text
             lyrics = clean_lyrics(lyrics)
 
+            # debugging
+            print(f"File: {json_file}, Lyrics extracted: {lyrics[:100]}")
+
             # Write the extracted data as a new row in the CSV file
-            writer.writerow([track_number, song_title, artist, release_date, lyrics])
+            writer.writerow([track_number, song_title, artist, release_date, lyrics, album_name])
 
 print("Data from all JSON files written to lyrics_data.csv")
