@@ -1564,18 +1564,33 @@ background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb10-13">  <span class="fu" style="color: #4758AB;
 background-color: null;
+font-style: inherit;">scale_y_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">limits =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb10-14">  <span class="fu" style="color: #4758AB;
+background-color: null;
 font-style: inherit;">labs</span>(</span>
-<span id="cb10-14">    <span class="at" style="color: #657422;
+<span id="cb10-15">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Sentiment Trend of Lyrics Over Time'</span>,</span>
-<span id="cb10-15">    <span class="at" style="color: #657422;
+<span id="cb10-16">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'The bands are saddest around 1990.'</span>,</span>
-<span id="cb10-16">    <span class="at" style="color: #657422;
+<span id="cb10-17">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -1584,22 +1599,22 @@ background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">&lt;0: sad/negative, &gt;0: happy/positive.'</span>,</span>
-<span id="cb10-17">    <span class="at" style="color: #657422;
+<span id="cb10-18">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Artist'</span>,</span>
-<span id="cb10-18">    <span class="at" style="color: #657422;
+<span id="cb10-19">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Sentiment Score'</span>, </span>
-<span id="cb10-19">    <span class="at" style="color: #657422;
+<span id="cb10-20">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Time'</span></span>
-<span id="cb10-20">  )</span></code></pre></div>
+<span id="cb10-21">  )</span></code></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -1642,11 +1657,12 @@ Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This is not a part of the 140.777 homework but I’m a huge fan of this band so I did this for my own good!</p>
+<p>This is not a part of the class project, but I’m a huge fan of this band so I did this for my own good!</p>
 </div>
 </div>
 <section id="data-wrangling-1" class="level2">
 <h2 class="anchored" data-anchor-id="data-wrangling-1">Data Wrangling</h2>
+<p>Information about lyric writers were from interviews and record sleeves.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -1661,8 +1677,7 @@ font-style: inherit;">"Drive Blind"</span>, <span class="st" style="color: #2079
 background-color: null;
 font-style: inherit;">"Close My Eyes"</span>, <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"Like A Daydream"</span>,</span>
-<span id="cb11-3"><span class="st" style="color: #20794D;
+font-style: inherit;">"Like A Daydream"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Silver"</span>, <span class="st" style="color: #20794D;
 background-color: null;
@@ -1781,8 +1796,8 @@ background-color: null;
 font-style: inherit;">"Portland Rocks"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Yesterday Is Just a Song"</span>)</span>
-<span id="cb11-4"></span>
-<span id="cb11-5">mark_gardener_songs <span class="ot" style="color: #003B4F;
+<span id="cb11-3"></span>
+<span id="cb11-4">mark_gardener_songs <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1841,8 +1856,8 @@ background-color: null;
 font-style: inherit;">"Sunrise Chaser"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Essaouira"</span>)</span>
-<span id="cb11-6"></span>
-<span id="cb11-7">loz_colbert_songs <span class="ot" style="color: #003B4F;
+<span id="cb11-5"></span>
+<span id="cb11-6">loz_colbert_songs <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1855,8 +1870,8 @@ background-color: null;
 font-style: inherit;">"Rocket Silver Symphony"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"R.I.D.E."</span>)</span>
-<span id="cb11-8"></span>
-<span id="cb11-9">collab_songs <span class="ot" style="color: #003B4F;
+<span id="cb11-7"></span>
+<span id="cb11-8">collab_songs <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1865,84 +1880,82 @@ background-color: null;
 font-style: inherit;">"All I Want"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Eternal Recurrence"</span>)</span>
-<span id="cb11-10"></span>
-<span id="cb11-11">cover_songs <span class="ot" style="color: #003B4F;
+<span id="cb11-9"></span>
+<span id="cb11-10">cover_songs <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"How Does It Feel to Feel?"</span>)</span>
-<span id="cb11-12"></span>
-<span id="cb11-13">lyrics_ride <span class="ot" style="color: #003B4F;
+<span id="cb11-11"></span>
+<span id="cb11-12">lyrics_ride <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> lyrics_ride <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%&gt;%</span></span>
-<span id="cb11-14">  <span class="fu" style="color: #4758AB;
+<span id="cb11-13">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">mutate</span>(</span>
-<span id="cb11-15">    <span class="at" style="color: #657422;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">lyricist =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">case_when</span>(</span>
-<span id="cb11-16">      Song.Title <span class="sc" style="color: #5E5E5E;
+<span id="cb11-14">         Song.Title <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%in%</span> andy_bell_songs <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">~</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Andy.Bell"</span>,</span>
-<span id="cb11-17">      Song.Title <span class="sc" style="color: #5E5E5E;
+<span id="cb11-15">         Song.Title <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%in%</span> mark_gardener_songs <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">~</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Mark.Gardener"</span>,</span>
-<span id="cb11-18">      Song.Title <span class="sc" style="color: #5E5E5E;
+<span id="cb11-16">         Song.Title <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%in%</span> loz_colbert_songs <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">~</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Loz.Colbert"</span>,</span>
-<span id="cb11-19">      Song.Title <span class="sc" style="color: #5E5E5E;
+<span id="cb11-17">         Song.Title <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%in%</span> collab_songs <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">~</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"collaboration"</span>,</span>
-<span id="cb11-20">      Song.Title <span class="sc" style="color: #5E5E5E;
+<span id="cb11-18">         Song.Title <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">%in%</span> cover_songs <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">~</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"cover"</span>,</span>
-<span id="cb11-21">      <span class="cn" style="color: #8f5902;
+<span id="cb11-19">         <span class="cn" style="color: #8f5902;
 background-color: null;
 font-style: inherit;">TRUE</span> <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">~</span> <span class="cn" style="color: #8f5902;
 background-color: null;
 font-style: inherit;">NA_character_</span></span>
-<span id="cb11-22">    ),</span>
-<span id="cb11-23">    <span class="at" style="color: #657422;
+<span id="cb11-20">         ),</span>
+<span id="cb11-21">         <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">Album =</span> <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">fct_reorder</span>(Album, Release.Date), </span>
-<span id="cb11-24">    <span class="at" style="color: #657422;
+font-style: inherit;">fct_reorder</span>(Album, Release.Date),</span>
+<span id="cb11-22">         <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">is90 =</span> Release.Year <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">2000</span></span>
-<span id="cb11-25">  )</span></code></pre></div>
+font-style: inherit;">2000</span>)</span></code></pre></div>
 </div>
 </section>
 <section id="data-analysis-1" class="level2">
@@ -2045,11 +2058,9 @@ background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb13-4"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">scale_fill_brewer</span>(<span class="at" style="color: #657422;
+font-style: inherit;">scale_fill_manual</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">palette =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'Set2'</span>) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">values =</span> ride_palette) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb13-5"><span class="fu" style="color: #4758AB;
@@ -2101,17 +2112,17 @@ font-style: inherit;">'Who writes the lyrics in each album?'</span>,</span>
 background-color: null;
 font-style: inherit;">fill =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'lyricist'</span>,</span>
+font-style: inherit;">'Lyricist'</span>,</span>
 <span id="cb13-9">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'percent'</span>, </span>
+font-style: inherit;">'Count'</span>, </span>
 <span id="cb13-10">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'album'</span></span>
+font-style: inherit;">'Album'</span></span>
 <span id="cb13-11">  )</span></code></pre></div>
 <div class="cell-output-display">
 <div>
@@ -2241,11 +2252,21 @@ background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb14-19">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">scale_fill_brewer</span>(<span class="at" style="color: #657422;
+font-style: inherit;">scale_fill_manual</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">palette =</span> <span class="st" style="color: #20794D;
+font-style: inherit;">values =</span> ride_palette, <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">'Set2'</span>) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">name =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Status'</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">labels =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'After Reunion'</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Before Reunion'</span>)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb14-20">  <span class="fu" style="color: #4758AB;
@@ -2295,15 +2316,20 @@ background-color: null;
 font-style: inherit;">'Before Reunion'</span>,</span>
 <span id="cb14-23">    <span class="at" style="color: #657422;
 background-color: null;
+font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Only top 15 frequently used words were shown.'</span>,</span>
+<span id="cb14-24">    <span class="at" style="color: #657422;
+background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Word'</span>, </span>
-<span id="cb14-24">    <span class="at" style="color: #657422;
+<span id="cb14-25">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Count'</span></span>
-<span id="cb14-25">  )</span></code></pre></div>
+<span id="cb14-26">  )</span></code></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -2428,7 +2454,7 @@ font-style: inherit;">scale_color_continuous</span>(<span class="at" style="colo
 background-color: null;
 font-style: inherit;">high =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'#0874c2'</span>, <span class="at" style="color: #657422;
+font-style: inherit;">'#a688b9'</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">low =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -2436,6 +2462,15 @@ font-style: inherit;">'#ccd8e0'</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb15-18">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">coord_fixed</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ratio =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb15-19">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -2452,29 +2487,29 @@ background-color: null;
 font-style: inherit;">1</span>)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb15-19">  <span class="fu" style="color: #4758AB;
+<span id="cb15-20">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Top 5 Words for Each Album'</span>,</span>
-<span id="cb15-20">    <span class="at" style="color: #657422;
+<span id="cb15-21">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Count'</span>,</span>
-<span id="cb15-21">    <span class="at" style="color: #657422;
+<span id="cb15-22">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Word'</span>, </span>
-<span id="cb15-22">    <span class="at" style="color: #657422;
+<span id="cb15-23">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Album'</span></span>
-<span id="cb15-23">  )</span></code></pre></div>
+<span id="cb15-24">  )</span></code></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -2638,41 +2673,60 @@ font-style: inherit;">c</span>(<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">2</span>, <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
-background-color: null;
 font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+font-style: inherit;">1</span>), <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">2</span>)) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">limits =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.5</span>,<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.5</span>)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb16-23">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">scale_fill_brewer</span>(<span class="at" style="color: #657422;
+font-style: inherit;">scale_fill_manual</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">palette =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'Set2'</span>) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">values =</span> ride_palette) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
 <span id="cb16-24">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_hline</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">yintercept =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">linetype =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'dashed'</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'black'</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb16-25">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'Who is the Most Depressed Shoegazer?'</span>,</span>
-<span id="cb16-25">    <span class="at" style="color: #657422;
+font-style: inherit;">'Who is the Saddest Lyricist?'</span>,</span>
+<span id="cb16-26">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Sentiment Score'</span>, </span>
-<span id="cb16-26">    <span class="at" style="color: #657422;
+<span id="cb16-27">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -2681,12 +2735,17 @@ background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">&lt;0: sad/negative, &gt;0: happy/positive.'</span>,</span>
-<span id="cb16-27">    <span class="at" style="color: #657422;
+<span id="cb16-28">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
+font-style: inherit;">'Lyricist'</span>,</span>
+<span id="cb16-29">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill =</span> <span class="st" style="color: #20794D;
+background-color: null;
 font-style: inherit;">'Lyricist'</span></span>
-<span id="cb16-28">  )</span></code></pre></div>
+<span id="cb16-30">  )</span></code></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -2704,7 +2763,7 @@ background-color: null;
 font-style: inherit;"># Is anyone getting more depressed over time?</span></span>
 <span id="cb17-2"><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># Affin score for each person for each album</span></span>
+font-style: inherit;"># assign affin score for each person for each album</span></span>
 <span id="cb17-3">ride_afinn_score_by_lyricist_album <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> ride_token_afinn_aa <span class="sc" style="color: #5E5E5E;
@@ -2731,15 +2790,12 @@ font-style: inherit;">/</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">sum</span>(Word_count),<span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">2</span>))</span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>`summarise()` has grouped output by 'lyricist', 'Album'. You can override using
-the `.groups` argument.</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><span class="co" style="color: #5E5E5E;
+font-style: inherit;">2</span>))</span>
+<span id="cb17-6"></span>
+<span id="cb17-7"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># geom_line()must work with numeric factor</span></span>
-<span id="cb19-2">ride_afinn_score_by_lyricist_album<span class="sc" style="color: #5E5E5E;
+<span id="cb17-8">ride_afinn_score_by_lyricist_album<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span>Album_num <span class="ot" style="color: #003B4F;
 background-color: null;
@@ -2748,14 +2804,14 @@ background-color: null;
 font-style: inherit;">as.numeric</span>(ride_afinn_score_by_lyricist_album<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span>Album)</span>
-<span id="cb19-3"></span>
-<span id="cb19-4"><span class="co" style="color: #5E5E5E;
+<span id="cb17-9"></span>
+<span id="cb17-10"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># plotting</span></span>
-<span id="cb19-5"><span class="fu" style="color: #4758AB;
+<span id="cb17-11"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">ggplot</span>(ride_afinn_score_by_lyricist_album, </span>
-<span id="cb19-6">       <span class="fu" style="color: #4758AB;
+<span id="cb17-12">       <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -2770,7 +2826,7 @@ background-color: null;
 font-style: inherit;">label =</span> Album)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb19-7">  <span class="fu" style="color: #4758AB;
+<span id="cb17-13">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_point</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -2779,37 +2835,50 @@ background-color: null;
 font-style: inherit;">3</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span> </span>
-<span id="cb19-8">  <span class="fu" style="color: #4758AB;
+<span id="cb17-14">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_line</span>() <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb19-9">  <span class="fu" style="color: #4758AB;
+<span id="cb17-15">  <span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">scale_color_brewer</span>(<span class="at" style="color: #657422;
+font-style: inherit;">scale_color_manual</span>(<span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">palette =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'Set2'</span>) <span class="sc" style="color: #5E5E5E;
+font-style: inherit;">values =</span> ride_palette) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb19-10">  <span class="fu" style="color: #4758AB;
+<span id="cb17-16">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">scale_x_continuous</span>(</span>
-<span id="cb19-11">    <span class="at" style="color: #657422;
+<span id="cb17-17">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">breaks =</span> ride_afinn_score_by_lyricist_album<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span>Album_num,</span>
-<span id="cb19-12">    <span class="at" style="color: #657422;
+<span id="cb17-18">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">labels =</span> ride_afinn_score_by_lyricist_album<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">$</span>Album</span>
-<span id="cb19-13">  ) <span class="sc" style="color: #5E5E5E;
+<span id="cb17-19">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb19-14">  <span class="fu" style="color: #4758AB;
+<span id="cb17-20">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_y_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">limits =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb17-21">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">geom_hline</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -2826,7 +2895,7 @@ background-color: null;
 font-style: inherit;">'black'</span>) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb19-15">  <span class="fu" style="color: #4758AB;
+<span id="cb17-22">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -2843,15 +2912,15 @@ background-color: null;
 font-style: inherit;">1</span>)) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb19-16">  <span class="fu" style="color: #4758AB;
+<span id="cb17-23">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">labs</span>(</span>
-<span id="cb19-17">    <span class="at" style="color: #657422;
+<span id="cb17-24">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Sentiment Trend of Lyrics Over Time'</span>,</span>
-<span id="cb19-18">    <span class="at" style="color: #657422;
+<span id="cb17-25">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -2860,22 +2929,22 @@ background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">&lt;0: sad/negative, &gt;0: happy/positive.'</span>,</span>
-<span id="cb19-19">    <span class="at" style="color: #657422;
+<span id="cb17-26">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'lyricist'</span>,</span>
-<span id="cb19-20">    <span class="at" style="color: #657422;
+<span id="cb17-27">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Sentiment Score'</span>, </span>
-<span id="cb19-21">    <span class="at" style="color: #657422;
+<span id="cb17-28">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Album'</span></span>
-<span id="cb19-22">  )</span></code></pre></div>
+<span id="cb17-29">  )</span></code></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">

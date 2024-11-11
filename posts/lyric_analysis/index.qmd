@@ -70,10 +70,10 @@ kable(head(lyrics, n = 1))
 |----------------|-----------|-------------------------------------------|
 | `Track.Number` | Integer   | The track number of the song in the album |
 | `Song.Title`   | String    | The title of the song                     |
-| `Album.Name`   | String    | The name of the album the song belongs to |
 | `Artist`       | String    | The artist performing the song            |
 | `Release.Date` | String    | The date the song was released            |
 | `Lyrics`       | String    | The lyrics of the song                    |
+| `Album.Name`   | String    | The name of the album the song belongs to |
 
 ### Data Wrangling
 
@@ -315,6 +315,7 @@ ggplot(afinn_score,
   geom_text_repel(size = 3) +
   geom_hline(yintercept = 0, linetype = 'dashed', color = 'black') +
   scale_color_manual(values = palette) +
+  scale_y_continuous(limits = c(-1,1)) +
   labs(
     title = 'Sentiment Trend of Lyrics Over Time',
     subtitle = 'The bands are saddest around 1990.',
@@ -330,9 +331,9 @@ When examining the trend over time, it is noteworthy that at the beginning of th
 ::: callout-note
 **Packages Used**
 
-* `Tidyverse`: `%>%`, `group_by()`, `mutate()`, `arrange()`, `filter()`, etc.
+-   `Tidyverse`: `%>%`, `group_by()`, `mutate()`, `arrange()`, `filter()`, etc.
 
-* `ggplot2`: `geom_text_repel()`, `geom_point()`, `geom_boxplot()`, etc.
+-   `ggplot2`: `geom_text_repel()`, `geom_point()`, `geom_boxplot()`, etc.
 :::
 
 # Bonus
@@ -340,15 +341,38 @@ When examining the trend over time, it is noteworthy that at the beginning of th
 Here Comes the Ride Fan!
 
 ::: callout-warning
-This is not a part of the 140.777 homework but I'm a huge fan of this band so I did this for my own good!
+This is not a part of the class project, but I'm a huge fan of this band so I did this for my own good!
 :::
 
 ## Data Wrangling
 
-```{r ride data processing}
+Information about lyric writers were from interviews and record sleeves.
+
+```{r ride color, echo = FALSE, warning = FALSE, message = FALSE}
+# a ride palette!
+ride_palette <- c(
+  '#d2e2e2',
+  '#93d6de',
+  '#a688b9',
+  '#b08c8f',
+  '#74badd',
+  '#c3c577',
+  '#9cc789', 
+  '#f7c75d',
+  '#f3f06a',
+  '#ee6352',
+  '#e87d87',
+  '#6c7ec4',
+  '#7e738b',
+  '#7d7d7d',
+  '#45b1b8',
+  '#e9de9d'
+)
+```
+
+```{r ride data processing, warning = FALSE, message = FALSE}
 # assign lyricist
-andy_bell_songs <- c("Drive Blind", "Close My Eyes", "Like A Daydream",
-"Silver", "Dreams Burn Down", "Here And Now", "Seagull", "Kaleidoscope", "In a Different Place", "Polar Bear", "Paralysed", "Vapour Trail", "Sennen", "Beneath", "Today", "Not Fazed", "Chrome Waves", "Time of Her Time", "Cool Your Boots", "Making Judy Smile", "Going Blank Again", "Howard Hughes", "Birdman", "Crown of Creation", "Endless Road", "Magical Spring", "I Don’t Know Where It Comes From", "Sunshine/Nowhere To Run", "Dead Man", "Walk on Water", "Mary Anne", "Castle On The Hill", "Gonna Be Alright", "The Dawn Patrol", "Ride The Wind", "Burnin’", "Starlight Motel", "Charm Assault", "Home Is A Feeling", "Weather Diaries", "Lateral Alice", "Cali", "Impermanence","Cold Water People", "Catch You Dreaming", "Future Love", "Repetition", "Kill Switch", "Clouds of Saint Marie", "Fifteen Minutes", "Jump Jet", "Dial Up", "End Game", "In This Room", "Peace Sign", "Last Frontier", "Light in a Quiet Room", "Stay Free", "Last Night I Went Somewhere to Dream", "Midnight Rider", "Portland Rocks", "Yesterday Is Just a Song")
+andy_bell_songs <- c("Drive Blind", "Close My Eyes", "Like A Daydream", "Silver", "Dreams Burn Down", "Here And Now", "Seagull", "Kaleidoscope", "In a Different Place", "Polar Bear", "Paralysed", "Vapour Trail", "Sennen", "Beneath", "Today", "Not Fazed", "Chrome Waves", "Time of Her Time", "Cool Your Boots", "Making Judy Smile", "Going Blank Again", "Howard Hughes", "Birdman", "Crown of Creation", "Endless Road", "Magical Spring", "I Don’t Know Where It Comes From", "Sunshine/Nowhere To Run", "Dead Man", "Walk on Water", "Mary Anne", "Castle On The Hill", "Gonna Be Alright", "The Dawn Patrol", "Ride The Wind", "Burnin’", "Starlight Motel", "Charm Assault", "Home Is A Feeling", "Weather Diaries", "Lateral Alice", "Cali", "Impermanence","Cold Water People", "Catch You Dreaming", "Future Love", "Repetition", "Kill Switch", "Clouds of Saint Marie", "Fifteen Minutes", "Jump Jet", "Dial Up", "End Game", "In This Room", "Peace Sign", "Last Frontier", "Light in a Quiet Room", "Stay Free", "Last Night I Went Somewhere to Dream", "Midnight Rider", "Portland Rocks", "Yesterday Is Just a Song")
 
 mark_gardener_songs <- c("Chelsea Girl", "All I Can See", "Furthest Sense", "Perfect Time", "Taste", "Decay", "Unfamiliar", "Leave Them All Behind", "Twisterella", "Mouse Trap", "Time Machine", "OX4", "Stampede", "Moonlight Medicine", "1000 Miles", "From Time To Time", "Only Now", "Deep Inside My Pocket", "Lannoy Point", "White Sands", "Pulsar", "Keep It Surreal", "Shadows Behind the Sun", "Monaco", "I Came to See the Wreck", "Sunrise Chaser", "Essaouira")
 
@@ -359,23 +383,22 @@ collab_songs <- c("All I Want", "Eternal Recurrence")
 cover_songs <- c("How Does It Feel to Feel?")
 
 lyrics_ride <- lyrics_ride %>%
-  mutate(
-    lyricist = case_when(
-      Song.Title %in% andy_bell_songs ~ "Andy.Bell",
-      Song.Title %in% mark_gardener_songs ~ "Mark.Gardener",
-      Song.Title %in% loz_colbert_songs ~ "Loz.Colbert",
-      Song.Title %in% collab_songs ~ "collaboration",
-      Song.Title %in% cover_songs ~ "cover",
-      TRUE ~ NA_character_
-    ),
-    Album = fct_reorder(Album, Release.Date), 
-    is90 = Release.Year < 2000
-  )
+  mutate(lyricist = case_when(
+         Song.Title %in% andy_bell_songs ~ "Andy.Bell",
+         Song.Title %in% mark_gardener_songs ~ "Mark.Gardener",
+         Song.Title %in% loz_colbert_songs ~ "Loz.Colbert",
+         Song.Title %in% collab_songs ~ "collaboration",
+         Song.Title %in% cover_songs ~ "cover",
+         TRUE ~ NA_character_
+         ),
+         Album = fct_reorder(Album, Release.Date),
+         is90 = Release.Year < 2000)
 ```
+
 
 ## Data Analysis
 
-```{r ride tokenize}
+```{r ride tokenize, warning = FALSE, message = FALSE}
 # tokenize
 # tokenize by word
 ride_token <- lyrics_ride %>%
@@ -396,23 +419,23 @@ ride_token_clean <- ride_token_unique %>%
 
 ### Who writes the lyrics in each album?
 
-```{r ride who writes what}
+```{r ride who writes what, warning = FALSE, message = FALSE}
 # who writes what
 ggplot(lyrics_ride, aes(x = Album, fill = lyricist)) +
 geom_bar() +
-scale_fill_brewer(palette = 'Set2') +
+scale_fill_manual(values = ride_palette) +
 scale_y_continuous(breaks = 1:12, minor_breaks = 1:12) +
 theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   labs(title = 'Who writes the lyrics in each album?',
-    fill = 'lyricist',
-    y = 'percent', 
-    x = 'album'
+    fill = 'Lyricist',
+    y = 'Count', 
+    x = 'Album'
   )
 ```
 
 ### What's the most frequently used words for each lyricist before/after reunion?
 
-```{r ride most frequent words}
+```{r ride most frequent words, warning = FALSE, message = FALSE}
 # count - lyricist, is90
 ride_token_count <- ride_token_clean %>%
   group_by(lyricist, is90) %>%
@@ -431,10 +454,11 @@ ride_token_count_head_bylyricist <- ride_token_count %>%
 ggplot(ride_token_count_head_bylyricist, aes(x = Word_count, y = Word, fill = is90)) +
   geom_col() +
   facet_wrap( ~ lyricist) +
-  scale_fill_brewer(palette = 'Set2') +
+  scale_fill_manual(values = ride_palette, name = 'Status', labels = c('After Reunion', 'Before Reunion')) +
   scale_x_continuous(breaks = c(0, 5, 10, 15, 20, 25), minor_breaks = 1:25) +
   labs(title = "What's the most frequently used words for each lyricist\nbefore/after reunion?",
     fill = 'Before Reunion',
+    caption = 'Only top 15 frequently used words were shown.',
     y = 'Word', 
     x = 'Count'
   )
@@ -442,7 +466,7 @@ ggplot(ride_token_count_head_bylyricist, aes(x = Word_count, y = Word, fill = is
 
 ### Top 5 Words for Each Album
 
-```{r ride the word for each album}
+```{r ride the word for each album, warning = FALSE, message = FALSE}
 # The Word for each album?
 ride_token_count_album <- ride_token_clean %>%
   group_by(Album) %>%
@@ -459,7 +483,8 @@ ride_token_count_album_head <- ride_token_count_album %>%
 # plotting
 ggplot(ride_token_count_album_head, aes(x = Album, y = Word, label = Word)) +
   geom_text(size = 3, aes(color = Word_count)) +
-  scale_color_continuous(high = '#0874c2', low = '#ccd8e0') +
+  scale_color_continuous(high = '#a688b9', low = '#ccd8e0') +
+  coord_fixed(ratio = 0.3) + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   labs(title = 'Top 5 Words for Each Album',
     color = 'Count',
@@ -468,9 +493,9 @@ ggplot(ride_token_count_album_head, aes(x = Album, y = Word, label = Word)) +
   )
 ```
 
-### Who is the Most Depressed Shoegazer?
+### Who is the Saddest Lyricist?
 
-```{r ride who is more depressed}
+```{r ride who is more depressed, warning = FALSE, message = FALSE}
 # who is more depressed
 ride_token_count_aa <- ride_token_clean %>%
   group_by(lyricist, Album, Release.Date) %>%
@@ -492,25 +517,27 @@ ride_afinn_score_by_lyricist <- ride_token_afinn_aa %>%
 ggplot(ride_afinn_score_by_lyricist, aes(x = lyricist, y = weighted_avg, fill = lyricist, label = weighted_avg)) +
   geom_col() +
   geom_text() +
-  scale_y_continuous(breaks = c(-2, -1, 0, 1, 2)) +
-  scale_fill_brewer(palette = 'Set2') +
-  labs(title = 'Who is the Most Depressed Shoegazer?',
+  scale_y_continuous(breaks = c(-1, 0, 1), limits = c(-1.5,1.5)) +
+  scale_fill_manual(values = ride_palette) +
+  geom_hline(yintercept = 0, linetype = 'dashed', color = 'black') +
+  labs(title = 'Who is the Saddest Lyricist?',
     y = 'Sentiment Score', 
     caption = 'Average sentiment score calculated based on afinn scores.\n<0: sad/negative, >0: happy/positive.',
-    x = 'Lyricist'
+    x = 'Lyricist',
+    fill = 'Lyricist'
   )
 ```
 
 ### Are they trending towards happiness or sadness over time?
 
-```{r ride who is getting more depressed}
+```{r ride who is getting more depressed, warning = FALSE, message = FALSE}
 # Is anyone getting more depressed over time?
-# Affin score for each person for each album
+# assign affin score for each person for each album
 ride_afinn_score_by_lyricist_album <- ride_token_afinn_aa %>%
   group_by(lyricist, Album, Release.Date) %>%
   summarize(weighted_avg = round(sum(value * Word_count) / sum(Word_count),2))
 
-# geom_line()must work with numeric factor
+# geom_line() must work with numeric factor
 ride_afinn_score_by_lyricist_album$Album_num <- as.numeric(ride_afinn_score_by_lyricist_album$Album)
 
 # plotting
@@ -518,11 +545,12 @@ ggplot(ride_afinn_score_by_lyricist_album,
        aes(x = Album_num, y = weighted_avg, color = lyricist, shape = lyricist, label = Album)) +
   geom_point(size = 3) + 
   geom_line() +
-  scale_color_brewer(palette = 'Set2') +
+  scale_color_manual(values = ride_palette) +
   scale_x_continuous(
     breaks = ride_afinn_score_by_lyricist_album$Album_num,
     labels = ride_afinn_score_by_lyricist_album$Album
   ) +
+  scale_y_continuous(limits = c(-2,2)) +
   geom_hline(yintercept = 0, linetype = 'dashed', color = 'black') +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   labs(
@@ -533,4 +561,3 @@ ggplot(ride_afinn_score_by_lyricist_album,
     x = 'Album'
   )
 ```
-

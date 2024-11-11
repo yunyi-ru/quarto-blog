@@ -748,14 +748,15 @@ Warning
 <span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text_repel</span>(<span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
 <span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">'dashed'</span>, <span class="at">color =</span> <span class="st">'black'</span>) <span class="sc">+</span></span>
 <span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> palette) <span class="sc">+</span></span>
-<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">'Sentiment Trend of Lyrics Over Time'</span>,</span>
-<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">'The bands are saddest around 1990.'</span>,</span>
-<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Average sentiment score calculated based on afinn scores.</span><span class="sc">\n</span><span class="st">&lt;0: sad/negative, &gt;0: happy/positive.'</span>,</span>
-<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">'Artist'</span>,</span>
-<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Sentiment Score'</span>, </span>
-<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Time'</span></span>
-<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">1</span>,<span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">'Sentiment Trend of Lyrics Over Time'</span>,</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">'The bands are saddest around 1990.'</span>,</span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Average sentiment score calculated based on afinn scores.</span><span class="sc">\n</span><span class="st">&lt;0: sad/negative, &gt;0: happy/positive.'</span>,</span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">'Artist'</span>,</span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Sentiment Score'</span>, </span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Time'</span></span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -798,37 +799,35 @@ Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This is not a part of the 140.777 homework but I’m a huge fan of this band so I did this for my own good!</p>
+<p>This is not a part of the class project, but I’m a huge fan of this band so I did this for my own good!</p>
 </div>
 </div>
 <section id="data-wrangling-1" class="level2">
 <h2 class="anchored" data-anchor-id="data-wrangling-1">Data Wrangling</h2>
+<p>Information about lyric writers were from interviews and record sleeves.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># assign lyricist</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>andy_bell_songs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Drive Blind"</span>, <span class="st">"Close My Eyes"</span>, <span class="st">"Like A Daydream"</span>,</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="st">"Silver"</span>, <span class="st">"Dreams Burn Down"</span>, <span class="st">"Here And Now"</span>, <span class="st">"Seagull"</span>, <span class="st">"Kaleidoscope"</span>, <span class="st">"In a Different Place"</span>, <span class="st">"Polar Bear"</span>, <span class="st">"Paralysed"</span>, <span class="st">"Vapour Trail"</span>, <span class="st">"Sennen"</span>, <span class="st">"Beneath"</span>, <span class="st">"Today"</span>, <span class="st">"Not Fazed"</span>, <span class="st">"Chrome Waves"</span>, <span class="st">"Time of Her Time"</span>, <span class="st">"Cool Your Boots"</span>, <span class="st">"Making Judy Smile"</span>, <span class="st">"Going Blank Again"</span>, <span class="st">"Howard Hughes"</span>, <span class="st">"Birdman"</span>, <span class="st">"Crown of Creation"</span>, <span class="st">"Endless Road"</span>, <span class="st">"Magical Spring"</span>, <span class="st">"I Don’t Know Where It Comes From"</span>, <span class="st">"Sunshine/Nowhere To Run"</span>, <span class="st">"Dead Man"</span>, <span class="st">"Walk on Water"</span>, <span class="st">"Mary Anne"</span>, <span class="st">"Castle On The Hill"</span>, <span class="st">"Gonna Be Alright"</span>, <span class="st">"The Dawn Patrol"</span>, <span class="st">"Ride The Wind"</span>, <span class="st">"Burnin’"</span>, <span class="st">"Starlight Motel"</span>, <span class="st">"Charm Assault"</span>, <span class="st">"Home Is A Feeling"</span>, <span class="st">"Weather Diaries"</span>, <span class="st">"Lateral Alice"</span>, <span class="st">"Cali"</span>, <span class="st">"Impermanence"</span>,<span class="st">"Cold Water People"</span>, <span class="st">"Catch You Dreaming"</span>, <span class="st">"Future Love"</span>, <span class="st">"Repetition"</span>, <span class="st">"Kill Switch"</span>, <span class="st">"Clouds of Saint Marie"</span>, <span class="st">"Fifteen Minutes"</span>, <span class="st">"Jump Jet"</span>, <span class="st">"Dial Up"</span>, <span class="st">"End Game"</span>, <span class="st">"In This Room"</span>, <span class="st">"Peace Sign"</span>, <span class="st">"Last Frontier"</span>, <span class="st">"Light in a Quiet Room"</span>, <span class="st">"Stay Free"</span>, <span class="st">"Last Night I Went Somewhere to Dream"</span>, <span class="st">"Midnight Rider"</span>, <span class="st">"Portland Rocks"</span>, <span class="st">"Yesterday Is Just a Song"</span>)</span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>mark_gardener_songs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Chelsea Girl"</span>, <span class="st">"All I Can See"</span>, <span class="st">"Furthest Sense"</span>, <span class="st">"Perfect Time"</span>, <span class="st">"Taste"</span>, <span class="st">"Decay"</span>, <span class="st">"Unfamiliar"</span>, <span class="st">"Leave Them All Behind"</span>, <span class="st">"Twisterella"</span>, <span class="st">"Mouse Trap"</span>, <span class="st">"Time Machine"</span>, <span class="st">"OX4"</span>, <span class="st">"Stampede"</span>, <span class="st">"Moonlight Medicine"</span>, <span class="st">"1000 Miles"</span>, <span class="st">"From Time To Time"</span>, <span class="st">"Only Now"</span>, <span class="st">"Deep Inside My Pocket"</span>, <span class="st">"Lannoy Point"</span>, <span class="st">"White Sands"</span>, <span class="st">"Pulsar"</span>, <span class="st">"Keep It Surreal"</span>, <span class="st">"Shadows Behind the Sun"</span>, <span class="st">"Monaco"</span>, <span class="st">"I Came to See the Wreck"</span>, <span class="st">"Sunrise Chaser"</span>, <span class="st">"Essaouira"</span>)</span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>loz_colbert_songs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Nowhere"</span>, <span class="st">"Natural Grace"</span>, <span class="st">"Rocket Silver Symphony"</span>, <span class="st">"R.I.D.E."</span>)</span>
-<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>collab_songs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"All I Want"</span>, <span class="st">"Eternal Recurrence"</span>)</span>
-<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>cover_songs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"How Does It Feel to Feel?"</span>)</span>
-<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>lyrics_ride <span class="ot">&lt;-</span> lyrics_ride <span class="sc">%&gt;%</span></span>
-<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">lyricist =</span> <span class="fu">case_when</span>(</span>
-<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>      Song.Title <span class="sc">%in%</span> andy_bell_songs <span class="sc">~</span> <span class="st">"Andy.Bell"</span>,</span>
-<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>      Song.Title <span class="sc">%in%</span> mark_gardener_songs <span class="sc">~</span> <span class="st">"Mark.Gardener"</span>,</span>
-<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>      Song.Title <span class="sc">%in%</span> loz_colbert_songs <span class="sc">~</span> <span class="st">"Loz.Colbert"</span>,</span>
-<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>      Song.Title <span class="sc">%in%</span> collab_songs <span class="sc">~</span> <span class="st">"collaboration"</span>,</span>
-<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>      Song.Title <span class="sc">%in%</span> cover_songs <span class="sc">~</span> <span class="st">"cover"</span>,</span>
-<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span></span>
-<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>    ),</span>
-<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">Album =</span> <span class="fu">fct_reorder</span>(Album, Release.Date), </span>
-<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">is90 =</span> Release.Year <span class="sc">&lt;</span> <span class="dv">2000</span></span>
-<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>andy_bell_songs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Drive Blind"</span>, <span class="st">"Close My Eyes"</span>, <span class="st">"Like A Daydream"</span>, <span class="st">"Silver"</span>, <span class="st">"Dreams Burn Down"</span>, <span class="st">"Here And Now"</span>, <span class="st">"Seagull"</span>, <span class="st">"Kaleidoscope"</span>, <span class="st">"In a Different Place"</span>, <span class="st">"Polar Bear"</span>, <span class="st">"Paralysed"</span>, <span class="st">"Vapour Trail"</span>, <span class="st">"Sennen"</span>, <span class="st">"Beneath"</span>, <span class="st">"Today"</span>, <span class="st">"Not Fazed"</span>, <span class="st">"Chrome Waves"</span>, <span class="st">"Time of Her Time"</span>, <span class="st">"Cool Your Boots"</span>, <span class="st">"Making Judy Smile"</span>, <span class="st">"Going Blank Again"</span>, <span class="st">"Howard Hughes"</span>, <span class="st">"Birdman"</span>, <span class="st">"Crown of Creation"</span>, <span class="st">"Endless Road"</span>, <span class="st">"Magical Spring"</span>, <span class="st">"I Don’t Know Where It Comes From"</span>, <span class="st">"Sunshine/Nowhere To Run"</span>, <span class="st">"Dead Man"</span>, <span class="st">"Walk on Water"</span>, <span class="st">"Mary Anne"</span>, <span class="st">"Castle On The Hill"</span>, <span class="st">"Gonna Be Alright"</span>, <span class="st">"The Dawn Patrol"</span>, <span class="st">"Ride The Wind"</span>, <span class="st">"Burnin’"</span>, <span class="st">"Starlight Motel"</span>, <span class="st">"Charm Assault"</span>, <span class="st">"Home Is A Feeling"</span>, <span class="st">"Weather Diaries"</span>, <span class="st">"Lateral Alice"</span>, <span class="st">"Cali"</span>, <span class="st">"Impermanence"</span>,<span class="st">"Cold Water People"</span>, <span class="st">"Catch You Dreaming"</span>, <span class="st">"Future Love"</span>, <span class="st">"Repetition"</span>, <span class="st">"Kill Switch"</span>, <span class="st">"Clouds of Saint Marie"</span>, <span class="st">"Fifteen Minutes"</span>, <span class="st">"Jump Jet"</span>, <span class="st">"Dial Up"</span>, <span class="st">"End Game"</span>, <span class="st">"In This Room"</span>, <span class="st">"Peace Sign"</span>, <span class="st">"Last Frontier"</span>, <span class="st">"Light in a Quiet Room"</span>, <span class="st">"Stay Free"</span>, <span class="st">"Last Night I Went Somewhere to Dream"</span>, <span class="st">"Midnight Rider"</span>, <span class="st">"Portland Rocks"</span>, <span class="st">"Yesterday Is Just a Song"</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>mark_gardener_songs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Chelsea Girl"</span>, <span class="st">"All I Can See"</span>, <span class="st">"Furthest Sense"</span>, <span class="st">"Perfect Time"</span>, <span class="st">"Taste"</span>, <span class="st">"Decay"</span>, <span class="st">"Unfamiliar"</span>, <span class="st">"Leave Them All Behind"</span>, <span class="st">"Twisterella"</span>, <span class="st">"Mouse Trap"</span>, <span class="st">"Time Machine"</span>, <span class="st">"OX4"</span>, <span class="st">"Stampede"</span>, <span class="st">"Moonlight Medicine"</span>, <span class="st">"1000 Miles"</span>, <span class="st">"From Time To Time"</span>, <span class="st">"Only Now"</span>, <span class="st">"Deep Inside My Pocket"</span>, <span class="st">"Lannoy Point"</span>, <span class="st">"White Sands"</span>, <span class="st">"Pulsar"</span>, <span class="st">"Keep It Surreal"</span>, <span class="st">"Shadows Behind the Sun"</span>, <span class="st">"Monaco"</span>, <span class="st">"I Came to See the Wreck"</span>, <span class="st">"Sunrise Chaser"</span>, <span class="st">"Essaouira"</span>)</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>loz_colbert_songs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Nowhere"</span>, <span class="st">"Natural Grace"</span>, <span class="st">"Rocket Silver Symphony"</span>, <span class="st">"R.I.D.E."</span>)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>collab_songs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"All I Want"</span>, <span class="st">"Eternal Recurrence"</span>)</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>cover_songs <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"How Does It Feel to Feel?"</span>)</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>lyrics_ride <span class="ot">&lt;-</span> lyrics_ride <span class="sc">%&gt;%</span></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">lyricist =</span> <span class="fu">case_when</span>(</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>         Song.Title <span class="sc">%in%</span> andy_bell_songs <span class="sc">~</span> <span class="st">"Andy.Bell"</span>,</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>         Song.Title <span class="sc">%in%</span> mark_gardener_songs <span class="sc">~</span> <span class="st">"Mark.Gardener"</span>,</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>         Song.Title <span class="sc">%in%</span> loz_colbert_songs <span class="sc">~</span> <span class="st">"Loz.Colbert"</span>,</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>         Song.Title <span class="sc">%in%</span> collab_songs <span class="sc">~</span> <span class="st">"collaboration"</span>,</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>         Song.Title <span class="sc">%in%</span> cover_songs <span class="sc">~</span> <span class="st">"cover"</span>,</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>         <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">NA_character_</span></span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>         ),</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>         <span class="at">Album =</span> <span class="fu">fct_reorder</span>(Album, Release.Date),</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>         <span class="at">is90 =</span> Release.Year <span class="sc">&lt;</span> <span class="dv">2000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="data-analysis-1" class="level2">
@@ -857,13 +856,13 @@ Warning
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># who writes what</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(lyrics_ride, <span class="fu">aes</span>(<span class="at">x =</span> Album, <span class="at">fill =</span> lyricist)) <span class="sc">+</span></span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">geom_bar</span>() <span class="sc">+</span></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="fu">scale_fill_brewer</span>(<span class="at">palette =</span> <span class="st">'Set2'</span>) <span class="sc">+</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="fu">scale_fill_manual</span>(<span class="at">values =</span> ride_palette) <span class="sc">+</span></span>
 <span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">12</span>, <span class="at">minor_breaks =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">12</span>) <span class="sc">+</span></span>
 <span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))<span class="sc">+</span></span>
 <span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">'Who writes the lyrics in each album?'</span>,</span>
-<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">'lyricist'</span>,</span>
-<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'percent'</span>, </span>
-<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'album'</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">'Lyricist'</span>,</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Count'</span>, </span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Album'</span></span>
 <span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
@@ -895,13 +894,14 @@ Warning
 <span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(ride_token_count_head_bylyricist, <span class="fu">aes</span>(<span class="at">x =</span> Word_count, <span class="at">y =</span> Word, <span class="at">fill =</span> is90)) <span class="sc">+</span></span>
 <span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
 <span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>( <span class="sc">~</span> lyricist) <span class="sc">+</span></span>
-<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_brewer</span>(<span class="at">palette =</span> <span class="st">'Set2'</span>) <span class="sc">+</span></span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> ride_palette, <span class="at">name =</span> <span class="st">'Status'</span>, <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">'After Reunion'</span>, <span class="st">'Before Reunion'</span>)) <span class="sc">+</span></span>
 <span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">10</span>, <span class="dv">15</span>, <span class="dv">20</span>, <span class="dv">25</span>), <span class="at">minor_breaks =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">25</span>) <span class="sc">+</span></span>
 <span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"What's the most frequently used words for each lyricist</span><span class="sc">\n</span><span class="st">before/after reunion?"</span>,</span>
 <span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">'Before Reunion'</span>,</span>
-<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Word'</span>, </span>
-<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Count'</span></span>
-<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Only top 15 frequently used words were shown.'</span>,</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Word'</span>, </span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Count'</span></span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -930,13 +930,14 @@ Warning
 <span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting</span></span>
 <span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(ride_token_count_album_head, <span class="fu">aes</span>(<span class="at">x =</span> Album, <span class="at">y =</span> Word, <span class="at">label =</span> Word)) <span class="sc">+</span></span>
 <span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="at">size =</span> <span class="dv">3</span>, <span class="fu">aes</span>(<span class="at">color =</span> Word_count)) <span class="sc">+</span></span>
-<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_continuous</span>(<span class="at">high =</span> <span class="st">'#0874c2'</span>, <span class="at">low =</span> <span class="st">'#ccd8e0'</span>) <span class="sc">+</span></span>
-<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>)) <span class="sc">+</span></span>
-<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">'Top 5 Words for Each Album'</span>,</span>
-<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">'Count'</span>,</span>
-<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Word'</span>, </span>
-<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Album'</span></span>
-<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_continuous</span>(<span class="at">high =</span> <span class="st">'#a688b9'</span>, <span class="at">low =</span> <span class="st">'#ccd8e0'</span>) <span class="sc">+</span></span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_fixed</span>(<span class="at">ratio =</span> <span class="fl">0.3</span>) <span class="sc">+</span> </span>
+<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">'Top 5 Words for Each Album'</span>,</span>
+<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">'Count'</span>,</span>
+<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Word'</span>, </span>
+<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Album'</span></span>
+<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -970,13 +971,15 @@ Warning
 <span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(ride_afinn_score_by_lyricist, <span class="fu">aes</span>(<span class="at">x =</span> lyricist, <span class="at">y =</span> weighted_avg, <span class="at">fill =</span> lyricist, <span class="at">label =</span> weighted_avg)) <span class="sc">+</span></span>
 <span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
 <span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>() <span class="sc">+</span></span>
-<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">2</span>, <span class="sc">-</span><span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>)) <span class="sc">+</span></span>
-<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_brewer</span>(<span class="at">palette =</span> <span class="st">'Set2'</span>) <span class="sc">+</span></span>
-<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">'Who is the Most Depressed Shoegazer?'</span>,</span>
-<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Sentiment Score'</span>, </span>
-<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Average sentiment score calculated based on afinn scores.</span><span class="sc">\n</span><span class="st">&lt;0: sad/negative, &gt;0: happy/positive.'</span>,</span>
-<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Lyricist'</span></span>
-<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>), <span class="at">limits =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="fl">1.5</span>,<span class="fl">1.5</span>)) <span class="sc">+</span></span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> ride_palette) <span class="sc">+</span></span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">'dashed'</span>, <span class="at">color =</span> <span class="st">'black'</span>) <span class="sc">+</span></span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">'Who is the Saddest Lyricist?'</span>,</span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Sentiment Score'</span>, </span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Average sentiment score calculated based on afinn scores.</span><span class="sc">\n</span><span class="st">&lt;0: sad/negative, &gt;0: happy/positive.'</span>,</span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Lyricist'</span>,</span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> <span class="st">'Lyricist'</span></span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -990,36 +993,34 @@ Warning
 <h3 class="anchored" data-anchor-id="are-they-trending-towards-happiness-or-sadness-over-time">Are they trending towards happiness or sadness over time?</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Is anyone getting more depressed over time?</span></span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Affin score for each person for each album</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co"># assign affin score for each person for each album</span></span>
 <span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>ride_afinn_score_by_lyricist_album <span class="ot">&lt;-</span> ride_token_afinn_aa <span class="sc">%&gt;%</span></span>
 <span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(lyricist, Album, Release.Date) <span class="sc">%&gt;%</span></span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">weighted_avg =</span> <span class="fu">round</span>(<span class="fu">sum</span>(value <span class="sc">*</span> Word_count) <span class="sc">/</span> <span class="fu">sum</span>(Word_count),<span class="dv">2</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>`summarise()` has grouped output by 'lyricist', 'Album'. You can override using
-the `.groups` argument.</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># geom_line()must work with numeric factor</span></span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>ride_afinn_score_by_lyricist_album<span class="sc">$</span>Album_num <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(ride_afinn_score_by_lyricist_album<span class="sc">$</span>Album)</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting</span></span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(ride_afinn_score_by_lyricist_album, </span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> Album_num, <span class="at">y =</span> weighted_avg, <span class="at">color =</span> lyricist, <span class="at">shape =</span> lyricist, <span class="at">label =</span> Album)) <span class="sc">+</span></span>
-<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span> </span>
-<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
-<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_brewer</span>(<span class="at">palette =</span> <span class="st">'Set2'</span>) <span class="sc">+</span></span>
-<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(</span>
-<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">breaks =</span> ride_afinn_score_by_lyricist_album<span class="sc">$</span>Album_num,</span>
-<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">labels =</span> ride_afinn_score_by_lyricist_album<span class="sc">$</span>Album</span>
-<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">'dashed'</span>, <span class="at">color =</span> <span class="st">'black'</span>) <span class="sc">+</span></span>
-<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>)) <span class="sc">+</span></span>
-<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">'Sentiment Trend of Lyrics Over Time'</span>,</span>
-<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Average sentiment score calculated based on afinn scores.</span><span class="sc">\n</span><span class="st">&lt;0: sad/negative, &gt;0: happy/positive.'</span>,</span>
-<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">'lyricist'</span>,</span>
-<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Sentiment Score'</span>, </span>
-<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Album'</span></span>
-<span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">weighted_avg =</span> <span class="fu">round</span>(<span class="fu">sum</span>(value <span class="sc">*</span> Word_count) <span class="sc">/</span> <span class="fu">sum</span>(Word_count),<span class="dv">2</span>))</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="co"># geom_line()must work with numeric factor</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>ride_afinn_score_by_lyricist_album<span class="sc">$</span>Album_num <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(ride_afinn_score_by_lyricist_album<span class="sc">$</span>Album)</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting</span></span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(ride_afinn_score_by_lyricist_album, </span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> Album_num, <span class="at">y =</span> weighted_avg, <span class="at">color =</span> lyricist, <span class="at">shape =</span> lyricist, <span class="at">label =</span> Album)) <span class="sc">+</span></span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span> </span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> ride_palette) <span class="sc">+</span></span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(</span>
+<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">breaks =</span> ride_afinn_score_by_lyricist_album<span class="sc">$</span>Album_num,</span>
+<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">labels =</span> ride_afinn_score_by_lyricist_album<span class="sc">$</span>Album</span>
+<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">2</span>,<span class="dv">2</span>)) <span class="sc">+</span></span>
+<span id="cb17-21"><a href="#cb17-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">'dashed'</span>, <span class="at">color =</span> <span class="st">'black'</span>) <span class="sc">+</span></span>
+<span id="cb17-22"><a href="#cb17-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb17-23"><a href="#cb17-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb17-24"><a href="#cb17-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">'Sentiment Trend of Lyrics Over Time'</span>,</span>
+<span id="cb17-25"><a href="#cb17-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Average sentiment score calculated based on afinn scores.</span><span class="sc">\n</span><span class="st">&lt;0: sad/negative, &gt;0: happy/positive.'</span>,</span>
+<span id="cb17-26"><a href="#cb17-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">'lyricist'</span>,</span>
+<span id="cb17-27"><a href="#cb17-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">'Sentiment Score'</span>, </span>
+<span id="cb17-28"><a href="#cb17-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">'Album'</span></span>
+<span id="cb17-29"><a href="#cb17-29" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
