@@ -1,9 +1,9 @@
 ---
 title: "Yunyi's Blog"
 from: markdown+emoji
-image: seagull.jpg
+image: seagull.JPG
 about:
-  template: jolla
+  template: solana
   links:
     - icon: twitter
       text: Twitter
