@@ -6,11 +6,10 @@ categories: [fun, data analysis]
 bibliography: 
  - my-refs.bib
  - my-refs2.bib
+output:
+  html_document:
+    code_folding: hide
 ---
-
-::: column-screen
-![Shoegaze is an effect-heavy subgenre of indie rock.](photo/pedalboard.jpg)
-:::
 
 # Introduction
 
@@ -43,11 +42,12 @@ The bands I want to study are the so-called classic 'big-three' of shoegaze: *my
 
 ### Data Acquisition
 
-Lyrics from all studio albums of the 'big three' bands in the shoegaze genre - *my bloody valentine (mbv)*, *Ride*, and *slowdive* - are retrieved from [Genius.com](https://genius.com/) using a Python package named [lyricsgenius](https://www.johnwmillr.com/scraping-genius-lyrics/)[@miller_johnwmillrlyricsgenius_2024] based on Genius API. Please see the author's instructions for details.
+Lyrics from all studio albums of the 'big three' bands in the shoegaze genre - *my bloody valentine (mbv)*, *Ride*, and *slowdive* - are retrieved from [Genius.com](https://genius.com/) using a Python package named [lyricsgenius](https://www.johnwmillr.com/scraping-genius-lyrics/) [@miller_johnwmillrlyricsgenius_2024] based on Genius API. Please see the author's instructions for details.
 
 ::: callout-note
 The downloaded `.json` files were written into a `.csv` file for further processing. Please go to the [source repository](https://github.com/yunyi-ru/quarto-blog) for more details.
 :::
+
 
 ```{r load data, message = FALSE}
 # load packages
@@ -173,13 +173,12 @@ ggplot(token_count_head, aes(
   facet_wrap(~ Artist) +
   scale_color_manual(values = palette) +
   labs(
-    title = 'Most Frequent Words Used in Lyrics',
-    subtitle = "Slowdive seems to have the most 'meaningful' lyrics.",
+    title = 'Most Frequently Used Words in Lyrics',
     caption = 'Word size based on frequency. Only the top 30 results are shown here.'
   )
 ```
 
-The result is kind of amusing. Ride and mbv rely their vocals heavily on harmonies and hummings - and it's reflected honestly here, while slowdive has the most 'meaningful' lyrics among the three. 'Love' is the ultimate meaning of rock and roll, and it indeed appears in high frequency in all of their lyrics.
+The result is kind of amusing. Ride and mbv rely their vocals heavily on **harmonies** and **hummings** - and it's reflected honestly here, while slowdive has the most **'meaningful'** lyrics among the three. 'Love' is the ultimate meaning of rock and roll, and it indeed appears in high frequency in all of their lyrics.
 
 ### Which bands have the longest and shortest lyrics?
 
@@ -328,14 +327,6 @@ ggplot(afinn_score,
 
 When examining the trend over time, it is noteworthy that at the beginning of their careers, the bands all had very sad lyrics; in the middle of their careers, their lyrics became more positive. It is also interesting to observe that the latest albums of mbv, Ride, and Slowdive are all among the saddest of their entire careers.
 
-::: callout-note
-**Packages Used**
-
--   `Tidyverse`: `%>%`, `group_by()`, `mutate()`, `arrange()`, `filter()`, etc.
-
--   `ggplot2`: `geom_text_repel()`, `geom_point()`, `geom_boxplot()`, etc.
-:::
-
 # Bonus
 
 Here Comes the Ride Fan!
@@ -394,7 +385,6 @@ lyrics_ride <- lyrics_ride %>%
          Album = fct_reorder(Album, Release.Date),
          is90 = Release.Year < 2000)
 ```
-
 
 ## Data Analysis
 

@@ -2,27 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/index.html</loc>
-    <lastmod>2024-11-09T18:11:08.230Z</lastmod>
+    <lastmod>2024-11-11T23:01:11.413Z</lastmod>
   </url>
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/blog.html</loc>
-    <lastmod>2024-09-13T20:28:05.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/posts/post-with-code/index.html</loc>
-    <lastmod>2024-09-13T19:34:31.741Z</lastmod>
+    <lastmod>2024-11-11T20:48:21.629Z</lastmod>
   </url>
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/posts/welcome/index.html</loc>
-    <lastmod>2024-11-09T18:41:43.335Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/posts/Blog Design Checklist/index.html</loc>
-    <lastmod>2024-10-29T00:29:24.351Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/posts/Coding Resources/index.html</loc>
-    <lastmod>2024-10-29T00:20:14.828Z</lastmod>
+    <lastmod>2024-11-11T22:21:41.049Z</lastmod>
   </url>
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/posts/blog_design/index.html</loc>
@@ -33,20 +21,12 @@
     <lastmod>2024-11-09T18:41:29.387Z</lastmod>
   </url>
   <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/index.html</loc>
-    <lastmod>2024-11-11T06:19:01.255Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/posts/about/index.html</loc>
-    <lastmod>2024-11-09T06:39:56.075Z</lastmod>
-  </url>
-  <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/about.html</loc>
     <lastmod>2024-11-09T06:47:25.079Z</lastmod>
   </url>
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/aboutme.html</loc>
-    <lastmod>2024-11-09T18:26:09.952Z</lastmod>
+    <lastmod>2024-11-11T22:51:07.309Z</lastmod>
   </url>
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/index.html</loc>
@@ -55,5 +35,13 @@
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/biolpages.html</loc>
     <lastmod>2023-10-26T17:39:13.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yunyi-ru.github.io/quarto-blog/project.html</loc>
+    <lastmod>2024-11-11T20:49:35.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yunyi-ru.github.io/quarto-blog/projects/lyric_analysis/index.html</loc>
+    <lastmod>2024-11-11T23:27:33.014Z</lastmod>
   </url>
 </urlset>

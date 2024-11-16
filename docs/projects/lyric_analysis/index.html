@@ -144,7 +144,7 @@ div.csl-indent {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
@@ -153,9 +153,15 @@ div.csl-indent {
     <a class="nav-link" href="../../aboutme.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../project.html"> 
+<span class="menu-text">Project</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../blog.html"> 
-<span class="menu-text">Blog Posts</span></a>
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/yunyi-ru"> <i class="bi bi-github" role="img">
@@ -212,7 +218,7 @@ div.csl-indent {
   <li><a href="#who-writes-the-lyrics-in-each-album" id="toc-who-writes-the-lyrics-in-each-album" class="nav-link" data-scroll-target="#who-writes-the-lyrics-in-each-album">Who writes the lyrics in each album?</a></li>
   <li><a href="#whats-the-most-frequently-used-words-for-each-lyricist-beforeafter-reunion" id="toc-whats-the-most-frequently-used-words-for-each-lyricist-beforeafter-reunion" class="nav-link" data-scroll-target="#whats-the-most-frequently-used-words-for-each-lyricist-beforeafter-reunion">What’s the most frequently used words for each lyricist before/after reunion?</a></li>
   <li><a href="#top-5-words-for-each-album" id="toc-top-5-words-for-each-album" class="nav-link" data-scroll-target="#top-5-words-for-each-album">Top 5 Words for Each Album</a></li>
-  <li><a href="#who-is-the-most-depressed-shoegazer" id="toc-who-is-the-most-depressed-shoegazer" class="nav-link" data-scroll-target="#who-is-the-most-depressed-shoegazer">Who is the Most Depressed Shoegazer?</a></li>
+  <li><a href="#who-is-the-saddest-lyricist" id="toc-who-is-the-saddest-lyricist" class="nav-link" data-scroll-target="#who-is-the-saddest-lyricist">Who is the Saddest Lyricist?</a></li>
   <li><a href="#are-they-trending-towards-happiness-or-sadness-over-time" id="toc-are-they-trending-towards-happiness-or-sadness-over-time" class="nav-link" data-scroll-target="#are-they-trending-towards-happiness-or-sadness-over-time">Are they trending towards happiness or sadness over time?</a></li>
   </ul></li>
   </ul></li>
@@ -257,14 +263,6 @@ div.csl-indent {
 </header>
 
 
-<div class="page-columns page-full">
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p class="page-columns page-full"><img src="photo/pedalboard.jpg" class="img-fluid figure-img column-screen"></p>
-<figcaption>Shoegaze is an effect-heavy subgenre of indie rock.</figcaption>
-</figure>
-</div>
-</div>
 <section id="introduction" class="level1 page-columns page-full">
 <h1>Introduction</h1>
 <section id="why-this-project" class="level2 page-columns page-full">
@@ -300,18 +298,15 @@ div.csl-indent {
 <p><img src="photo/loveless.png" class="img-fluid"> <img src="photo/nowhere.jpg" class="img-fluid"> <img src="photo/souvlaki.jpeg" class="img-fluid"></p>
 </div></div><section id="data-acquisition" class="level3">
 <h3 class="anchored" data-anchor-id="data-acquisition">Data Acquisition</h3>
-<p>Lyrics from all studio albums of the ‘big three’ bands in the shoegaze genre - <em>my bloody valentine (mbv)</em>, <em>Ride</em>, and <em>slowdive</em> - are retrieved from <a href="https://genius.com/">Genius.com</a> using a Python package named <a href="https://www.johnwmillr.com/scraping-genius-lyrics/">lyricsgenius</a><span class="citation" data-cites="miller_johnwmillrlyricsgenius_2024">(<a href="#ref-miller_johnwmillrlyricsgenius_2024" role="doc-biblioref">Miller 2024</a>)</span> based on Genius API. Please see the author’s instructions for details.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<p>Lyrics from all studio albums of the ‘big three’ bands in the shoegaze genre - <em>my bloody valentine (mbv)</em>, <em>Ride</em>, and <em>slowdive</em> - are retrieved from <a href="https://genius.com/">Genius.com</a> using a Python package named <a href="https://www.johnwmillr.com/scraping-genius-lyrics/">lyricsgenius</a> <span class="citation" data-cites="miller_johnwmillrlyricsgenius_2024">(<a href="#ref-miller_johnwmillrlyricsgenius_2024" role="doc-biblioref">Miller 2024</a>)</span> based on Genius API. Please see the author’s instructions for details.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="callout-body-container">
 <p>The downloaded <code>.json</code> files were written into a <code>.csv</code> file for further processing. Please go to the <a href="https://github.com/yunyi-ru/quarto-blog">source repository</a> for more details.</p>
+</div>
 </div>
 </div>
 <div class="cell">
@@ -388,24 +383,24 @@ Note
 <td>The title of the song</td>
 </tr>
 <tr class="odd">
-<td><code>Album.Name</code></td>
-<td>String</td>
-<td>The name of the album the song belongs to</td>
-</tr>
-<tr class="even">
 <td><code>Artist</code></td>
 <td>String</td>
 <td>The artist performing the song</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>Release.Date</code></td>
 <td>String</td>
 <td>The date the song was released</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>Lyrics</code></td>
 <td>String</td>
 <td>The lyrics of the song</td>
+</tr>
+<tr class="even">
+<td><code>Album.Name</code></td>
+<td>String</td>
+<td>The name of the album the song belongs to</td>
 </tr>
 </tbody>
 </table>
@@ -413,21 +408,18 @@ Note
 <section id="data-wrangling" class="level3">
 <h3 class="anchored" data-anchor-id="data-wrangling">Data Wrangling</h3>
 <p>The lyrics directly retrieved from Genius.com usually have some problems -</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="callout-body-container">
 <ol type="1">
 <li>‘16 ContributorsBallad of Sister Sue Lyrics’ at the beginning and ‘6Embed’ at the end are not part of the lyrics.</li>
 <li>‘√¢¬Ä¬ô’ - some problem with Unicode encoding/decoding.</li>
 <li>‘See Slowdive LiveGet tickets as low as $55’ - ads is also not part of the lyrics.</li>
 </ol>
+</div>
 </div>
 </div>
 <p>So, it requires some data cleaning.</p>
@@ -520,10 +512,9 @@ Warning
 <span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> Artist) <span class="sc">+</span></span>
 <span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> palette) <span class="sc">+</span></span>
 <span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">'Most Frequent Words Used in Lyrics'</span>,</span>
-<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Slowdive seems to have the most 'meaningful' lyrics."</span>,</span>
-<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Word size based on frequency. Only the top 30 results are shown here.'</span></span>
-<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">'Most Frequently Used Words in Lyrics'</span>,</span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">'Word size based on frequency. Only the top 30 results are shown here.'</span></span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -532,7 +523,7 @@ Warning
 </div>
 </div>
 </div>
-<p>The result is kind of amusing. Ride and mbv rely their vocals heavily on harmonies and hummings - and it’s reflected honestly here, while slowdive has the most ‘meaningful’ lyrics among the three. ‘Love’ is the ultimate meaning of rock and roll, and it indeed appears in high frequency in all of their lyrics.</p>
+<p>The result is kind of amusing. Ride and mbv rely their vocals heavily on <strong>harmonies</strong> and <strong>hummings</strong> - and it’s reflected honestly here, while slowdive has the most <strong>‘meaningful’</strong> lyrics among the three. ‘Love’ is the ultimate meaning of rock and roll, and it indeed appears in high frequency in all of their lyrics.</p>
 </section>
 <section id="which-bands-have-the-longest-and-shortest-lyrics" class="level3">
 <h3 class="anchored" data-anchor-id="which-bands-have-the-longest-and-shortest-lyrics">Which bands have the longest and shortest lyrics?</h3>
@@ -766,40 +757,20 @@ Warning
 </div>
 </div>
 <p>When examining the trend over time, it is noteworthy that at the beginning of their careers, the bands all had very sad lyrics; in the middle of their careers, their lyrics became more positive. It is also interesting to observe that the latest albums of mbv, Ride, and Slowdive are all among the saddest of their entire careers.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Packages Used</strong></p>
-<ul>
-<li><p><code>Tidyverse</code>: <code>%&gt;%</code>, <code>group_by()</code>, <code>mutate()</code>, <code>arrange()</code>, <code>filter()</code>, etc.</p></li>
-<li><p><code>ggplot2</code>: <code>geom_text_repel()</code>, <code>geom_point()</code>, <code>geom_boxplot()</code>, etc.</p></li>
-</ul>
-</div>
-</div>
 </section>
 </section>
 </section>
 <section id="bonus" class="level1">
 <h1>Bonus</h1>
 <p>Here Comes the Ride Fan!</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="callout-body-container">
 <p>This is not a part of the class project, but I’m a huge fan of this band so I did this for my own good!</p>
+</div>
 </div>
 </div>
 <section id="data-wrangling-1" class="level2">
@@ -947,8 +918,8 @@ Warning
 </div>
 </div>
 </section>
-<section id="who-is-the-most-depressed-shoegazer" class="level3">
-<h3 class="anchored" data-anchor-id="who-is-the-most-depressed-shoegazer">Who is the Most Depressed Shoegazer?</h3>
+<section id="who-is-the-saddest-lyricist" class="level3">
+<h3 class="anchored" data-anchor-id="who-is-the-saddest-lyricist">Who is the Saddest Lyricist?</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># who is more depressed</span></span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>ride_token_count_aa <span class="ot">&lt;-</span> ride_token_clean <span class="sc">%&gt;%</span></span>
@@ -998,7 +969,7 @@ Warning
 <span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(lyricist, Album, Release.Date) <span class="sc">%&gt;%</span></span>
 <span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">weighted_avg =</span> <span class="fu">round</span>(<span class="fu">sum</span>(value <span class="sc">*</span> Word_count) <span class="sc">/</span> <span class="fu">sum</span>(Word_count),<span class="dv">2</span>))</span>
 <span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="co"># geom_line()must work with numeric factor</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="co"># geom_line() must work with numeric factor</span></span>
 <span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>ride_afinn_score_by_lyricist_album<span class="sc">$</span>Album_num <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(ride_afinn_score_by_lyricist_album<span class="sc">$</span>Album)</span>
 <span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a><span class="co"># plotting</span></span>
