@@ -15,7 +15,7 @@ I made this blog to share things that I find useful and interesting regarding sc
 ::: column-margin
 **Recent Highlights**
 
-If you are into indie music, please check the ['Example Analysis: Who is the saddest shoegaze band?'](https://yunyi-ru.github.io/quarto-blog/projects/lyric_analysis/) page.
+I worked with my friend Juanyu to create an interactive dashboard which explores the relationship between *environmental parameters* and *respiratory virus-associated hospitalization rates*. [Check it out!](https://yunyi-ru.github.io/quarto-blog/projects/RESPweather_dashboard/)
 :::
 
 ## Fun Facts About Me
