@@ -10,9 +10,70 @@
 <atom:link href="https://yunyi-ru.github.io/quarto-blog/project.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Fri, 08 Nov 2024 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 19 Dec 2024 05:00:00 GMT</lastBuildDate>
 <item>
-  <title>Example Analysis: Who is the saddest shoegaze band?</title>
+  <title>[Dashboard] Weather-Respiratory Disease Correlation Explorer</title>
+  <dc:creator>Yunyi Ru</dc:creator>
+  <link>https://yunyi-ru.github.io/quarto-blog/projects/RESPweather_dashboard/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="project" class="level1">
+<h1>Project</h1>
+<p>This <a href="https://yunyiru.shinyapps.io/RESPweather_dashboard/"><strong>Weather-Respiratory Diseases Correlation Explorer</strong></a> R Shiny Dashboard aims to investigate the relationship between climate and weather-related conditions and outbreaks of two respiratory viruses, <strong>influenza</strong> and <strong>respiratory syncytial virus (RSV)</strong>.</p>
+<p><img src="https://yunyi-ru.github.io/quarto-blog/projects/RESPweather_dashboard/photo/shiny1.PNG" class="img-fluid"></p>
+<p>Influenza is an RNA virus from the <em>Orthomyxoviridae</em> family that frequently mutates, causing seasonal epidemics, while RSV is an RNA virus from the <em>Paramyxoviridae</em> family that primarily affects young children and the elderly, often leading to severe lower respiratory infections. Both viruses pose significant public health challenges due to their widespread transmission and potential for severe disease.</p>
+<p>Climate and weather conditions can influence the activity and spread of both viruses. Studies have suggested that factors like <strong>cold temperatures</strong>, <strong>low indoor humidity</strong>, <strong>limited sunlight</strong>, and <strong>rapid weather changes</strong> may increase the risk of disease outbreaks.</p>
+</section>
+<section id="features" class="level1">
+<h1>Features</h1>
+<ul>
+<li><strong>Weekly Rates</strong>: This dashboard uses <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET data</a> to give an overview of influenza and rsv hospitalization rates of each state from 2018 to 2024. The user can select year, state, and pathogen of interest using the interactive filters.</li>
+</ul>
+<p><img src="https://yunyi-ru.github.io/quarto-blog/projects/RESPweather_dashboard/photo/shiny2.PNG" class="img-fluid"></p>
+<ul>
+<li><strong>Weather Explorer</strong>: This dashboard integrates <a href="https://open-meteo.com/">environmental parameter data</a> from openmeteo API and respiratory virus-associated hospitalization rate data to perform regression analysis. The user can select year, state, weather variable and pathogen of interest using the interactive filters.</li>
+</ul>
+<p><img src="https://yunyi-ru.github.io/quarto-blog/projects/RESPweather_dashboard/photo/shiny3.PNG" class="img-fluid"></p>
+</section>
+<section id="data" class="level1">
+<h1>Data</h1>
+<ul>
+<li><p><strong>Respiratory Virus Related Hospitalization Rate</strong>: Disease rate data were scrapped from <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET</a>.</p></li>
+<li><p><strong>Environmental Parameters</strong>: Weather data were scrapped from <a href="https://open-meteo.com/">Openmeteo API</a>.</p></li>
+</ul>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Please go to the <a href="https://github.com/jhu-statprogramming-fall-2024/project4-team-mmi">source repository</a> for more details.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="team" class="level1">
+<h1>Team</h1>
+<p><strong>Team MMI</strong> are <strong>Yunyi Ru</strong> (<a href="mailto:yru3@jh.edu">email</a>; <a href="https://github.com/yunyi-ru">GitHub</a>) and <strong>Juanyu Zhang</strong> (<a href="mailto:jzhan398@jh.edu">email</a>; <a href="https://github.com/JuYZhang">GitHub</a>).</p>
+<p><em>This is a class project of Johns Hopkins University <a href="https://www.stephaniehicks.com/jhustatprogramming2024/">Biostatistics 140.777 Statistical Programming Paradigms</a> course</em>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>data analysis</category>
+  <category>respiratory virus</category>
+  <category>dashboard</category>
+  <category>R</category>
+  <category>R Shiny</category>
+  <guid>https://yunyi-ru.github.io/quarto-blog/projects/RESPweather_dashboard/</guid>
+  <pubDate>Thu, 19 Dec 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>[Data Analysis Project] Who is the saddest shoegaze band?</title>
   <dc:creator>Yunyi Ru</dc:creator>
   <link>https://yunyi-ru.github.io/quarto-blog/projects/lyric_analysis/</link>
   <description><![CDATA[ 
@@ -753,28 +814,23 @@ background-color: null;
 font-style: inherit;">'Which bands have the Longest/Shortest Lyrics?'</span>,</span>
 <span id="cb6-7">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'Mbv has the shortest lyrics while Ride has the longest.'</span>,</span>
-<span id="cb6-8">    <span class="at" style="color: #657422;
-background-color: null;
 font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Boxplot showing the range and median of lyric lengths for each Album.'</span>, </span>
-<span id="cb6-9">    <span class="at" style="color: #657422;
+<span id="cb6-8">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Before Reunion?'</span>, </span>
-<span id="cb6-10">    <span class="at" style="color: #657422;
+<span id="cb6-9">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Lyric Length (character)'</span></span>
-<span id="cb6-11">  ) <span class="sc" style="color: #5E5E5E;
+<span id="cb6-10">  ) <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">+</span></span>
-<span id="cb6-12">  <span class="fu" style="color: #4758AB;
+<span id="cb6-11">  <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">theme</span>(<span class="at" style="color: #657422;
 background-color: null;
@@ -1163,15 +1219,6 @@ background-color: null;
 font-style: inherit;">'Who is the Saddest Shoegaze Band?'</span>,</span>
 <span id="cb8-38">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'Mbv has the lowest overall sentiment score.</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">\n</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">The most popular songs have a higher sentiment score than average.'</span>,</span>
-<span id="cb8-39">    <span class="at" style="color: #657422;
-background-color: null;
 font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Average sentiment score calculated based on afinn scores.</span><span class="sc" style="color: #5E5E5E;
@@ -1179,17 +1226,17 @@ background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">&lt;0: sad/negative, &gt;0: happy/positive.'</span>, </span>
-<span id="cb8-40">    <span class="at" style="color: #657422;
+<span id="cb8-39">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Sentiment Score'</span>, </span>
-<span id="cb8-41">    <span class="at" style="color: #657422;
+<span id="cb8-40">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Time'</span>, </span>
-<span id="cb8-42">    <span class="at" style="color: #657422;
+<span id="cb8-41">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -1198,7 +1245,7 @@ background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">greatest hits'</span></span>
-<span id="cb8-43">  )</span></code></pre></div>
+<span id="cb8-42">  )</span></code></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -1207,7 +1254,7 @@ font-style: inherit;">greatest hits'</span></span>
 </div>
 </div>
 </div>
-<p>All those songs have a slightly higher sentiment score than their artist’s average scores. People seem to prefer happy songs!</p>
+<p>Mbv has the lowest overall sentiment score. All those songs have a slightly higher sentiment score than their artist’s average scores. People seem to prefer happy songs!</p>
 </section>
 <section id="so-what-are-their-happiestsaddest-songs" class="level4">
 <h4 class="anchored" data-anchor-id="so-what-are-their-happiestsaddest-songs">So what are their happiest/saddest songs?</h4>
@@ -1423,11 +1470,6 @@ background-color: null;
 font-style: inherit;">'Sentiment Trend of Lyrics Over Time'</span>,</span>
 <span id="cb10-16">    <span class="at" style="color: #657422;
 background-color: null;
-font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'The bands are saddest around 1990.'</span>,</span>
-<span id="cb10-17">    <span class="at" style="color: #657422;
-background-color: null;
 font-style: inherit;">caption =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Average sentiment score calculated based on afinn scores.</span><span class="sc" style="color: #5E5E5E;
@@ -1435,22 +1477,22 @@ background-color: null;
 font-style: inherit;">\n</span><span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">&lt;0: sad/negative, &gt;0: happy/positive.'</span>,</span>
-<span id="cb10-18">    <span class="at" style="color: #657422;
+<span id="cb10-17">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Artist'</span>,</span>
-<span id="cb10-19">    <span class="at" style="color: #657422;
+<span id="cb10-18">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Sentiment Score'</span>, </span>
-<span id="cb10-20">    <span class="at" style="color: #657422;
+<span id="cb10-19">    <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Time'</span></span>
-<span id="cb10-21">  )</span></code></pre></div>
+<span id="cb10-20">  )</span></code></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -1463,19 +1505,20 @@ font-style: inherit;">'Time'</span></span>
 </section>
 </section>
 </section>
-<section id="bonus" class="level1">
-<h1>Bonus</h1>
-<p>Here Comes the Ride Fan!</p>
-<div class="callout callout-style-simple callout-warning">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>This is not a part of the class project, but I’m a huge fan of this band so I did this for my own good!</p>
-</div>
-</div>
-</div>
+<section id="bonus-here-comes-the-ride-fan" class="level1">
+<h1>Bonus: Here Comes the RIDE Fan!</h1>
+<p>RIDE blew my mind when I attended their Nowhere concert with the Charlatans back in Jan 2024 in the amazing venue Union Transfer, Philadelphia. Since then I’ve become a huge fan… So I couldn’t help but did more data analysis on them (!).</p>
+<p><strong>Disclaimer</strong>: I’m by no means overlooking the members who do not write the lyrics. I love you Steve. It’s just because I can only do text analysis at this time.</p>
+<section id="my-questions-1" class="level2">
+<h2 class="anchored" data-anchor-id="my-questions-1">My Questions</h2>
+<ol type="1">
+<li><p>Who writes the lyrics in each album?</p></li>
+<li><p>What’s the most frequently used words for each lyricist before/after reunion?</p></li>
+<li><p>Top 5 Words for Each Album</p></li>
+<li><p>Who is the Saddest Lyricist?</p></li>
+<li><p>Are they trending towards happiness or sadness over time?</p></li>
+</ol>
+</section>
 <section id="data-wrangling-1" class="level2">
 <h2 class="anchored" data-anchor-id="data-wrangling-1">Data Wrangling</h2>
 <p>Information about lyric writers were from interviews and record sleeves.</p>
@@ -1948,6 +1991,7 @@ font-style: inherit;">'Album'</span></span>
 </div>
 </div>
 </div>
+<p>Andy Bell did a lot, especially for Nowhere, Tarantula, and This is Not a Safe Place.</p>
 </section>
 <section id="whats-the-most-frequently-used-words-for-each-lyricist-beforeafter-reunion" class="level3">
 <h3 class="anchored" data-anchor-id="whats-the-most-frequently-used-words-for-each-lyricist-beforeafter-reunion">What’s the most frequently used words for each lyricist before/after reunion?</h3>
@@ -2154,6 +2198,7 @@ font-style: inherit;">'Count'</span></span>
 </div>
 </div>
 </div>
+<p>It’s surprising that ‘time’ was used a lot. I’m interested that whether all bands like this word or it’s just RIDE. Maybe it would be my next project in the future.</p>
 </section>
 <section id="top-5-words-for-each-album" class="level3">
 <h3 class="anchored" data-anchor-id="top-5-words-for-each-album">Top 5 Words for Each Album</h3>
@@ -2334,6 +2379,7 @@ font-style: inherit;">'Album'</span></span>
 </div>
 </div>
 </div>
+<p>Some themes are always there - time, day, life, feel…</p>
 </section>
 <section id="who-is-the-saddest-lyricist" class="level3">
 <h3 class="anchored" data-anchor-id="who-is-the-saddest-lyricist">Who is the Saddest Lyricist?</h3>
@@ -2570,6 +2616,7 @@ font-style: inherit;">'Lyricist'</span></span>
 </div>
 </div>
 </div>
+<p>Mark Gardener seems really sad.</p>
 </section>
 <section id="are-they-trending-towards-happiness-or-sadness-over-time" class="level3">
 <h3 class="anchored" data-anchor-id="are-they-trending-towards-happiness-or-sadness-over-time">Are they trending towards happiness or sadness over time?</h3>
@@ -2769,6 +2816,8 @@ font-style: inherit;">'Album'</span></span>
 </div>
 </div>
 </div>
+<p>Are people getting sadder when they get old?</p>
+<p><em>This is a class project of Johns Hopkins University <a href="https://www.stephaniehicks.com/jhustatprogramming2024/">Biostatistics 140.777 Statistical Programming Paradigms</a> course</em>.</p>
 
 
 
@@ -2789,6 +2838,9 @@ Sherburne, Philip. 2023. <span>“The <span>Shoegaze</span> <span>Revival</span>
 </div></section></div> ]]></description>
   <category>fun</category>
   <category>data analysis</category>
+  <category>text analysis</category>
+  <category>sentiment analysis</category>
+  <category>R</category>
   <guid>https://yunyi-ru.github.io/quarto-blog/projects/lyric_analysis/</guid>
   <pubDate>Fri, 08 Nov 2024 05:00:00 GMT</pubDate>
 </item>

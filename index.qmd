@@ -1,7 +1,6 @@
 ---
 title: "Yunyi's Blog"
 from: markdown+emoji
-image: seagull.JPG
 about:
   template: solana
   links:
@@ -18,6 +17,15 @@ about:
       href: mailto:yru3@jh.edu
 ---
 
+```{=html}
+<style>
+  body {
+  background-image: url("background.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>
+```
 Hi, I’m Yunyi, a student at the Johns Hopkins School of Public Health and a member of [the Pekosz lab](https://pekoszlab.com/).
 
 Looking forward to sharing some useful information with you here! :paw_prints:

@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 ---
-  
+
 </style>
 
 # Introduction
@@ -15,14 +15,12 @@ I made this blog to share things that I find useful and interesting regarding sc
 ::: column-margin
 **Recent Highlights**
 
-If you are into indie music, please check the ['Example Analysis: Who is the saddest shoegaze band?'](https://yunyi-ru.github.io/quarto-blog/posts/lyric_analysis/) page.
+If you are into indie music, please check the ['Example Analysis: Who is the saddest shoegaze band?'](https://yunyi-ru.github.io/quarto-blog/projects/lyric_analysis/) page.
 :::
 
 ## Fun Facts About Me
 
 Outside of lab, I enjoy painting, reading, travelling, and listening and playing music.
-
-![Fell's Point in Baltimore, March '24, made by *Procreate*.](the_shape_of_water.jpeg)
 
 My name Yunyi writes as 云衣 in Chinese - it comes from a poem by Li Bai, a poet my mom loves:
 
