@@ -11,11 +11,11 @@ $h2-font-size: 1.5rem;
 $headings-font-weight: 600;
 
 /* Spacing and Borders */
-$padding: 1.2rem; // General padding
-$margin: 1rem; // General margin
+$padding: 1.2rem;
+$margin: 1rem;
 $border-radius: 6px; // Rounded corners for softer visuals
-$divider-color: #496640; // Soft green divider color
-$shadow-color: rgba(0, 0, 0, 0.1); // Slightly dark shadow for sharp effect
+$divider-color: #496640;
+$shadow-color: rgba(0, 0, 0, 0.1);
 
 /*-- scss:mixins --*/
 /* Mixin for rounded corners */
