@@ -173,7 +173,7 @@
 <ul class="task-list">
 <li><label><input type="checkbox">RSS Subscription</label></li>
 <li><label><input type="checkbox" checked="">Comment section (use <a href="https://utteranc.es/">utterances</a>) <em>241109</em></label></li>
-<li><label><input type="checkbox">Customized theme: minimal, light, serif font</label></li>
+<li><label><input type="checkbox" checked="">Customized theme <em>241221</em></label></li>
 <li><label><input type="checkbox" checked="">Customized favicon <em>241109</em></label></li>
 </ul>
 </section>

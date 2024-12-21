@@ -20,13 +20,15 @@ about:
 ```{=html}
 <style>
   body {
-  background-image: url("background.JPG");
+  background-image: url("DSC06870.JPG");
   background-size: cover;
   background-repeat: no-repeat;
 }
+  
 </style>
 ```
-Hi, I’m Yunyi, a student at the Johns Hopkins School of Public Health and a member of [the Pekosz lab](https://pekoszlab.com/).
+
+Hi, I’m Yunyi, a student at the Johns Hopkins University, School of Public Health, and a member of [the Pekosz lab](https://pekoszlab.com/).
 
 Looking forward to sharing some useful information with you here! :paw_prints:
 

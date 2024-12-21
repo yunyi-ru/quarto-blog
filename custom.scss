@@ -1,43 +1,125 @@
 /*-- scss:defaults --*/
-$body-bg: #eaf4f8;
-$body-color: #133c50;
-$link-color: #2a91b8;
-$code-color: #1d7155;
-$code-block-bg: #d2eaf1;
-$code-bg: #d2eaf1;
-$h2-font-size:          1.6rem !default;
-$headings-font-weight:  500 !default;
+/* Color Palette */
+$body-bg: #dfdfe6;
+$body-color: #2e4e2c;
+$link-color: #5f8059;
+$link-hover-color: #9797c9;
+$code-color: #496640;
+$code-bg: #f0f0f5;
+$code-block-bg: #f0f0f5;
+$h2-font-size: 1.5rem;
+$headings-font-weight: 600;
+
+/* Spacing and Borders */
+$padding: 1.2rem; // General padding
+$margin: 1rem; // General margin
+$border-radius: 6px; // Rounded corners for softer visuals
+$divider-color: #496640; // Soft green divider color
+$shadow-color: rgba(0, 0, 0, 0.1); // Slightly dark shadow for sharp effect
+
+/*-- scss:mixins --*/
+/* Mixin for rounded corners */
+@mixin rounded-corners($radius: 6px) {
+  border-radius: $radius;
+}
 
 /*-- scss:rules --*/
+/* Base Styles */
 body {
   background-color: $body-bg;
   color: $body-color;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: $padding;
 }
 
+/* Links */
 a {
   color: $link-color;
+  text-decoration: none;
+
   &:hover {
-    color: lighten($link-color, 10%);
+    color: $link-hover-color;
+    text-decoration: underline;
   }
 }
 
+/* Code */
 code {
-  color: $code-color;
   background-color: $code-bg;
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
+  color: $code-color;
+  padding: 0.2rem 0.4rem;
+  @include rounded-corners();
+  font-family: 'Courier New', Courier, monospace;
 }
 
 pre {
   background-color: $code-block-bg;
-  padding: 1em;
-  border-radius: 5px;
+  color: $code-color;
+  padding: $padding;
+  @include rounded-corners();
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
 }
 
+/* Headings */
 h2 {
   font-size: $h2-font-size;
   font-weight: $headings-font-weight;
-  color: darken($body-color, 10%);
+  color: $link-color;
+  margin: $margin 0;
+}
+
+/* Buttons */
+.button {
+  background-color: $link-color;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  @include rounded-corners();
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $link-hover-color;
+  }
+}
+
+/* Blockquotes */
+blockquote {
+  background-color: $code-block-bg;
+  border-left: 4px solid $link-color;
+  padding: 1rem;
+  color: $body-color;
+  margin: $margin 0;
+  @include rounded-corners();
+}
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Divider Line */
+hr {
+  border: none;
+  border-top: 2px dotted $divider-color; // Soft green divider line
+  margin: 2rem 0;
+  opacity: 0.6; // Slight transparency for a soft effect
+}
+
+/* Section with Shadow */
+.section {
+  padding: 2rem;
+  margin: 2rem 0;
+  background-color: #fff;
+  @include rounded-corners();
 }
 
 .navbar {

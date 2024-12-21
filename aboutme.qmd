@@ -1,12 +1,15 @@
 ---
 title: "About Me"
+toc: true
 ---
-
-</style>
 
 # Introduction
 
 My name is Yunyi Ru. I am a 2nd year master's student in the Molecular Microbiology and Immunology department of [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/). I currently work as a graduate student researcher at [The Pekosz Lab](https://pekoszlab.com/) on respiratory syncytial virus.
+
+::: column-margin
+![](profilepic.JPG)
+:::
 
 ## Why Blogging
 
@@ -15,7 +18,7 @@ I made this blog to share things that I find useful and interesting regarding sc
 ::: column-margin
 **Recent Highlights**
 
-I worked with my friend Juanyu to create an interactive dashboard which explores the relationship between *environmental parameters* and *respiratory virus-associated hospitalization rates*. [Check it out!](https://yunyi-ru.github.io/quarto-blog/projects/RESPweather_dashboard/)
+I worked with my friend Juanyu to create an interactive dashboard which explores the relationship between *environmental parameters* and *respiratory virus-associated hospitalization rates*. [**Check it out!**](https://yunyi-ru.github.io/quarto-blog/projects/RESPweather_dashboard/)
 :::
 
 ## Fun Facts About Me
@@ -24,7 +27,9 @@ Outside of lab, I enjoy painting, reading, travelling, and listening and playing
 
 My name Yunyi writes as 云衣 in Chinese - it comes from a poem by Li Bai, a poet my mom loves:
 
-> *云想衣裳花想容，春风拂槛露华浓。* *The clouds resemble her dress, and the flowers mirror her beauty. In the spring breeze brushing against the balcony, the dewdrops gleam richly. (English Translation provided by ChatGPT)*
+> *云想衣裳花想容，春风拂槛露华浓。The clouds resemble her dress, and the flowers mirror her beauty. In the spring breeze brushing against the balcony, the dewdrops gleam richly. (English Translation provided by ChatGPT)*
+
+------------------------------------------------------------------------
 
 # Résumé
 
@@ -60,7 +65,7 @@ B.S. in Cell and Molecular Biology (Dual Degree) \| August 2019 - May 2023
 
 #### Others
 
-[**R3ISE Center**](https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education)**, Johns Hopkins University** \| *Research Assistant* \| October 2023 - Present
+[**R3ISE Center**](https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education)**, Johns Hopkins University** \| *Research Assistant* \| October 2023 - October 2024
 
 -   Initiated the 'R3 Read Today' project by selecting and presenting content on important topics related to responsible scientific practices for science communication on [X](https://twitter.com/R3_JHSPH) and [Instagram](https://www.instagram.com/r3_jhsph/).
 

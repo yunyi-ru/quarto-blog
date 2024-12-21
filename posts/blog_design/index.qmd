@@ -13,7 +13,7 @@ This is a checklist/memo for some elements I want to add to this blog.
 
 -   [ ] RSS Subscription
 -   [x] Comment section (use [utterances](https://utteranc.es/)) *241109*
--   [ ] Customized theme: minimal, light, serif font
+-   [x] Customized theme *241221*
 -   [x] Customized favicon *241109*
 
 ### Contents

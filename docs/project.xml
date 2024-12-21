@@ -58,6 +58,7 @@
 <section id="team" class="level1">
 <h1>Team</h1>
 <p><strong>Team MMI</strong> are <strong>Yunyi Ru</strong> (<a href="mailto:yru3@jh.edu">email</a>; <a href="https://github.com/yunyi-ru">GitHub</a>) and <strong>Juanyu Zhang</strong> (<a href="mailto:jzhan398@jh.edu">email</a>; <a href="https://github.com/JuYZhang">GitHub</a>).</p>
+<hr>
 <p><em>This is a class project of Johns Hopkins University <a href="https://www.stephaniehicks.com/jhustatprogramming2024/">Biostatistics 140.777 Statistical Programming Paradigms</a> course</em>.</p>
 
 
@@ -73,7 +74,7 @@
   <pubDate>Thu, 19 Dec 2024 05:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>[Data Analysis Project] Who is the saddest shoegaze band?</title>
+  <title>[Data Analysis] Who is the saddest shoegaze band?</title>
   <dc:creator>Yunyi Ru</dc:creator>
   <link>https://yunyi-ru.github.io/quarto-blog/projects/lyric_analysis/</link>
   <description><![CDATA[ 
@@ -109,8 +110,8 @@
 </section>
 <section id="project" class="level1 page-columns page-full">
 <h1>Project</h1>
-<section id="data-acquisition-wragling" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="data-acquisition-wragling">Data Acquisition &amp; Wragling</h2>
+<section id="data-acquisition-wrangling" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="data-acquisition-wrangling">Data Acquisition &amp; Wrangling</h2>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <p><img src="https://yunyi-ru.github.io/quarto-blog/projects/lyric_analysis/photo/loveless.png" class="img-fluid"> <img src="https://yunyi-ru.github.io/quarto-blog/projects/lyric_analysis/photo/nowhere.jpg" class="img-fluid"> <img src="https://yunyi-ru.github.io/quarto-blog/projects/lyric_analysis/photo/souvlaki.jpeg" class="img-fluid"></p>
@@ -2817,6 +2818,7 @@ font-style: inherit;">'Album'</span></span>
 </div>
 </div>
 <p>Are people getting sadder when they get old?</p>
+<hr>
 <p><em>This is a class project of Johns Hopkins University <a href="https://www.stephaniehicks.com/jhustatprogramming2024/">Biostatistics 140.777 Statistical Programming Paradigms</a> course</em>.</p>
 
 

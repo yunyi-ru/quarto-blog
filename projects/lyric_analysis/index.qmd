@@ -1,5 +1,5 @@
 ---
-title: "[Data Analysis Project] Who is the saddest shoegaze band?"
+title: "[Data Analysis] Who is the saddest shoegaze band?"
 author: "Yunyi Ru"
 date: "2024-11-08"
 categories: [fun, data analysis, text analysis, sentiment analysis, R]
@@ -34,7 +34,7 @@ The bands I want to study are the so-called classic 'big-three' of shoegaze: *my
 
 # Project
 
-## Data Acquisition & Wragling
+## Data Acquisition & Wrangling
 
 ::: column-margin
 ![](photo/loveless.png) ![](photo/nowhere.jpg) ![](photo/souvlaki.jpeg)
@@ -567,5 +567,7 @@ ggplot(ride_afinn_score_by_lyricist_album,
 ```
 
 Are people getting sadder when they get old?
+
+------
 
 *This is a class project of Johns Hopkins University [Biostatistics 140.777 Statistical Programming Paradigms](https://www.stephaniehicks.com/jhustatprogramming2024/) course*.
