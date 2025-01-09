@@ -1,5 +1,5 @@
 ---
-title: "[Data Analysis] Who is the saddest shoegaze band?"
+title: "Who Is The Saddest Shoegaze Band?"
 author: "Yunyi Ru"
 date: "2024-11-08"
 categories: [fun, data analysis, text analysis, sentiment analysis, R]

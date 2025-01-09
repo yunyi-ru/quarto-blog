@@ -1,5 +1,5 @@
 ---
-title: "[Dashboard] Weather-Respiratory Disease Correlation Explorer"
+title: "Weather-Respiratory Disease Correlation Explorer"
 author: "Yunyi Ru"
 date: "2024-12-19"
 categories: [data analysis, respiratory virus, dashboard, R, R Shiny]

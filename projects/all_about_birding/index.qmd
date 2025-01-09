@@ -2,7 +2,7 @@
 title: "All About Birding"
 author: "Yunyi Ru"
 date: "2025-01-08"
-categories: [fun, birding]
+categories: [fun, birding, web development]
 lightbox: auto
 output:
   html_document:
@@ -14,18 +14,22 @@ library(leaflet)
 ```
 
 ::: column-page
-![Bald Eagle and Killdeer, Blackwater Natural Wildlife Reservoir, Cambridge MD, Jan '25](headline.jpg)
+![Bald Eagle and Killdeer, Blackwater Natural Wildlife Reservoir, Cambridge MD, Jan '25](headline.jpg){group="banners"}
 :::
 
 # Introduction
 
-I love birding! So, welcome to my personal birding records.
+I love birding! Welcome to my personal birding records.
 
-*Note: Only wild birds were recorded. All photos taken by me with Sony WX800.*
+You can see all birds I've sighted in *'bird list'* and all my favorite birding destinations in *'places I went for birding'*.
+
+***Note**: Only wild birds were recorded. All photos taken by me with Sony WX800.*
 
 ::: callout-note
-The Next Bird I Want To See Is: ***Blue Jay***.
+The next bird I want to see is: ***Blue Jay***, because it's the symbol of the Johns Hopkins community.
 :::
+
+------
 
 # *"Watch Them Fly Above Your Head"* - Bird List
 
@@ -36,7 +40,7 @@ The Next Bird I Want To See Is: ***Blue Jay***.
 | ![](birdspics/american_herring_gull_2401.JPG)    | American Herring Gull    | *larus smithsonianus*      | Jan '24, New York NY      | Gulls, Terns, Skimmers                | winter coat                                                                 |
 | ![](birdspics/laughing_gull_2310.JPG)            | Laughing Gull            | *leucophaeus atricilla*    | Oct '23, Baltimore MD     | Gulls, Terns, Skimmers                | winter coat                                                                 |
 | ![](birdspics/ring_billed_gull_juv_2310.jpeg)    | Ring-billed Gull         | *larus delawarensis*       | Jan '25, Cambridge MD     | Gulls, Terns, Skimmers                |                                                                             |
-| ![](birdspics/california_gull_2407.JPG)          | California Gull          | *laurus californicus*      | July '24, Cannon Beach OR | Gulls, Terns, Skimmers                |                                                                             |
+| ![](birdspics/california_gull_2407.JPG)          | California Gull          | *larus californicus*       | July '24, Cannon Beach OR | Gulls, Terns, Skimmers                |                                                                             |
 | ![](birdspics/glaucous_winged_gull_2407.JPG)     | Glaucous-winged Gull     | *larus glaucescens*        | July '24, Seattle, WA     | Gulls, Terns, Skimmers                | juveniles were seen eating a starfish - sadly they failed.                  |
 | ![](birdspics/caspian_tern_2407.JPG)             | Caspian Tern             | *hydroprogne caspia*       | July '24, Seattle WA      | Gulls, Terns, Skimmers                |                                                                             |
 | ![](birdspics/american_robin_2203.jpg)           | American Robin           | *turdus migratorius*       | Mar '24, Baltimore MD     | Thrushes                              |                                                                             |
@@ -50,7 +54,8 @@ The Next Bird I Want To See Is: ***Blue Jay***.
 | ![](birdspics/whistling_swan_2501.JPG)           | Tundra Swan              | *cygnus columbianus*       | Jan '25, Cambridge MD     | Waterfowl                             | small part of yellow on bills                                               |
 | ![](birdspics/mallard_2501.jpeg)                 | Mallard                  | *anas platyrhynchos*       | Jan '25, Cambridge MD     | Waterfowl                             | sometimes mixed with domestic ducks                                         |
 | ![](birdspics/hooded_merganser_2501.JPG)         | Hooded Merganser         | *lophydytes cucullatus*    | Jan '25, Cambridge MD     | Waterfowl                             | go around in couples                                                        |
-| ![](birdspics/double_crested_cormorant_2310.JPG) | Double-crested Cormorant | *nannopterum auritum*      | July '24, Cannon Beach OR | Cormorants and Anhingas               |                                                                             |
+| ![](birdspics/double_crested_cormorant_2310.JPG) | Double-crested Cormorant | *nannopterum auritum*      | Oct '23, Baltimore MD     | Cormorants and Anhingas               |                                                                             |
+| /                                                | Brandt's Cormorant       | *urile penicillatus*       | July '24. Cannon Beach OR | Cormorants and Anhingas               |                                                                             |
 | /                                                | Tufted Puffin            | *fratercula cirrhata*      | July '24, Cannon Beach OR | Alcids                                |                                                                             |
 | /                                                | Common Murre             | *uria aalge*               | July '24, Cannon Beach OR | Alcids                                |                                                                             |
 | ![](birdspics/brown_pelican_2407.JPG)            | Brown Pelican            | *pelecanus occidentalis*   | July '24, Cannon Beach OR | Pelicans                              |                                                                             |
@@ -58,7 +63,7 @@ The Next Bird I Want To See Is: ***Blue Jay***.
 | ![](birdspics/carolina_wren_2501.JPG)            | Carolina Wren            | thryothorus ludovicianus   | Jan '25, Cambridge MD     | Wrens                                 |                                                                             |
 | ![](birdspics/killdeer_2501.JPG)                 | Killdeer                 | *charadrius vociferus*     | Jan '25, Cambridge MD     | Shorebirds                            |                                                                             |
 | ![](birdspics/wilson_s_snipe_2501.JPG)           | Wilson's Snipe           | *gallinago delicata*       | Jan '25, Cambridge MD     | Shorebirds                            |                                                                             |
-| ![](birdspics/great_blue_heron_2501.JPG)         | Great Blue Heron         | *ardea herodias*           | Jan '25, Cambridge MD     | Herons, Ibis, and allies              | kinda everywhere                                                            |
+| ![](birdspics/great_blue_heron_2403.JPG)         | Great Blue Heron         | *ardea herodias*           | Jan '25, Cambridge MD     | Herons, Ibis, and allies              | kinda everywhere                                                            |
 | ![](birdspics/great_egret_2203.JPG)              | Great Egret              | *ardea alba*               | Mar '22, New Orleans LA   | Herons, Ibis, and allies              |                                                                             |
 | ![](birdspics/rock_pigeon_2401.JPG)              | Rock Pigeon              | *columbia livia*           | Oct '24, Baltimore MD     | Pigeons and Doves                     | NYC pigeons are horribly fat                                                |
 | ![](birdspics/downy_woodpecker_2501.JPG)         | Downy Woodpecker         | *dryobates pubescens*      | Jan '25, Cambridge MD     | Woodpeckers                           | very small                                                                  |
@@ -71,23 +76,36 @@ The Next Bird I Want To See Is: ***Blue Jay***.
 | ![](birdspics/northern_cardinal_2203.jpg)        | Northern Cardinal        | *cardinalis cardinalis*    | Jan '25, Cambridge MD     | Cardinals, Grosbeaks, and allies      | cutest and most iconic bird in the u.s.a.                                   |
 | ![](birdspics/european_starling_2401.JPG)        | European Starling        | *sturnus vulgaris*         | Mar '24, Baltimore MD     | Starlings and Mynas                   |                                                                             |
 
+------
+
 # *"Birdin' U.S.A."* - Places I Went For Birding
 
+*Click on the map to see pictures of birds! Urban sites marked in grey while rural sites marked in green.*
+
 ```{r map, echo = FALSE}
-#| column: screen-inset-right
+#| column: page
+
+# define markers
+rural <- data.frame(lat = c(38.44166, 39.32439, 36.00323, 47.66241, 45.88458, 30.09336),
+                    lng = c(-76.11782, -77.72550, -78.93374, -122.43432, -123.96861, -90.43263))
+
+urban <- data.frame(lat = c(39.27909, 40.69019),
+                    lng = c(-76.59966, -74.04423))
 
 leaflet() %>%
-  addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lat=39.28, lng=-76.59, popup="Inner Harbor, Baltimore MD") %>%
-  addMarkers(lat=38.44, lng=-76.12, popup="Blackwater National Wildlife Refuge, Cambridge MD") %>%
-  addMarkers(lat=40.69, lng=-74.04, popup="Liberty Island, New York City NY") %>%
-  addMarkers(lat=39.32, lng=-77.72, popup="Maryland Heights, Harpers Ferry WV") %>%
-  addMarkers(lat=36.00, lng=-78.93, popup="Duke University, Durham NC") %>%
-  addMarkers(lat=45.88, lng=-123.96, popup="Haystack Rock, Cannon Beach OR") %>%
-  addMarkers(lat=47.66, lng=-122.43, popup="Discovery Park, Seattle WA") %>%
-  addMarkers(lat=30.15, lng=-90.53, popup="Maurepas Swamp, New Orleans LA")
+  addTiles() %>%
+  addCircleMarkers(data = rural, 
+popup = c('<img src="birdspics/bald_eagle_2501.JPG" width="90"> <img src="birdspics/wilson_s_snipe_2501.JPG" width="90">', 
+'<img src="birdspics/turkey_vulture_2403.JPG" width="90"> <img src="birdspics/great_blue_heron_2403.JPG" width="90">', 
+'<img src="birdspics/northern_cardinal_2203.jpg" width="90"> <img src="birdspics/red_tailed_hawk_2201.jpg" width="90">', 
+'<img src="birdspics/caspian_tern_2407.JPG" width="90"> <img src="birdspics/glaucous_winged_gull_2407.JPG" width="90">', 
+'<img src="birdspics/brown_pelican_2407.JPG" width="90"> <img src="birdspics/california_gull_2407.JPG" width="90">', 
+'<img src="birdspics/great_egret_2203.JPG" width="90">'), color = "green", radius = 5) %>%
+  addCircleMarkers(data = urban, popup = c(
+'<img src="birdspics/ring_billed_gull_juv_2310.jpeg" width="90"> <img src="birdspics/double_crested_cormorant_2310.JPG" width="90">', 
+'<img src="birdspics/american_herring_gull_2401.JPG" width="90"> <img src="birdspics/brant_2401.JPG" width="90">'), 
+color = "grey", radius = 5)
 ```
-
 
 ## Baltimore, MD: Inner Harbor
 
@@ -95,6 +113,7 @@ leaflet() %>%
 ![Inner Harbor, Oct 2023](landspics/innerharbor.JPG){group="landspics"}
 :::
 
+-   **Type**: Urban \| Shore
 -   **First Visited**: Aug 2023
 -   **Last Visited**: Dec 2024
 -   **Birds**: Canada Goose, Double-crested Cormorant, Laughing Gull, Mallard, Ring-billed Gull, Rock Pigeon
@@ -107,11 +126,12 @@ leaflet() %>%
 ![Blackwater National Wildlife Refuge, Jan 2025](landspics/blackwaterNWR.JPG){group="landspics"}
 :::
 
+-   **Type**: Rural \| Shore, Wetland, Forest
 -   **First Visited**: Jan 2025
 -   **Last Visited**: Jan 2025
--   **Birds**: Bald Eagle, Canada Goose, Carolina Wren, Downy Woodpecker, Great Blue Heron, Hermit Thrush, Hooded Merganser, Killdeer, Mallard, Northern Cardinal, Northern Mockingbird, Ring-billed gull, Turkey Vulture, Whistling Swan, Wilson's Snipe
+-   **Birds**: Bald Eagle, Canada Goose, Carolina Wren, Downy Woodpecker, Great Blue Heron, Hermit Thrush, Hooded Merganser, Killdeer, Mallard, Northern Cardinal, Northern Mockingbird, Ring-billed Gull, Turkey Vulture, Whistling Swan, Wilson's Snipe
 -   **Comments**: A perfect place for birding in Maryland, the most iconic bird being bald eagle. With woods, wetlands and ponds around the wildlife drive, you can see a variety of birds here. Also, the visitor center's pick of merchandises is superb.
--   **Link**: [U.S. Fish & Wildlife Service: Blackwater National Wildlife Refuge](https://www.fws.gov/refuge/blackwater)
+-   **Links**: [Friends of Blackwater](https://friendsofblackwater.org/) *check the webcams* \| [U.S. Fish & Wildlife Service: Blackwater National Wildlife Refuge](https://www.fws.gov/refuge/blackwater)
 
 ## New York City, NY: Liberty Island
 
@@ -119,6 +139,7 @@ leaflet() %>%
 ![Liberty Island, Jan 2024](landspics/libertyisland.JPG){group="landspics"}
 :::
 
+-   **Type**: Urban \| Island
 -   **First Visited**: Jan 2024
 -   **Last Visited**: Jan 2024
 -   **Birds**: American Herring Gull, Brant, European Starling, Ring-billed Gull
@@ -131,10 +152,11 @@ leaflet() %>%
 ![View of Harpers Ferry from Maryland Heights, Mar 2024](landspics/harpersferry.JPG){group="landspics"}
 :::
 
+-   **Type**: Rural \| Mountain, River, Stream
 -   **First Visited**: Mar 2024
 -   **Last Visited**: Mar 2024
 -   **Birds**: Canada Goose, Mallard, Great Blue Heron, Turkey Vulture
--   **Comments**: The river in the woods is a good place to catch up with our geese and heron friends.
+-   **Comments**: The streams in the woods are a good place to catch up with our geese and heron friends.
 -   **Link**: [National Park Service: Harpers Ferry](https://www.nps.gov/hafe/index.htm)
 
 ## Durham, NC: Duke University
@@ -143,10 +165,11 @@ leaflet() %>%
 ![Duke University, May 2022](landspics/dukeuniversity.JPG){group="landspics"}
 :::
 
+-   **Type**: Rural \| Forest, Pond
 -   **First Visited**: Jan 2022
 -   **Last Visited**: Jan 2024
 -   **Birds**: Red-tailed Hawk, Northern Cardinal, Eastern Bluebird, Carolina Chickadee, American Robin, Carolina Wren, House Finch, Ruby-crowned Kinglet, White-breasted Nuthatch
--   **Comments**: With birdfeeders everywhere, the Sarah P. Duke Garden is a great place for backyard birds like northern cardinal and eastern bluebird. I saw a red-tailed hawk with its nest near the old chemistry building. There are also some exotic waterfowls in the ponds of Duke Garden, like 鸳鸯&赤麻鸭 (not included above), but you can check the link below.
+-   **Comments**: With birdfeeders everywhere, the Sarah P. Duke Garden is a great place for backyard birds like northern cardinal and eastern bluebird. I saw a red-tailed hawk with its nest near the old chemistry building. There are also some exotic waterfowls in the ponds of Duke Garden, like mandarin ducks (鸳鸯) & ruddy shelducks (赤麻鸭) (not included above), you can check the link below.
 -   **Links**: [Exotic Waterfowls in Duke Garden](https://www.dpughphoto.com/duke_gardens_exotic_ducks.htm) \| [Duke Gardens](https://gardens.duke.edu/)
 
 ## Seattle, WA: Discovery Park
@@ -155,9 +178,10 @@ leaflet() %>%
 ![Discovery Park, July 2024](landspics/discoverypark.JPG){group="landspics"}
 :::
 
+-   **Type**: Rural \| Forest, Shore
 -   **First Visited**: July 2024
 -   **Last Visited**: July 2024
--   **Birds**: Caspian Tern, Glaucous-winged gull, Great Blue Heron, American Crow
+-   **Birds**: Caspian Tern, Glaucous-winged Gull, Great Blue Heron, American Crow
 -   **Comments**: With all its natural beauty, the discovery park is a great place to enjoy the views of volcano, forests and sea at one time - and of course, gulls.
 -   **Link**: [Seattle.gov: Discovery Park](https://www.seattle.gov/parks/allparks/discovery-park)
 
@@ -167,11 +191,12 @@ leaflet() %>%
 ![Haystack Rock, July 2024](landspics/cannonbeach.JPG){group="landspics"}
 :::
 
+-   **Type**: Rural \| Shore, Cliff
 -   **First Visited**: July 2024
 -   **Last Visited**: July 2024
 -   **Birds**: Brown Pelican, California Gull, Tufted Puffin, Common Murre, Double-crested Cormorant, American Crow
--   **Comments**: It's just heaven if you love shorebirds - all kinds of shorebirds are nesting on the cliff of haystack rock, just bring your binoculars since there's a sign saying 'birds only beyond this point' - you would not be able to get too close to that rock. The volunteer is very friendly and helpful, and tidepools are also great fun to explore. Also, if you reside in Portland, be sure to check out Powell's books, it has a great collection of field guides as well as other gems.
--   **Link**: [Friends of Haystack Rock](https://www.friendsofhaystackrock.org/)
+-   **Comments**: It's just heaven if you love seabirds and shorebirds - in summer, various birds are nesting on the cliff of haystack rock. Remember to bring your binoculars since there's a sign saying 'birds only beyond this point' - you would not be able to get too close to that rock. The volunteer is very friendly and helpful, and tide pools are also great fun to explore. Also, if you reside in Portland, be sure to check out Powell's books, it has a great collection of field guides as well as other gems.
+-   **Links**: [Friends of Haystack Rock](https://www.friendsofhaystackrock.org/) *check the webcams* \| [U.S. Fish & Wildlife Service: Oregon Islands National Wildlife Refuge](https://www.fws.gov/refuge/oregon-islands/)
 
 ## New Orleans, LA: Maurepas Swamp
 
@@ -179,18 +204,39 @@ leaflet() %>%
 ![Maurepas Swamp - Where the Voodoo Swamp Witch Lies, Mar 2022](landspics/maurepasswamp.JPG){group="landspics"}
 :::
 
+-   **Type**: Rural \| Wetland
 -   **First Visited**: Mar 2022
 -   **Last Visited**: Mar 2022
 -   **Birds**: Great Egret
--   **Comments**: Went there as a part of swamp tour, feeding alligators and racoons with marshmallows etc.
+-   **Comments**: Went there as a part of swamp tour, feeding alligators and raccoons with marshmallows etc.
 -   **Link**: [Louisiana Dpt. of Wildlife & Fisheries: Maurepas Swamp](https://www.wlf.louisiana.gov/page/maurepas-swamp)
-
-# Links & Resources
-
-[Cornell Lab of Ornithology/Merlin Bird ID](https://merlin.allaboutbirds.org/)
-
-[BirdWeb](https://birdweb.org/birdweb/)
 
 ------------------------------------------------------------------------
 
-*Thanks Qinyi who introduced me to the world of birding. I always remember watching night heron with you sitting next to Bixia Pond back in 2019 in the afternoon before taking a Biology exam.*
+# Links & Resources
+
+## General Recourses
+
+-   [Cornell Lab of Ornithology/Merlin Bird ID](https://merlin.allaboutbirds.org/)
+
+-   [BirdWeb](https://birdweb.org/birdweb/)
+
+-   [Audubon Society](https://www.audubon.org/)
+
+## Get Involved! Local Birding Communities
+
+### Baltimore/Maryland
+
+-   [Howard County Bird Club](https://howardbirds.website/)
+
+-   [Audubon Maryland-DC](https://md.audubon.org/)
+
+------------------------------------------------------------------------
+
+# End Notes
+
+Thanks Qinyi who introduced me to the world of birding. I will always remember watching night heron with you sitting next to Bixia Pond back in 2019 in the afternoon before taking a Biology exam.
+
+::: column-page
+![The Place Where It All Begins: Bixia Pond (碧霞池), Suzhou, China, Mar '19](footbanner.jpg){group="banners"}
+:::
