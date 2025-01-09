@@ -473,7 +473,7 @@
     "href": "project.html",
     "title": "Yunyi's Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n[Dashboard] Weather-Respiratory Disease Correlation Explorer\n\n\n\n\n\n\ndata analysis\n\n\nrespiratory virus\n\n\ndashboard\n\n\nR\n\n\nR Shiny\n\n\n\n\n\n\n\n\n\nDec 19, 2024\n\n\n2 min\n\n\n\n\n\n\n\n[Data Analysis] Who is the saddest shoegaze band?\n\n\n\n\n\n\nfun\n\n\ndata analysis\n\n\ntext analysis\n\n\nsentiment analysis\n\n\nR\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n18 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nAll About Birding\n\n\n\n\n\n\nfun\n\n\nbirding\n\n\n\n\n\n\n\n\n\nJan 8, 2025\n\n\n32 min\n\n\n\n\n\n\n\n[Dashboard] Weather-Respiratory Disease Correlation Explorer\n\n\n\n\n\n\ndata analysis\n\n\nrespiratory virus\n\n\ndashboard\n\n\nR\n\n\nR Shiny\n\n\n\n\n\n\n\n\n\nDec 19, 2024\n\n\n2 min\n\n\n\n\n\n\n\n[Data Analysis] Who is the saddest shoegaze band?\n\n\n\n\n\n\nfun\n\n\ndata analysis\n\n\ntext analysis\n\n\nsentiment analysis\n\n\nR\n\n\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n18 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/lyric_analysis/index.html",
@@ -544,5 +544,82 @@
     "title": "[Data Analysis] Who is the saddest shoegaze band?",
     "section": "Data Acquisition & Wrangling",
     "text": "Data Acquisition & Wrangling\n\n\n  \n\nData Acquisition\nLyrics from all studio albums of the ‘big three’ bands in the shoegaze genre - my bloody valentine (mbv), Ride, and slowdive - are retrieved from Genius.com using a Python package named lyricsgenius (Miller 2024) based on Genius API. Please see the author’s instructions for details.\n\n\n\n\n\n\nThe downloaded .json files were written into a .csv file for further processing. Please go to the source repository for more details.\n\n\n\n\n# load packages\nlibrary('stringi')\nlibrary('tidyverse')\nlibrary('lubridate')\nlibrary('knitr')\n\n# reference\nknitr::write_bib(\"rmarkdown\", file = \"my-refs.bib\")\n\n# import data\nlyrics &lt;- read.csv(\"data/lyrics_data.csv\")\nkable(head(lyrics, n = 1))\n\n\n\n\n\n\n\n\n\n\n\n\nTrack.Number\nSong.Title\nArtist\nRelease.Date\nLyrics\nAlbum.Name\n\n\n\n\n1\nSoft as Snow (But Warm Inside)\nmy bloody valentine\n21-Nov-88\n21 ContributorsSoft as Snow (But Warm Inside) Lyrics Soft as snow but warm inside Penetrate, you cannot hide Feeling lost forever, really need you Feeling dark and feeling true This is all I ever knew Soft as skin in leather and I whisper, “You” Harder you come down on me (Ooh, ooh) Sink away, you look happy (Ooh, ooh) Secrets keep forever, they’re undressing me (Ooh, ooh) Come inside, it’s warm in here (Ooh, ooh) Better now to have no fear (Ooh, ooh) Carried on a wave, where it can lead you? (Ooh, ooh) Touch your head, then your hair Softer, softer everywhere Fingertips are burning, can I touch you there? Soft as velvet, eyes can’t see Bring me close to ecstasy High away to heaven, and I’m coming too Float now, coming down on me (Ooh, ooh) Handed you what I cannot see (Ooh, ooh) Feel the big happy, you’re exploding me (Ooh, ooh) Soft as snow and warm inside (Ooh ooh) Penetrate then re-divide (Ooh, ooh) Slip away forever, really need you (Ooh, ooh) You might also like Ooh, ooh Ooh, ooh Ooh, ooh Ooh, ooh Ooh, ooh Ooh, ooh Ooh, ooh Ooh, ooh1Embed\nIsn’t Anything\n\n\n\n\n\n\n\nData Dictionary\n\n\n\n\n\n\n\n\nField Name\nData Type\nDescription\n\n\n\n\nTrack.Number\nInteger\nThe track number of the song in the album\n\n\nSong.Title\nString\nThe title of the song\n\n\nArtist\nString\nThe artist performing the song\n\n\nRelease.Date\nString\nThe date the song was released\n\n\nLyrics\nString\nThe lyrics of the song\n\n\nAlbum.Name\nString\nThe name of the album the song belongs to\n\n\n\n\n\nData Wrangling\nThe lyrics directly retrieved from Genius.com usually have some problems -\n\n\n\n\n\n\n\n‘16 ContributorsBallad of Sister Sue Lyrics’ at the beginning and ‘6Embed’ at the end are not part of the lyrics.\n‘√¢¬Ä¬ô’ - some problem with Unicode encoding/decoding.\n‘See Slowdive LiveGet tickets as low as $55’ - ads is also not part of the lyrics.\n\n\n\n\nSo, it requires some data cleaning.\n\n# clean text\nlyrics_clean &lt;- lyrics %&gt;%\n  mutate(Lyrics = stri_enc_toutf8(Lyrics)) %&gt;%\n  mutate(Lyrics = str_replace_all(Lyrics, 'â\\u0080\\u0099', \"'\")) %&gt;%\n  mutate(\n    Lyrics = Lyrics %&gt;%\n      str_remove(\".*Lyrics\") %&gt;%\n      str_remove(\"See.*tickets as low as \\\\$\\\\d+\") %&gt;%\n      str_remove('You might also like') %&gt;%\n      str_remove('\\\\d*\\\\s*Embed$') %&gt;%\n      str_trim()\n  ) %&gt;%\n  rename(Album = Album.Name) %&gt;%\n  filter(!str_detect(Lyrics, \"^\\\\s*$\")) # filter out instrumental pieces\n\n# add some factors for further processing\nlyrics_clean &lt;- lyrics_clean %&gt;%\n  mutate(lyric.length = nchar(Lyrics),\n         Release.Date = dmy(Release.Date),\n         Release.Year = year(Release.Date))\n\nprint(lyrics_clean[1,'Lyrics'])\n\n[1] \"Soft as snow but warm inside Penetrate, you cannot hide Feeling lost forever, really need you Feeling dark and feeling true This is all I ever knew Soft as skin in leather and I whisper, \\\"You\\\" Harder you come down on me (Ooh, ooh) Sink away, you look happy (Ooh, ooh) Secrets keep forever, they're undressing me (Ooh, ooh) Come inside, it's warm in here (Ooh, ooh) Better now to have no fear (Ooh, ooh) Carried on a wave, where it can lead you? (Ooh, ooh) Touch your head, then your hair Softer, softer everywhere Fingertips are burning, can I touch you there? Soft as velvet, eyes can't see Bring me close to ecstasy High away to heaven, and I'm coming too Float now, coming down on me (Ooh, ooh) Handed you what I cannot see (Ooh, ooh) Feel the big happy, you're exploding me (Ooh, ooh) Soft as snow and warm inside (Ooh ooh) Penetrate then re-divide (Ooh, ooh) Slip away forever, really need you (Ooh, ooh)  Ooh, ooh Ooh, ooh Ooh, ooh Ooh, ooh Ooh, ooh Ooh, ooh Ooh, ooh Ooh, ooh\"\n\n# this is for ride-only analysis\nlyrics_ride &lt;- lyrics_clean %&gt;%\n  filter(Artist == 'Ride')\n\n# this keeps the dataset working for the original analysis\nlyrics_clean &lt;- lyrics_clean %&gt;%\n  filter(!str_detect(Album, \"\\\\[EP\\\\]\")) %&gt;%\n  mutate(Album = factor(Album, \n                        levels = c(\"Isn’t Anything\", \"loveless\", \"m b v\", \n                                   \"Nowhere\", \"Going Blank Again\", \"Carnival of Light\", \"Tarantula\", \"Weather Diaries\", \"This Is Not a Safe Place\", \"Interplay\", \n                                   \"Just for a Day\", \"Souvlaki\", \"Pygmalion\", \"Slowdive\", \"​​​everything is alive\")))"
+  },
+  {
+    "objectID": "projects/all_about_birding/index.html",
+    "href": "projects/all_about_birding/index.html",
+    "title": "All About Birding",
+    "section": "",
+    "text": "Bald Eagle and Killdeer, Blackwater Natural Wildlife Reservoir, Cambridge MD, Jan ’25"
+  },
+  {
+    "objectID": "projects/all_about_birding/index.html#baltimore-md-inner-harbor",
+    "href": "projects/all_about_birding/index.html#baltimore-md-inner-harbor",
+    "title": "All About Birding",
+    "section": "Baltimore, MD: Inner Harbor",
+    "text": "Baltimore, MD: Inner Harbor\n\n\n\n\n\nInner Harbor, Oct 2023\n\n\n\nFirst Visited: Aug 2023\nLast Visited: Dec 2024\nBirds: Canada Goose, Double-crested Cormorant, Laughing Gull, Mallard, Ring-billed Gull, Rock Pigeon\nComments: From inner harbor to harbor east, the waterfront of downtown Baltimore is a great place to watch gulls & various kinds of waterfowls.\nLink: /"
+  },
+  {
+    "objectID": "projects/all_about_birding/index.html#cambridge-md-blackwater-national-wildlife-refuge",
+    "href": "projects/all_about_birding/index.html#cambridge-md-blackwater-national-wildlife-refuge",
+    "title": "All About Birding",
+    "section": "Cambridge, MD: Blackwater National Wildlife Refuge",
+    "text": "Cambridge, MD: Blackwater National Wildlife Refuge\n\n\n\n\n\nBlackwater National Wildlife Refuge, Jan 2025\n\n\n\nFirst Visited: Jan 2025\nLast Visited: Jan 2025\nBirds: Bald Eagle, Canada Goose, Carolina Wren, Downy Woodpecker, Great Blue Heron, Hermit Thrush, Hooded Merganser, Killdeer, Mallard, Northern Cardinal, Northern Mockingbird, Ring-billed gull, Turkey Vulture, Whistling Swan, Wilson’s Snipe\nComments: A perfect place for birding in Maryland, the most iconic bird being bald eagle. With woods, wetlands and ponds around the wildlife drive, you can see a variety of birds here. Also, the visitor center’s pick of merchandises is superb.\nLink: U.S. Fish & Wildlife Service: Blackwater National Wildlife Refuge"
+  },
+  {
+    "objectID": "projects/all_about_birding/index.html#new-york-city-ny-liberty-island",
+    "href": "projects/all_about_birding/index.html#new-york-city-ny-liberty-island",
+    "title": "All About Birding",
+    "section": "New York City, NY: Liberty Island",
+    "text": "New York City, NY: Liberty Island\n\n\n\n\n\nLiberty Island, Jan 2024\n\n\n\nFirst Visited: Jan 2024\nLast Visited: Jan 2024\nBirds: American Herring Gull, Brant, European Starling, Ring-billed Gull\nComments: While New York City is full of fat rock pigeons, the liberty island is surprisingly a good place to watch waterfowls, and of course, gulls. Just mind your food, the gulls are really aggressive.\nLink: /"
+  },
+  {
+    "objectID": "projects/all_about_birding/index.html#harpers-ferry-wv",
+    "href": "projects/all_about_birding/index.html#harpers-ferry-wv",
+    "title": "All About Birding",
+    "section": "Harpers Ferry, WV",
+    "text": "Harpers Ferry, WV\n\nFirst Visited: Jan 2024\nLast Visited: Jan 2024\nBirds:\nComments:\nLink: /"
+  },
+  {
+    "objectID": "projects/all_about_birding/index.html#durham-nc-duke-university",
+    "href": "projects/all_about_birding/index.html#durham-nc-duke-university",
+    "title": "All About Birding",
+    "section": "Durham, NC: Duke University",
+    "text": "Durham, NC: Duke University\n\n\n\n\n\nDuke University, May 2022\n\n\n\nFirst Visited: Jan 2022\nLast Visited: Jan 2024\nBirds: Red-tailed Hawk, Northern Cardinal, Eastern Bluebird, Carolina Chickadee, American Robin, Carolina Wren, House Finch, Ruby-crowned Kinglet, White-breasted Nuthatch\nComments: With birdfeeders everywhere, the Sarah P. Duke Garden is a great place for backyard birds like northern cardinal and eastern bluebird. I saw a red-tailed hawk with its nest near the old chemistry building. There are also some exotic waterfowls in the ponds of Duke Garden, like 鸳鸯&赤麻鸭 (not included above), but you can check the link below.\nLinks: Exotic Waterfowls in Duke Garden | Duke Gardens"
+  },
+  {
+    "objectID": "projects/all_about_birding/index.html#seattle-wa-discovery-park",
+    "href": "projects/all_about_birding/index.html#seattle-wa-discovery-park",
+    "title": "All About Birding",
+    "section": "Seattle, WA: Discovery Park",
+    "text": "Seattle, WA: Discovery Park\n\n\n\n\n\nDiscovery Park, July 2024\n\n\n\nFirst Visited: July 2024\nLast Visited: July 2024\nBirds: Caspian Tern, Glaucous-winged gull, Great Blue Heron, American Crow\nComments: With all its natural beauty, the discovery park is a great place to enjoy the views of volcano, forests and sea at one time - and of course, gulls.\nLink: Seattle.gov: Discovery Park"
+  },
+  {
+    "objectID": "projects/all_about_birding/index.html#cannon-beach-or-haystack-rock",
+    "href": "projects/all_about_birding/index.html#cannon-beach-or-haystack-rock",
+    "title": "All About Birding",
+    "section": "Cannon Beach, OR: Haystack Rock",
+    "text": "Cannon Beach, OR: Haystack Rock\n\n\n\n\n\nHaystack Rock, July 2024\n\n\n\nFirst Visited: July 2024\nLast Visited: July 2024\nBirds: Brown Pelican, California Gull, Tufted Puffin, Common Murre, Double-crested Cormorant, American Crow\nComments: It’s just heaven if you love shorebirds - all kinds of shorebirds are nesting on the cliff of haystack rock, just bring your binoculars since there’s a sign saying ‘birds only beyond this point’ - you would not be able to get too close to that rock. The volunteer is very friendly and helpful, and tidepools are also great fun to explore. Also, if you reside in Portland, be sure to check out Powell’s books, it has a great collection of field guides as well as other gems.\nLink: Friends of Haystack Rock"
+  },
+  {
+    "objectID": "projects/all_about_birding/index.html#new-orleans-la-maurepas-swamp",
+    "href": "projects/all_about_birding/index.html#new-orleans-la-maurepas-swamp",
+    "title": "All About Birding",
+    "section": "New Orleans, LA: Maurepas Swamp",
+    "text": "New Orleans, LA: Maurepas Swamp\n\n\n\n\n\nMaurepas Swamp - Where the Voodoo Swamp Witch Lies, Mar 2022\n\n\n\nFirst Visited: Mar 2022\nLast Visited: Mar 2022\nBirds: Great Egret\nComments: Went there as a part of swamp tour, feeding alligators and racoons with marshmallows etc.\nLink: Louisiana Dpt. of Wildlife & Fisheries: Maurepas Swamp"
+  },
+  {
+    "objectID": "projects/all_about_birding/index.html#harpers-ferry-wv-maryland-heights",
+    "href": "projects/all_about_birding/index.html#harpers-ferry-wv-maryland-heights",
+    "title": "All About Birding",
+    "section": "Harpers Ferry, WV: Maryland Heights",
+    "text": "Harpers Ferry, WV: Maryland Heights\n\n\n\n\n\nView of Harpers Ferry from Maryland Heights, Mar 2024\n\n\n\nFirst Visited: Mar 2024\nLast Visited: Mar 2024\nBirds: Canada Goose, Mallard, Great Blue Heron, Turkey Vulture\nComments: The river in the woods is a good place to catch up with our geese and heron friends.\nLink: National Park Service: Harpers Ferry"
+  },
+  {
+    "objectID": "projects/all_about_birding/index.html#the-next-bird-i-want-to-see-is",
+    "href": "projects/all_about_birding/index.html#the-next-bird-i-want-to-see-is",
+    "title": "All About Birding",
+    "section": "",
+    "text": "Blue Jay"
   }
 ]

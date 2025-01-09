@@ -18,6 +18,7 @@
   {
     "listing": "/project.html",
     "items": [
+      "/projects/all_about_birding/index.html",
       "/projects/RESPweather_dashboard/index.html",
       "/projects/lyric_analysis/index.html"
     ]
