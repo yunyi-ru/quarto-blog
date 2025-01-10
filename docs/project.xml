@@ -45,361 +45,523 @@
 </div>
 <hr>
 </section>
-<section id="watch-them-fly-above-your-head---bird-list" class="level1">
+<section id="watch-them-fly-above-your-head---bird-list" class="level1 page-columns page-full">
 <h1><em>“Watch Them Fly Above Your Head”</em> - Bird List</h1>
-<table class="caption-top table">
+<section id="my-bird-list" class="level2">
+<h2 class="anchored" data-anchor-id="my-bird-list">My Bird List</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
 <colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
+<col style="width: 21%">
+<col style="width: 11%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 15%">
+<col style="width: 30%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Picture</th>
-<th>Common Name</th>
-<th>Scientific Name</th>
-<th>Last Seen</th>
-<th>Family</th>
-<th>Random Comments</th>
+<th style="text-align: left;">Picture</th>
+<th style="text-align: left;">Common Name</th>
+<th style="text-align: left;">Scientific Name</th>
+<th style="text-align: left;">Last Seen</th>
+<th style="text-align: left;">Family</th>
+<th style="text-align: left;">Random Comments</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/american_crow_2407.JPG" class="img-fluid"></td>
-<td>American Crow</td>
-<td><em>corvus brachyrhynchos</em></td>
-<td>Jan ’25, Baltimore MD</td>
-<td>Jays, Magpies, Crows, Ravens</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/brant_2401.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Brant</td>
+<td style="text-align: left;"><em>branta bernicla</em></td>
+<td style="text-align: left;">Jan ’24, New York NY</td>
+<td style="text-align: left;">Waterfowl</td>
+<td style="text-align: left;">can be identified by white neckline</td>
 </tr>
 <tr class="even">
-<td>/</td>
-<td>Common Raven</td>
-<td><em>corvus corax</em></td>
-<td>Nov ’24, Baltimore MD</td>
-<td>Jays, Magpies, Crows, Ravens</td>
-<td>“quoth the raven, ‘nevermore’” - quoth someone who died in Baltimore.</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/canadian_goose_2501.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Canada Goose</td>
+<td style="text-align: left;"><em>branta canadensis</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Waterfowl</td>
+<td style="text-align: left;">countless of them in blackwater NWR</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/american_herring_gull_2401.JPG" class="img-fluid"></td>
-<td>American Herring Gull</td>
-<td><em>larus smithsonianus</em></td>
-<td>Jan ’24, New York NY</td>
-<td>Gulls, Terns, Skimmers</td>
-<td>winter coat</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/bar_headed_goose_1912.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Bar-headed Goose</td>
+<td style="text-align: left;"><em>anser indicus</em></td>
+<td style="text-align: left;">Dec ’19, Lhasa Tibet</td>
+<td style="text-align: left;">Waterfowl</td>
+<td style="text-align: left;">Seen with ruddy shelduck in the pond behind Potala palace</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/laughing_gull_2310.JPG" class="img-fluid"></td>
-<td>Laughing Gull</td>
-<td><em>leucophaeus atricilla</em></td>
-<td>Oct ’23, Baltimore MD</td>
-<td>Gulls, Terns, Skimmers</td>
-<td>winter coat</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/ruddy_shelduck_1912.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Ruddy Shelduck</td>
+<td style="text-align: left;"><em>tadorna ferruginea</em></td>
+<td style="text-align: left;">Dec ’19, Lhasa Tibet</td>
+<td style="text-align: left;">Waterfowl</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/ring_billed_gull_juv_2310.jpeg" class="img-fluid"></td>
-<td>Ring-billed Gull</td>
-<td><em>larus delawarensis</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Gulls, Terns, Skimmers</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/black_swan_juv_2302.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Black Swan</td>
+<td style="text-align: left;"><em>cygnus atratus</em></td>
+<td style="text-align: left;">Feb ’23, Suzhou Jiangsu</td>
+<td style="text-align: left;">Waterfowl</td>
+<td style="text-align: left;">juvenile</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/california_gull_2407.JPG" class="img-fluid"></td>
-<td>California Gull</td>
-<td><em>larus californicus</em></td>
-<td>July ’24, Cannon Beach OR</td>
-<td>Gulls, Terns, Skimmers</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/whistling_swan_2501.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Tundra Swan</td>
+<td style="text-align: left;"><em>cygnus columbianus</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Waterfowl</td>
+<td style="text-align: left;">small part of yellow on bills</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/glaucous_winged_gull_2407.JPG" class="img-fluid"></td>
-<td>Glaucous-winged Gull</td>
-<td><em>larus glaucescens</em></td>
-<td>July ’24, Seattle, WA</td>
-<td>Gulls, Terns, Skimmers</td>
-<td>juveniles were seen eating a starfish - sadly they failed.</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/mallard_2501.jpeg" class="img-fluid"></td>
+<td style="text-align: left;">Mallard</td>
+<td style="text-align: left;"><em>anas platyrhynchos</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Waterfowl</td>
+<td style="text-align: left;">sometimes mixed with domestic ducks</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/caspian_tern_2407.JPG" class="img-fluid"></td>
-<td>Caspian Tern</td>
-<td><em>hydroprogne caspia</em></td>
-<td>July ’24, Seattle WA</td>
-<td>Gulls, Terns, Skimmers</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/mandarin_duck_juv_2306.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Mandarin Duck</td>
+<td style="text-align: left;"><em>aix galericulata</em></td>
+<td style="text-align: left;">June ’23, Beijing</td>
+<td style="text-align: left;">Waterfowl</td>
+<td style="text-align: left;">juvenile, identified by dotted webbings</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/american_robin_2203.jpg" class="img-fluid"></td>
-<td>American Robin</td>
-<td><em>turdus migratorius</em></td>
-<td>Mar ’24, Baltimore MD</td>
-<td>Thrushes</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/hooded_merganser_2501.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Hooded Merganser</td>
+<td style="text-align: left;"><em>lophydytes cucullatus</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Waterfowl</td>
+<td style="text-align: left;">go around in couples</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/eastern_bluebird_2203.jpg" class="img-fluid"></td>
-<td>Eastern Bluebird</td>
-<td><em>sialia sialis</em></td>
-<td>Mar ’22, Durham NC</td>
-<td>Thrushes</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/great_cormorant_1907.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Great Cormorant</td>
+<td style="text-align: left;"><em>phalacrocorax carbo</em></td>
+<td style="text-align: left;">July ’19, Kyoto Japan</td>
+<td style="text-align: left;">Cormorants and Anhingas</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/hermit_thrush_2501.JPG" class="img-fluid"></td>
-<td>Hermit Thrush</td>
-<td><em>catharus guttatus</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Thrushes</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/double_crested_cormorant_2310.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Double-crested Cormorant</td>
+<td style="text-align: left;"><em>nannopterum auritum</em></td>
+<td style="text-align: left;">Oct ’23, Baltimore MD</td>
+<td style="text-align: left;">Cormorants and Anhingas</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/turkey_vulture_2403.JPG" class="img-fluid"></td>
-<td>Turkey Vulture</td>
-<td><em>cathartes aura</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Vultures, Hawks, and Allies</td>
-<td>if you go on a road trip they are always there</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">Brandt’s Cormorant</td>
+<td style="text-align: left;"><em>urile penicillatus</em></td>
+<td style="text-align: left;">July ’24, Cannon Beach OR</td>
+<td style="text-align: left;">Cormorants and Anhingas</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/bald_eagle_2501.JPG" class="img-fluid"></td>
-<td>Bald Eagle</td>
-<td><em>haliaeetus leucocephalus</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Vultures, Hawks, and Allies</td>
-<td>can be differentiated from turkey vulture while flying by their white tails</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/little_grebe_2105.jpeg" class="img-fluid"></td>
+<td style="text-align: left;">Little Grebe</td>
+<td style="text-align: left;">tachybaptus ruficollis</td>
+<td style="text-align: left;">May ’21, Suzhou Jiangsu</td>
+<td style="text-align: left;">Grebes</td>
+<td style="text-align: left;">called ‘little PT’ in Chinese birding community - too hard to write</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/red_tailed_hawk_2201.jpg" class="img-fluid"></td>
-<td>Red-tailed Hawk</td>
-<td><em>buteo jamaicensis</em></td>
-<td>Jan ’22, Durham NC</td>
-<td>Vultures, Hawks, and Allies</td>
-<td></td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">Tufted Puffin</td>
+<td style="text-align: left;"><em>fratercula cirrhata</em></td>
+<td style="text-align: left;">July ’24, Cannon Beach OR</td>
+<td style="text-align: left;">Alcids</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/brant_2401.JPG" class="img-fluid"></td>
-<td>Brant</td>
-<td><em>branta bernicla</em></td>
-<td>Jan ’24, New York NY</td>
-<td>Waterfowl</td>
-<td>can be identified by white neckline</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">Common Murre</td>
+<td style="text-align: left;"><em>uria aalge</em></td>
+<td style="text-align: left;">July ’24, Cannon Beach OR</td>
+<td style="text-align: left;">Alcids</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/canadian_goose_2501.JPG" class="img-fluid"></td>
-<td>Canada Goose</td>
-<td><em>branta canadensis</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Waterfowl</td>
-<td>countless of them in blackwater NWR</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/brown_pelican_2407.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Brown Pelican</td>
+<td style="text-align: left;"><em>pelecanus occidentalis</em></td>
+<td style="text-align: left;">July ’24, Cannon Beach OR</td>
+<td style="text-align: left;">Pelicans</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/whistling_swan_2501.JPG" class="img-fluid"></td>
-<td>Tundra Swan</td>
-<td><em>cygnus columbianus</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Waterfowl</td>
-<td>small part of yellow on bills</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/american_herring_gull_2401.JPG" class="img-fluid"></td>
+<td style="text-align: left;">American Herring Gull</td>
+<td style="text-align: left;"><em>larus smithsonianus</em></td>
+<td style="text-align: left;">Jan ’24, New York NY</td>
+<td style="text-align: left;">Gulls, Terns, Skimmers</td>
+<td style="text-align: left;">winter coat</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/mallard_2501.jpeg" class="img-fluid"></td>
-<td>Mallard</td>
-<td><em>anas platyrhynchos</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Waterfowl</td>
-<td>sometimes mixed with domestic ducks</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/laughing_gull_2310.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Laughing Gull</td>
+<td style="text-align: left;"><em>leucophaeus atricilla</em></td>
+<td style="text-align: left;">Oct ’23, Baltimore MD</td>
+<td style="text-align: left;">Gulls, Terns, Skimmers</td>
+<td style="text-align: left;">winter coat</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/hooded_merganser_2501.JPG" class="img-fluid"></td>
-<td>Hooded Merganser</td>
-<td><em>lophydytes cucullatus</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Waterfowl</td>
-<td>go around in couples</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/ring_billed_gull_juv_2310.jpeg" class="img-fluid"></td>
+<td style="text-align: left;">Ring-billed Gull</td>
+<td style="text-align: left;"><em>larus delawarensis</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Gulls, Terns, Skimmers</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/double_crested_cormorant_2310.JPG" class="img-fluid"></td>
-<td>Double-crested Cormorant</td>
-<td><em>nannopterum auritum</em></td>
-<td>Oct ’23, Baltimore MD</td>
-<td>Cormorants and Anhingas</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/california_gull_2407.JPG" class="img-fluid"></td>
+<td style="text-align: left;">California Gull</td>
+<td style="text-align: left;"><em>larus californicus</em></td>
+<td style="text-align: left;">July ’24, Cannon Beach OR</td>
+<td style="text-align: left;">Gulls, Terns, Skimmers</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="odd">
-<td>/</td>
-<td>Brandt’s Cormorant</td>
-<td><em>urile penicillatus</em></td>
-<td>July ’24. Cannon Beach OR</td>
-<td>Cormorants and Anhingas</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/glaucous_winged_gull_2407.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Glaucous-winged Gull</td>
+<td style="text-align: left;"><em>larus glaucescens</em></td>
+<td style="text-align: left;">July ’24, Seattle WA</td>
+<td style="text-align: left;">Gulls, Terns, Skimmers</td>
+<td style="text-align: left;">juveniles were seen eating a starfish - sadly they failed.</td>
 </tr>
 <tr class="even">
-<td>/</td>
-<td>Tufted Puffin</td>
-<td><em>fratercula cirrhata</em></td>
-<td>July ’24, Cannon Beach OR</td>
-<td>Alcids</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/caspian_tern_2407.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Caspian Tern</td>
+<td style="text-align: left;"><em>hydroprogne caspia</em></td>
+<td style="text-align: left;">July ’24, Seattle WA</td>
+<td style="text-align: left;">Gulls, Terns, Skimmers</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="odd">
-<td>/</td>
-<td>Common Murre</td>
-<td><em>uria aalge</em></td>
-<td>July ’24, Cannon Beach OR</td>
-<td>Alcids</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/whiskered_tern_2208.jpeg" class="img-fluid"></td>
+<td style="text-align: left;">Whiskered Tern</td>
+<td style="text-align: left;"><em>chlidonias hybrida</em></td>
+<td style="text-align: left;">Aug ’22, Suzhou Jiangsu</td>
+<td style="text-align: left;">Gulls, Terns, Skimmers</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/brown_pelican_2407.JPG" class="img-fluid"></td>
-<td>Brown Pelican</td>
-<td><em>pelecanus occidentalis</em></td>
-<td>July ’24, Cannon Beach OR</td>
-<td>Pelicans</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/eurasian_crag_martin_2306.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Eurasian Crag-Martin</td>
+<td style="text-align: left;"><em>ptyonoprogne rupestris</em></td>
+<td style="text-align: left;">June ’23, Datong Shanxi</td>
+<td style="text-align: left;">Martins and Swallows</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/carolina_chickadee_2203.jpg" class="img-fluid"></td>
-<td>Carolina Chickadee</td>
-<td><em>poecile carolinensis</em></td>
-<td>Mar ’22, Durham NC</td>
-<td>Tits, Chickadees, and Titmice</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/killdeer_2501.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Killdeer</td>
+<td style="text-align: left;"><em>charadrius vociferus</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Shorebirds</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/carolina_wren_2501.JPG" class="img-fluid"></td>
-<td>Carolina Wren</td>
-<td>thryothorus ludovicianus</td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Wrens</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/wilson_s_snipe_2501.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Wilson’s Snipe</td>
+<td style="text-align: left;"><em>gallinago delicata</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Shorebirds</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/killdeer_2501.JPG" class="img-fluid"></td>
-<td>Killdeer</td>
-<td><em>charadrius vociferus</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Shorebirds</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/great_blue_heron_2403.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Great Blue Heron</td>
+<td style="text-align: left;"><em>ardea herodias</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Herons, Ibis, and allies</td>
+<td style="text-align: left;">kinda everywhere</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/wilson_s_snipe_2501.JPG" class="img-fluid"></td>
-<td>Wilson’s Snipe</td>
-<td><em>gallinago delicata</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Shorebirds</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/gray_heron_1907.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Gray Heron</td>
+<td style="text-align: left;"><em>ardea cinerea</em></td>
+<td style="text-align: left;">July ’19, Kyoto Japan</td>
+<td style="text-align: left;">Herons, Ibis, and allies</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/great_blue_heron_2403.JPG" class="img-fluid"></td>
-<td>Great Blue Heron</td>
-<td><em>ardea herodias</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Herons, Ibis, and allies</td>
-<td>kinda everywhere</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/great_egret_2203.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Great Egret</td>
+<td style="text-align: left;"><em>ardea alba</em></td>
+<td style="text-align: left;">Mar ’22, New Orleans LA</td>
+<td style="text-align: left;">Herons, Ibis, and allies</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/great_egret_2203.JPG" class="img-fluid"></td>
-<td>Great Egret</td>
-<td><em>ardea alba</em></td>
-<td>Mar ’22, New Orleans LA</td>
-<td>Herons, Ibis, and allies</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/little_egret_2111.jpeg" class="img-fluid"></td>
+<td style="text-align: left;">Little Egret</td>
+<td style="text-align: left;"><em>egretta garzetta</em></td>
+<td style="text-align: left;">Nov ’21, Suzhou Jiangsu</td>
+<td style="text-align: left;">Herons, Ibis, and allies</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/rock_pigeon_2401.JPG" class="img-fluid"></td>
-<td>Rock Pigeon</td>
-<td><em>columbia livia</em></td>
-<td>Oct ’24, Baltimore MD</td>
-<td>Pigeons and Doves</td>
-<td>NYC pigeons are horribly fat</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/eurasian_moorhen_2302.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Eurasian Moorhen</td>
+<td style="text-align: left;"><em>gallinula chloropus</em></td>
+<td style="text-align: left;">Nov ’21, Suzhou Jiangsu</td>
+<td style="text-align: left;">Rails, Gallinules, and allies</td>
+<td style="text-align: left;">symbol of DKU community!</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/downy_woodpecker_2501.JPG" class="img-fluid"></td>
-<td>Downy Woodpecker</td>
-<td><em>dryobates pubescens</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Woodpeckers</td>
-<td>very small</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/eurasian_coot_2301.jpeg" class="img-fluid"></td>
+<td style="text-align: left;">Eurasian Coot</td>
+<td style="text-align: left;"><em>fulica atra</em></td>
+<td style="text-align: left;">Jan ’23, Suzhou Jiangsu</td>
+<td style="text-align: left;">Rails, Gallinules, and allies</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/northern_mockingbird_2501.JPG" class="img-fluid"></td>
-<td>Northern Mockingbird</td>
-<td><em>mimus polyglottos</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Catbirds, Mockingbirds, and Thrashers</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/rock_pigeon_2401.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Rock Pigeon</td>
+<td style="text-align: left;"><em>columbia livia</em></td>
+<td style="text-align: left;">Oct ’24, Baltimore MD</td>
+<td style="text-align: left;">Pigeons and Doves</td>
+<td style="text-align: left;">NYC pigeons are horribly fat</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/white_breasted_nuthatch_2203.jpg" class="img-fluid"></td>
-<td>White-breasted Nuthatch</td>
-<td><em>sitta carolinensis</em></td>
-<td>Mar ’22, Durham NC</td>
-<td>Nuthatches</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/spotted_dove_2011.jpeg" class="img-fluid"></td>
+<td style="text-align: left;">Spotted Dove</td>
+<td style="text-align: left;"><em>spilopelia chinensis</em></td>
+<td style="text-align: left;">Nov ’20, Suzhou Jiangsu</td>
+<td style="text-align: left;">Pigeons and Doves</td>
+<td style="text-align: left;">dubbed ‘the most delicious friend of hawks’</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/ruby_crowned_kinglet_2203.jpg" class="img-fluid"></td>
-<td>Ruby-crowned Kinglet</td>
-<td><em>corthylio calendula</em></td>
-<td>Mar ’22, Durham NC</td>
-<td>Kinglets</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/turkey_vulture_2403.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Turkey Vulture</td>
+<td style="text-align: left;"><em>cathartes aura</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Vultures, Hawks, and Allies</td>
+<td style="text-align: left;">if you go on a road trip they are always there</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/white_throated_sparrow_2410.JPG" class="img-fluid"></td>
-<td>White-throated Sparrow</td>
-<td><em>zonotrichia albicollis</em></td>
-<td>Oct ’24, Baltimore MD</td>
-<td>New World Sparrows</td>
-<td>found dead around MICA, sadly</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/bald_eagle_2501.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Bald Eagle</td>
+<td style="text-align: left;"><em>haliaeetus leucocephalus</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Vultures, Hawks, and Allies</td>
+<td style="text-align: left;">can be differentiated from turkey vulture while flying by their white tails</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/house_sparrow_2405.JPG" class="img-fluid"></td>
-<td>House Sparrow</td>
-<td><em>passer domesticus</em></td>
-<td>May ’24, Boston MA</td>
-<td>Old World Sparrows</td>
-<td>white neckline</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/red_tailed_hawk_2201.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Red-tailed Hawk</td>
+<td style="text-align: left;"><em>buteo jamaicensis</em></td>
+<td style="text-align: left;">Jan ’22, Durham NC</td>
+<td style="text-align: left;">Vultures, Hawks, and Allies</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/house_finch_2203.jpg" class="img-fluid"></td>
-<td>House Finch</td>
-<td><em>haemorhous mexicanus</em></td>
-<td>Mar ’22, Durham NC</td>
-<td>Finches, Euphonias, and allies</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/downy_woodpecker_2501.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Downy Woodpecker</td>
+<td style="text-align: left;"><em>dryobates pubescens</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Woodpeckers</td>
+<td style="text-align: left;">very small</td>
 </tr>
 <tr class="odd">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/northern_cardinal_2203.jpg" class="img-fluid"></td>
-<td>Northern Cardinal</td>
-<td><em>cardinalis cardinalis</em></td>
-<td>Jan ’25, Cambridge MD</td>
-<td>Cardinals, Grosbeaks, and allies</td>
-<td>cutest and most iconic bird in the u.s.a.</td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/american_crow_2407.JPG" class="img-fluid"></td>
+<td style="text-align: left;">American Crow</td>
+<td style="text-align: left;"><em>corvus brachyrhynchos</em></td>
+<td style="text-align: left;">Jan ’25, Baltimore MD</td>
+<td style="text-align: left;">Jays, Magpies, Crows, Ravens</td>
+<td style="text-align: left;">NA</td>
 </tr>
 <tr class="even">
-<td><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/european_starling_2401.JPG" class="img-fluid"></td>
-<td>European Starling</td>
-<td><em>sturnus vulgaris</em></td>
-<td>Mar ’24, Baltimore MD</td>
-<td>Starlings and Mynas</td>
-<td></td>
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/large_billed_crow_2303.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Large-billed Crow</td>
+<td style="text-align: left;"><em>corvus macrohynchos</em></td>
+<td style="text-align: left;">Mar ’23, Lijiang Yunnan</td>
+<td style="text-align: left;">Jays, Magpies, Crows, Ravens</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">Common Raven</td>
+<td style="text-align: left;"><em>corvus corax</em></td>
+<td style="text-align: left;">Nov ’24, Baltimore MD</td>
+<td style="text-align: left;">Jays, Magpies, Crows, Ravens</td>
+<td style="text-align: left;">‘quoth the raven, nevermore’ - quoth someone who died in Baltimore.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/red_billed_blue_magpie_2303.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Red-billed Blue-Magpie</td>
+<td style="text-align: left;"><em>urocissa erythroryncha</em></td>
+<td style="text-align: left;">Mar ’23, Lijiang Yunnan</td>
+<td style="text-align: left;">Jays, Magpies, Crows, Ravens</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/azure_winged_magpie_2302.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Azure-winged Magpie</td>
+<td style="text-align: left;"><em>cyanopica cyanus</em></td>
+<td style="text-align: left;">Feb ’23, Suzhou Jiangsu</td>
+<td style="text-align: left;">Jays, Magpies, Crows, Ravens</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/long_tailed_shrike_2302.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Long-tailed Shrike</td>
+<td style="text-align: left;"><em>lanius schach</em></td>
+<td style="text-align: left;">Feb ’23, Lijiang Yunnan</td>
+<td style="text-align: left;">Shrikes</td>
+<td style="text-align: left;">‘butcher bird’ - in me the tiger sniffs the plum blossoms</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/american_robin_2203.jpg" class="img-fluid"></td>
+<td style="text-align: left;">American Robin</td>
+<td style="text-align: left;"><em>turdus migratorius</em></td>
+<td style="text-align: left;">Mar ’24, Baltimore MD</td>
+<td style="text-align: left;">Thrushes</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/eastern_bluebird_2203.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Eastern Bluebird</td>
+<td style="text-align: left;"><em>sialia sialis</em></td>
+<td style="text-align: left;">Mar ’22, Durham NC</td>
+<td style="text-align: left;">Thrushes</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/hermit_thrush_2501.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Hermit Thrush</td>
+<td style="text-align: left;"><em>catharus guttatus</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Thrushes</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/northern_mockingbird_2501.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Northern Mockingbird</td>
+<td style="text-align: left;"><em>mimus polyglottos</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Catbirds, Mockingbirds, and Thrashers</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/white_browed_laughingthrush_2007.JPG" class="img-fluid"></td>
+<td style="text-align: left;">White-browed Laughingthrush</td>
+<td style="text-align: left;"><em>pterohinus sannio</em></td>
+<td style="text-align: left;">July ’20, Chengdu Sichuan</td>
+<td style="text-align: left;">Laughingthrushes and allies</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/white_breasted_nuthatch_2203.jpg" class="img-fluid"></td>
+<td style="text-align: left;">White-breasted Nuthatch</td>
+<td style="text-align: left;"><em>sitta carolinensis</em></td>
+<td style="text-align: left;">Mar ’22, Durham NC</td>
+<td style="text-align: left;">Nuthatches</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/carolina_wren_2501.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Carolina Wren</td>
+<td style="text-align: left;">thryothorus ludovicianus</td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Wrens</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/ruby_crowned_kinglet_2203.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Ruby-crowned Kinglet</td>
+<td style="text-align: left;"><em>corthylio calendula</em></td>
+<td style="text-align: left;">Mar ’22, Durham NC</td>
+<td style="text-align: left;">Kinglets</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/white_wagtail_2303.JPG" class="img-fluid"></td>
+<td style="text-align: left;">White Wagtail</td>
+<td style="text-align: left;"><em>motacilla alba</em></td>
+<td style="text-align: left;">Mar ’23, Lijiang Yunnan</td>
+<td style="text-align: left;">Wagtails and Pipits</td>
+<td style="text-align: left;">tail points up and down endlessly</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/white_throated_sparrow_2410.JPG" class="img-fluid"></td>
+<td style="text-align: left;">White-throated Sparrow</td>
+<td style="text-align: left;"><em>zonotrichia albicollis</em></td>
+<td style="text-align: left;">Oct ’24, Baltimore MD</td>
+<td style="text-align: left;">New World Sparrows</td>
+<td style="text-align: left;">found dead around MICA, sadly</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/house_sparrow_2405.JPG" class="img-fluid"></td>
+<td style="text-align: left;">House Sparrow</td>
+<td style="text-align: left;"><em>passer domesticus</em></td>
+<td style="text-align: left;">May ’24, Boston MA</td>
+<td style="text-align: left;">Old World Sparrows</td>
+<td style="text-align: left;">white neckline</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/eurasian_tree_sparrow_1911.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Eurasian Tree Sparrow</td>
+<td style="text-align: left;"><em>passer montanus</em></td>
+<td style="text-align: left;">Nov ’19, Suzhou Jiangsu</td>
+<td style="text-align: left;">Old World Sparrows</td>
+<td style="text-align: left;">black cheek</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/house_finch_2203.jpg" class="img-fluid"></td>
+<td style="text-align: left;">House Finch</td>
+<td style="text-align: left;"><em>haemorhous mexicanus</em></td>
+<td style="text-align: left;">Mar ’22, Durham NC</td>
+<td style="text-align: left;">Finches, Euphonias, and allies</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/northern_cardinal_2203.jpg" class="img-fluid"></td>
+<td style="text-align: left;">Northern Cardinal</td>
+<td style="text-align: left;"><em>cardinalis cardinalis</em></td>
+<td style="text-align: left;">Jan ’25, Cambridge MD</td>
+<td style="text-align: left;">Cardinals, Grosbeaks, and allies</td>
+<td style="text-align: left;">cutest and most iconic bird in the u.s.a.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/european_starling_2401.JPG" class="img-fluid"></td>
+<td style="text-align: left;">European Starling</td>
+<td style="text-align: left;"><em>sturnus vulgaris</em></td>
+<td style="text-align: left;">Mar ’24, Baltimore MD</td>
+<td style="text-align: left;">Starlings and Mynas</td>
+<td style="text-align: left;">NA</td>
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+</section>
+<section id="birding-around-the-world-interactive-map" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="birding-around-the-world-interactive-map">Birding Around the World: Interactive Map</h2>
+<p><em>Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.</em></p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-page">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-d850488a896239afd384" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-d850488a896239afd384">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<img src=\"birdspics/bald_eagle_2501.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\">'","<img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\">'","<img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\">'","<img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\">'","<img src=\"birdspics/brown_pelican_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\">'","<img src=\"birdspics/great_egret_2203.JPG\" width=\"90\">'","<img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\">'","<img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\">'"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.41755,31.39642,31.30295,39.98998,30.74135,40.11208],[-76.59966,-74.04423,91.11783,120.89291,120.90624,120.6159,116.26826,104.14193,113.1376],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<img src=\"birdspics/ring_billed_gull_juv_2310.jpeg\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\">'","<img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\">'","<img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\">'","<img src=\"birdspics/little_egret_2111.jpeg\" width=\"90\"> <img src=\"birdspics/little_grebe_2105.jpeg\" width=\"90\">'","<img src=\"birdspics/eurasian_moorhen_2302.jpg\" width=\"90\"> <img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\">'","<img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\">'","<img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\">'","<img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\">'","<img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\">'"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.5);\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 <hr>
+</section>
 </section>
 <section id="birdin-u.s.a.---places-i-went-for-birding" class="level1 page-columns page-full">
 <h1><em>“Birdin’ U.S.A.”</em> - Places I Went For Birding</h1>
-<p><em>Click on the map to see pictures of birds! Urban sites marked in grey while rural sites marked in green.</em></p>
-<div class="cell page-columns page-full">
-<div class="cell-output-display column-page">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-a459c56dbf395da931cd" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-a459c56dbf395da931cd">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"green","fillOpacity":0.2},null,null,["<img src=\"birdspics/bald_eagle_2501.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\">","<img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\">","<img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\">","<img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\">","<img src=\"birdspics/brown_pelican_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\">","<img src=\"birdspics/great_egret_2203.JPG\" width=\"90\">"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019],[-76.59966,-74.04423],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"grey","weight":5,"opacity":0.5,"fill":true,"fillColor":"grey","fillOpacity":0.2},null,null,["<img src=\"birdspics/ring_billed_gull_juv_2310.jpeg\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\">","<img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\">"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[30.09336,47.66241],"lng":[-123.96861,-74.04423]}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
 <section id="baltimore-md-inner-harbor" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="baltimore-md-inner-harbor">Baltimore, MD: Inner Harbor</h2>
 
@@ -491,7 +653,7 @@
 <li><strong>First Visited</strong>: Jan 2022</li>
 <li><strong>Last Visited</strong>: Jan 2024</li>
 <li><strong>Birds</strong>: Red-tailed Hawk, Northern Cardinal, Eastern Bluebird, Carolina Chickadee, American Robin, Carolina Wren, House Finch, Ruby-crowned Kinglet, White-breasted Nuthatch</li>
-<li><strong>Comments</strong>: With birdfeeders everywhere, the Sarah P. Duke Garden is a great place for backyard birds like northern cardinal and eastern bluebird. I saw a red-tailed hawk with its nest near the old chemistry building. There are also some exotic waterfowls in the ponds of Duke Garden, like mandarin ducks (鸳鸯) &amp; ruddy shelducks (赤麻鸭) (not included above), you can check the link below.</li>
+<li><strong>Comments</strong>: With birdfeeders everywhere, the Sarah P. Duke Garden is a great place for backyard birds like northern cardinal and eastern bluebird. I saw a red-tailed hawk with its nest near the old chemistry building. There are also some exotic waterfowls in the ponds of Duke Garden, like mandarin ducks &amp; ruddy shelducks, you can check the link below.</li>
 <li><strong>Links</strong>: <a href="https://www.dpughphoto.com/duke_gardens_exotic_ducks.htm">Exotic Waterfowls in Duke Garden</a> | <a href="https://gardens.duke.edu/">Duke Gardens</a></li>
 </ul>
 </section>
@@ -528,7 +690,7 @@
 <li><strong>Type</strong>: Rural | Shore, Cliff</li>
 <li><strong>First Visited</strong>: July 2024</li>
 <li><strong>Last Visited</strong>: July 2024</li>
-<li><strong>Birds</strong>: Brown Pelican, California Gull, Tufted Puffin, Common Murre, Double-crested Cormorant, American Crow</li>
+<li><strong>Birds</strong>: Brown Pelican, California Gull, Tufted Puffin, Common Murre, Brandt’s Cormorant, American Crow</li>
 <li><strong>Comments</strong>: It’s just heaven if you love seabirds and shorebirds - in summer, various birds are nesting on the cliff of haystack rock. Remember to bring your binoculars since there’s a sign saying ‘birds only beyond this point’ - you would not be able to get too close to that rock. The volunteer is very friendly and helpful, and tide pools are also great fun to explore. Also, if you reside in Portland, be sure to check out Powell’s books, it has a great collection of field guides as well as other gems.</li>
 <li><strong>Links</strong>: <a href="https://www.friendsofhaystackrock.org/">Friends of Haystack Rock</a> <em>check the webcams</em> | <a href="https://www.fws.gov/refuge/oregon-islands/">U.S. Fish &amp; Wildlife Service: Oregon Islands National Wildlife Refuge</a></li>
 </ul>

@@ -8,11 +8,6 @@ output:
   html_document:
     code_folding: hide
 ---
-
-```{r set up, echo = FALSE}
-library(leaflet)
-```
-
 ::: column-page
 ![Bald Eagle and Killdeer, Blackwater Natural Wildlife Reservoir, Cambridge MD, Jan '25](headline.jpg){group="banners"}
 :::
@@ -29,83 +24,73 @@ You can see all birds I've sighted in *'bird list'* and all my favorite birding 
 The next bird I want to see is: ***Blue Jay***, because it's the symbol of the Johns Hopkins community.
 :::
 
-------
+------------------------------------------------------------------------
 
 # *"Watch Them Fly Above Your Head"* - Bird List
 
-| Picture                                          | Common Name              | Scientific Name            | Last Seen                 | Family                                | Random Comments                                                             |
-|------------|------------|------------|------------|------------|------------|
-| ![](birdspics/american_crow_2407.JPG)            | American Crow            | *corvus brachyrhynchos*    | Jan '25, Baltimore MD     | Jays, Magpies, Crows, Ravens          |                                                                             |
-| /                                                | Common Raven             | *corvus corax*             | Nov '24, Baltimore MD     | Jays, Magpies, Crows, Ravens          | "quoth the raven, 'nevermore'" - quoth someone who died in Baltimore.       |
-| ![](birdspics/american_herring_gull_2401.JPG)    | American Herring Gull    | *larus smithsonianus*      | Jan '24, New York NY      | Gulls, Terns, Skimmers                | winter coat                                                                 |
-| ![](birdspics/laughing_gull_2310.JPG)            | Laughing Gull            | *leucophaeus atricilla*    | Oct '23, Baltimore MD     | Gulls, Terns, Skimmers                | winter coat                                                                 |
-| ![](birdspics/ring_billed_gull_juv_2310.jpeg)    | Ring-billed Gull         | *larus delawarensis*       | Jan '25, Cambridge MD     | Gulls, Terns, Skimmers                |                                                                             |
-| ![](birdspics/california_gull_2407.JPG)          | California Gull          | *larus californicus*       | July '24, Cannon Beach OR | Gulls, Terns, Skimmers                |                                                                             |
-| ![](birdspics/glaucous_winged_gull_2407.JPG)     | Glaucous-winged Gull     | *larus glaucescens*        | July '24, Seattle, WA     | Gulls, Terns, Skimmers                | juveniles were seen eating a starfish - sadly they failed.                  |
-| ![](birdspics/caspian_tern_2407.JPG)             | Caspian Tern             | *hydroprogne caspia*       | July '24, Seattle WA      | Gulls, Terns, Skimmers                |                                                                             |
-| ![](birdspics/american_robin_2203.jpg)           | American Robin           | *turdus migratorius*       | Mar '24, Baltimore MD     | Thrushes                              |                                                                             |
-| ![](birdspics/eastern_bluebird_2203.jpg)         | Eastern Bluebird         | *sialia sialis*            | Mar '22, Durham NC        | Thrushes                              |                                                                             |
-| ![](birdspics/hermit_thrush_2501.JPG)            | Hermit Thrush            | *catharus guttatus*        | Jan '25, Cambridge MD     | Thrushes                              |                                                                             |
-| ![](birdspics/turkey_vulture_2403.JPG)           | Turkey Vulture           | *cathartes aura*           | Jan '25, Cambridge MD     | Vultures, Hawks, and Allies           | if you go on a road trip they are always there                              |
-| ![](birdspics/bald_eagle_2501.JPG)               | Bald Eagle               | *haliaeetus leucocephalus* | Jan '25, Cambridge MD     | Vultures, Hawks, and Allies           | can be differentiated from turkey vulture while flying by their white tails |
-| ![](birdspics/red_tailed_hawk_2201.jpg)          | Red-tailed Hawk          | *buteo jamaicensis*        | Jan '22, Durham NC        | Vultures, Hawks, and Allies           |                                                                             |
-| ![](birdspics/brant_2401.JPG)                    | Brant                    | *branta bernicla*          | Jan '24, New York NY      | Waterfowl                             | can be identified by white neckline                                         |
-| ![](birdspics/canadian_goose_2501.JPG)           | Canada Goose             | *branta canadensis*        | Jan '25, Cambridge MD     | Waterfowl                             | countless of them in blackwater NWR                                         |
-| ![](birdspics/whistling_swan_2501.JPG)           | Tundra Swan              | *cygnus columbianus*       | Jan '25, Cambridge MD     | Waterfowl                             | small part of yellow on bills                                               |
-| ![](birdspics/mallard_2501.jpeg)                 | Mallard                  | *anas platyrhynchos*       | Jan '25, Cambridge MD     | Waterfowl                             | sometimes mixed with domestic ducks                                         |
-| ![](birdspics/hooded_merganser_2501.JPG)         | Hooded Merganser         | *lophydytes cucullatus*    | Jan '25, Cambridge MD     | Waterfowl                             | go around in couples                                                        |
-| ![](birdspics/double_crested_cormorant_2310.JPG) | Double-crested Cormorant | *nannopterum auritum*      | Oct '23, Baltimore MD     | Cormorants and Anhingas               |                                                                             |
-| /                                                | Brandt's Cormorant       | *urile penicillatus*       | July '24. Cannon Beach OR | Cormorants and Anhingas               |                                                                             |
-| /                                                | Tufted Puffin            | *fratercula cirrhata*      | July '24, Cannon Beach OR | Alcids                                |                                                                             |
-| /                                                | Common Murre             | *uria aalge*               | July '24, Cannon Beach OR | Alcids                                |                                                                             |
-| ![](birdspics/brown_pelican_2407.JPG)            | Brown Pelican            | *pelecanus occidentalis*   | July '24, Cannon Beach OR | Pelicans                              |                                                                             |
-| ![](birdspics/carolina_chickadee_2203.jpg)       | Carolina Chickadee       | *poecile carolinensis*     | Mar '22, Durham NC        | Tits, Chickadees, and Titmice         |                                                                             |
-| ![](birdspics/carolina_wren_2501.JPG)            | Carolina Wren            | thryothorus ludovicianus   | Jan '25, Cambridge MD     | Wrens                                 |                                                                             |
-| ![](birdspics/killdeer_2501.JPG)                 | Killdeer                 | *charadrius vociferus*     | Jan '25, Cambridge MD     | Shorebirds                            |                                                                             |
-| ![](birdspics/wilson_s_snipe_2501.JPG)           | Wilson's Snipe           | *gallinago delicata*       | Jan '25, Cambridge MD     | Shorebirds                            |                                                                             |
-| ![](birdspics/great_blue_heron_2403.JPG)         | Great Blue Heron         | *ardea herodias*           | Jan '25, Cambridge MD     | Herons, Ibis, and allies              | kinda everywhere                                                            |
-| ![](birdspics/great_egret_2203.JPG)              | Great Egret              | *ardea alba*               | Mar '22, New Orleans LA   | Herons, Ibis, and allies              |                                                                             |
-| ![](birdspics/rock_pigeon_2401.JPG)              | Rock Pigeon              | *columbia livia*           | Oct '24, Baltimore MD     | Pigeons and Doves                     | NYC pigeons are horribly fat                                                |
-| ![](birdspics/downy_woodpecker_2501.JPG)         | Downy Woodpecker         | *dryobates pubescens*      | Jan '25, Cambridge MD     | Woodpeckers                           | very small                                                                  |
-| ![](birdspics/northern_mockingbird_2501.JPG)     | Northern Mockingbird     | *mimus polyglottos*        | Jan '25, Cambridge MD     | Catbirds, Mockingbirds, and Thrashers |                                                                             |
-| ![](birdspics/white_breasted_nuthatch_2203.jpg)  | White-breasted Nuthatch  | *sitta carolinensis*       | Mar '22, Durham NC        | Nuthatches                            |                                                                             |
-| ![](birdspics/ruby_crowned_kinglet_2203.jpg)     | Ruby-crowned Kinglet     | *corthylio calendula*      | Mar '22, Durham NC        | Kinglets                              |                                                                             |
-| ![](birdspics/white_throated_sparrow_2410.JPG)   | White-throated Sparrow   | *zonotrichia albicollis*   | Oct '24, Baltimore MD     | New World Sparrows                    | found dead around MICA, sadly                                               |
-| ![](birdspics/house_sparrow_2405.JPG)            | House Sparrow            | *passer domesticus*        | May '24, Boston MA        | Old World Sparrows                    | white neckline                                                              |
-| ![](birdspics/house_finch_2203.jpg)              | House Finch              | *haemorhous mexicanus*     | Mar '22, Durham NC        | Finches, Euphonias, and allies        |                                                                             |
-| ![](birdspics/northern_cardinal_2203.jpg)        | Northern Cardinal        | *cardinalis cardinalis*    | Jan '25, Cambridge MD     | Cardinals, Grosbeaks, and allies      | cutest and most iconic bird in the u.s.a.                                   |
-| ![](birdspics/european_starling_2401.JPG)        | European Starling        | *sturnus vulgaris*         | Mar '24, Baltimore MD     | Starlings and Mynas                   |                                                                             |
+## My Bird List
 
-------
+```{r bird list, echo = FALSE, message = FALSE}
+library(tidyverse)
+library(knitr)
+library(DT)
 
-# *"Birdin' U.S.A."* - Places I Went For Birding
+bird_list <- read.csv("bird_df.csv")
+kable(bird_list, col.names = gsub("[.]", " ", names(bird_list)))
+```
 
-*Click on the map to see pictures of birds! Urban sites marked in grey while rural sites marked in green.*
+## Birding Around the World: Interactive Map
+
+*Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.*
 
 ```{r map, echo = FALSE}
 #| column: page
 
-# define markers
-rural <- data.frame(lat = c(38.44166, 39.32439, 36.00323, 47.66241, 45.88458, 30.09336),
-                    lng = c(-76.11782, -77.72550, -78.93374, -122.43432, -123.96861, -90.43263))
+library(leaflet)
+library(htmltools)
 
-urban <- data.frame(lat = c(39.27909, 40.69019),
-                    lng = c(-76.59966, -74.04423))
+# Read the CSV file
+bird_markers <- read.csv("bird_markers.csv", stringsAsFactors = FALSE)
 
+# Separate rural and urban markers
+rural <- subset(bird_markers, type == "rural")
+urban <- subset(bird_markers, type == "urban")
+
+# Custom CSS for transparent popups
+popup_css <- tags$style(HTML("
+  .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  .leaflet-popup-tip {
+    background: rgba(255, 255, 255, 0.5);
+  }
+"))
+
+# Create the map with custom-styled popups
 leaflet() %>%
   addTiles() %>%
   addCircleMarkers(data = rural, 
-popup = c('<img src="birdspics/bald_eagle_2501.JPG" width="90"> <img src="birdspics/wilson_s_snipe_2501.JPG" width="90">', 
-'<img src="birdspics/turkey_vulture_2403.JPG" width="90"> <img src="birdspics/great_blue_heron_2403.JPG" width="90">', 
-'<img src="birdspics/northern_cardinal_2203.jpg" width="90"> <img src="birdspics/red_tailed_hawk_2201.jpg" width="90">', 
-'<img src="birdspics/caspian_tern_2407.JPG" width="90"> <img src="birdspics/glaucous_winged_gull_2407.JPG" width="90">', 
-'<img src="birdspics/brown_pelican_2407.JPG" width="90"> <img src="birdspics/california_gull_2407.JPG" width="90">', 
-'<img src="birdspics/great_egret_2203.JPG" width="90">'), color = "green", radius = 5) %>%
-  addCircleMarkers(data = urban, popup = c(
-'<img src="birdspics/ring_billed_gull_juv_2310.jpeg" width="90"> <img src="birdspics/double_crested_cormorant_2310.JPG" width="90">', 
-'<img src="birdspics/american_herring_gull_2401.JPG" width="90"> <img src="birdspics/brant_2401.JPG" width="90">'), 
-color = "grey", radius = 5)
+                   lng = ~lng, lat = ~lat, 
+                   popup = ~popup, 
+                   color = 'green', 
+stroke = TRUE, fillColor = 'white',
+fillOpacity = 1, radius = 5) %>%
+  addCircleMarkers(data = urban, 
+                   lng = ~lng, lat = ~lat, 
+                   popup = ~popup, 
+                   color = "pink", 
+stroke = TRUE, fillColor = 'white',
+fillOpacity = 1, radius = 5) %>%
+  # Add custom CSS to the map
+  addControl(html = popup_css, position = "topleft") %>%
+  addProviderTiles(providers$Esri.NatGeoWorldMap)
 ```
+
+------------------------------------------------------------------------
+
+# *"Birdin' U.S.A."* - Places I Went For Birding
 
 ## Baltimore, MD: Inner Harbor
 
@@ -169,7 +154,7 @@ color = "grey", radius = 5)
 -   **First Visited**: Jan 2022
 -   **Last Visited**: Jan 2024
 -   **Birds**: Red-tailed Hawk, Northern Cardinal, Eastern Bluebird, Carolina Chickadee, American Robin, Carolina Wren, House Finch, Ruby-crowned Kinglet, White-breasted Nuthatch
--   **Comments**: With birdfeeders everywhere, the Sarah P. Duke Garden is a great place for backyard birds like northern cardinal and eastern bluebird. I saw a red-tailed hawk with its nest near the old chemistry building. There are also some exotic waterfowls in the ponds of Duke Garden, like mandarin ducks (鸳鸯) & ruddy shelducks (赤麻鸭) (not included above), you can check the link below.
+-   **Comments**: With birdfeeders everywhere, the Sarah P. Duke Garden is a great place for backyard birds like northern cardinal and eastern bluebird. I saw a red-tailed hawk with its nest near the old chemistry building. There are also some exotic waterfowls in the ponds of Duke Garden, like mandarin ducks & ruddy shelducks, you can check the link below.
 -   **Links**: [Exotic Waterfowls in Duke Garden](https://www.dpughphoto.com/duke_gardens_exotic_ducks.htm) \| [Duke Gardens](https://gardens.duke.edu/)
 
 ## Seattle, WA: Discovery Park
@@ -194,7 +179,7 @@ color = "grey", radius = 5)
 -   **Type**: Rural \| Shore, Cliff
 -   **First Visited**: July 2024
 -   **Last Visited**: July 2024
--   **Birds**: Brown Pelican, California Gull, Tufted Puffin, Common Murre, Double-crested Cormorant, American Crow
+-   **Birds**: Brown Pelican, California Gull, Tufted Puffin, Common Murre, Brandt's Cormorant, American Crow
 -   **Comments**: It's just heaven if you love seabirds and shorebirds - in summer, various birds are nesting on the cliff of haystack rock. Remember to bring your binoculars since there's a sign saying 'birds only beyond this point' - you would not be able to get too close to that rock. The volunteer is very friendly and helpful, and tide pools are also great fun to explore. Also, if you reside in Portland, be sure to check out Powell's books, it has a great collection of field guides as well as other gems.
 -   **Links**: [Friends of Haystack Rock](https://www.friendsofhaystackrock.org/) *check the webcams* \| [U.S. Fish & Wildlife Service: Oregon Islands National Wildlife Refuge](https://www.fws.gov/refuge/oregon-islands/)
 
