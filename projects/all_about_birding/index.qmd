@@ -14,11 +14,11 @@ output:
 
 # Introduction
 
-I love birding! Welcome to my personal birding records.
+**I love birding!** Welcome to my personal birding records.
 
-You can see all birds I've sighted in *'bird list'* and all my favorite birding destinations in *'places I went for birding'*.
+You can see birds I've sighted all around the world at [bird list](#birdlist) (including an [interactive map!](#map)) and all my favorite birding destinations at [places I went for birding](#places). [Links and resources](#links) are also provided. 
 
-***Note**: Only wild birds were recorded. All photos taken by me with Sony WX800.*
+***Note**: Only wild birds were recorded. All photos taken by me (most with Sony WX800).*
 
 ::: callout-note
 The next bird I want to see is: ***Blue Jay***, because it's the symbol of the Johns Hopkins community.
@@ -28,7 +28,7 @@ The next bird I want to see is: ***Blue Jay***, because it's the symbol of the J
 
 # *"Watch Them Fly Above Your Head"* - Bird List
 
-## My Bird List
+## My Bird List {#birdlist}
 
 ```{r bird list, echo = FALSE, message = FALSE}
 library(tidyverse)
@@ -39,7 +39,7 @@ bird_list <- read.csv("bird_df.csv")
 kable(bird_list, col.names = gsub("[.]", " ", names(bird_list)))
 ```
 
-## Birding Around the World: Interactive Map
+## Birding Around the World: Interactive Map {#map}
 
 *Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.*
 
@@ -56,15 +56,21 @@ bird_markers <- read.csv("bird_markers.csv", stringsAsFactors = FALSE)
 rural <- subset(bird_markers, type == "rural")
 urban <- subset(bird_markers, type == "urban")
 
-# Custom CSS for transparent popups
 popup_css <- tags$style(HTML("
   .leaflet-popup-content-wrapper {
     background: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+    text-align: center;
+    padding: 3px;
   }
   .leaflet-popup-tip {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
+  }
+  .leaflet-popup-content {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    line-height: 1.1;
+    white-space: pre-wrap;
   }
 "))
 
@@ -90,7 +96,7 @@ fillOpacity = 1, radius = 5) %>%
 
 ------------------------------------------------------------------------
 
-# *"Birdin' U.S.A."* - Places I Went For Birding
+# *"Birdin' U.S.A."* - Places I Went For Birding {#places}
 
 ## Baltimore, MD: Inner Harbor
 
@@ -198,7 +204,7 @@ fillOpacity = 1, radius = 5) %>%
 
 ------------------------------------------------------------------------
 
-# Links & Resources
+# Links & Resources {#links}
 
 ## General Recourses
 
@@ -220,8 +226,10 @@ fillOpacity = 1, radius = 5) %>%
 
 # End Notes
 
+::: column-margin
+![The Place Where It All Begins](footbanner.jpg){group="banners"}
+:::
+
 Thanks Qinyi who introduced me to the world of birding. I will always remember watching night heron with you sitting next to Bixia Pond back in 2019 in the afternoon before taking a Biology exam.
 
-::: column-page
-![The Place Where It All Begins: Bixia Pond (碧霞池), Suzhou, China, Mar '19](footbanner.jpg){group="banners"}
-:::
+
