@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/index.html</loc>
-    <lastmod>2024-12-21T05:07:22.156Z</lastmod>
+    <loc>https://yunyi-ru.github.io/quarto-blog/blog.html</loc>
+    <lastmod>2025-01-11T20:53:59.634Z</lastmod>
   </url>
   <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/blog.html</loc>
-    <lastmod>2024-11-11T20:48:21.629Z</lastmod>
+    <loc>https://yunyi-ru.github.io/quarto-blog/index.html</loc>
+    <lastmod>2025-01-11T20:56:23.177Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/index.html</loc>
+    <lastmod>2025-01-11T19:53:36.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yunyi-ru.github.io/quarto-blog/projects/lyric_analysis/index.html</loc>
+    <lastmod>2025-01-09T22:28:58.444Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/index.html</loc>
+    <lastmod>2024-11-09T18:41:27.915Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yunyi-ru.github.io/quarto-blog/posts/coding_resources/index.html</loc>
+    <lastmod>2024-11-09T18:41:29.387Z</lastmod>
   </url>
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/posts/welcome/index.html</loc>
@@ -17,39 +33,19 @@
     <lastmod>2024-12-21T05:00:57.153Z</lastmod>
   </url>
   <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/posts/coding_resources/index.html</loc>
-    <lastmod>2024-11-09T18:41:29.387Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/about.html</loc>
-    <lastmod>2024-11-09T06:47:25.079Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/aboutme.html</loc>
-    <lastmod>2025-01-09T22:26:01.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/index.html</loc>
-    <lastmod>2024-11-09T18:41:27.915Z</lastmod>
-  </url>
-  <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/biolpages.html</loc>
     <lastmod>2023-10-26T17:39:13.460Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/project.html</loc>
-    <lastmod>2024-11-16T03:38:35.846Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/projects/lyric_analysis/index.html</loc>
-    <lastmod>2025-01-09T22:28:58.444Z</lastmod>
   </url>
   <url>
     <loc>https://yunyi-ru.github.io/quarto-blog/projects/RESPweather_dashboard/index.html</loc>
     <lastmod>2025-01-09T22:27:49.882Z</lastmod>
   </url>
   <url>
-    <loc>https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/index.html</loc>
-    <lastmod>2025-01-11T00:24:16.478Z</lastmod>
+    <loc>https://yunyi-ru.github.io/quarto-blog/aboutme.html</loc>
+    <lastmod>2025-01-09T22:26:01.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yunyi-ru.github.io/quarto-blog/project.html</loc>
+    <lastmod>2025-01-11T20:23:19.688Z</lastmod>
   </url>
 </urlset>

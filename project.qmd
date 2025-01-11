@@ -1,12 +1,15 @@
 ---
+title: "Projects"
 listing:
   contents: projects/**/*.qmd
   sort: "date desc"
-  type: default
+  type: grid
+  grid-columns: 3
+  max-description-length: 100
   categories: true
   sort-ui: true
   filter-ui: true
-  fields: [date, title, reading-time, description, categories]
+  fields: [image, date, title, reading-time, description, categories]
   feed: true
 page-layout: full
 title-block-banner: false

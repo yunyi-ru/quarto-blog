@@ -8,6 +8,7 @@ output:
   html_document:
     code_folding: hide
 ---
+
 ::: column-page
 ![Bald Eagle and Killdeer, Blackwater Natural Wildlife Reservoir, Cambridge MD, Jan '25](headline.jpg){group="banners"}
 :::
@@ -16,7 +17,7 @@ output:
 
 **I love birding!** Welcome to my personal birding records.
 
-You can see birds I've sighted all around the world at [bird list](#birdlist) (including an [interactive map!](#map)) and all my favorite birding destinations at [places I went for birding](#places). [Links and resources](#links) are also provided. 
+You can see birds I've sighted all around the world at [**bird list**](#birdlist) (including an [**interactive map**](#map)) and all my favorite birding destinations at [**places I went for birding**](#places). [**Links and resources**](#links) are also provided.
 
 ***Note**: Only wild birds were recorded. All photos taken by me (most with Sony WX800).*
 
@@ -231,5 +232,3 @@ fillOpacity = 1, radius = 5) %>%
 :::
 
 Thanks Qinyi who introduced me to the world of birding. I will always remember watching night heron with you sitting next to Bixia Pond back in 2019 in the afternoon before taking a Biology exam.
-
-

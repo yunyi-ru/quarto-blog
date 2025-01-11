@@ -13,7 +13,7 @@ $headings-font-weight: 600;
 /* Spacing and Borders */
 $padding: 1.2rem;
 $margin: 1rem;
-$border-radius: 6px; // Rounded corners for softer visuals
+$border-radius: 6px;
 $divider-color: #496640;
 $shadow-color: rgba(0, 0, 0, 0.1);
 
@@ -23,12 +23,14 @@ $shadow-color: rgba(0, 0, 0, 0.1);
   border-radius: $radius;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
 /*-- scss:rules --*/
 /* Base Styles */
 body {
   background-color: $body-bg;
   color: $body-color;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: $padding;
@@ -109,9 +111,9 @@ ul {
 /* Divider Line */
 hr {
   border: none;
-  border-top: 2px dotted $divider-color; // Soft green divider line
+  border-top: 2px dotted $divider-color;
   margin: 2rem 0;
-  opacity: 0.6; // Slight transparency for a soft effect
+  opacity: 0.6;
 }
 
 /* Section with Shadow */
@@ -123,7 +125,7 @@ hr {
 }
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.5); // Semi-transparent white for navbar
-  backdrop-filter: blur(10px); // Optional blur effect for a frosted glass look
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
