@@ -6,23 +6,26 @@ Picture,Common Name,Scientific Name,Last Seen,Family,Random Comments
 ![](birdspics/black_swan_juv_2302.jpg),Black Swan,*cygnus atratus*,"Feb '23, Suzhou Jiangsu",Waterfowl,juvenile
 ![](birdspics/whistling_swan_2501.JPG),Tundra Swan,*cygnus columbianus*,"Jan '25, Cambridge MD",Waterfowl,small part of yellow on bills
 ![](birdspics/mallard_2501.jpeg),Mallard,*anas platyrhynchos*,"Jan '25, Cambridge MD",Waterfowl,sometimes mixed with domestic ducks
+NA,Mute Swan,*cygnus olor*,"July '16, Luzern Swiss",Waterfowl,NA
 ![](birdspics/mandarin_duck_juv_2306.JPG),Mandarin Duck,*aix galericulata*,"June '23, Beijing",Waterfowl,"juvenile, identified by dotted webbings"
 ![](birdspics/hooded_merganser_2501.JPG),Hooded Merganser,*lophydytes cucullatus*,"Jan '25, Cambridge MD",Waterfowl,go around in couples
 ![](birdspics/great_cormorant_1907.jpg),Great Cormorant,*phalacrocorax carbo*,"July '19, Kyoto Japan",Cormorants and Anhingas,NA
 ![](birdspics/double_crested_cormorant_2310.JPG),Double-crested Cormorant,*nannopterum auritum*,"Oct '23, Baltimore MD",Cormorants and Anhingas,NA
 NA,Brandt's Cormorant,*urile penicillatus*,"July '24, Cannon Beach OR",Cormorants and Anhingas,NA
-![](birdspics/little_grebe_2105.jpeg),Little Grebe,tachybaptus ruficollis,"May '21, Suzhou Jiangsu",Grebes,called 'little PT' in Chinese birding community - too hard to write
+![](birdspics/little_grebe_2302.JPG),Little Grebe,tachybaptus ruficollis,"Feb '23, Suzhou Jiangsu",Grebes,called 'little PT' in Chinese birding community - too hard to write
 NA,Tufted Puffin,*fratercula cirrhata*,"July '24, Cannon Beach OR",Alcids,NA
 NA,Common Murre,*uria aalge*,"July '24, Cannon Beach OR",Alcids,NA
 ![](birdspics/brown_pelican_2407.JPG),Brown Pelican,*pelecanus occidentalis*,"July '24, Cannon Beach OR",Pelicans,NA
+![](birdspics/american_white_pelican_2504.jpeg),American White Pelican,*pelecanus erythrorhynchos*,"Apr '25, West Lafayette IN",Pelicans,NA
 ![](birdspics/american_herring_gull_2401.JPG),American Herring Gull,*larus smithsonianus*,"Jan '24, New York NY","Gulls, Terns, Skimmers",winter coat
 ![](birdspics/laughing_gull_2310.JPG),Laughing Gull,*leucophaeus atricilla*,"Oct '23, Baltimore MD","Gulls, Terns, Skimmers",winter coat
 ![](birdspics/ring_billed_gull_juv_2310.jpeg),Ring-billed Gull,*larus delawarensis*,"Jan '25, Cambridge MD","Gulls, Terns, Skimmers",NA
 ![](birdspics/california_gull_2407.JPG),California Gull,*larus californicus*,"July '24, Cannon Beach OR","Gulls, Terns, Skimmers",NA
 ![](birdspics/glaucous_winged_gull_2407.JPG),Glaucous-winged Gull,*larus glaucescens*,"July '24, Seattle WA","Gulls, Terns, Skimmers",juveniles were seen eating a starfish - sadly they failed.
+NA,Yellow-legged Gull,*larus michahellis*,"July '16, Venice Italy","Gulls, Terns, Skimmers",NA
+NA,Iceland Gull,*larus glaucoides*,"Nov '23, Baltimore MD","Gulls, Terns, Skimmers",NA
 ![](birdspics/caspian_tern_2407.JPG),Caspian Tern,*hydroprogne caspia*,"July '24, Seattle WA","Gulls, Terns, Skimmers",NA
 ![](birdspics/whiskered_tern_2208.jpeg),Whiskered Tern,*chlidonias hybrida*,"Aug '22, Suzhou Jiangsu","Gulls, Terns, Skimmers",NA
-![](birdspics/eurasian_crag_martin_2306.jpg),Eurasian Crag-Martin,*ptyonoprogne rupestris*,"June '23, Datong Shanxi",Martins and Swallows,NA
 ![](birdspics/killdeer_2501.JPG),Killdeer,*charadrius vociferus*,"Jan '25, Cambridge MD",Shorebirds,NA
 ![](birdspics/wilson_s_snipe_2501.JPG),Wilson's Snipe,*gallinago delicata*,"Jan '25, Cambridge MD",Shorebirds,NA
 ![](birdspics/great_blue_heron_2403.JPG),Great Blue Heron,*ardea herodias*,"Jan '25, Cambridge MD","Herons, Ibis, and allies",kinda everywhere
@@ -31,30 +34,46 @@ NA,Common Murre,*uria aalge*,"July '24, Cannon Beach OR",Alcids,NA
 ![](birdspics/little_egret_2111.jpeg),Little Egret,*egretta garzetta*,"Nov '21, Suzhou Jiangsu","Herons, Ibis, and allies",NA
 ![](birdspics/eurasian_moorhen_2302.jpg),Eurasian Moorhen,*gallinula chloropus*,"Nov '21, Suzhou Jiangsu","Rails, Gallinules, and allies",symbol of DKU community!
 ![](birdspics/eurasian_coot_2301.jpeg),Eurasian Coot,*fulica atra*,"Jan '23, Suzhou Jiangsu","Rails, Gallinules, and allies",NA
+NA,American Coot,*fulica americana*,"Apr '25, West Lafayette IN","Rails, Gallinules, and allies",NA
 ![](birdspics/rock_pigeon_2401.JPG),Rock Pigeon,*columbia livia*,"Oct '24, Baltimore MD",Pigeons and Doves,NYC pigeons are horribly fat
 ![](birdspics/spotted_dove_2011.jpeg),Spotted Dove,*spilopelia chinensis*,"Nov '20, Suzhou Jiangsu",Pigeons and Doves,dubbed 'the most delicious friend of hawks'
+![](birdspics/oriental_turtle_dove_2302.JPG),Oriental Turtle-Dove,*streptopelia orientalis*,"Feb '23, Suzhou Jiangsu",Pigeons and Doves,bronze feathers compared to spotted dove
+![](birdspics/american_herring_gull_2401.JPG),Mourning Dove,*zenaida macroura*,"Mar '25, Baltimore MD",Pigeons and Doves,NA
 ![](birdspics/turkey_vulture_2403.JPG),Turkey Vulture,*cathartes aura*,"Jan '25, Cambridge MD","Vultures, Hawks, and Allies",if you go on a road trip they are always there
+NA,Osprey,*pandion haliaetus*,"Apr '25, Baltimore MD","Vultures, Hawks, and Allies",somehow chasing a seagull
 ![](birdspics/bald_eagle_2501.JPG),Bald Eagle,*haliaeetus leucocephalus*,"Jan '25, Cambridge MD","Vultures, Hawks, and Allies",can be differentiated from turkey vulture while flying by their white tails
 ![](birdspics/red_tailed_hawk_2201.jpg),Red-tailed Hawk,*buteo jamaicensis*,"Jan '22, Durham NC","Vultures, Hawks, and Allies",NA
+![](birdspics/northern_rough_winged_swallow_2503.JPG),Northern Rough-winged Swallow,*stelgidopteryx serripennis*,"Apr '25, Baltimore MD",Martins and Swallows,"small, fly very fast, chasing insects near water"
+![](birdspics/eurasian_crag_martin_2306.jpg),Eurasian Crag-Martin,*ptyonoprogne rupestris*,"June '23, Datong Shanxi",Martins and Swallows,NA
+NA,Common Kingfisher,*alcedo atthis*,"Dec '21, Suzhou Jiangsu",Kingfisher,NA
+NA,Eurasian Hoopoe,*upupa epops*,"Apr '23, Suzhou Jiangsu",Hoopoes,NA
+![](birdspics/yellow_bellied_sapsucker_2503.JPG),Yellow-bellied Sapsucker,*sphyrapicus varius*,"Mar '25, Baltimore MD",Woodpeckers,dead due to bird strike
 ![](birdspics/downy_woodpecker_2501.JPG),Downy Woodpecker,*dryobates pubescens*,"Jan '25, Cambridge MD",Woodpeckers,very small
-![](birdspics/american_crow_2407.JPG),American Crow,*corvus brachyrhynchos*,"Jan '25, Baltimore MD","Jays, Magpies, Crows, Ravens",NA
+![](birdspics/american_crow_2502.jpeg),American Crow,*corvus brachyrhynchos*,"Jan '25, Baltimore MD","Jays, Magpies, Crows, Ravens","sits on trees of Baltimore in flock in evenings, esp. from Nov to Feb"
+![](birdspics/fish_crow_2407.JPG),Fish Crow,*corvus ossifragus*,"Apr '25, Baltimore MD","Jays, Magpies, Crows, Ravens",song is different from american crow
 ![](birdspics/large_billed_crow_2303.JPG),Large-billed Crow,*corvus macrohynchos*,"Mar '23, Lijiang Yunnan","Jays, Magpies, Crows, Ravens",NA
 NA,Common Raven,*corvus corax*,"Nov '24, Baltimore MD","Jays, Magpies, Crows, Ravens","'quoth the raven, nevermore' - quoth someone who died in Baltimore."
 ![](birdspics/red_billed_blue_magpie_2303.JPG),Red-billed Blue-Magpie,*urocissa erythroryncha*,"Mar '23, Lijiang Yunnan","Jays, Magpies, Crows, Ravens",NA
 ![](birdspics/azure_winged_magpie_2302.jpg),Azure-winged Magpie,*cyanopica cyanus*,"Feb '23, Suzhou Jiangsu","Jays, Magpies, Crows, Ravens",NA
 ![](birdspics/long_tailed_shrike_2302.jpg),Long-tailed Shrike,*lanius schach*,"Feb '23, Suzhou Jiangsu",Shrikes,'butcher bird' - in me the tiger sniffs the plum blossoms
-![](birdspics/american_robin_2203.jpg),American Robin,*turdus migratorius*,"Mar '24, Baltimore MD",Thrushes,NA
+![](birdspics/gray_catbird_2406.JPG),Gray Catbird,*dumetella carolinensis*,"June '24, Philadelphia PA","Catbirds, Mockingbirds, and Thrashers",NA
+![](birdspics/northern_mockingbird_2501.JPG),Northern Mockingbird,*mimus polyglottos*,"Jan '25, Baltimore MD","Catbirds, Mockingbirds, and Thrashers",NA
+![](birdspics/american_robin_2503.jpg),American Robin,*turdus migratorius*,"Mar '24, Baltimore MD",Thrushes,NA
 ![](birdspics/eastern_bluebird_2203.jpg),Eastern Bluebird,*sialia sialis*,"Mar '22, Durham NC",Thrushes,NA
 ![](birdspics/hermit_thrush_2501.JPG),Hermit Thrush,*catharus guttatus*,"Jan '25, Cambridge MD",Thrushes,NA
-![](birdspics/northern_mockingbird_2501.JPG),Northern Mockingbird,*mimus polyglottos*,"Jan '25, Cambridge MD","Catbirds, Mockingbirds, and Thrashers",NA
 ![](birdspics/white_browed_laughingthrush_2007.JPG),White-browed Laughingthrush,*pterohinus sannio*,"July '20, Chengdu Sichuan",Laughingthrushes and allies,NA
+![](birdspics/carolina_chickadee_2203.jpg),Carolina Chickadee,*poecile carolinensis*,"Mar '22, Durham NC","Tits, Chickadees, and Titmice",NA
 ![](birdspics/white_breasted_nuthatch_2203.jpg),White-breasted Nuthatch,*sitta carolinensis*,"Mar '22, Durham NC",Nuthatches,NA
 ![](birdspics/carolina_wren_2501.JPG),Carolina Wren,thryothorus ludovicianus,"Jan '25, Cambridge MD",Wrens,NA
 ![](birdspics/ruby_crowned_kinglet_2203.jpg),Ruby-crowned Kinglet,*corthylio calendula*,"Mar '22, Durham NC",Kinglets,NA
 ![](birdspics/white_wagtail_2303.JPG),White Wagtail,*motacilla alba*,"Mar '23, Lijiang Yunnan",Wagtails and Pipits,tail points up and down endlessly
-![](birdspics/white_throated_sparrow_2410.JPG),White-throated Sparrow,*zonotrichia albicollis*,"Oct '24, Baltimore MD",New World Sparrows,"found dead around MICA, sadly"
-![](birdspics/house_sparrow_2405.JPG),House Sparrow,*passer domesticus*,"May '24, Boston MA",Old World Sparrows,white neckline
+![](birdspics/white_throated_sparrow_2410.JPG),White-throated Sparrow,*zonotrichia albicollis*,"Oct '24, Baltimore MD",New World Sparrows,"found dead around MICA, bird strike"
+NA,Song Sparrow,*melospiza melodia*,"Mar '25, Baltimore MD",New World Sparrows,NA
+![](birdspics/house_sparrow_2503.JPG),House Sparrow,*passer domesticus*,"May '24, Boston MA",Old World Sparrows,white neckline
 ![](birdspics/eurasian_tree_sparrow_1911.jpg),Eurasian Tree Sparrow,*passer montanus*,"Nov '19, Suzhou Jiangsu",Old World Sparrows,black cheek
 ![](birdspics/house_finch_2203.jpg),House Finch,*haemorhous mexicanus*,"Mar '22, Durham NC","Finches, Euphonias, and allies",NA
-![](birdspics/northern_cardinal_2203.jpg),Northern Cardinal,*cardinalis cardinalis*,"Jan '25, Cambridge MD","Cardinals, Grosbeaks, and allies",cutest and most iconic bird in the u.s.a.
-![](birdspics/european_starling_2401.JPG),European Starling,*sturnus vulgaris*,"Mar '24, Baltimore MD",Starlings and Mynas,NA
+![](birdspics/american_goldfinch_2504.jpeg),American Goldfinch,*spinus tristis*,"Apr '25, Baltimore MD","Finches, Euphonias, and allies",NA
+![](birdspics/northern_cardinal_2203.jpg),Northern Cardinal,*cardinalis cardinalis*,"Jan '25, Baltimore MD","Cardinals, Grosbeaks, and allies",cutest and most iconic bird in the u.s.a.
+![](birdspics/red_winged_blackbird_2406.JPG),Red-winged Blackbird,*agelaius phoeniceus*,"Mar '25, Baltimore MD",Blackbirds,have a very loud song
+![](birdspics/common_grackle_2405.jpeg),Common Grackle,*quiscalus quiscula*,"May '24, Boston MA",Blackbirds,NA
+![](birdspics/european_starling_2501.JPG),European Starling,*sturnus vulgaris*,"Mar '24, Baltimore MD",Starlings and Mynas,NA
