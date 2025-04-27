@@ -1,37 +1,39 @@
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #f2f5f3;
-$body-color: #3d3d3d;
-$link-color: #573c66;
-$link-hover-color: #ad7bc9;
-$code-color: #3d3d3d;
-$code-bg: #f0f0f5;
-$code-block-bg: #f0f0f5;
-$h2-font-size: 1.5rem;
-$headings-font-weight: 600;
+$body-bg: #f0f0f0;
+$body-color: #222222;
+$link-color: #330066;
+$link-hover-color: #990000;
+$code-color: #222222;
+$code-bg: #e6e6e6;
+$code-block-bg: #e6e6e6;
+$h2-font-size: 1.6rem;
+$headings-font-weight: 700;
 
 /* Spacing and Borders */
 $padding: 1.2rem;
 $margin: 1rem;
-$border-radius: 6px;
-$divider-color: #573c66;
-$shadow-color: rgba(0, 0, 0, 0.1);
+$border-radius: 0; /* no rounding */
+$divider-color: #330066;
+$shadow-color: rgba(0, 0, 0, 0.2);
 
 /*-- scss:mixins --*/
-/* Mixin for rounded corners */
-@mixin rounded-corners($radius: 6px) {
-  border-radius: $radius;
+/* Mixin for sharp corners */
+@mixin sharp-corners {
+  border-radius: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=VT323&display=swap');
+
 
 /*-- scss:rules --*/
 /* Base Styles */
 body {
   background-color: $body-bg;
   color: $body-color;
-  font-family: 'Trebuchet MS', Arial, sans-serif;
-  line-height: 1.6;
+  font-family: 'VT323', monospace;
+  font-size: 1.1rem;
+  line-height: 1.5;
   margin: 0;
   padding: $padding;
 }
@@ -39,11 +41,13 @@ body {
 /* Links */
 a {
   color: $link-color;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 
   &:hover {
     color: $link-hover-color;
-    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-shadow: 0 0 8px rgba(240, 218, 232, 0.8);
   }
 }
 
@@ -52,39 +56,50 @@ code {
   background-color: $code-bg;
   color: $code-color;
   padding: 0.2rem 0.4rem;
-  @include rounded-corners();
-  font-family: 'Courier New', Courier, monospace;
+  @include sharp-corners();
+  font-family: 'VT323', monospace;
+  font-size: 1.1em;
 }
 
 pre {
   background-color: $code-block-bg;
   color: $code-color;
   padding: $padding;
-  @include rounded-corners();
+  @include sharp-corners();
   overflow-x: auto;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'VT323', monospace;
+  font-size: 1.1em;
 }
 
 /* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Special Elite', cursive;
+  color: $link-color;
+  margin: $margin 0;
+}
+
 h2 {
   font-size: $h2-font-size;
   font-weight: $headings-font-weight;
-  color: $link-color;
-  margin: $margin 0;
 }
 
 /* Buttons */
 .button {
   background-color: $link-color;
   color: #fff;
-  border: none;
+  border: 2px solid $link-color;
   padding: 0.8rem 1.5rem;
-  @include rounded-corners();
-  font-weight: bold;
+  @include sharp-corners();
+  font-family: 'VT323', monospace;
+  font-size: 1.2rem;
   cursor: pointer;
+  letter-spacing: 1px;
+  background-image: none; /* 👈 avoid any accidental gradient */
+  box-shadow: none; /* 👈 absolutely no shadow */
 
   &:hover {
     background-color: $link-hover-color;
+    border-color: $link-hover-color;
   }
 }
 
@@ -95,37 +110,44 @@ blockquote {
   padding: 1rem;
   color: $body-color;
   margin: $margin 0;
-  @include rounded-corners();
+  @include sharp-corners();
+  font-style: italic;
 }
 
 /* Lists */
 ul {
-  list-style-type: disc;
+  list-style-type: square;
   padding-left: 2rem;
 
   li {
     margin-bottom: 0.5rem;
+    font-family: 'VT323', monospace;
   }
 }
 
 /* Divider Line */
 hr {
   border: none;
-  border-top: 2px dotted $divider-color;
+  border-top: 3px double $divider-color;
   margin: 2rem 0;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
-/* Section with Shadow */
+/* Section */
 .section {
   padding: 2rem;
   margin: 2rem 0;
-  background-color: #fff;
-  @include rounded-corners();
+  background-color: #f9f9f9;
+  @include sharp-corners();
+  border: 2px solid $divider-color; /* ⬅ heavy border instead of soft shadow */
 }
 
+/* Navbar */
 .navbar {
-  background-color: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #e0e0e0;
+  border-bottom: 3px double $divider-color;
+  font-family: 'VT323', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.8rem 1.2rem;
 }
