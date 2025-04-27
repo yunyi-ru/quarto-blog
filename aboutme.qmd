@@ -8,7 +8,7 @@ toc: true
 My name is Yunyi Ru. I am a 2nd year master's student in the Molecular Microbiology and Immunology department of [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/). I currently work as a graduate student researcher at [The Pekosz Lab](https://pekoszlab.com/) on respiratory syncytial virus.
 
 ::: column-margin
-![](profilepic.JPG)
+![](figs/profilepic.JPG)
 :::
 
 ## Why Blogging

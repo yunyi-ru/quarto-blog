@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  favicon: favicon.png
+  favicon: figs/crow_s.png
   title: "Yunyi's Blog"
   site-url: "https://yunyi-ru.github.io/quarto-blog/"
   site-path: "/"
