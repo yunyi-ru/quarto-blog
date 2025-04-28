@@ -10,7 +10,7 @@ output:
 ---
 
 ::: column-page
-![Bald Eagle and Killdeer, Blackwater Natural Wildlife Reservoir, Cambridge MD, Jan '25](headline.jpg){group="banners"}
+![Shorebirds at Blackwater Natural Wildlife Reservoir, Cambridge MD, Mar '25](headline.jpg){group="banners"}
 :::
 
 # Introduction
@@ -108,7 +108,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Type**: Urban \| Shore
 -   **First Visited**: Aug 2023
 -   **Last Visited**: Dec 2024
--   **Birds**: Canada Goose, Double-crested Cormorant, Laughing Gull, Mallard, Ring-billed Gull, Rock Pigeon
+-   **Birds**: Canada Goose, Double-crested Cormorant, Laughing Gull, Mallard, Ring-billed Gull, Rock Pigeon, Osprey, Northern Rough-winged Sparrow, Fish Crow
 -   **Comments**: From inner harbor to harbor east, the waterfront of downtown Baltimore is a great place to watch gulls & various kinds of waterfowls.
 -   **Link**: /
 
@@ -121,7 +121,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Type**: Rural \| Shore, Wetland, Forest
 -   **First Visited**: Jan 2025
 -   **Last Visited**: Jan 2025
--   **Birds**: Bald Eagle, Canada Goose, Carolina Wren, Downy Woodpecker, Great Blue Heron, Hermit Thrush, Hooded Merganser, Killdeer, Mallard, Northern Cardinal, Northern Mockingbird, Ring-billed Gull, Turkey Vulture, Whistling Swan, Wilson's Snipe
+-   **Birds**: Bald Eagle, Canada Goose, Carolina Wren, Downy Woodpecker, Great Blue Heron, Hermit Thrush, Hooded Merganser, Killdeer, Mallard, Northern Cardinal, Northern Mockingbird, Ring-billed Gull, Turkey Vulture, Whistling Swan, Wilson's Snipe, Osprey, Red-winged blackbird, Chipping Sparrow, Blue Jay, Tufted Titmouse, Tree Swallow, Lesser Yellowlegs, Dunlin, Least Tern, Least Sandpiper, Great Egret
 -   **Comments**: A perfect place for birding in Maryland, the most iconic bird being bald eagle. With woods, wetlands and ponds around the wildlife drive, you can see a variety of birds here. Also, the visitor center's pick of merchandises is superb.
 -   **Links**: [Friends of Blackwater](https://friendsofblackwater.org/) *check the webcams* \| [U.S. Fish & Wildlife Service: Blackwater National Wildlife Refuge](https://www.fws.gov/refuge/blackwater)
 
