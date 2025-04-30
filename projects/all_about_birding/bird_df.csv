@@ -27,11 +27,11 @@ NA,Iceland Gull 冰岛鸥,*larus glaucoides*,"Gulls, Terns, Skimmers","Nov '23, 
 ![](birdspics/least_tern_2504.JPG),Least Tern 普通燕鸥,*sternula antillarum*,"Gulls, Terns, Skimmers","Apr '25, Cambridge MD",fall straight from the sky to catch fishes
 ![](birdspics/caspian_tern_2407.JPG),Caspian Tern 红嘴巨燕鸥,*hydroprogne caspia*,"Gulls, Terns, Skimmers","July '24, Seattle WA",NA
 ![](birdspics/whiskered_tern_2208.jpeg),Whiskered Tern 须浮鸥,*chlidonias hybrida*,"Gulls, Terns, Skimmers","Aug '22, Suzhou Jiangsu",NA
-![](birdspics/killdeer_2501.JPG),Killdeer 双领鸻,*charadrius vociferus*,Shorebirds,"Jan '25, Cambridge MD",NA
-![](birdspics/wilson_s_snipe_2501.JPG),Wilson's Snipe 美洲沙锥,*gallinago delicata*,Shorebirds,"Jan '25, Cambridge MD",NA
-![](birdspics/lesser_yellowlegs_2504.JPG),Lesser Yellowlegs 小黄脚鹬,*tringa flavipes*,Shorebirds,"Apr '25, Cambridge MD",long bill and long legs
-![](birdspics/dunlin_2504.JPG),Dunlin 黑腹滨鹬,*calidris alpina*,Shorebirds,"Apr '25, Cambridge MD",medium sized shorebird with black belly
-![](birdspics/least_sandpiper_2504.JPG),Least Sandpiper 美洲小滨鹬,*calidris minutilla*,Shorebirds,"Apr '25, Cambridge MD","very small, appear in flocks"
+![](birdspics/killdeer_2501.JPG),Killdeer 双领鸻 ![](pixelart/killdeer_s.png),*charadrius vociferus*,Shorebirds,"Jan '25, Cambridge MD",NA
+![](birdspics/wilson_s_snipe_2501.JPG),Wilson's Snipe 美洲沙锥 ![](pixelart/wilsonssnipe_s.png),*gallinago delicata*,Shorebirds,"Jan '25, Cambridge MD",NA
+![](birdspics/lesser_yellowlegs_2504.JPG),Lesser Yellowlegs 小黄脚鹬 ![](pixelart/lesseryellowlegs_s.png),*tringa flavipes*,Shorebirds,"Apr '25, Cambridge MD",long bill and long legs
+![](birdspics/dunlin_2504.JPG),Dunlin 黑腹滨鹬 ![](pixelart/dunlin_s.png),*calidris alpina*,Shorebirds,"Apr '25, Cambridge MD",medium sized shorebird with black belly
+![](birdspics/least_sandpiper_2504.JPG),Least Sandpiper 美洲小滨鹬 ![](pixelart/leastsandpiper_s.png),*calidris minutilla*,Shorebirds,"Apr '25, Cambridge MD","very small, appear in flocks"
 NA,Black-Crowned Night Heron 夜鹭,*nycticorax nycticorax*,"Herons, Ibis, and allies","May '19, Suzhou Jiangsu",NA
 ![](birdspics/great_egret_2203.JPG),Great Egret 大白鹭,*ardea alba*,"Herons, Ibis, and allies","Apr '25, Cambridge MD",NA
 ![](birdspics/little_egret_2111.jpeg),Little Egret 小白鹭,*egretta garzetta*,"Herons, Ibis, and allies","Nov '21, Suzhou Jiangsu",NA
@@ -40,7 +40,7 @@ NA,Black-Crowned Night Heron 夜鹭,*nycticorax nycticorax*,"Herons, Ibis, and a
 ![](birdspics/eurasian_moorhen_2302.jpg),Eurasian Moorhen 黑水鸡,*gallinula chloropus*,"Rails, Gallinules, and allies","Nov '21, Suzhou Jiangsu",symbol of DKU community!
 ![](birdspics/eurasian_coot_2301.jpeg),Eurasian Coot 骨顶鸡,*fulica atra*,"Rails, Gallinules, and allies","Jan '23, Suzhou Jiangsu",NA
 NA,American Coot 美洲骨顶,*fulica americana*,"Rails, Gallinules, and allies","Apr '25, West Lafayette IN",NA
-![](birdspics/rock_pigeon_2309.JPG),Rock Pigeon 岩鸽,*columbia livia*,Pigeons and Doves,"Oct '24, Baltimore MD",NYC pigeons are horribly fat
+![](birdspics/rock_pigeon_2309.JPG),Rock Pigeon 岩鸽 ![](pixelart/rockpigeon_s.png),*columbia livia*,Pigeons and Doves,"Oct '24, Baltimore MD",NYC pigeons are horribly fat
 ![](birdspics/spotted_dove_2011.jpeg),Spotted Dove 珠颈斑鸠 ![](pixelart/spotteddove_s.png),*spilopelia chinensis*,Pigeons and Doves,"Nov '20, Suzhou Jiangsu",dubbed 'the most delicious friend of hawks'
 ![](birdspics/oriental_turtle_dove_2302.JPG),Oriental Turtle-Dove 山斑鸠 ![](pixelart/orientalturtledove_s.png),*streptopelia orientalis*,Pigeons and Doves,"Feb '23, Suzhou Jiangsu",bronze feathers compared to spotted dove
 ![](birdspics/mourning_dove_2503.JPG),Mourning Dove 哀鸽 ![](pixelart/mourningdove_s.png),*zenaida macroura*,Pigeons and Doves,"Mar '25, Baltimore MD",NA
@@ -56,7 +56,7 @@ NA,Eurasian Hoopoe 戴胜,*upupa epops*,Hoopoes,"Apr '23, Suzhou Jiangsu",NA
 ![](birdspics/yellow_bellied_sapsucker_2503.JPG),Yellow-bellied Sapsucker 黄腹吸汁啄木鸟,*sphyrapicus varius*,Woodpeckers,"Mar '25, Baltimore MD",dead due to bird strike
 ![](birdspics/downy_woodpecker_2501.JPG),Downy Woodpecker 绒啄木鸟,*dryobates pubescens*,Woodpeckers,"Jan '25, Cambridge MD",very small
 NA,Blue Jay 冠蓝鸦,*cyanocitta cristata*,"Jays, Magpies, Crows, Ravens","Apr '25, Cambridge MD","tried to attract it using Audubon blue jay toy, ended up making it sang back\nnot seen)"
-![](birdspics/american_crow_2407.JPg),American Crow 短嘴鸦 ![](pixelart/americancrow_s.png),*corvus brachyrhynchos*,"Jays, Magpies, Crows, Ravens","Jan '25, Baltimore MD","sits on trees of Baltimore in flock in evenings, esp. from Nov to Feb"
+![](birdspics/american_crow_2502.jpeg),American Crow 短嘴鸦 ![](pixelart/americancrow_s.png),*corvus brachyrhynchos*,"Jays, Magpies, Crows, Ravens","Jan '25, Baltimore MD","sits on trees of Baltimore in flock in evenings, esp. from Nov to Feb"
 NA,Fish Crow 鱼鸦,*corvus ossifragus*,"Jays, Magpies, Crows, Ravens","Apr '25, Baltimore MD",song is different from american crow
 ![](birdspics/large_billed_crow_2303.JPG),Large-billed Crow 大嘴乌鸦,*corvus macrohynchos*,"Jays, Magpies, Crows, Ravens","Mar '23, Lijiang Yunnan",NA
 NA,Common Raven 渡鸦,*corvus corax*,"Jays, Magpies, Crows, Ravens","Nov '24, Baltimore MD","'quoth the raven, nevermore' - quoth someone who died in Baltimore."
