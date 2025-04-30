@@ -25,13 +25,12 @@ $shadow-color: rgba(0, 0, 0, 0.2);
 
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=VT323&display=swap');
 
-
 /*-- scss:rules --*/
 /* Base Styles */
 body {
   background-color: $body-bg;
   color: $body-color;
-  font-family: 'VT323', monospace;
+  font-family: 'VT323','Kai', monospace;
   font-size: 1.1rem;
   line-height: 1.5;
   margin: 0;
