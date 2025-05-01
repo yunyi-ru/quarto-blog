@@ -1,14 +1,14 @@
 ﻿Picture,Common Name,Scientific Name,Family,Last Seen,Random Comments
-![](birdspics/brant_2401.JPG),Brant 黑雁,*branta bernicla*,Waterfowl,"Jan '24, New York NY",can be identified by white neckline
-![](birdspics/canadian_goose_2501.JPG),Canada Goose 加拿大雁,*branta canadensis*,Waterfowl,"Jan '25, Cambridge MD",countless of them in blackwater NWR
-![](birdspics/bar_headed_goose_1912.jpg),Bar-headed Goose 斑头雁,*anser indicus*,Waterfowl,"Dec '19, Lhasa Tibet",Seen with ruddy shelduck in the pond behind Potala palace
-![](birdspics/ruddy_shelduck_1912.jpg),Ruddy Shelduck 赤麻鸭,*tadorna ferruginea*,Waterfowl,"Dec '19, Lhasa Tibet",NA
-![](birdspics/black_swan_juv_2302.jpg),Black Swan 黑天鹅,*cygnus atratus*,Waterfowl,"Feb '23, Suzhou Jiangsu",juvenile
-![](birdspics/whistling_swan_2501.JPG),Tundra Swan 小天鹅,*cygnus columbianus*,Waterfowl,"Jan '25, Cambridge MD",small part of yellow on bills
-![](birdspics/mallard_2501.jpeg),Mallard 绿头鸭,*anas platyrhynchos*,Waterfowl,"Jan '25, Cambridge MD",sometimes mixed with domestic ducks
-![](birdspics/mute_swan_1607.jpg),Mute Swan 疣鼻天鹅,*cygnus olor*,Waterfowl,"July '16, Luzern Swiss",NA
-![](birdspics/mandarin_duck_juv_2306.JPG),Mandarin Duck 鸳鸯,*aix galericulata*,Waterfowl,"June '23, Beijing","juvenile, identified by dotted webbings"
-![](birdspics/hooded_merganser_2501.JPG),Hooded Merganser 棕胁秋沙鸭,*lophydytes cucullatus*,Waterfowl,"Jan '25, Cambridge MD",go around in couples
+![](birdspics/brant_2401.JPG),Brant 黑雁 ![](pixelart/brant_s.png),*branta bernicla*,Waterfowl,"Jan '24, New York NY",can be identified by white neckline
+![](birdspics/canadian_goose_2501.JPG),Canada Goose 加拿大雁 ![](pixelart/canadagoose_s.png),*branta canadensis*,Waterfowl,"Jan '25, Cambridge MD",countless of them in blackwater NWR
+![](birdspics/bar_headed_goose_1912.jpg),Bar-headed Goose 斑头雁 ![](pixelart/barheadedgoose_s.png),*anser indicus*,Waterfowl,"Dec '19, Lhasa Tibet",Seen with ruddy shelduck in the pond behind Potala palace
+![](birdspics/ruddy_shelduck_1912.jpg),Ruddy Shelduck 赤麻鸭 ![](pixelart/ruddyshelduck_s.png),*tadorna ferruginea*,Waterfowl,"Dec '19, Lhasa Tibet",NA
+![](birdspics/black_swan_juv_2302.jpg),Black Swan 黑天鹅 ![](pixelart/blackswan_s.png),*cygnus atratus*,Waterfowl,"Feb '23, Suzhou Jiangsu",juvenile
+![](birdspics/whistling_swan_2501.JPG),Tundra Swan 小天鹅 ![](pixelart/tundraswan_s.png),*cygnus columbianus*,Waterfowl,"Jan '25, Cambridge MD",small part of yellow on bills
+![](birdspics/mute_swan_1607.jpg),Mute Swan 疣鼻天鹅 ![](pixelart/muteswan_s.png),*cygnus olor*,Waterfowl,"July '16, Luzern Swiss",NA
+![](birdspics/mallard_2501.jpeg),Mallard 绿头鸭 ![](pixelart/mallard_s.png),*anas platyrhynchos*,Waterfowl,"Jan '25, Cambridge MD",sometimes mixed with domestic ducks
+![](birdspics/mandarin_duck_juv_2306.JPG),Mandarin Duck 鸳鸯 ![](pixelart/mandarinduck_s.png),*aix galericulata*,Waterfowl,"June '23, Beijing","juvenile, identified by dotted webbings"
+![](birdspics/hooded_merganser_2501.JPG),Hooded Merganser 棕胁秋沙鸭 ![](pixelart/hoodedmerganser_s.png),*lophydytes cucullatus*,Waterfowl,"Jan '25, Cambridge MD",go around in couples
 ![](birdspics/great_cormorant_1907.jpg),Great Cormorant 普通鸬鹚,*phalacrocorax carbo*,Cormorants and Anhingas,"July '19, Kyoto Japan",NA
 ![](birdspics/double_crested_cormorant_2310.JPG),Double-crested Cormorant 角鸬鹚,*nannopterum auritum*,Cormorants and Anhingas,"Oct '23, Baltimore MD",NA
 NA,Brandt's Cormorant 加州鸬鹚,*urile penicillatus*,Cormorants and Anhingas,"July '24, Cannon Beach OR",NA
