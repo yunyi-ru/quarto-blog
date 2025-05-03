@@ -27,7 +27,7 @@ The next bird I want to see is: ***Blue Jay***, because it's the symbol of the J
 
 ------------------------------------------------------------------------
 
-# *"Watch Them Fly Above Your Head"* - Bird List
+# Bird List
 
 ## My Bird List {#birdlist}
 
@@ -100,20 +100,33 @@ fillOpacity = 1, radius = 5) %>%
 
 ------------------------------------------------------------------------
 
-# *"Birdin' U.S.A."* - Places I Went For Birding {#places}
+# Places I Went For Birding {#places}
 
 ## Baltimore, MD: Inner Harbor
 
 ::: column-margin
-![Inner Harbor, Oct 2023](landspics/innerharbor.JPG){group="landspics"}
+![View of Inner Harbor from Federal Hill Park, Oct 2023](landspics/innerharbor.JPG){group="landspics"}
 :::
 
 -   **Type**: Urban \| Shore
 -   **First Visited**: Aug 2023
 -   **Last Visited**: Apr 2025
 -   **Birds**: Canada Goose, Double-crested Cormorant, Laughing Gull, Mallard, Ring-billed Gull, Rock Pigeon, Osprey, Northern Rough-winged Sparrow, Fish Crow
--   **Comments**: From inner harbor to harbor east, the waterfront of downtown Baltimore is a great place to watch gulls & various kinds of waterfowls.
--   **Link**: /
+-   **Comments**: From inner harbor to harbor east and locust point, the waterfront of downtown Baltimore is a great place to watch gulls & various kinds of waterfowls. A large flock of gulls rest in front of the harbors near Whole Foods from late fall to early spring in the evening. Check out the Harbor Connector water taxi - you can see gulls and cormorants flying across the harbor.
+-   **Link**: [Harbor Connector Water Taxi (free to ride!)](https://www.baltimorewatertaxi.com/lines)
+
+## Baltimore, MD: Patterson Park
+
+::: column-margin
+![Patternson Park, May 2025](landspics/pattersonpark.JPeG){group="landspics"}
+:::
+
+-   **Type**: Urban \| Forest, Pond
+-   **First Visited**: Mar 2025
+-   **Last Visited**: May 2025
+-   **Birds**: American Robin, Canada Goose, Mallard, Rock Pigeon, Fish Crow, House Finch, Red-winged Black Bird, Little Blue Heron, House Sparrow, Blue Jay, Mourning Dove
+-   **Comments**: The historical park is a great place for birdwatching. If you visit the park at late spring, you can watch flocks of robins, sparrows and blackbirds singing, mallards hanging out, and Canada geese raising their goslings around the pond! They're not afraid of people and happy to interact with visitors.
+-   **Link**: [Friends of Patterson Park](https://pattersonpark.com/#visit-us)
 
 ## Cambridge, MD: Blackwater National Wildlife Refuge
 
@@ -125,7 +138,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **First Visited**: Jan 2025
 -   **Last Visited**: Apr 2025
 -   **Birds**: Bald Eagle, Canada Goose, Carolina Wren, Downy Woodpecker, Great Blue Heron, Hermit Thrush, Hooded Merganser, Killdeer, Mallard, Northern Cardinal, Northern Mockingbird, Ring-billed Gull, Turkey Vulture, Whistling Swan, Wilson's Snipe, Osprey, Red-winged blackbird, Chipping Sparrow, Blue Jay, Tufted Titmouse, Tree Swallow, Lesser Yellowlegs, Dunlin, Least Tern, Least Sandpiper, Great Egret
--   **Comments**: A perfect place for birding in Maryland, the most iconic bird being bald eagle. With woods, wetlands and ponds around the wildlife drive, you can see a variety of birds here. Also, the visitor center's pick of merchandises is superb.
+-   **Comments**: A perfect place for birding at the east coast of Chesapeake Bay, the most iconic bird being bald eagle. With woods, trails, wetlands and ponds around the wildlife drive, you can see a variety of birds here. Also, the visitor center's pick of merchandises is superb.
 -   **Links**: [Friends of Blackwater](https://friendsofblackwater.org/) *check the webcams* \| [U.S. Fish & Wildlife Service: Blackwater National Wildlife Refuge](https://www.fws.gov/refuge/blackwater)
 
 ## New York City, NY: Liberty Island
@@ -138,7 +151,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **First Visited**: Jan 2024
 -   **Last Visited**: Jan 2024
 -   **Birds**: American Herring Gull, Brant, European Starling, Ring-billed Gull
--   **Comments**: While New York City is full of fat rock pigeons, the liberty island is surprisingly a good place to watch waterfowls, and of course, gulls. Just mind your food, the gulls are really aggressive.
+-   **Comments**: While New York City is full of fat pigeons, the liberty island is surprisingly a good place to watch waterfowls, and of course, gulls. Just mind your food, the gulls are really aggressive.
 -   **Link**: /
 
 ## Harpers Ferry, WV: Maryland Heights
@@ -177,7 +190,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **First Visited**: July 2024
 -   **Last Visited**: July 2024
 -   **Birds**: Caspian Tern, Glaucous-winged Gull, Great Blue Heron, American Crow
--   **Comments**: With all its natural beauty, the discovery park is a great place to enjoy the views of volcano, forests and sea at one time - and of course, gulls.
+-   **Comments**: With all its natural beauty, the discovery park is a great place to enjoy the views of volcano, forests and sea at once - and of course, gulls.
 -   **Link**: [Seattle.gov: Discovery Park](https://www.seattle.gov/parks/allparks/discovery-park)
 
 ## Cannon Beach, OR: Haystack Rock
@@ -212,15 +225,23 @@ fillOpacity = 1, radius = 5) %>%
 
 ## General Recourses
 
+-   [eBird](https://ebird.org/home)
+
 -   [Cornell Lab of Ornithology/Merlin Bird ID](https://merlin.allaboutbirds.org/)
 
 -   [BirdWeb](https://birdweb.org/birdweb/)
 
 -   [Audubon Society](https://www.audubon.org/)
 
+- [Sibagu The Ornithological Linguist](http://www.sibagu.com/index.html)
+
 ## Get Involved! Local Birding Communities
 
 ### Baltimore/Maryland
+
+-   [Maryland Ornithological Society](https://mdbirds.org/)
+
+-   [Birder's Guide to Maryland & DC](https://birdersguidemddc.org/)
 
 -   [Howard County Bird Club](https://howardbirds.website/)
 
