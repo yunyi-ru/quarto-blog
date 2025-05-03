@@ -5,6 +5,7 @@ project:
 website:
   favicon: figs/crow_s.png
   title: "Yunyi's Blog"
+  google-analytics: "G-XJSP4R93HW"
   site-url: "https://yunyi-ru.github.io/quarto-blog/"
   site-path: "/"
   search: true
