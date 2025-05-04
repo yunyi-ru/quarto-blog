@@ -118,7 +118,7 @@ fillOpacity = 1, radius = 5) %>%
 ## Baltimore, MD: Patterson Park
 
 ::: column-margin
-![Patternson Park, May 2025](landspics/pattersonpark.JPeG){group="landspics"}
+![Patterson Park, May 2025](landspics/pattersonpark.JPeG){group="landspics"}
 :::
 
 -   **Type**: Urban \| Forest, Pond

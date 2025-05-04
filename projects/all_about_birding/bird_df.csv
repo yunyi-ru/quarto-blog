@@ -17,15 +17,15 @@ NA,Tufted Puffin 花魁鸟,*fratercula cirrhata*,Alcids,"July '24, Cannon Beach 
 ![](birdspics/common_murre_2407.JPG),Common Murre 崖海鸦,*uria aalge*,Alcids,"July '24, Cannon Beach OR",NA
 ![](birdspics/american_white_pelican_2504.jpeg),American White Pelican 美洲鹈鹕,*pelecanus erythrorhynchos*,Pelicans,"Apr '25, West Lafayette IN",NA
 ![](birdspics/brown_pelican_2407.JPG),Brown Pelican 褐鹈鹕,*pelecanus occidentalis*,Pelicans,"July '24, Cannon Beach OR",NA
-![](birdspics/american_herring_gull_2401.JPG),American Herring Gull 美洲银鸥,*larus smithsonianus*,"Gulls, Terns, Skimmers","Jan '24, New York NY",winter coat
-![](birdspics/laughing_gull_2310.JPG),Laughing Gull 笑鸥,*leucophaeus atricilla*,"Gulls, Terns, Skimmers","Oct '23, Baltimore MD",winter coat
-![](birdspics/ring_billed_gull_2503.JPG),Ring-billed Gull 环嘴鸥,*larus delawarensis*,"Gulls, Terns, Skimmers","May '25, Baltimore MD",NA
-![](birdspics/california_gull_2407.JPG),California Gull 加州鸥,*larus californicus*,"Gulls, Terns, Skimmers","July '24, Cannon Beach OR",NA
-![](birdspics/glaucous_winged_gull_2407.JPG),Glaucous-winged Gull 灰翅鸥,*larus glaucescens*,"Gulls, Terns, Skimmers","July '24, Seattle WA",juveniles were seen eating a starfish - sadly they failed.
-![](birdspics/yellow_legged_gull_1607.jpg),Yellow-legged Gull 黄腿银鸥,*larus michahellis*,"Gulls, Terns, Skimmers","July '16, Venice Italy",NA
-![](birdspics/least_tern_2504.JPG),Least Tern 普通燕鸥,*sternula antillarum*,"Gulls, Terns, Skimmers","Apr '25, Cambridge MD",fall straight from the sky to catch fishes
-![](birdspics/caspian_tern_2407.JPG),Caspian Tern 红嘴巨燕鸥,*hydroprogne caspia*,"Gulls, Terns, Skimmers","July '24, Seattle WA",NA
-![](birdspics/whiskered_tern_2208.jpeg),Whiskered Tern 须浮鸥,*chlidonias hybrida*,"Gulls, Terns, Skimmers","Aug '22, Suzhou Jiangsu",NA
+![](birdspics/american_herring_gull_2401.JPG),American Herring Gull 美洲银鸥  ![](pixelart/americanherringgull_s.png),*larus smithsonianus*,"Gulls, Terns, Skimmers","Jan '24, New York NY",winter coat
+![](birdspics/laughing_gull_2310.JPG),Laughing Gull 笑鸥  ![](pixelart/laughinggull_s.png),*leucophaeus atricilla*,"Gulls, Terns, Skimmers","Oct '23, Baltimore MD",winter coat
+![](birdspics/ring_billed_gull_2503.JPG),Ring-billed Gull 环嘴鸥 ![](pixelart/ringbilledgull_s.png),*larus delawarensis*,"Gulls, Terns, Skimmers","May '25, Baltimore MD",NA
+![](birdspics/california_gull_2407.JPG),California Gull 加州鸥  ![](pixelart/californiagull_s.png),*larus californicus*,"Gulls, Terns, Skimmers","July '24, Cannon Beach OR",NA
+![](birdspics/glaucous_winged_gull_2407.JPG),Glaucous-winged Gull 灰翅鸥  ![](pixelart/glaucouswingedgull_s.png),*larus glaucescens*,"Gulls, Terns, Skimmers","July '24, Seattle WA",juveniles were seen eating a starfish - sadly they failed.
+![](birdspics/yellow_legged_gull_1607.jpg),Yellow-legged Gull 黄腿银鸥  ![](pixelart/yellowleggedgull_s.png),*larus michahellis*,"Gulls, Terns, Skimmers","July '16, Venice Italy",NA
+![](birdspics/least_tern_2504.JPG),Least Tern 普通燕鸥  ![](pixelart/leasttern_s.png),*sternula antillarum*,"Gulls, Terns, Skimmers","Apr '25, Cambridge MD",fall straight from the sky to catch fishes
+![](birdspics/caspian_tern_2407.JPG),Caspian Tern 红嘴巨燕鸥  ![](pixelart/caspiantern_s.png),*hydroprogne caspia*,"Gulls, Terns, Skimmers","July '24, Seattle WA",NA
+![](birdspics/whiskered_tern_2208.jpeg),Whiskered Tern 须浮鸥  ![](pixelart/whiskeredtern_s.png),*chlidonias hybrida*,"Gulls, Terns, Skimmers","Aug '22, Suzhou Jiangsu",NA
 ![](birdspics/killdeer_2501.JPG),Killdeer 双领鸻 ![](pixelart/killdeer_s.png),*charadrius vociferus*,Shorebirds,"Jan '25, Cambridge MD",NA
 ![](birdspics/wilson_s_snipe_2501.JPG),Wilson's Snipe 美洲沙锥 ![](pixelart/wilsonssnipe_s.png),*gallinago delicata*,Shorebirds,"Jan '25, Cambridge MD",NA
 ![](birdspics/lesser_yellowlegs_2504.JPG),Lesser Yellowlegs 小黄脚鹬 ![](pixelart/lesseryellowlegs_s.png),*tringa flavipes*,Shorebirds,"Apr '25, Cambridge MD",long bill and long legs
@@ -55,7 +55,7 @@ NA,Common Kingfisher 普通翠鸟,*alcedo atthis*,Kingfisher,"Dec '21, Suzhou Ji
 NA,Eurasian Hoopoe 戴胜,*upupa epops*,Hoopoes,"Apr '23, Suzhou Jiangsu",NA
 ![](birdspics/yellow_bellied_sapsucker_2503.JPG),Yellow-bellied Sapsucker 黄腹吸汁啄木鸟,*sphyrapicus varius*,Woodpeckers,"Mar '25, Baltimore MD",dead due to bird strike
 ![](birdspics/downy_woodpecker_2501.JPG),Downy Woodpecker 绒啄木鸟,*dryobates pubescens*,Woodpeckers,"Jan '25, Cambridge MD",very small
-NA,Blue Jay 冠蓝鸦,*cyanocitta cristata*,"Jays, Magpies, Crows, Ravens","May '25, Baltimore MD",only heard them singing. never seen with eyes
+NA,Blue Jay 冠蓝鸦  ![](pixelart/bluejay_s.png),*cyanocitta cristata*,"Jays, Magpies, Crows, Ravens","May '25, Baltimore MD",only heard them singing. never seen with eyes
 ![](birdspics/american_crow_2502.jpeg),American Crow 短嘴鸦 ![](pixelart/americancrow_s.png),*corvus brachyrhynchos*,"Jays, Magpies, Crows, Ravens","Jan '25, Baltimore MD","sits on trees of Baltimore in flocks in evenings, esp. from Nov to Feb"
 NA,Fish Crow 鱼鸦,*corvus ossifragus*,"Jays, Magpies, Crows, Ravens","Apr '25, Baltimore MD",song is different from american crow - if you ask it will answer with a reluctant 'uh-uh'
 ![](birdspics/large_billed_crow_2303.JPG),Large-billed Crow 大嘴乌鸦,*corvus macrohynchos*,"Jays, Magpies, Crows, Ravens","Mar '23, Lijiang Yunnan",the OG crow in China
@@ -75,9 +75,9 @@ NA,Common Raven 渡鸦,*corvus corax*,"Jays, Magpies, Crows, Ravens","Nov '24, B
 ![](birdspics/carolina_wren_2501.JPG),Carolina Wren 卡罗苇鹪鹩,thryothorus ludovicianus,Wrens,"Jan '25, Cambridge MD",NA
 ![](birdspics/ruby_crowned_kinglet_2203.jpg),Ruby-crowned Kinglet 红冠戴菊,*corthylio calendula*,Kinglets,"Mar '22, Durham NC",NA
 ![](birdspics/white_wagtail_2303.JPG),White Wagtail 白鹡鸰,*motacilla alba*,Wagtails and Pipits,"Mar '23, Lijiang Yunnan","tail wags endlessly, and flies in 'sine function'"
-![](birdspics/chipping_sparrow_2504.JPG),Chipping Sparrow 褐斑翅雀鵐,*spizella passerina*,New World Sparrows,"Apr '25, Cambridge MD",NA
+![](birdspics/chipping_sparrow_2504.JPG),Chipping Sparrow 褐斑翅雀鹀,*spizella passerina*,New World Sparrows,"Apr '25, Cambridge MD",NA
 ![](birdspics/white_throated_sparrow_2410.JPG),White-throated Sparrow 白喉带鹀,*zonotrichia albicollis*,New World Sparrows,"Oct '24, Baltimore MD","found dead around MICA, bird strike"
-NA,Song Sparrow 歌帶鵐,*melospiza melodia*,New World Sparrows,"Mar '25, Baltimore MD",NA
+NA,Song Sparrow 歌带鹀,*melospiza melodia*,New World Sparrows,"Mar '25, Baltimore MD",NA
 ![](birdspics/house_sparrow_2503.JPG),House Sparrow 家麻雀,*passer domesticus*,Old World Sparrows,"May '24, Boston MA",white neckline
 ![](birdspics/eurasian_tree_sparrow_1911.jpg),Eurasian Tree Sparrow 麻雀,*passer montanus*,Old World Sparrows,"Nov '19, Suzhou Jiangsu",black cheek
 ![](birdspics/house_finch_2203.jpg),House Finch 家朱雀,*haemorhous mexicanus*,"Finches, Euphonias, and allies","Mar '22, Durham NC",very small bird
