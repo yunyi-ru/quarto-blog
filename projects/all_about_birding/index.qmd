@@ -229,7 +229,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **First Visited**: June 2025
 -   **Last Visited**: June 2025
 -   **Birds**: Common Raven, Red-breasted Merganser, Great-tailed Grackle, Snowy Egret, Black Phoebe, Gadwall, Western Gull, Canadian Goose, Brant, Mallard, Brown Pelican, Double-Crested Cormorant
--   **Comments**: Famous for surfing but the lagoon has striking biodiversity. Mixed groups of brown pelicans and double-crested cormorants fishing in the lagoon. 
+-   **Comments**: Famous for surfing but the lagoon has striking biodiversity. Mixed groups of brown pelicans and double-crested cormorants fishing in the lagoon.
 -   **Link**: [California State Parks: Malibu Lagoon State Beach](https://www.parks.ca.gov/?page_id=835) \| [eBird](https://ebird.org/region/L597658)
 
 ------------------------------------------------------------------------
@@ -246,7 +246,7 @@ fillOpacity = 1, radius = 5) %>%
 
 -   [Audubon Society](https://www.audubon.org/)
 
-- [Sibagu The Ornithological Linguist](http://www.sibagu.com/index.html)
+-   [Sibagu The Ornithological Linguist](http://www.sibagu.com/index.html)
 
 ## Get Involved! Local Birding Communities
 
