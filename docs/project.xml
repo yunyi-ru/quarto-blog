@@ -39,7 +39,7 @@
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>The next bird I want to see is: <strong><em>Blue Jay</em></strong>, because it’s the symbol of the Johns Hopkins community.</p>
+<p>The next bird I want to see is: <strong><em>Pheasant-tailed Jacana 水雉</em></strong>, because it’s beautiful!</p>
 </div>
 </div>
 </div>
@@ -154,7 +154,7 @@
 <tr class="odd">
 <td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/red_breasted_merganser_2506.jpg" class="img-fluid"></td>
 <td style="text-align: left;">Red-breasted Merganser 红胸秋沙鸭 <img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/pixelart/redbreastedmerganser_s.png" class="img-fluid"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>mergus serrator</em></td>
 <td style="text-align: left;">Waterfowl</td>
 <td style="text-align: left;">June ’25, Malibu CA</td>
 <td style="text-align: left;">NA</td>
@@ -898,8 +898,8 @@
 <p><em>Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.</em></p>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-81a8433a5237341278f7" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-81a8433a5237341278f7">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/brown_pelican_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Brown Pelican; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/snowy_egret_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Snowy Egret; R: Gadwall<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.41755,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549],[-76.59966,-74.04423,91.11783,120.89291,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.jpg\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/little_egret_2111.jpeg\" width=\"90\"> <img src=\"birdspics/little_grebe_2105.jpeg\" width=\"90\"><\/br> <br>L: Little Egret; R: Little Grebe<\/br>","<br><img src=\"birdspics/eurasian_moorhen_2302.jpg\" width=\"90\"> <img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>L: Eurasian Moorhen; R: Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-187b05f3abb7c5014e2d" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-187b05f3abb7c5014e2d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/brown_pelican_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Brown Pelican; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/snowy_egret_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Snowy Egret; R: Gadwall<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.41755,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549],[-76.59966,-74.04423,91.11783,120.89291,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.jpg\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/little_egret_2111.jpeg\" width=\"90\"> <img src=\"birdspics/little_grebe_2105.jpeg\" width=\"90\"><\/br> <br>L: Little Egret; R: Little Grebe<\/br>","<br><img src=\"birdspics/eurasian_moorhen_2302.jpg\" width=\"90\"> <img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>L: Eurasian Moorhen; R: Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <hr>
@@ -918,12 +918,12 @@
 </figure>
 </div>
 </div></div><ul>
-<li><strong>Type</strong>: Urban | Shore</li>
+<li><strong>Type</strong>: Urban | Saltwater; Shore</li>
 <li><strong>First Visited</strong>: Aug 2023</li>
 <li><strong>Last Visited</strong>: Apr 2025</li>
 <li><strong>Birds</strong>: Canada Goose, Double-crested Cormorant, Laughing Gull, Mallard, Ring-billed Gull, Rock Pigeon, Osprey, Northern Rough-winged Sparrow, Fish Crow</li>
 <li><strong>Comments</strong>: From inner harbor to harbor east and locust point, the waterfront of downtown Baltimore is a great place to watch gulls &amp; various kinds of waterfowls. A large flock of gulls rest in front of the harbors near Whole Foods from late fall to early spring in the evening. Check out the Harbor Connector water taxi - you can see gulls and cormorants flying across the harbor.</li>
-<li><strong>Link</strong>: <a href="https://www.baltimorewatertaxi.com/lines">Harbor Connector Water Taxi (free to ride!)</a></li>
+<li><strong>Link</strong>: <a href="https://www.baltimorewatertaxi.com/lines">Harbor Connector Water Taxi (free to ride!)</a> | <a href="https://ebird.org/region/L745089">ebird</a></li>
 </ul>
 </section>
 <section id="baltimore-md-patterson-park" class="level2 page-columns page-full">
@@ -942,7 +942,7 @@
 <li><strong>Last Visited</strong>: May 2025</li>
 <li><strong>Birds</strong>: American Robin, Canada Goose, Mallard, Rock Pigeon, Fish Crow, House Finch, Red-winged Black Bird, Little Blue Heron, House Sparrow, Blue Jay, Mourning Dove</li>
 <li><strong>Comments</strong>: The historical park is a great place for birdwatching. If you visit the park at late spring, you can watch flocks of robins, sparrows and blackbirds singing, mallards hanging out, and Canada geese raising their goslings around the pond! They’re not afraid of people and happy to interact with visitors.</li>
-<li><strong>Link</strong>: <a href="https://pattersonpark.com/#visit-us">Friends of Patterson Park</a></li>
+<li><strong>Link</strong>: <a href="https://pattersonpark.com/#visit-us">Friends of Patterson Park</a> | <a href="https://ebird.org/hotspot/L449982">ebird</a></li>
 </ul>
 </section>
 <section id="cambridge-md-blackwater-national-wildlife-refuge" class="level2 page-columns page-full">
@@ -956,12 +956,12 @@
 </figure>
 </div>
 </div></div><ul>
-<li><strong>Type</strong>: Rural | Shore, Wetland, Forest</li>
+<li><strong>Type</strong>: Rural | Brackish; Shore, Wetland, Forest</li>
 <li><strong>First Visited</strong>: Jan 2025</li>
 <li><strong>Last Visited</strong>: Apr 2025</li>
 <li><strong>Birds</strong>: Bald Eagle, Canada Goose, Carolina Wren, Downy Woodpecker, Great Blue Heron, Hermit Thrush, Hooded Merganser, Killdeer, Mallard, Northern Cardinal, Northern Mockingbird, Ring-billed Gull, Turkey Vulture, Whistling Swan, Wilson’s Snipe, Osprey, Red-winged blackbird, Chipping Sparrow, Blue Jay, Tufted Titmouse, Tree Swallow, Lesser Yellowlegs, Dunlin, Least Tern, Least Sandpiper, Great Egret</li>
 <li><strong>Comments</strong>: A perfect place for birding at the east coast of Chesapeake Bay, the most iconic bird being bald eagle. With woods, trails, wetlands and ponds around the wildlife drive, you can see a variety of birds here. Also, the visitor center’s pick of merchandises is superb.</li>
-<li><strong>Links</strong>: <a href="https://friendsofblackwater.org/">Friends of Blackwater</a> <em>check the webcams</em> | <a href="https://www.fws.gov/refuge/blackwater">U.S. Fish &amp; Wildlife Service: Blackwater National Wildlife Refuge</a></li>
+<li><strong>Links</strong>: <a href="https://friendsofblackwater.org/">Friends of Blackwater</a> <em>check the webcams</em> | <a href="https://www.fws.gov/refuge/blackwater">U.S. Fish &amp; Wildlife Service: Blackwater National Wildlife Refuge</a> | <a href="https://ebird.org/region/L598944">ebird</a></li>
 </ul>
 </section>
 <section id="new-york-city-ny-liberty-island" class="level2 page-columns page-full">
@@ -975,12 +975,12 @@
 </figure>
 </div>
 </div></div><ul>
-<li><strong>Type</strong>: Urban | Island</li>
+<li><strong>Type</strong>: Urban | Saltwater; Island</li>
 <li><strong>First Visited</strong>: Jan 2024</li>
 <li><strong>Last Visited</strong>: Jan 2024</li>
 <li><strong>Birds</strong>: American Herring Gull, Brant, European Starling, Ring-billed Gull</li>
 <li><strong>Comments</strong>: While New York City is full of fat pigeons, the liberty island is surprisingly a good place to watch waterfowls, and of course, gulls. Just mind your food, the gulls are really aggressive.</li>
-<li><strong>Link</strong>: /</li>
+<li><strong>Link</strong>: <a href="https://ebird.org/region/L2686238">ebird</a></li>
 </ul>
 </section>
 <section id="harpers-ferry-wv-maryland-heights" class="level2 page-columns page-full">
@@ -999,7 +999,7 @@
 <li><strong>Last Visited</strong>: Mar 2024</li>
 <li><strong>Birds</strong>: Canada Goose, Mallard, Great Blue Heron, Turkey Vulture</li>
 <li><strong>Comments</strong>: The streams in the woods are a good place to catch up with our geese and heron friends.</li>
-<li><strong>Link</strong>: <a href="https://www.nps.gov/hafe/index.htm">National Park Service: Harpers Ferry</a></li>
+<li><strong>Link</strong>: <a href="https://www.nps.gov/hafe/index.htm">National Park Service: Harpers Ferry</a> | <a href="https://ebird.org/region/L715042">ebird</a></li>
 </ul>
 </section>
 <section id="durham-nc-duke-university" class="level2 page-columns page-full">
@@ -1018,7 +1018,7 @@
 <li><strong>Last Visited</strong>: Jan 2024</li>
 <li><strong>Birds</strong>: Red-tailed Hawk, Northern Cardinal, Eastern Bluebird, Carolina Chickadee, American Robin, Carolina Wren, House Finch, Ruby-crowned Kinglet, White-breasted Nuthatch</li>
 <li><strong>Comments</strong>: With birdfeeders everywhere, the Sarah P. Duke Garden is a great place for backyard birds like northern cardinal and eastern bluebird. I saw a red-tailed hawk with its nest near the old chemistry building. There are also some exotic waterfowls in the ponds of Duke Garden, like mandarin ducks &amp; ruddy shelducks, you can check the link below.</li>
-<li><strong>Links</strong>: <a href="https://www.dpughphoto.com/duke_gardens_exotic_ducks.htm">Exotic Waterfowls in Duke Garden</a> | <a href="https://gardens.duke.edu/">Duke Gardens</a></li>
+<li><strong>Links</strong>: <a href="https://www.dpughphoto.com/duke_gardens_exotic_ducks.htm">Exotic Waterfowls in Duke Garden</a> | <a href="https://gardens.duke.edu/">Duke Gardens</a> | <a href="https://ebird.org/region/L4754196">ebird</a></li>
 </ul>
 </section>
 <section id="seattle-wa-discovery-park" class="level2 page-columns page-full">
@@ -1032,12 +1032,12 @@
 </figure>
 </div>
 </div></div><ul>
-<li><strong>Type</strong>: Rural | Forest, Shore</li>
+<li><strong>Type</strong>: Rural | Saltwater; Forest, Shore</li>
 <li><strong>First Visited</strong>: July 2024</li>
 <li><strong>Last Visited</strong>: July 2024</li>
 <li><strong>Birds</strong>: Caspian Tern, Glaucous-winged Gull, Great Blue Heron, American Crow</li>
 <li><strong>Comments</strong>: With all its natural beauty, the discovery park is a great place to enjoy the views of volcano, forests and sea at once - and of course, gulls.</li>
-<li><strong>Link</strong>: <a href="https://www.seattle.gov/parks/allparks/discovery-park">Seattle.gov: Discovery Park</a></li>
+<li><strong>Link</strong>: <a href="https://www.seattle.gov/parks/allparks/discovery-park">Seattle.gov: Discovery Park</a> | <a href="https://ebird.org/region/L128530">ebird</a></li>
 </ul>
 </section>
 <section id="cannon-beach-or-haystack-rock" class="level2 page-columns page-full">
@@ -1051,12 +1051,12 @@
 </figure>
 </div>
 </div></div><ul>
-<li><strong>Type</strong>: Rural | Shore, Cliff</li>
+<li><strong>Type</strong>: Rural | Saltwater; Shore, Cliff</li>
 <li><strong>First Visited</strong>: July 2024</li>
 <li><strong>Last Visited</strong>: July 2024</li>
 <li><strong>Birds</strong>: Brown Pelican, California Gull, Tufted Puffin, Common Murre, Brandt’s Cormorant, American Crow</li>
 <li><strong>Comments</strong>: It’s just heaven if you love seabirds and shorebirds - in summer, various birds are nesting on the cliff of haystack rock. Remember to bring your binoculars since there’s a sign saying ‘birds only beyond this point’ - you would not be able to get too close to that rock. The volunteer is very friendly and helpful, and tide pools are also great fun to explore. Also, if you reside in Portland, be sure to check out Powell’s books, it has a great collection of field guides as well as other gems.</li>
-<li><strong>Links</strong>: <a href="https://www.friendsofhaystackrock.org/">Friends of Haystack Rock</a> <em>check the webcams</em> | <a href="https://www.fws.gov/refuge/oregon-islands/">U.S. Fish &amp; Wildlife Service: Oregon Islands National Wildlife Refuge</a></li>
+<li><strong>Links</strong>: <a href="https://www.friendsofhaystackrock.org/">Friends of Haystack Rock</a> <em>check the webcams</em> | <a href="https://www.fws.gov/refuge/oregon-islands/">U.S. Fish &amp; Wildlife Service: Oregon Islands National Wildlife Refuge</a> | <a href="https://ebird.org/region/L548476">ebird</a></li>
 </ul>
 </section>
 <section id="new-orleans-la-maurepas-swamp" class="level2 page-columns page-full">
@@ -1070,12 +1070,12 @@
 </figure>
 </div>
 </div></div><ul>
-<li><strong>Type</strong>: Rural | Wetland</li>
+<li><strong>Type</strong>: Rural | Saltwater; Swamp</li>
 <li><strong>First Visited</strong>: Mar 2022</li>
 <li><strong>Last Visited</strong>: Mar 2022</li>
 <li><strong>Birds</strong>: Great Egret</li>
 <li><strong>Comments</strong>: Went there as a part of swamp tour, feeding alligators and raccoons with marshmallows etc.</li>
-<li><strong>Link</strong>: <a href="https://www.wlf.louisiana.gov/page/maurepas-swamp">Louisiana Dpt. of Wildlife &amp; Fisheries: Maurepas Swamp</a></li>
+<li><strong>Link</strong>: <a href="https://www.wlf.louisiana.gov/page/maurepas-swamp">Louisiana Dpt. of Wildlife &amp; Fisheries: Maurepas Swamp</a> | <a href="https://ebird.org/hotspot/L692377">ebird</a></li>
 </ul>
 </section>
 <section id="los-angeles-ca-malibu-lagoon" class="level2 page-columns page-full">
@@ -1089,10 +1089,10 @@
 </figure>
 </div>
 </div></div><ul>
-<li><strong>Type</strong>: Rural | Lagoon, Shore</li>
+<li><strong>Type</strong>: Rural | Saltwater; Lagoon, Shore</li>
 <li><strong>First Visited</strong>: June 2025</li>
 <li><strong>Last Visited</strong>: June 2025</li>
-<li><strong>Birds</strong>: Common Raven, Red-breasted Merganser, Great-tailed Grackle, Snowy Egret, Black Phoebe, Gadwall, Western Gull, Canadian Goose, Brant, Mallard, Brown Pelican, double-crested cormorants</li>
+<li><strong>Birds</strong>: Common Raven, Red-breasted Merganser, Great-tailed Grackle, Snowy Egret, Black Phoebe, Gadwall, Western Gull, Canadian Goose, Brant, Mallard, Brown Pelican, Double-Crested Cormorant</li>
 <li><strong>Comments</strong>: Famous for surfing but the lagoon has striking biodiversity. Mixed groups of brown pelicans and double-crested cormorants fishing in the lagoon.</li>
 <li><strong>Link</strong>: <a href="https://www.parks.ca.gov/?page_id=835">California State Parks: Malibu Lagoon State Beach</a> | <a href="https://ebird.org/region/L597658">eBird</a></li>
 </ul>
