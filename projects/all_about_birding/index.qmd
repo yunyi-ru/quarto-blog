@@ -219,6 +219,19 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Went there as a part of swamp tour, feeding alligators and raccoons with marshmallows etc.
 -   **Link**: [Louisiana Dpt. of Wildlife & Fisheries: Maurepas Swamp](https://www.wlf.louisiana.gov/page/maurepas-swamp)
 
+## Los Angeles, CA: Malibu Lagoon
+
+::: column-margin
+![Malibu Lagoon, June 2025](landspics/maurepasswamp.JPG){group="landspics"}
+:::
+
+-   **Type**: Rural \| Wetland
+-   **First Visited**: Mar 2022
+-   **Last Visited**: Mar 2022
+-   **Birds**: Great Egret
+-   **Comments**: Went there as a part of swamp tour, feeding alligators and raccoons with marshmallows etc.
+-   **Link**: [Louisiana Dpt. of Wildlife & Fisheries: Maurepas Swamp](https://www.wlf.louisiana.gov/page/maurepas-swamp)
+
 ------------------------------------------------------------------------
 
 # Links & Resources {#links}
