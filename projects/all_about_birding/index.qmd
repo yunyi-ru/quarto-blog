@@ -41,7 +41,11 @@ bird_list <- read.csv("bird_df.csv", fileEncoding = "UTF-8")
 kable(bird_list, col.names = gsub("[.]", " ", names(bird_list)))
 ```
 
+### Milestones
+
 Now I have spotted `r nrow(bird_list)` birds.
+
+**100 birds spotted**: June 2025, after birding in Los Angeles
 
 ## Birding Around the World: Interactive Map {#map}
 
