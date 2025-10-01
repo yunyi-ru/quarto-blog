@@ -1,12 +1,12 @@
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #f0f0f0;
+$body-bg: #eef4e8;
 $body-color: #222222;
-$link-color: #330066;
-$link-hover-color: #990000;
+$link-color: #04756F;
+$link-hover-color: #689F38;
 $code-color: #222222;
-$code-bg: #e6e6e6;
-$code-block-bg: #e6e6e6;
+$code-bg: #f7fff3;
+$code-block-bg: #f7fff3;
 $h2-font-size: 1.6rem;
 $headings-font-weight: 700;
 
@@ -14,8 +14,8 @@ $headings-font-weight: 700;
 $padding: 1.2rem;
 $margin: 1rem;
 $border-radius: 0; /* no rounding */
-$divider-color: #330066;
-$shadow-color: rgba(0, 0, 0, 0.2);
+$divider-color: #04756F;
+$shadow-color: rgba(238, 244, 232, 0.8);
 
 /*-- scss:mixins --*/
 /* Mixin for sharp corners */
@@ -30,8 +30,8 @@ $shadow-color: rgba(0, 0, 0, 0.2);
 body {
   background-color: $body-bg;
   color: $body-color;
-  font-family: 'VT323','Kai', monospace;
-  font-size: 1.1rem;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 1rem;
   line-height: 1.5;
   margin: 0;
   padding: $padding;
@@ -46,7 +46,7 @@ a {
   &:hover {
     color: $link-hover-color;
     text-decoration-style: wavy;
-    text-shadow: 0 0 8px rgba(240, 218, 232, 0.8);
+    text-shadow: 0 0 8px rgba(238, 244, 232, 0.8);
   }
 }
 
@@ -56,8 +56,8 @@ code {
   color: $code-color;
   padding: 0.2rem 0.4rem;
   @include sharp-corners();
-  font-family: 'VT323', monospace;
-  font-size: 1.1em;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
 }
 
 pre {
@@ -66,8 +66,8 @@ pre {
   padding: $padding;
   @include sharp-corners();
   overflow-x: auto;
-  font-family: 'VT323', monospace;
-  font-size: 1.1em;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
 }
 
 /* Headings */
@@ -89,12 +89,12 @@ h2 {
   border: 2px solid $link-color;
   padding: 0.8rem 1.5rem;
   @include sharp-corners();
-  font-family: 'VT323', monospace;
-  font-size: 1.2rem;
+  font-family: 'Special Elite', cursive;
+  font-size: 1rem;
   cursor: pointer;
   letter-spacing: 1px;
-  background-image: none; /* 👈 avoid any accidental gradient */
-  box-shadow: none; /* 👈 absolutely no shadow */
+  background-image: none;
+  box-shadow: none;
 
   &:hover {
     background-color: $link-hover-color;
@@ -120,7 +120,7 @@ ul {
 
   li {
     margin-bottom: 0.5rem;
-    font-family: 'VT323', monospace;
+    font-family: 'Tahoma', sans-serif;
   }
 }
 
@@ -136,16 +136,16 @@ hr {
 .section {
   padding: 2rem;
   margin: 2rem 0;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   @include sharp-corners();
-  border: 2px solid $divider-color; /* ⬅ heavy border instead of soft shadow */
+  border: 2px solid $divider-color;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #e0e0e0;
+  background-color: rgba(238, 244, 232, 0.8);
   border-bottom: 3px double $divider-color;
-  font-family: 'VT323', monospace;
+  font-family: 'Special Elite', cursive;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 0.8rem 1.2rem;

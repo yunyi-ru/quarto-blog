@@ -46,7 +46,7 @@ NA,Tufted Puffin 花魁鸟,*fratercula cirrhata*,Alcids,"July '24, Cannon Beach 
 NA,Eastern Cattle Egret 牛背鹭 ![](pixelart/easterncattleegret_s.png),*ardea coromanda*,"Herons, Ibis, and allies","June '25, Suzhou Jiangsu",NA
 ![](birdspics/eurasian_moorhen_2507.jpg),Eurasian Moorhen 黑水鸡 ![](pixelart/eurasianmoorhen_s.png),*gallinula chloropus*,"Rails, Gallinules, and allies","Nov '21, Suzhou Jiangsu",symbol of DKU community!
 ![](birdspics/eurasian_coot_2507.jpg),Eurasian Coot 骨顶鸡 ![](pixelart/eurasiancoot_s.png),*fulica atra*,"Rails, Gallinules, and allies","Jan '23, Suzhou Jiangsu",NA
-NA,American Coot 美洲骨顶,*fulica americana*,"Rails, Gallinules, and allies","Apr '25, West Lafayette IN",NA
+NA,American Coot 美洲骨顶 ![](pixelart/americancoot_s.png),*fulica americana*,"Rails, Gallinules, and allies","Apr '25, West Lafayette IN",NA
 ![](birdspics/turkey_2505.jpg),Turkey 火鸡,*meleagris gallopavo*,"Grouse, Quail, and Allies","May '25, New York NY",Named 'Roosey'
 ![](birdspics/rock_pigeon_2309.JPG),Rock Pigeon 岩鸽 ![](pixelart/rockpigeon_s.png),*columbia livia*,Pigeons and Doves,"Oct '24, Baltimore MD",NYC pigeons are horribly fat
 ![](birdspics/spotted_dove_2011.jpeg),Spotted Dove 珠颈斑鸠 ![](pixelart/spotteddove_s.png),*spilopelia chinensis*,Pigeons and Doves,"Nov '20, Suzhou Jiangsu",dubbed 'the most delicious friend of hawks'
@@ -57,12 +57,12 @@ NA,American Coot 美洲骨顶,*fulica americana*,"Rails, Gallinules, and allies"
 ![](birdspics/bald_eagle_2504.JPG),Bald Eagle 白头海雕,*haliaeetus leucocephalus*,"Vultures, Hawks, and Allies","Jan '25, Cambridge MD",can be differentiated from turkey vulture while flying by their white tails
 ![](birdspics/red_tailed_hawk_2201.jpg),Red-tailed Hawk 红尾𫛭,*buteo jamaicensis*,"Vultures, Hawks, and Allies","Jan '22, Durham NC",NA
 ![](birdspics/eurasian_hobby_2507.JPG),Eurasian Hobby 燕隼,*falco subbuteo*,Flacons,"July '25, Beijing",NA
-![](birdspics/common_swift_2507.JPG),Common Swift 普通雨燕,*apus apus*,Swifts,"July '25, Beijing",THE famous birds at Beijing Central Axis
-![](birdspics/tree_swallow_2504.JPG),Tree Swallow 双色树燕,*tachycineta bicolor*,Martins and Swallows,"Apr '25, Cambridge MD","small, bright blue under sunlight, white belly"
-![](birdspics/barn_swallow_2507.jpg),Barn Swallow 家燕,*hirundo rustica*,Martins and Swallows,"July '25, Beijing",longer tail
-![](birdspics/northern_rough_winged_swallow_2503.JPG),Northern Rough-winged Swallow 中北美毛翅燕,*stelgidopteryx serripennis*,Martins and Swallows,"Apr '25, Baltimore MD","small, fly very fast, chasing insects near water"
-![](birdspics/eurasian_crag_martin_2306.jpg),Eurasian Crag-Martin 岩燕,*ptyonoprogne rupestris*,Martins and Swallows,"June '23, Datong Shanxi",NA
-![](birdspics/red_rumped_swallow_2507.JPG),Red-rumped Swallow 金腰燕,*cecropis daurica*,Martins and Swallows,"July '25, Suzhou Jiangsu",NA
+![](birdspics/common_swift_2507.JPG),Common Swift 普通雨燕 ![](pixelart/commonswift_s.png),*apus apus*,Swifts,"July '25, Beijing",THE famous birds at Beijing Central Axis
+![](birdspics/tree_swallow_2504.JPG),Tree Swallow 双色树燕 ![](pixelart/treeswallow_s.png),*tachycineta bicolor*,Martins and Swallows,"Apr '25, Cambridge MD","small, bright blue under sunlight, white belly"
+![](birdspics/barn_swallow_2507.jpg),Barn Swallow 家燕 ![](pixelart/barnswallow_s.png),*hirundo rustica*,Martins and Swallows,"July '25, Beijing",longer tail
+![](birdspics/northern_rough_winged_swallow_2503.JPG),Northern Rough-winged Swallow 中北美毛翅燕 ![](pixelart/northernroughwingedswallow_s.png),*stelgidopteryx serripennis*,Martins and Swallows,"Apr '25, Baltimore MD","small, fly very fast, chasing insects near water"
+![](birdspics/eurasian_crag_martin_2306.jpg),Eurasian Crag-Martin 岩燕 ![](pixelart/eurasiancragmartin_s.png),*ptyonoprogne rupestris*,Martins and Swallows,"June '23, Datong Shanxi",NA
+![](birdspics/red_rumped_swallow_2507.JPG),Red-rumped Swallow 金腰燕 ![](pixelart/redrumpedswallow_s.png),*cecropis daurica*,Martins and Swallows,"July '25, Suzhou Jiangsu",NA
 NA,Common Cuckoo 大杜鹃,*cuculus canorus*,Cuckoos,"July '25, Beijing",singing Cuckoo endlessly
 ![](birdspics/common_kingfisher_2507.jpg),Common Kingfisher 普通翠鸟,*alcedo atthis*,Kingfishers,"July '25, Beijing",very shy
 NA,Eurasian Hoopoe 戴胜,*upupa epops*,Hoopoes,"Apr '23, Suzhou Jiangsu",NA
@@ -78,9 +78,9 @@ NA,Fish Crow 鱼鸦 ![](pixelart/fishcrow_s.png),*corvus ossifragus*,"Jays, Magp
 ![](birdspics/large_billed_crow_2303.JPG),Large-billed Crow 大嘴乌鸦 ![](pixelart/largebilledcrow_s.png),*corvus macrohynchos*,"Jays, Magpies, Crows, Ravens","Mar '23, Lijiang Yunnan",NA
 ![](birdspics/carrion_crow_2507.jpg),Carrion Crow 小嘴乌鸦 ![](pixelart/carrioncrow_s.png),*corvus corone*,"Jays, Magpies, Crows, Ravens",,most common crow in Beijing city
 ![](birdspics/common_raven_2506.jpg),Common Raven 渡鸦 ![](pixelart/commonraven_s.png),*corvus corax*,"Jays, Magpies, Crows, Ravens","June '25, Malibu CA","'quoth the raven, nevermore' - quoth someone who died in Baltimore."
-![](birdspics/black_phoebe_2506.jpg),Black Phoebe 黑长尾霸鹟,*sayornis nigricans*,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies","June '25, Malibu CA",NA
+![](birdspics/black_phoebe_2506.jpg),Black Phoebe 黑长尾霸鹟 ![](pixelart/blackphoebe_s.png),*sayornis nigricans*,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies","June '25, Malibu CA",NA
 ![](birdspics/oriental_magpie_robin_2507.JPG),Oriental Magpie-Robin 鹊鸲 ![](pixelart/orientalmagpierobin_s.png),*copsychus saularis*,Old World Flycathers,"July '25, Suzhou Jiangsu","very common in Eastern China, sings beautifully"
-![](birdspics/long_tailed_shrike_2302.jpg),Long-tailed Shrike 棕背伯劳,*lanius schach*,Shrikes,"July '25, Suzhou Jiangsu",'butcher bird' - in me the tiger sniffs the plum blossoms
+![](birdspics/long_tailed_shrike_2302.jpg),Long-tailed Shrike 棕背伯劳 ![](pixelart/longtailedshrike_s.png),*lanius schach*,Shrikes,"July '25, Suzhou Jiangsu",'butcher bird' - in me the tiger sniffs the plum blossoms
 ![](birdspics/gray_catbird_2406.JPG),Gray Catbird 灰猫嘲鸫 ![](pixelart/graycatbird_s.png),*dumetella carolinensis*,"Catbirds, Mockingbirds, and Thrashers","May '25, Annaplis MD","little gray bird, usually seen in the evening"
 ![](birdspics/northern_mockingbird_2501.JPG),Northern Mockingbird 北嘲鸫 ![](pixelart/northernmockingbird_s.png),*mimus polyglottos*,"Catbirds, Mockingbirds, and Thrashers","Apr '25, Cambridge MD",NA
 ![](birdspics/eastern_bluebird_2203.jpg),Eastern Bluebird 东蓝鸲 ![](pixelart/easternbluebird_s.png),*sialia sialis*,Thrushes,"Mar '22, Durham NC",NA
@@ -98,20 +98,20 @@ NA,Fish Crow 鱼鸦 ![](pixelart/fishcrow_s.png),*corvus ossifragus*,"Jays, Magp
 ![](birdspics/oriental_reed_warbler_2507.JPG),Oriental Reed Warbler 东方大苇莺,*acrocephalus orientalis*,Warblers,"July '25, Beijing",have a noisy song
 ![](birdspics/ruby_crowned_kinglet_2203.jpg),Ruby-crowned Kinglet 红冠戴菊,*corthylio calendula*,Kinglets,"Mar '22, Durham NC",NA
 ![](birdspics/white_wagtail_2303.JPG),White Wagtail 白鹡鸰,*motacilla alba*,Wagtails and Pipits,"Mar '23, Lijiang Yunnan","tail wags endlessly, and flies in 'sine function'"
-![](birdspics/chipping_sparrow_2504.JPG),Chipping Sparrow 褐斑翅雀鹀,*spizella passerina*,New World Sparrows,"Apr '25, Cambridge MD",NA
-![](birdspics/white_throated_sparrow_2410.JPG),White-throated Sparrow 白喉带鹀,*zonotrichia albicollis*,New World Sparrows,"Oct '24, Baltimore MD","found dead around MICA, bird strike"
-![](birdspics/song_sparrow_2506.jpg),Song Sparrow 歌带鹀,*melospiza melodia*,New World Sparrows,"June '25, Los Angeles CA",NA
-![](birdspics/dark_eyed_junco_2506.jpg),Dark-eyed Junco 暗眼灯草鹀,*junco hyemalis*,New World Sparrows,"June '25, Los Angeles CA",NA
-![](birdspics/house_sparrow_2503.JPG),House Sparrow 家麻雀,*passer domesticus*,Old World Sparrows,"May '24, Boston MA",white neckline
-![](birdspics/eurasian_tree_sparrow_1911.jpg),Eurasian Tree Sparrow 麻雀,*passer montanus*,Old World Sparrows,"July '25, Beijing",black cheek
-![](birdspics/house_finch_2203.jpg),House Finch 家朱雀,*haemorhous mexicanus*,"Finches, Euphonias, and allies","June '25, Los Angeles CA",very small bird
-![](birdspics/grey_capped_greenfinch_2507.jpg),Grey-capped Greenfinch 金翅雀,*chloris sinica*,"Finches, Euphonias, and allies","July '25, Yantai Shandong",NA
-![](birdspics/american_goldfinch_2504.jpeg),American Goldfinch 北美金翅雀,*spinus tristis*,"Finches, Euphonias, and allies","Apr '25, Baltimore MD",NA
-![](birdspics/lesser_goldfinch_2506.jpg),Lesser Goldfinch 暗背金翅雀,*carduelis psaltria*,"Finches, Euphonias, and allies","June '25, Los Angeles CA",NA
-![](birdspics/northern_cardinal_2203.jpg),Northern Cardinal 主红雀,*cardinalis cardinalis*,"Cardinals, Grosbeaks, and allies","Apr '25, Cambridge MD",cutest and most iconic bird in the u.s.a.
-![](birdspics/red_winged_blackbird_2504.JPG),Red-winged Blackbird 红翅黑鹂,*agelaius phoeniceus*,Blackbirds,"Apr '25, Cambridge MD",have a very loud and distinguishable song
-![](birdspics/common_grackle_2405.jpeg),Common Grackle 普通拟八哥,*quiscalus quiscula*,Blackbirds,"May '24, Boston MA",NA
-![](birdspics/great_tailed_grackle_2506.jpg),Great-tailed Grackle 大尾拟八哥,*quiscalus mexicanus*,Blackbirds,"June '25, Malibu CA",NA
+![](birdspics/chipping_sparrow_2504.JPG),Chipping Sparrow 褐斑翅雀鹀 ![](pixelart/chippingsparrow_s.png),*spizella passerina*,New World Sparrows,"Apr '25, Cambridge MD",NA
+![](birdspics/white_throated_sparrow_2410.JPG),White-throated Sparrow 白喉带鹀 ![](pixelart/whitethroatedsparrow_s.png),*zonotrichia albicollis*,New World Sparrows,"Oct '24, Baltimore MD","found dead around MICA, bird strike"
+![](birdspics/song_sparrow_2506.jpg),Song Sparrow 歌带鹀 ![](pixelart/songsparrow_s.png),*melospiza melodia*,New World Sparrows,"June '25, Los Angeles CA",NA
+![](birdspics/dark_eyed_junco_2506.jpg),Dark-eyed Junco 暗眼灯草鹀 ![](pixelart/darkeyedjunco_s.png),*junco hyemalis*,New World Sparrows,"June '25, Los Angeles CA",NA
+![](birdspics/house_sparrow_2503.JPG),House Sparrow 家麻雀 ![](pixelart/housesparrow_s.png),*passer domesticus*,Old World Sparrows,"May '24, Boston MA",white neckline
+![](birdspics/eurasian_tree_sparrow_1911.jpg),Eurasian Tree Sparrow 麻雀 ![](pixelart/eurasiantreesparrow_s.png),*passer montanus*,Old World Sparrows,"July '25, Beijing",black cheek
+![](birdspics/house_finch_2203.jpg),House Finch 家朱雀 ![](pixelart/housefinch_s.png),*haemorhous mexicanus*,"Finches, Euphonias, and allies","June '25, Los Angeles CA",very small bird
+![](birdspics/grey_capped_greenfinch_2507.jpg),Grey-capped Greenfinch 金翅雀 ![](pixelart/greycappedgoldfinch_s.png),*chloris sinica*,"Finches, Euphonias, and allies","July '25, Yantai Shandong",NA
+![](birdspics/american_goldfinch_2504.jpeg),American Goldfinch 北美金翅雀 ![](pixelart/americangoldfinch_s.png),*spinus tristis*,"Finches, Euphonias, and allies","Apr '25, Baltimore MD",NA
+![](birdspics/lesser_goldfinch_2506.jpg),Lesser Goldfinch 暗背金翅雀 ![](pixelart/lessergoldfinch_s.png),*carduelis psaltria*,"Finches, Euphonias, and allies","June '25, Los Angeles CA",NA
+![](birdspics/northern_cardinal_2203.jpg),Northern Cardinal 主红雀 ![](pixelart/redcardinal_s.png),*cardinalis cardinalis*,"Cardinals, Grosbeaks, and allies","Apr '25, Cambridge MD",cutest and most iconic bird in the u.s.a.
+![](birdspics/red_winged_blackbird_2504.JPG),Red-winged Blackbird 红翅黑鹂 ![](pixelart/redwingedblackbird_s.png),*agelaius phoeniceus*,Blackbirds,"Apr '25, Cambridge MD",have a very loud and distinguishable song
+![](birdspics/common_grackle_2405.jpeg),Common Grackle 普通拟八哥 ![](pixelart/commongrackle_s.png),*quiscalus quiscula*,Blackbirds,"May '24, Boston MA",NA
+![](birdspics/great_tailed_grackle_2506.jpg),Great-tailed Grackle 大尾拟八哥 ![](pixelart/greattailedgrackle_s.png),*quiscalus mexicanus*,Blackbirds,"June '25, Malibu CA",NA
 ![](birdspics/european_starling_2501.JPG),European Starling 紫翅椋鸟 ![](pixelart/europeanstarling_s.png),*sturnus vulgaris*,Starlings and Mynas,"Apr '25, Cambridge MD",NA
 ![](birdspics/red_billed_starling_2507.jpg),Red-billed Starling 丝光椋鸟 ![](pixelart/redbilledstarling_s.png),*spodiopsar cineraceus*,Starlings and Mynas,"July '25, Suzhou Jiangsu",juvenile
 ![](birdspics/crested_myna_2507.jpg),Crested Myna 八哥 ![](pixelart/crestedmyna_s.png),*acridotheres cristatellus*,Starlings and Mynas,"June '25, Suzhou Jiangsu",when flying white patch on wings

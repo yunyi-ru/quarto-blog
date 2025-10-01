@@ -5,7 +5,7 @@ toc: true
 
 # Introduction
 
-My name is Yunyi Ru. I am a 2nd year master's student in the Molecular Microbiology and Immunology department of [Johns Hopkins Bloomberg School of Public Health](https://publichealth.jhu.edu/). I currently work as a graduate student researcher at [The Pekosz Lab](https://pekoszlab.com/) on respiratory syncytial virus.
+My name is Yunyi Ru. I am a 1st year Ph.D. candidate from the [PULSe Interdisciplinary Life Sciences Program](https://www.purdue.edu/gradschool/pulse/) at [Purdue University](https://www.purdue.edu/), West Lafayette IN. 
 
 ::: column-margin
 ![](figs/profilepic.JPG)
@@ -34,6 +34,10 @@ My name Yunyi writes as 云衣 in Chinese - it comes from a poem by Li Bai, a po
 # Résumé
 
 ## Education
+
+**Purdue University** \| West Lafayette, IN
+
+PhD Student \| August 2025 - May 2030 (Expected)
 
 **Johns Hopkins University** \| Baltimore, MD
 
