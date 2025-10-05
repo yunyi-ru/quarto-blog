@@ -22,7 +22,7 @@ You can see birds I've sighted all around the world at [**bird list**](#birdlist
 ***Note**: Only wild birds were recorded. All photos taken by me (most with Sony WX800). All pixel arts created by me.*
 
 ::: callout-note
-The next bird I want to see is: ***Pheasant-tailed Jacana 水雉***, because it's beautiful!
+The next bird I want to see is: ***Wood Duck***, because it's beautiful!
 :::
 
 ------------------------------------------------------------------------
@@ -105,6 +105,19 @@ fillOpacity = 1, radius = 5) %>%
 ------------------------------------------------------------------------
 
 # Places I Went For Birding {#places}
+
+## West Lafayette, IN: Celery Bog
+
+::: column-margin
+![Celery Bog, Sep 2025](landspics/celerybog.JPG){group="landspics"}
+:::
+
+-   **Type**: Urban \| Saltwater; Shore
+-   **First Visited**: Aug 2023
+-   **Last Visited**: Apr 2025
+-   **Birds**: Canada Goose, Double-crested Cormorant, Laughing Gull, Mallard, Ring-billed Gull, Rock Pigeon, Osprey, Northern Rough-winged Sparrow, Fish Crow
+-   **Comments**: From inner harbor to harbor east and locust point, the waterfront of downtown Baltimore is a great place to watch gulls & various kinds of waterfowls. A large flock of gulls rest in front of the harbors near Whole Foods from late fall to early spring in the evening. Check out the Harbor Connector water taxi - you can see gulls and cormorants flying across the harbor.
+-   **Link**: [Harbor Connector Water Taxi (free to ride!)](https://www.baltimorewatertaxi.com/lines) \| [ebird](https://ebird.org/region/L745089)
 
 ## Baltimore, MD: Inner Harbor
 
