@@ -5,15 +5,15 @@ toc: true
 
 # Introduction
 
-My name is Yunyi Ru. I am a 1st year Ph.D. student from the [PULSe Interdisciplinary Life Sciences Program](https://www.purdue.edu/gradschool/pulse/) at [Purdue University](https://www.purdue.edu/), West Lafayette IN. 
-
-::: column-margin
-![](figs/profilepic.jpG)
-:::
+My name is Yunyi Ru. I am a 1st year Ph.D. student from the [PULSe Interdisciplinary Life Sciences Program](https://www.purdue.edu/gradschool/pulse/) at [Purdue University](https://www.purdue.edu/). 
 
 ## Why Blogging
 
-I made this blog to share things that I find useful and interesting regarding science, and hopefully you will also enjoy my contents.
+I made this blog to share... 
+
+- useful biological science-related contents
+
+- random bioinfo/CS projects
 
 ::: column-margin
 **Recent Highlights**
@@ -35,42 +35,34 @@ My name Yunyi writes as 云衣 in Chinese - it comes from a poem by Li Bai, a po
 
 ## Education
 
-**Purdue University** \| West Lafayette, IN
+**Purdue University** \| West Lafayette, IN \| PhD Student ???
 
-PhD Student \| August 2025 - May 2030 (Expected)
+**Johns Hopkins University** \| Baltimore, MD \| ScM '25, Molecular Microbiology and Immunology
 
-**Johns Hopkins University** \| Baltimore, MD
-
-ScM in Molecular Microbiology and Immunology \| August 2023 - May 2025
-
-**Duke Kunshan University/Duke University** \| Kunshan, China/Durham, NC
-
-B.S. in Cell and Molecular Biology (Dual Degree) \| August 2019 - May 2023
+**Duke Kunshan University/Duke University** \| Kunshan, China/Durham, NC \| BS '23, Cell and Molecular Biology (Dual Degree)
 
 ## Experience
 
 #### Research
 
-[**The Pekosz Lab**](https://pekoszlab.com/)**, Johns Hopkins University** \| *Graduate Student Researcher* \| October 2023 - May 2025
+[**The Pekosz Lab**](https://pekoszlab.com/)**, Johns Hopkins University** \| *Graduate Student* \| Oct '23 - May '25
 
--   Isolated and characterized lab-adapted and circulating respiratory syncytial virus using various molecular biology and genetics methods.
+-   Characterized respiratory syncytial virus using various molecular biology and genetics methods.
 
-[**The Lin Lab**](https://yajuanlin.github.io/)**, Duke Kunshan University** \| *Undergraduate Student Researcher* \| October 2021 - May 2023
+[**The Lin Lab**](https://yajuanlin.github.io/)**, Duke Kunshan University** \| *Undergraduate Student* \| Oct '21 - May '23
 
 -   Monitored and analyzed changes in antibiotic resistance gene prevalence in a local shallow lake over the year.
 
-[**iGEM Competition 2022**](https://2022.igem.wiki/dku/index.html)**, Duke Kunshan University** \| *Team Leader* \| December 2021 - October 2022
+#### Others
+
+[**R3ISE Center**](https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education)**, Johns Hopkins University** \| *Research Assistant* \| Oct '23 - Oct '24
+
+-   Initiated the 'R3 Read Today' project on responsible scientific practices for science communication on [X](https://twitter.com/R3_JHSPH) and [Instagram](https://www.instagram.com/r3_jhsph/).
+
+[**iGEM 2022**](https://2022.igem.wiki/dku/index.html)**, Duke Kunshan University** \| *Team Leader* \| Dec '21 - Oct '22
 
 -   Designed an engineered bacteria strain by molecular cloning and protein expression.
 
-#### Others
+**HOB Biotech Group Suzhou Co., Ltd** \| *R&D Intern* \| Jul - Aug '21
 
-[**R3ISE Center**](https://publichealth.jhu.edu/the-r3-center-for-innovation-in-science-education)**, Johns Hopkins University** \| *Research Assistant* \| October 2023 - October 2024
-
--   Initiated the 'R3 Read Today' project by selecting and presenting content on important topics related to responsible scientific practices for science communication on [X](https://twitter.com/R3_JHSPH) and [Instagram](https://www.instagram.com/r3_jhsph/).
-
-**Academic Resource Center, Duke Kunshan University** \| *Teaching Assistant* \| October 2021 - December 2021
-
-**HOB Biotech Group Suzhou Co., Ltd** \| *R&D Intern* \| July 2021 - August 2021
-
-**Crystal Pharmatech Co., Ltd** \| *R&D Intern* \| May 2020 - June 2020
+**Crystal Pharmatech Co., Ltd** \| *R&D Intern* \| May - Jun '20
