@@ -13,16 +13,9 @@ output:
 ![Shorebirds at Blackwater Natural Wildlife Reservoir, Cambridge MD, Mar '25](headline.jpg){group="banners"}
 :::
 
-::: column-margin
-\n
-![](pixelart/chinesepaint.gif){group="pixelart"}
-\n
-![](pixelart/chatrom.gif){group="pixelart"}
-:::
-
 # Introduction
 
-**I love birding!** Welcome to my personal birding records.
+**I love birding!** Welcome to my personal birding records. I'm a casual birder who enjoys watching the most common birds in daily life (but appreciate a trip to the wilds!). 
 
 You can see birds I've sighted all around the world at [**bird list**](#birdlist) (including an [**interactive map**](#map)) and all my favorite birding destinations at [**places I went for birding**](#places). [**Links and resources**](#links) are also provided.
 
@@ -53,7 +46,7 @@ kable(bird_list, col.names = gsub("[.]", " ", names(bird_list)))
 
 Now I have spotted `r nrow(bird_list)` birds.
 
-**100 birds spotted**: June 2025, after birding in Los Angeles
+**100 birds spotted**: June 2025
 
 ## Birding Around the World: Interactive Map {#map}
 
@@ -114,20 +107,37 @@ fillOpacity = 1, radius = 5) %>%
 
 # Places I Went For Birding {#places}
 
-## West Lafayette, IN: Celery Bog
+## Midwest, USA
+
+### West Lafayette, IN: Celery Bog
 
 ::: column-margin
-![Celery Bog, Sep 2025](landspics/celerybog.JPG){group="landspics"}
+![View of Celery Bog from Nature Area Trail, Sep 2025](landspics/celerybog.JPG){group="landspics"}
 :::
 
--   **Type**: Rural \| Marsh, Pond
+-   **Type**: Rural \| Marsh, Pond, Grassland
 -   **First Visited**: Apr 2025
--   **Last Visited**: Sep 2025
--   **Birds**: American White Pelican, Mallard, American Goldfinch, Killdeer, Northern Cardinal, Double-crested Cormorant
--   **Comments**: Beautiful and peaceful pond, regional migration trap. 
+-   **Last Visited**: Oct 2025
+-   **Birds**: American White Pelican, Mallard, American Goldfinch, Killdeer, Northern Cardinal, Double-crested Cormorant, Northern Cardinal, Greater Yellowlegs, Song Sparrow, Red-bellied Woodpecker, Tennessee Warbler, American Goldfinch
+-   **Comments**: Beautiful and peaceful pond, regional migration trap. Cattail trail & the north pond is a great place. 
 -   **Link**: [ebird](https://ebird.org/hotspot/L445373)
 
-## Baltimore, MD: Inner Harbor
+### West Lafayette, IN: Horticulture Park
+
+::: column-margin
+![Horticulture Park, Oct 2025](landspics/horticulture.JPG){group="landspics"}
+:::
+
+-   **Type**: Rural \| Forest
+-   **First Visited**: Sep 2025
+-   **Last Visited**: Oct 2025
+-   **Birds**: American Robin, Red-winged Blackbird, Red-bellied Woodpecker, Eastern Bluebird, Chipping Sparrow, European Starling, Northern Cardinal
+-   **Comments**: Nice trail. 
+-   **Link**: [ebird](https://ebird.org/region/L457935)
+
+## East Coast, USA
+
+### Baltimore, MD: Inner Harbor
 
 ::: column-margin
 ![View of Inner Harbor from Federal Hill Park, Oct 2023](landspics/innerharbor.JPG){group="landspics"}
@@ -140,7 +150,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: From inner harbor to harbor east and locust point, the waterfront of downtown Baltimore is a great place to watch gulls & various kinds of waterfowls. A large flock of gulls rest in front of the harbors near Whole Foods from late fall to early spring in the evening. Check out the Harbor Connector water taxi - you can see gulls and cormorants flying across the harbor.
 -   **Link**: [Harbor Connector Water Taxi (free to ride!)](https://www.baltimorewatertaxi.com/lines) \| [ebird](https://ebird.org/region/L745089)
 
-## Baltimore, MD: Patterson Park
+### Baltimore, MD: Patterson Park
 
 ::: column-margin
 ![Patterson Park, May 2025](landspics/pattersonpark.JPeG){group="landspics"}
@@ -153,7 +163,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: The historical park is a great place for birdwatching. If you visit the park at late spring, you can watch flocks of robins, sparrows and blackbirds singing, mallards hanging out, and Canada geese raising their goslings around the pond! They're not afraid of people and happy to interact with visitors.
 -   **Link**: [Friends of Patterson Park](https://pattersonpark.com/#visit-us) \| [ebird](https://ebird.org/hotspot/L449982)
 
-## Cambridge, MD: Blackwater National Wildlife Refuge
+### Cambridge, MD: Blackwater National Wildlife Refuge
 
 ::: column-margin
 ![Blackwater National Wildlife Refuge, Jan 2025](landspics/blackwaterNWR.JPG){group="landspics"}
@@ -166,7 +176,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: A perfect place for birding at the east coast of Chesapeake Bay, the most iconic bird being bald eagle. With woods, trails, wetlands and ponds around the wildlife drive, you can see a variety of birds here. Also, the visitor center's pick of merchandises is superb.
 -   **Links**: [Friends of Blackwater](https://friendsofblackwater.org/) *check the webcams* \| [U.S. Fish & Wildlife Service: Blackwater National Wildlife Refuge](https://www.fws.gov/refuge/blackwater) \| [ebird](https://ebird.org/region/L598944)
 
-## New York City, NY: Liberty Island
+### New York City, NY: Liberty Island
 
 ::: column-margin
 ![Liberty Island, Jan 2024](landspics/libertyisland.JPG){group="landspics"}
@@ -176,10 +186,10 @@ fillOpacity = 1, radius = 5) %>%
 -   **First Visited**: Jan 2024
 -   **Last Visited**: Jan 2024
 -   **Birds**: American Herring Gull, Brant, European Starling, Ring-billed Gull
--   **Comments**: While New York City is full of fat pigeons, the liberty island is surprisingly a good place to watch waterfowls, and of course, gulls. Just mind your food, the gulls are really aggressive.
+-   **Comments**: While New York City resides mainly fat pigeons, the liberty island is surprisingly a good place to watch waterfowls, and of course, gulls. Just mind your food, the gulls are really aggressive.
 -   **Link**: [ebird](https://ebird.org/region/L2686238)
 
-## Harpers Ferry, WV: Maryland Heights
+### Harpers Ferry, WV: Maryland Heights
 
 ::: column-margin
 ![View of Harpers Ferry from Maryland Heights, Mar 2024](landspics/harpersferry.JPG){group="landspics"}
@@ -192,7 +202,9 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: The streams in the woods are a good place to catch up with our geese and heron friends.
 -   **Link**: [National Park Service: Harpers Ferry](https://www.nps.gov/hafe/index.htm) \| [ebird](https://ebird.org/region/L715042)
 
-## Durham, NC: Duke University
+## The South, USA
+
+### Durham, NC: Duke University
 
 ::: column-margin
 ![Duke University, May 2022](landspics/dukeuniversity.JPG){group="landspics"}
@@ -205,33 +217,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: With birdfeeders everywhere, the Sarah P. Duke Garden is a great place for backyard birds like northern cardinal and eastern bluebird. I saw a red-tailed hawk with its nest near the old chemistry building. There are also some exotic waterfowls in the ponds of Duke Garden, like mandarin ducks & ruddy shelducks, you can check the link below.
 -   **Links**: [Exotic Waterfowls in Duke Garden](https://www.dpughphoto.com/duke_gardens_exotic_ducks.htm) \| [Duke Gardens](https://gardens.duke.edu/) \| [ebird](https://ebird.org/region/L4754196)
 
-## Seattle, WA: Discovery Park
-
-::: column-margin
-![Discovery Park, July 2024](landspics/discoverypark.JPG){group="landspics"}
-:::
-
--   **Type**: Rural \| Saltwater; Forest, Shore
--   **First Visited**: July 2024
--   **Last Visited**: July 2024
--   **Birds**: Caspian Tern, Glaucous-winged Gull, Great Blue Heron, American Crow
--   **Comments**: With all its natural beauty, the discovery park is a great place to enjoy the views of volcano, forests and sea at once - and of course, gulls.
--   **Link**: [Seattle.gov: Discovery Park](https://www.seattle.gov/parks/allparks/discovery-park) \| [ebird](https://ebird.org/region/L128530)
-
-## Cannon Beach, OR: Haystack Rock
-
-::: column-margin
-![Haystack Rock, July 2024](landspics/cannonbeach.JPG){group="landspics"}
-:::
-
--   **Type**: Rural \| Saltwater; Shore, Cliff
--   **First Visited**: July 2024
--   **Last Visited**: July 2024
--   **Birds**: Brown Pelican, California Gull, Tufted Puffin, Common Murre, Brandt's Cormorant, American Crow
--   **Comments**: It's just heaven if you love seabirds and shorebirds - in summer, various birds are nesting on the cliff of haystack rock. Remember to bring your binoculars since there's a sign saying 'birds only beyond this point' - you would not be able to get too close to that rock. The volunteer is very friendly and helpful, and tide pools are also great fun to explore. Also, if you reside in Portland, be sure to check out Powell's books, it has a great collection of field guides as well as other gems.
--   **Links**: [Friends of Haystack Rock](https://www.friendsofhaystackrock.org/) *check the webcams* \| [U.S. Fish & Wildlife Service: Oregon Islands National Wildlife Refuge](https://www.fws.gov/refuge/oregon-islands/) \| [ebird](https://ebird.org/region/L548476)
-
-## New Orleans, LA: Maurepas Swamp
+### New Orleans, LA: Maurepas Swamp
 
 ::: column-margin
 ![Maurepas Swamp - Where the Voodoo Swamp Witch Lies, Mar 2022](landspics/maurepasswamp.JPG){group="landspics"}
@@ -244,7 +230,9 @@ fillOpacity = 1, radius = 5) %>%
 -   **Comments**: Went there as a part of swamp tour, feeding alligators and raccoons with marshmallows etc.
 -   **Link**: [Louisiana Dpt. of Wildlife & Fisheries: Maurepas Swamp](https://www.wlf.louisiana.gov/page/maurepas-swamp) \| [ebird](https://ebird.org/hotspot/L692377)
 
-## Los Angeles, CA: Malibu Lagoon
+## West Coast, USA
+
+### Los Angeles, CA: Malibu Lagoon
 
 ::: column-margin
 ![Malibu Lagoon, June 2025](landspics/malibulagoon.JPG){group="landspics"}
@@ -256,6 +244,73 @@ fillOpacity = 1, radius = 5) %>%
 -   **Birds**: Common Raven, Red-breasted Merganser, Great-tailed Grackle, Snowy Egret, Black Phoebe, Gadwall, Western Gull, Canadian Goose, Brant, Mallard, Brown Pelican, Double-Crested Cormorant
 -   **Comments**: Famous for surfing but the lagoon has striking biodiversity. Mixed groups of brown pelicans and double-crested cormorants fishing in the lagoon.
 -   **Link**: [California State Parks: Malibu Lagoon State Beach](https://www.parks.ca.gov/?page_id=835) \| [eBird](https://ebird.org/region/L597658)
+
+### Seattle, WA: Discovery Park
+
+::: column-margin
+![Discovery Park, July 2024](landspics/discoverypark.JPG){group="landspics"}
+:::
+
+-   **Type**: Rural \| Saltwater; Forest, Shore
+-   **First Visited**: July 2024
+-   **Last Visited**: July 2024
+-   **Birds**: Caspian Tern, Glaucous-winged Gull, Great Blue Heron, American Crow
+-   **Comments**: With all its natural beauty, the discovery park is a great place to enjoy the views of volcano, forests and sea at once - and of course, gulls.
+-   **Link**: [Seattle.gov: Discovery Park](https://www.seattle.gov/parks/allparks/discovery-park) \| [ebird](https://ebird.org/region/L128530)
+
+### Cannon Beach, OR: Haystack Rock
+
+::: column-margin
+![Haystack Rock, July 2024](landspics/cannonbeach.JPG){group="landspics"}
+:::
+
+-   **Type**: Rural \| Saltwater; Shore, Cliff
+-   **First Visited**: July 2024
+-   **Last Visited**: July 2024
+-   **Birds**: Brown Pelican, California Gull, Tufted Puffin, Common Murre, Brandt's Cormorant, American Crow
+-   **Comments**: It's just heaven if you love seabirds and shorebirds - in summer, various birds are nesting on the cliff of haystack rock. Remember to bring your binoculars since there's a sign saying 'birds only beyond this point' - you would not be able to get too close to that rock. The volunteer is very friendly and helpful, and tide pools are also great fun to explore. Also, if you reside in Portland, be sure to check out Powell's books, it has a great collection of field guides as well as other gems.
+-   **Links**: [Friends of Haystack Rock](https://www.friendsofhaystackrock.org/) *check the webcams* \| [U.S. Fish & Wildlife Service: Oregon Islands National Wildlife Refuge](https://www.fws.gov/refuge/oregon-islands/) \| [ebird](https://ebird.org/region/L548476)
+
+## China
+
+### Suzhou, CN: Huqiu Wetland Park 虎丘湿地生态公园
+
+::: column-margin
+![Huqiu Wetland Park during the 'Plum Rain' Season, June 2025](landspics/huqiu.JPG){group="landspics"}
+:::
+
+-   **Type**: Rural \| Pond, Forest, Marsh
+-   **First Visited**: June 2025
+-   **Last Visited**: Jul 2025
+-   **Birds**: Black-crowned Night Heron, Little Grebe, Azure-winged Magpie, Light-vented Bulbul, Little Egret, Red-rumped Swallow, Pheasant-tailed Jacana, Red-billed Starling, Eurasian Moorhen, Chinese Blackbird, Oriental Magpie-Robin
+-   **Comments**: My hometown. Very beautiful place, regional birding hotspot. 
+-   **Link**: [ebird](https://ebird.org/region/L17313628)
+
+### Beijing, CN: Olympic Forest Park 奥林匹克森林公园
+
+::: column-margin
+![The 'Big Pit' of Olympic Forest Park, July 2025](landspics/olympicpark.JPG){group="landspics"}
+:::
+
+-   **Type**: Rural \| Pond, Forest, Marsh
+-   **First Visited**: Jul 2025
+-   **Last Visited**: Jul 2025
+-   **Birds**: Mandarin Duck, Eurasian Moorhen, Eurasian Tree Sparrow, Eurasian Magpie, Azure-winged Magpie, Eurasian Coot, Oriental Reed Warbler, Little Grebe, Grey Headed Woodpecker, Common Kingfisher, Vinous Throated Parrotbill, Grey Capped Greenfinch, Spotted Dove, Rock Pigeon
+-   **Comments**: Regional birding hotspot, the 'big pit' of the north park might be one of the most well-known birding hotspot in China with its lush reed marshes.  
+-   **Link**: [ebird](https://ebird.org/region/L13741681)
+
+### Linyi, CN: Yi River Water Park 沂河/水上公园
+
+::: column-margin
+![Yi River Water Park, Live Streamers Gathering, July 2025](landspics/linyi.JPG){group="landspics"}
+:::
+
+-   **Type**: Urban \| River
+-   **First Visited**: Jul 2025
+-   **Last Visited**: Jul 2025
+-   **Birds**: Eurasian Tree Sparrow, Eurasian Coot, Little Grebe, Black-crowned Night Heron, Grey Heron, Whiskered Tern
+-   **Comments**: Nice place to hang out in the evening. 
+-   **Link**: NA
 
 ------------------------------------------------------------------------
 
@@ -290,7 +345,7 @@ fillOpacity = 1, radius = 5) %>%
 # End Notes
 
 ::: column-margin
-![The Place Where It All Begins](footbanner.jpg){group="banners"}
+![My High School - The Place Where It All Begins](footbanner.jpg){group="banners"}
 :::
 
 Thanks Qinyi who introduced me to the world of birding. I will always remember watching night heron with you sitting next to Bixia Pond back in 2019 in the afternoon before taking a Biology exam.
