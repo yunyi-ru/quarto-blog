@@ -48,6 +48,8 @@ Now I have spotted `r nrow(bird_list)` birds.
 
 **100 birds spotted**: June 2025
 
+**125 birds spotted**: Oct 2025
+
 ## Birding Around the World: Interactive Map {#map}
 
 *Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.*
