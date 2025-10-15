@@ -34,7 +34,7 @@ NA,Tufted Puffin 花魁鸟 ![](pixelart/tuftedpuffin_s.png),*fratercula cirrhata
 ![](birdspics/killdeer_2510.JPG),Killdeer 双领鸻 ![](pixelart/killdeer_s.png),*charadrius vociferus*,Shorebirds,"Oct '25, West Lafayette IN",didn't know they can also live in land
 ![](birdspics/pheasant_tailed_jacana_2507.JPG),Pheasant-tailed Jacana 水雉 ![](pixelart/pheasanttailedjacana_s.png),*hydrophasianus chirurgus*,Shorebirds,"July '25, Suzhou Jiangsu",dubbed 'fairy on the waves'
 ![](birdspics/wilson_s_snipe_2501.JPG),Wilson's Snipe 美洲沙锥 ![](pixelart/wilsonssnipe_s.png),*gallinago delicata*,Shorebirds,"Jan '25, Cambridge MD",NA
-![](birdspics/greater_yellowlegs_2510.JPG),Greater Yellowlegs 大黄脚鹬,*tringa melanoleuca*,Shorebirds,"Oct '25, West Lafayette IN",almost the size of a mallard
+![](birdspics/greater_yellowlegs_2510.JPG),Greater Yellowlegs 大黄脚鹬 ![](pixelart/greateryellowlegs_s.png),*tringa melanoleuca*,Shorebirds,"Oct '25, West Lafayette IN",almost the size of a mallard
 ![](birdspics/lesser_yellowlegs_2504.JPG),Lesser Yellowlegs 小黄脚鹬 ![](pixelart/lesseryellowlegs_s.png),*tringa flavipes*,Shorebirds,"Apr '25, Cambridge MD",long bill and long legs
 ![](birdspics/dunlin_2504.JPG),Dunlin 黑腹滨鹬 ![](pixelart/dunlin_s.png),*calidris alpina*,Shorebirds,"Apr '25, Cambridge MD",medium sized shorebird with a distinguishable black belly when breeding
 ![](birdspics/least_sandpiper_2504.JPG),Least Sandpiper 美洲小滨鹬 ![](pixelart/leastsandpiper_s.png),*calidris minutilla*,Shorebirds,"Apr '25, Cambridge MD","very small, appear in flocks"
@@ -72,6 +72,8 @@ NA,Eurasian Hoopoe 戴胜,*upupa epops*,Hoopoes,"Apr '23, Suzhou Jiangsu",NA
 ![](birdspics/downy_woodpecker_2501.JPG),Downy Woodpecker 绒啄木鸟,*dryobates pubescens*,Woodpeckers,"Jan '25, Cambridge MD",very small
 ![](birdspics/red_bellied_woodpecker_2510.JPG),Red-bellied Woodpecker 红腹啄木鸟,*melanerpes carolinus*,Woodpeckers,"Oct '25, West Lafayette IN",NA
 ![](birdspics/grey_headed_woodpecker_2507.jpg),Grey-headed Woodpecker 灰头绿啄木鸟,*picus canus*,Woodpeckers,"July '25, Beijing",NA
+![](birdspics/northern_flicker_2510.JPG),Northern Flicker 北扑翅䴕,*colaptes auratus*,Woodpeckers,"Oct '25, West Lafayette IN",NA
+![](birdspics/hairy_woodpecker_2510.JPG),Hairy Woodpecker 毛啄木鸟,*leuconotopicus villosus*,Woodpeckers,"Oct '25, West Lafayette IN",NA
 ![](birdspics/blue_jay_2505.jpg),Blue Jay 冠蓝鸦  ![](pixelart/bluejay_s.png),*cyanocitta cristata*,"Jays, Magpies, Crows, Ravens","May '25, Annapolis MD",only heard them singing. never seen with eyes
 ![](birdspics/red_billed_blue_magpie_2303.JPG),Red-billed Blue-Magpie 红嘴蓝鹊 ![](pixelart/redbilledbluemagpie_s.png),*urocissa erythroryncha*,"Jays, Magpies, Crows, Ravens","Mar '23, Lijiang Yunnan",NA
 ![](birdspics/azure_winged_magpie_2507.jpg),Azure-winged Magpie 灰喜鹊 ![](pixelart/azurewingedmagpie_s.png),*cyanopica cyanus*,"Jays, Magpies, Crows, Ravens","July '25, Suzhou Jiangsu","Very common in northern China, esp. Shandong, Beijing"
@@ -79,7 +81,7 @@ NA,Eurasian Hoopoe 戴胜,*upupa epops*,Hoopoes,"Apr '23, Suzhou Jiangsu",NA
 ![](birdspics/american_crow_2407.jpg),American Crow 短嘴鸦 ![](pixelart/americancrow_s.png),*corvus brachyrhynchos*,"Jays, Magpies, Crows, Ravens","Jan '25, Baltimore MD",NA
 ![](birdspics/fish_crow_2502.jpeg),Fish Crow 鱼鸦 ![](pixelart/fishcrow_s.png),*corvus ossifragus*,"Jays, Magpies, Crows, Ravens","Apr '25, Baltimore MD","song is a reluctant 'uh-uh'. sits on trees of Baltimore in flocks in evenings, esp. from Nov to Feb"
 ![](birdspics/large_billed_crow_2303.JPG),Large-billed Crow 大嘴乌鸦 ![](pixelart/largebilledcrow_s.png),*corvus macrohynchos*,"Jays, Magpies, Crows, Ravens","Mar '23, Lijiang Yunnan",NA
-![](birdspics/carrion_crow_2507.jpg),Carrion Crow 小嘴乌鸦 ![](pixelart/carrioncrow_s.png),*corvus corone*,"Jays, Magpies, Crows, Ravens",,most common crow in Beijing city
+![](birdspics/carrion_crow_2507.jpg),Carrion Crow 小嘴乌鸦 ![](pixelart/carrioncrow_s.png),*corvus corone*,"Jays, Magpies, Crows, Ravens","July '25, Beijing",most common crow in Beijing city
 ![](birdspics/common_raven_2506.jpg),Common Raven 渡鸦 ![](pixelart/commonraven_s.png),*corvus corax*,"Jays, Magpies, Crows, Ravens","June '25, Malibu CA","'quoth the raven, nevermore' - quoth someone who died in Baltimore."
 ![](birdspics/black_phoebe_2506.jpg),Black Phoebe 黑长尾霸鹟 ![](pixelart/blackphoebe_s.png),*sayornis nigricans*,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies","June '25, Malibu CA",NA
 ![](birdspics/oriental_magpie_robin_2507.JPG),Oriental Magpie-Robin 鹊鸲 ![](pixelart/orientalmagpierobin_s.png),*copsychus saularis*,Old World Flycathers,"July '25, Suzhou Jiangsu","very common in Eastern China, sings beautifully"
@@ -91,7 +93,7 @@ NA,Eurasian Hoopoe 戴胜,*upupa epops*,Hoopoes,"Apr '23, Suzhou Jiangsu",NA
 ![](birdspics/hermit_thrush_2501.JPG),Hermit Thrush 隐夜鸫 ![](pixelart/hermitthrush_s.png),*catharus guttatus*,Thrushes,"Jan '25, Cambridge MD",NA
 ![](birdspics/american_robin_2503.jpg),American Robin 旅鸫 ![](pixelart/americanrobin_s.png),*turdus migratorius*,Thrushes,"Oct '25, West Lafayette IN","appear in large flocks, arrive in early spring, have a beautiful song"
 ![](birdspics/chinese_blackbird_2506.jpg),Chinese Blackbird 乌鸫 ![](pixelart/chineseblackbird_s.png),*turdus mandarinus*,Thurshes,"July '25, Suzhou Jiangsu","black version robin, so cute!! Eats earthworm after rain"
-![](birdspics/dusky_thrush_2303.jpg),Dusky Thrush 斑鸫,*turdus eunomus*,Thurshes,"Mar '23, Lijiang Yunnan",NA
+![](birdspics/dusky_thrush_2303.jpg),Dusky Thrush 斑鸫 ![](pixelart/duskythrush_s.png),*turdus eunomus*,Thurshes,"Mar '23, Lijiang Yunnan",NA
 ![](birdspics/light_vented_bulbul_2507.jpg),Light-vented Bulbul 白头鹎,*pycnonotus sinensis*,Bulbuls,"June '25, Suzhou Jiangsu",very distinguishable singing pattern
 ![](birdspics/white_browed_laughingthrush_2007.JPG),White-browed Laughingthrush 白颊噪鹛,*pterohinus sannio*,Laughingthrushes and allies,"July '20, Chengdu Sichuan",NA
 ![](birdspics/Vinous_Throated_Parrotbill_2507.JPG),Vinous-Throated Parrotbill 棕头鸦雀,*suthora webbiana*,Parrotbills,"July '25, Beijing",small & cute

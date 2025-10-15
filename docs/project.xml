@@ -353,7 +353,7 @@
 </tr>
 <tr class="even">
 <td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/greater_yellowlegs_2510.JPG" class="img-fluid"></td>
-<td style="text-align: left;">Greater Yellowlegs 大黄脚鹬</td>
+<td style="text-align: left;">Greater Yellowlegs 大黄脚鹬 <img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/pixelart/greateryellowlegs_s.png" class="img-fluid"></td>
 <td style="text-align: left;"><em>tringa melanoleuca</em></td>
 <td style="text-align: left;">Shorebirds</td>
 <td style="text-align: left;">Oct ’25, West Lafayette IN</td>
@@ -656,6 +656,22 @@
 <td style="text-align: left;">NA</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/northern_flicker_2510.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Northern Flicker 北扑翅䴕</td>
+<td style="text-align: left;"><em>colaptes auratus</em></td>
+<td style="text-align: left;">Woodpeckers</td>
+<td style="text-align: left;">Oct ’25, West Lafayette IN</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/hairy_woodpecker_2510.JPG" class="img-fluid"></td>
+<td style="text-align: left;">Hairy Woodpecker 毛啄木鸟</td>
+<td style="text-align: left;"><em>leuconotopicus villosus</em></td>
+<td style="text-align: left;">Woodpeckers</td>
+<td style="text-align: left;">Oct ’25, West Lafayette IN</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
 <td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/blue_jay_2505.jpg" class="img-fluid"></td>
 <td style="text-align: left;">Blue Jay 冠蓝鸦 <img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/pixelart/bluejay_s.png" class="img-fluid"></td>
 <td style="text-align: left;"><em>cyanocitta cristata</em></td>
@@ -716,7 +732,7 @@
 <td style="text-align: left;">Carrion Crow 小嘴乌鸦 <img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/pixelart/carrioncrow_s.png" class="img-fluid"></td>
 <td style="text-align: left;"><em>corvus corone</em></td>
 <td style="text-align: left;">Jays, Magpies, Crows, Ravens</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">July ’25, Beijing</td>
 <td style="text-align: left;">most common crow in Beijing city</td>
 </tr>
 <tr class="even">
@@ -809,7 +825,7 @@
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/birdspics/dusky_thrush_2303.jpg" class="img-fluid"></td>
-<td style="text-align: left;">Dusky Thrush 斑鸫</td>
+<td style="text-align: left;">Dusky Thrush 斑鸫 <img src="https://yunyi-ru.github.io/quarto-blog/projects/all_about_birding/pixelart/duskythrush_s.png" class="img-fluid"></td>
 <td style="text-align: left;"><em>turdus eunomus</em></td>
 <td style="text-align: left;">Thurshes</td>
 <td style="text-align: left;">Mar ’23, Lijiang Yunnan</td>
@@ -1053,7 +1069,7 @@
 </div>
 <section id="milestones" class="level3">
 <h3 class="anchored" data-anchor-id="milestones">Milestones</h3>
-<p>Now I have spotted 122 birds.</p>
+<p>Now I have spotted 124 birds.</p>
 <p><strong>100 birds spotted</strong>: June 2025</p>
 </section>
 </section>
@@ -1062,8 +1078,8 @@
 <p><em>Click on the map to see pictures of birds! Urban sites marked in pink while rural sites marked in green.</em></p>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-1fc9acfdbc5d7c36342b" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-1fc9acfdbc5d7c36342b">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/brown_pelican_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Brown Pelican; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/snowy_egret_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Snowy Egret; R: Gadwall<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.41755,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549],[-76.59966,-74.04423,91.11783,120.89291,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.jpg\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/little_egret_2111.jpeg\" width=\"90\"> <img src=\"birdspics/little_grebe_2105.jpeg\" width=\"90\"><\/br> <br>L: Little Egret; R: Little Grebe<\/br>","<br><img src=\"birdspics/eurasian_moorhen_2302.jpg\" width=\"90\"> <img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>L: Eurasian Moorhen; R: Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-edd6250813e620d5839b" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-edd6250813e620d5839b">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[38.44166,39.32439,36.00323,47.66241,45.88458,30.09336,27.12898,35.01526,34.0333],[-76.11781999999999,-77.7255,-78.93374,-122.43432,-123.96861,-90.43263,100.24284,135.67181,-118.6742],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"green","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/bald_eagle_2504.JPG\" width=\"90\"> <img src=\"birdspics/wilson_s_snipe_2501.JPG\" width=\"90\"><\/br> <br>L: Bald Eagle; R: Wilson's Snipe<\/br>","<br><img src=\"birdspics/turkey_vulture_2403.JPG\" width=\"90\"> <img src=\"birdspics/great_blue_heron_2403.JPG\" width=\"90\"><\/br><br>L: Turkey Vulture; R: Great Blue Heron<\/br>","<br><img src=\"birdspics/northern_cardinal_2203.jpg\" width=\"90\"> <img src=\"birdspics/red_tailed_hawk_2201.jpg\" width=\"90\"><\/br> <br>L: Northern Cardinal; R: Red-tailed Hawk<\/br>","<br><img src=\"birdspics/caspian_tern_2407.JPG\" width=\"90\"> <img src=\"birdspics/glaucous_winged_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Caspian Tern; R: Glaucous-winged Gull<\/br>","<br><img src=\"birdspics/brown_pelican_2407.JPG\" width=\"90\"> <img src=\"birdspics/california_gull_2407.JPG\" width=\"90\"><\/br> <br>L: Brown Pelican; R: California Gull<\/br>","<br><img src=\"birdspics/great_egret_2203.JPG\" width=\"90\"><\/br> <br>Great Egret<\/br>","<br><img src=\"birdspics/red_billed_blue_magpie_2303.JPG\" width=\"90\"> <img src=\"birdspics/white_wagtail_2303.JPG\" width=\"90\"><\/br> <br>L: Red-billed Blue-Magpie; R: White Wagtail<\/br>","<br><img src=\"birdspics/gray_heron_1907.jpg\" width=\"90\"> <img src=\"birdspics/great_cormorant_1907.jpg\" width=\"90\"><\/br> <br>L: Gray Heron; R: Great Cormorant<\/br>","<br><img src=\"birdspics/snowy_egret_2506.jpg\" width=\"90\"> <img src=\"birdspics/gadwall_2506.jpg\" width=\"90\"><\/br> <br>L: Snowy Egret; R: Gadwall<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[39.27909,40.69019,29.66037,31.41755,31.39642,31.30295,39.98998,30.74135,40.11208,39.95549],[-76.59966,-74.04423,91.11783,120.89291,120.90624,120.6159,116.26826,104.14193,113.1376,-75.18196],5,null,null,{"interactive":true,"className":"","stroke":true,"color":"pink","weight":5,"opacity":0.5,"fill":true,"fillColor":"white","fillOpacity":1},null,null,["<br><img src=\"birdspics/ring_billed_gull_2503.jpg\" width=\"90\"> <img src=\"birdspics/double_crested_cormorant_2310.JPG\" width=\"90\"><\/br> <br>L: Ring-billed Gull; R: Double-crested Cormorant<\/br> ","<br><img src=\"birdspics/american_herring_gull_2401.JPG\" width=\"90\"> <img src=\"birdspics/brant_2401.JPG\" width=\"90\"><\/br> <br>L: American Herring Gull; R: Brant<\/br>","<br><img src=\"birdspics/ruddy_shelduck_1912.jpg\" width=\"90\"> <img src=\"birdspics/bar_headed_goose_1912.jpg\" width=\"90\"><\/br> <br>L: Ruddy Shelduck; R: Bar-headed Goose<\/br>","<br><img src=\"birdspics/little_egret_2111.jpeg\" width=\"90\"> <img src=\"birdspics/little_grebe_2105.jpeg\" width=\"90\"><\/br> <br>L: Little Egret; R: Little Grebe<\/br>","<br><img src=\"birdspics/eurasian_moorhen_2302.jpg\" width=\"90\"> <img src=\"birdspics/long_tailed_shrike_2302.jpg\" width=\"90\"><\/br> <br>L: Eurasian Moorhen; R: Long-tailed Shrike<\/br>","<br><img src=\"birdspics/spotted_dove_2011.jpeg\" width=\"90\"> <img src=\"birdspics/eurasian_tree_sparrow_1911.jpg\" width=\"90\"><\/br> <br>L: Spotted Dove; R: Eurasian Tree Sparrow<\/br>","<br><img src=\"birdspics/mandarin_duck_juv_2306.JPG\" width=\"90\"><\/br> <br>Mandarin Duck<\/br>","<br><img src=\"birdspics/white_browed_laughingthrush_2007.JPG\" width=\"90\"><\/br> <br>White-browed Laughingthrush<\/br>","<br><img src=\"birdspics/eurasian_crag_martin_2306.jpg\" width=\"90\"><\/br> <br>Eurasian Crag-Martin<\/br>","<br><img src=\"birdspics/gray_catbird_2406.JPG\" width=\"90\"> <img src=\"birdspics/red_winged_blackbird_2504.JPG\" width=\"90\"><\/br> <br>L: Gray Catbird; R: Red-winged Blackbird<\/br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addControl","args":["<style>\n  .leaflet-popup-content-wrapper {\n    background: rgba(255, 255, 255, 0.5);\n    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);\n    border-radius: 10px;\n    text-align: center;\n    padding: 3px;\n  }\n  .leaflet-popup-tip {\n    background: rgba(255, 255, 255, 0.7);\n  }\n  .leaflet-popup-content {\n    font-family: 'Comic Sans MS', cursive, sans-serif;\n    line-height: 1.1;\n    white-space: pre-wrap;\n  }\n<\/style>","topleft",null,"info legend"]},{"method":"addProviderTiles","args":["Esri.NatGeoWorldMap",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[27.12898,47.66241],"lng":[-123.96861,135.67181]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <hr>
@@ -1106,7 +1122,7 @@
 <li><strong>Type</strong>: Rural | Forest</li>
 <li><strong>First Visited</strong>: Sep 2025</li>
 <li><strong>Last Visited</strong>: Oct 2025</li>
-<li><strong>Birds</strong>: American Robin, Red-winged Blackbird, Red-bellied Woodpecker, Eastern Bluebird, Chipping Sparrow, European Starling, Northern Cardinal</li>
+<li><strong>Birds</strong>: American Robin, Red-winged Blackbird, Red-bellied Woodpecker, Eastern Bluebird, Chipping Sparrow, European Starling, Northern Cardinal, Northern Flicker, Hairy Woodpecker, Tufted Titmouse, Killdeer</li>
 <li><strong>Comments</strong>: Nice trail.</li>
 <li><strong>Link</strong>: <a href="https://ebird.org/region/L457935">ebird</a></li>
 </ul>
@@ -1324,11 +1340,11 @@
 </figure>
 </div>
 </div></div><ul>
-<li><strong>Type</strong>: Rural | Pond, Forest, Marsh</li>
+<li><strong>Type</strong>: Rural | Pond, Forest, Wetland</li>
 <li><strong>First Visited</strong>: June 2025</li>
 <li><strong>Last Visited</strong>: Jul 2025</li>
 <li><strong>Birds</strong>: Black-crowned Night Heron, Little Grebe, Azure-winged Magpie, Light-vented Bulbul, Little Egret, Red-rumped Swallow, Pheasant-tailed Jacana, Red-billed Starling, Eurasian Moorhen, Chinese Blackbird, Oriental Magpie-Robin</li>
-<li><strong>Comments</strong>: My hometown. Very beautiful place, regional birding hotspot.</li>
+<li><strong>Comments</strong>: My hometown. Very beautiful place, regionally well-known birding hotspot and tourist attraction with reeds, waterlilies and lotus planted all over the ponds and wetlands.</li>
 <li><strong>Link</strong>: <a href="https://ebird.org/region/L17313628">ebird</a></li>
 </ul>
 </section>
@@ -1347,8 +1363,7 @@
 <li><strong>First Visited</strong>: Jul 2025</li>
 <li><strong>Last Visited</strong>: Jul 2025</li>
 <li><strong>Birds</strong>: Mandarin Duck, Eurasian Moorhen, Eurasian Tree Sparrow, Eurasian Magpie, Azure-winged Magpie, Eurasian Coot, Oriental Reed Warbler, Little Grebe, Grey Headed Woodpecker, Common Kingfisher, Vinous Throated Parrotbill, Grey Capped Greenfinch, Spotted Dove, Rock Pigeon</li>
-<li><strong>Comments</strong>: Regional birding hotspot, the ‘big pit’ of the north park might be one of the most well-known birding hotspot in China with its lush reed marshes.<br>
-</li>
+<li><strong>Comments</strong>: Regional birding hotspot, the ‘big pit’ of the north park might be one of the most well-known birding hotspot in China with its lush reed marshes. The only problem is that you need to walk 1.5 hours to get to the pit, and there aren’t any public transit inside the huge park. DON’T TRY IT IN BEIJING’S SUMMER.</li>
 <li><strong>Link</strong>: <a href="https://ebird.org/region/L13741681">ebird</a></li>
 </ul>
 </section>
@@ -1367,7 +1382,7 @@
 <li><strong>First Visited</strong>: Jul 2025</li>
 <li><strong>Last Visited</strong>: Jul 2025</li>
 <li><strong>Birds</strong>: Eurasian Tree Sparrow, Eurasian Coot, Little Grebe, Black-crowned Night Heron, Grey Heron, Whiskered Tern</li>
-<li><strong>Comments</strong>: Nice place to hang out in the evening.</li>
+<li><strong>Comments</strong>: Nice place to grab some BBQ and hang out in the evening.</li>
 <li><strong>Link</strong>: NA</li>
 </ul>
 <hr>

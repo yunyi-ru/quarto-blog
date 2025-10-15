@@ -131,7 +131,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **Type**: Rural \| Forest
 -   **First Visited**: Sep 2025
 -   **Last Visited**: Oct 2025
--   **Birds**: American Robin, Red-winged Blackbird, Red-bellied Woodpecker, Eastern Bluebird, Chipping Sparrow, European Starling, Northern Cardinal
+-   **Birds**: American Robin, Red-winged Blackbird, Red-bellied Woodpecker, Eastern Bluebird, Chipping Sparrow, European Starling, Northern Cardinal, Northern Flicker, Hairy Woodpecker, Tufted Titmouse, Killdeer
 -   **Comments**: Nice trail. 
 -   **Link**: [ebird](https://ebird.org/region/L457935)
 
@@ -279,11 +279,11 @@ fillOpacity = 1, radius = 5) %>%
 ![Huqiu Wetland Park during the 'Plum Rain' Season, June 2025](landspics/huqiu.JPG){group="landspics"}
 :::
 
--   **Type**: Rural \| Pond, Forest, Marsh
+-   **Type**: Rural \| Pond, Forest, Wetland
 -   **First Visited**: June 2025
 -   **Last Visited**: Jul 2025
 -   **Birds**: Black-crowned Night Heron, Little Grebe, Azure-winged Magpie, Light-vented Bulbul, Little Egret, Red-rumped Swallow, Pheasant-tailed Jacana, Red-billed Starling, Eurasian Moorhen, Chinese Blackbird, Oriental Magpie-Robin
--   **Comments**: My hometown. Very beautiful place, regional birding hotspot. 
+-   **Comments**: My hometown. Very beautiful place, regionally well-known birding hotspot and tourist attraction with reeds, waterlilies and lotus planted all over the ponds and wetlands.
 -   **Link**: [ebird](https://ebird.org/region/L17313628)
 
 ### Beijing, CN: Olympic Forest Park 奥林匹克森林公园
@@ -296,7 +296,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **First Visited**: Jul 2025
 -   **Last Visited**: Jul 2025
 -   **Birds**: Mandarin Duck, Eurasian Moorhen, Eurasian Tree Sparrow, Eurasian Magpie, Azure-winged Magpie, Eurasian Coot, Oriental Reed Warbler, Little Grebe, Grey Headed Woodpecker, Common Kingfisher, Vinous Throated Parrotbill, Grey Capped Greenfinch, Spotted Dove, Rock Pigeon
--   **Comments**: Regional birding hotspot, the 'big pit' of the north park might be one of the most well-known birding hotspot in China with its lush reed marshes.  
+-   **Comments**: Regional birding hotspot, the 'big pit' of the north park might be one of the most well-known birding hotspot in China with its lush reed marshes. The only problem is that you need to walk 1.5 hours to get to the pit, and there aren't any public transit inside the huge park. DON'T TRY IT IN BEIJING'S SUMMER. 
 -   **Link**: [ebird](https://ebird.org/region/L13741681)
 
 ### Linyi, CN: Yi River Water Park 沂河/水上公园
@@ -309,7 +309,7 @@ fillOpacity = 1, radius = 5) %>%
 -   **First Visited**: Jul 2025
 -   **Last Visited**: Jul 2025
 -   **Birds**: Eurasian Tree Sparrow, Eurasian Coot, Little Grebe, Black-crowned Night Heron, Grey Heron, Whiskered Tern
--   **Comments**: Nice place to hang out in the evening. 
+-   **Comments**: Nice place to grab some BBQ and hang out in the evening. 
 -   **Link**: NA
 
 ------------------------------------------------------------------------
