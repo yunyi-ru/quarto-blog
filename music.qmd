@@ -1,0 +1,19 @@
+---
+title: "RAVEN RADIO"
+listing:
+  contents: music/**/*.qmd
+  sort: "date desc"
+  type: grid
+  grid-columns: 4
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [image, date, title]
+  feed: true
+page-layout: full
+title-block-banner: false
+---
+
+RAVEN RADIO is a music recommendation project, it's basically sharing any music that I'm currently listening to.
+
+CN/中文注意

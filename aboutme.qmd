@@ -5,15 +5,17 @@ toc: true
 
 # Introduction
 
-My name is Yunyi Ru. I am a 1st year Ph.D. student from the [PULSe Interdisciplinary Life Sciences Program](https://www.purdue.edu/gradschool/pulse/) at [Purdue University](https://www.purdue.edu/). 
+My name is Yunyi Ru. I am a 1st year Ph.D. student from the [PULSe Interdisciplinary Life Sciences Program](https://www.purdue.edu/gradschool/pulse/) at [Purdue University](https://www.purdue.edu/).
 
 ## Why Blogging
 
-I made this blog to share... 
+I made this blog to share...
 
-- useful biological science-related contents
+-   useful biological science-related contents
 
-- random bioinfo/CS projects
+-   random bioinfo/CS projects
+
+-   life updates, music recommendations, anything on my mind
 
 ::: column-margin
 **Recent Highlights**

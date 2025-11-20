@@ -13,9 +13,8 @@
 ![](birdspics/hooded_merganser_2501.JPG),Hooded Merganser 棕胁秋沙鸭 ![](pixelart/hoodedmerganser_s.png),*lophydytes cucullatus*,Waterfowl,"Jan '25, Cambridge MD",go around in couples
 ![](birdspics/great_cormorant_1907.jpg),Great Cormorant 普通鸬鹚 ![](pixelart/greatcormorant_s.png),*phalacrocorax carbo*,Cormorants and Anhingas,"July '19, Kyoto Japan",NA
 ![](birdspics/double_crested_cormorant_2310.JPG),Double-crested Cormorant 角鸬鹚 ![](pixelart/doublecrestedcormorant_s.png),*nannopterum auritum*,Cormorants and Anhingas,"Oct '25, West Lafayette IN",flying across inner harbor
-NA,Brandt's Cormorant 加州鸬鹚,*urile penicillatus*,Cormorants and Anhingas,"July '24, Cannon Beach OR",NA
-![](birdspics/little_grebe_2507.JPG),Little Grebe 小䴙䴘,*tachybaptus ruficollis*,Grebes,"July '25, Beijing",called 'little PT' in Chinese birding community - too hard to write
-![](birdspics/great_crested_grebe_2508.JPG),Great Crested Grebe 凤头䴙䴘,*podiceps cristatus*,Grebes,"Aug '25, Suzhou",NA
+![](birdspics/little_grebe_2507.JPG),Little Grebe 小䴙䴘 ![](pixelart/littlegrebe_s.png),*tachybaptus ruficollis*,Grebes,"July '25, Beijing",called 'little PT' in Chinese birding community - too hard to write
+![](birdspics/great_crested_grebe_2508.JPG),Great Crested Grebe 凤头䴙䴘 ![](pixelart/greatcrestedgrebe_s.png),*podiceps cristatus*,Grebes,"Aug '25, Suzhou",NA
 NA,Tufted Puffin 花魁鸟 ![](pixelart/tuftedpuffin_s.png),*fratercula cirrhata*,Alcids,"July '24, Cannon Beach OR",NA
 ![](birdspics/common_murre_2407.JPG),Common Murre 崖海鸦 ![](pixelart/commonmurre_s.png),*uria aalge*,Alcids,"July '24, Cannon Beach OR",NA
 ![](birdspics/american_white_pelican_2504.jpeg),American White Pelican 美洲鹈鹕 ![](pixelart/americanwhitepelican_s.png),*pelecanus erythrorhynchos*,Pelicans,"Apr '25, West Lafayette IN",NA
@@ -32,6 +31,7 @@ NA,Tufted Puffin 花魁鸟 ![](pixelart/tuftedpuffin_s.png),*fratercula cirrhata
 ![](birdspics/caspian_tern_2407.JPG),Caspian Tern 红嘴巨燕鸥  ![](pixelart/caspiantern_s.png),*hydroprogne caspia*,"Gulls, Terns, Skimmers","July '24, Seattle WA",NA
 ![](birdspics/whiskered_tern_2507.jpg),Whiskered Tern 须浮鸥  ![](pixelart/whiskeredtern_s.png),*chlidonias hybrida*,"Gulls, Terns, Skimmers","July '25, Linyi Shandong",does not have forked tail
 ![](birdspics/killdeer_2510.JPG),Killdeer 双领鸻 ![](pixelart/killdeer_s.png),*charadrius vociferus*,Shorebirds,"Oct '25, West Lafayette IN",didn't know they can also live in land
+![](birdspics/semipalmatedplover_2504.JPG),Semipalmated Plover 半蹼鸻 ![](pixelart/semipalmatedplover_s.png),*charadrius semipalmatus*,Shorebirds,"Apr '25, Cambridge MD",NA
 ![](birdspics/pheasant_tailed_jacana_2507.JPG),Pheasant-tailed Jacana 水雉 ![](pixelart/pheasanttailedjacana_s.png),*hydrophasianus chirurgus*,Shorebirds,"July '25, Suzhou Jiangsu",dubbed 'fairy on the waves'
 ![](birdspics/wilson_s_snipe_2501.JPG),Wilson's Snipe 美洲沙锥 ![](pixelart/wilsonssnipe_s.png),*gallinago delicata*,Shorebirds,"Jan '25, Cambridge MD",NA
 ![](birdspics/greater_yellowlegs_2510.JPG),Greater Yellowlegs 大黄脚鹬 ![](pixelart/greateryellowlegs_s.png),*tringa melanoleuca*,Shorebirds,"Oct '25, West Lafayette IN",almost the size of a mallard
@@ -56,27 +56,27 @@ NA,American Coot 美洲骨顶 ![](pixelart/americancoot_s.png),*fulica americana
 ![](birdspics/mourning_dove_2503.JPG),Mourning Dove 哀鸽 ![](pixelart/mourningdove_s.png),*zenaida macroura*,Pigeons and Doves,"Mar '25, Baltimore MD",NA
 ![](birdspics/turkey_vulture_2403.JPG),Turkey Vulture 红头美洲鹫 ![](pixelart/turkeyvulture_s.png),*cathartes aura*,"Vultures, Hawks, and Allies","Oct '25, West Lafayette IN",if you go on a road trip they are always there
 ![](birdspics/osprey_2504.JPG),Osprey 鱼鹰 ![](pixelart/osprey_s.png),*pandion haliaetus*,"Vultures, Hawks, and Allies","Apr '25, Cambridge MD",somehow chasing a seagull
-![](birdspics/coopers_hawk_2511.JPG),Cooper's Hawk 库柏鹰,*accipiter cooperii*,"Vultures, Hawks, and Allies","Nov '25, West Lafayette IN",small cutie
+![](birdspics/coopers_hawk_2511.JPG),Cooper's Hawk 库柏鹰 ![](pixelart/coopershawk_s.png),*accipiter cooperii*,"Vultures, Hawks, and Allies","Nov '25, West Lafayette IN",small cutie
 ![](birdspics/bald_eagle_2504.JPG),Bald Eagle 白头海雕 ![](pixelart/baldeagle_s.png),*haliaeetus leucocephalus*,"Vultures, Hawks, and Allies","Jan '25, Cambridge MD",can be differentiated from turkey vulture while flying by their white tails
 ![](birdspics/red_tailed_hawk_2201.jpg),Red-tailed Hawk 红尾𫛭 ![](pixelart/redtailedhawk_s.png),*buteo jamaicensis*,"Vultures, Hawks, and Allies","Aug '25, Indianapolis IN",NA
-![](birdspics/eurasian_hobby_2507.JPG),Eurasian Hobby 燕隼,*falco subbuteo*,Flacons,"July '25, Beijing",NA
+![](birdspics/eurasian_hobby_2507.JPG),Eurasian Hobby 燕隼 ![](pixelart/eurasianhobby_s.png),*falco subbuteo*,Flacons,"July '25, Beijing",NA
 ![](birdspics/common_swift_2507.JPG),Common Swift 普通雨燕 ![](pixelart/commonswift_s.png),*apus apus*,Swifts,"July '25, Beijing",THE famous birds at Beijing Central Axis
 ![](birdspics/tree_swallow_2504.JPG),Tree Swallow 双色树燕 ![](pixelart/treeswallow_s.png),*tachycineta bicolor*,Martins and Swallows,"Apr '25, Cambridge MD","small, bright blue under sunlight, white belly"
 ![](birdspics/barn_swallow_2507.jpg),Barn Swallow 家燕 ![](pixelart/barnswallow_s.png),*hirundo rustica*,Martins and Swallows,"July '25, Beijing",longer tail
 ![](birdspics/northern_rough_winged_swallow_2503.JPG),Northern Rough-winged Swallow 中北美毛翅燕 ![](pixelart/northernroughwingedswallow_s.png),*stelgidopteryx serripennis*,Martins and Swallows,"Apr '25, Baltimore MD","small, fly very fast, chasing insects near water"
 ![](birdspics/eurasian_crag_martin_2306.jpg),Eurasian Crag-Martin 岩燕 ![](pixelart/eurasiancragmartin_s.png),*ptyonoprogne rupestris*,Martins and Swallows,"June '23, Datong Shanxi",NA
 ![](birdspics/red_rumped_swallow_2507.JPG),Red-rumped Swallow 金腰燕 ![](pixelart/redrumpedswallow_s.png),*cecropis daurica*,Martins and Swallows,"July '25, Suzhou Jiangsu",NA
-NA,Common Cuckoo 大杜鹃,*cuculus canorus*,Cuckoos,"July '25, Beijing",singing Cuckoo endlessly
+NA,Common Cuckoo 大杜鹃 ![](pixelart/commoncuckoo_s.png),*cuculus canorus*,Cuckoos,"July '25, Beijing",singing *Cuckoo* endlessly. Chinese people refer it as 布谷 which literally translate as 'sowing seeds'
 ![](birdspics/common_kingfisher_2507.jpg),Common Kingfisher 普通翠鸟,*alcedo atthis*,Kingfishers,"July '25, Beijing",very shy
 NA,Belted Kingfisher 白腹鱼狗,*megaceryle alcyon*,Kingfishers,"Nov '25, West Lafayette IN",suprisingly large
-NA,Eurasian Hoopoe 戴胜,*upupa epops*,Hoopoes,"Apr '23, Suzhou Jiangsu",NA
+NA,Eurasian Hoopoe 戴胜 ![](pixelart/eurasianhoopoe_s.png),*upupa epops*,Hoopoes,"Apr '23, Suzhou Jiangsu",NA
 ![](birdspics/yellow_bellied_sapsucker_2503.JPG),Yellow-bellied Sapsucker 黄腹吸汁啄木鸟,*sphyrapicus varius*,Woodpeckers,"Mar '25, Baltimore MD",dead due to bird strike
-![](birdspics/red_bellied_woodpecker_2510.JPG),Red-bellied Woodpecker 红腹啄木鸟,*melanerpes carolinus*,Woodpeckers,"Nov '25, West Lafayette IN",NA
-![](birdspics/grey_headed_woodpecker_2507.jpg),Grey-headed Woodpecker 灰头绿啄木鸟,*picus canus*,Woodpeckers,"July '25, Beijing",NA
+![](birdspics/red_bellied_woodpecker_2510.JPG),Red-bellied Woodpecker 红腹啄木鸟 ![](pixelart/redbelliedwoodpecker_s.png),*melanerpes carolinus*,Woodpeckers,"Nov '25, West Lafayette IN",NA
+![](birdspics/grey_headed_woodpecker_2507.jpg),Grey-headed Woodpecker 灰头绿啄木鸟 ![](pixelart/greyheadedwoodpecker_s.png),*picus canus*,Woodpeckers,"July '25, Beijing",NA
 ![](birdspics/downy_woodpecker_2501.JPG),Downy Woodpecker 绒啄木鸟,*dryobates pubescens*,Woodpeckers,"Jan '25, Cambridge MD",very small
 ![](birdspics/hairy_woodpecker_2510.JPG),Hairy Woodpecker 毛啄木鸟,*leuconotopicus villosus*,Woodpeckers,"Oct '25, West Lafayette IN",NA
-![](birdspics/northern_flicker_2510.JPG),Northern Flicker 北扑翅䴕,*colaptes auratus*,Woodpeckers,"Nov '25, West Lafayette IN",dark grey patch on chest
-![](birdspics/pileated_woodpecker_2511.JPG),Pileated Woodpecker 北美黑啄木鸟,*dryocopus pileatus*,Woodpeckers,"Nov '25, West Lafayette IN",strikingly big
+![](birdspics/northern_flicker_2510.JPG),Northern Flicker 北扑翅䴕 ![](pixelart/northernflicker_s.png),*colaptes auratus*,Woodpeckers,"Nov '25, West Lafayette IN",dark grey patch on chest
+![](birdspics/pileated_woodpecker_2511.JPG),Pileated Woodpecker 北美黑啄木鸟 ![](pixelart/pileatedwoodpecker_s.png),*dryocopus pileatus*,Woodpeckers,"Nov '25, West Lafayette IN",strikingly big
 ![](birdspics/blue_jay_2505.jpg),Blue Jay 冠蓝鸦  ![](pixelart/bluejay_s.png),*cyanocitta cristata*,"Jays, Magpies, Crows, Ravens","May '25, Annapolis MD",only heard them singing. never seen with eyes
 ![](birdspics/red_billed_blue_magpie_2303.JPG),Red-billed Blue-Magpie 红嘴蓝鹊 ![](pixelart/redbilledbluemagpie_s.png),*urocissa erythroryncha*,"Jays, Magpies, Crows, Ravens","Mar '23, Lijiang Yunnan",NA
 ![](birdspics/azure_winged_magpie_2507.jpg),Azure-winged Magpie 灰喜鹊 ![](pixelart/azurewingedmagpie_s.png),*cyanopica cyanus*,"Jays, Magpies, Crows, Ravens","July '25, Suzhou Jiangsu","Very common in northern China, esp. Shandong, Beijing"
@@ -87,11 +87,11 @@ NA,Eurasian Hoopoe 戴胜,*upupa epops*,Hoopoes,"Apr '23, Suzhou Jiangsu",NA
 ![](birdspics/carrion_crow_2507.jpg),Carrion Crow 小嘴乌鸦 ![](pixelart/carrioncrow_s.png),*corvus corone*,"Jays, Magpies, Crows, Ravens","July '25, Beijing",most common crow in Beijing city
 ![](birdspics/common_raven_2506.jpg),Common Raven 渡鸦 ![](pixelart/commonraven_s.png),*corvus corax*,"Jays, Magpies, Crows, Ravens","June '25, Malibu CA","'quoth the raven, nevermore' - quoth someone who died in Baltimore."
 ![](birdspics/black_phoebe_2506.jpg),Black Phoebe 黑长尾霸鹟 ![](pixelart/blackphoebe_s.png),*sayornis nigricans*,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies","June '25, Malibu CA",NA
-![](birdspics/eastern_phoebe_2511.jpg),Eastern Phoebe 东菲比霸鹟,*sayornis phoebe*,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies","Nov '25, West Lafayette IN",slightly yellow on sides
+![](birdspics/eastern_phoebe_2511.jpg),Eastern Phoebe 东菲比霸鹟 ![](pixelart/easternphoebe_s.png),*sayornis phoebe*,"Tyrant Flycatchers: Pewees, Kingbirds, and Allies","Nov '25, West Lafayette IN",slightly yellow on sides
 ![](birdspics/oriental_magpie_robin_2507.JPG),Oriental Magpie-Robin 鹊鸲 ![](pixelart/orientalmagpierobin_s.png),*copsychus saularis*,Old World Flycathers,"July '25, Suzhou Jiangsu","very common in Eastern China, sings beautifully"
 ![](birdspics/long_tailed_shrike_2302.jpg),Long-tailed Shrike 棕背伯劳 ![](pixelart/longtailedshrike_s.png),*lanius schach*,Shrikes,"July '25, Suzhou Jiangsu",'butcher bird' - in me the tiger sniffs the plum blossoms
 ![](birdspics/gray_catbird_2406.JPG),Gray Catbird 灰猫嘲鸫 ![](pixelart/graycatbird_s.png),*dumetella carolinensis*,"Catbirds, Mockingbirds, and Thrashers","May '25, Annapolis MD","little gray bird, usually seen in the evening"
-![](birdspics/brown_thrasher_2505.JPeG),Brown Thrasher 褐矢嘲鸫,*toxostoma rufum*,"Catbirds, Mockingbirds, and Thrashers","May '25, Athens GA",NA
+![](birdspics/brown_thrasher_2505.JPeG),Brown Thrasher 褐矢嘲鸫 ![](pixelart/brownthrasher_s.png),*toxostoma rufum*,"Catbirds, Mockingbirds, and Thrashers","May '25, Athens GA",NA
 ![](birdspics/northern_mockingbird_2501.JPG),Northern Mockingbird 北嘲鸫 ![](pixelart/northernmockingbird_s.png),*mimus polyglottos*,"Catbirds, Mockingbirds, and Thrashers","Apr '25, Cambridge MD",NA
 ![](birdspics/eastern_bluebird_2203.jpg),Eastern Bluebird 东蓝鸲 ![](pixelart/easternbluebird_s.png),*sialia sialis*,Thrushes,"Nov '25, West Lafayette IN",NA
 ![](birdspics/western_bluebird_2506.jpg),Western Bluebird 西蓝鸲 ![](pixelart/westernbluebird_s.png),*sialia mexicana*,Thrushes,"June '25, Los Angeles CA",NA
@@ -99,19 +99,19 @@ NA,Eurasian Hoopoe 戴胜,*upupa epops*,Hoopoes,"Apr '23, Suzhou Jiangsu",NA
 ![](birdspics/american_robin_2503.jpg),American Robin 旅鸫 ![](pixelart/americanrobin_s.png),*turdus migratorius*,Thrushes,"Nov '25, West Lafayette IN","appear in large flocks, arrive in early spring, have a beautiful song"
 ![](birdspics/chinese_blackbird_2506.jpg),Chinese Blackbird 乌鸫 ![](pixelart/chineseblackbird_s.png),*turdus mandarinus*,Thurshes,"July '25, Suzhou Jiangsu","black version robin, so cute!! Eats earthworm after rain"
 ![](birdspics/dusky_thrush_2303.jpg),Dusky Thrush 斑鸫 ![](pixelart/duskythrush_s.png),*turdus eunomus*,Thurshes,"Mar '23, Lijiang Yunnan",NA
-![](birdspics/light_vented_bulbul_2507.jpg),Light-vented Bulbul 白头鹎,*pycnonotus sinensis*,Bulbuls,"June '25, Suzhou Jiangsu",very distinguishable singing pattern
-![](birdspics/white_browed_laughingthrush_2007.JPG),White-browed Laughingthrush 白颊噪鹛,*pterohinus sannio*,Laughingthrushes and allies,"July '20, Chengdu Sichuan",NA
-![](birdspics/Vinous_Throated_Parrotbill_2507.JPG),Vinous-Throated Parrotbill 棕头鸦雀,*suthora webbiana*,Parrotbills,"July '25, Beijing",small & cute
+![](birdspics/light_vented_bulbul_2507.jpg),Light-vented Bulbul 白头鹎 ![](pixelart/lightventedbulbul_s.png),*pycnonotus sinensis*,Bulbuls,"June '25, Suzhou Jiangsu",very distinguishable singing pattern
+![](birdspics/white_browed_laughingthrush_2007.JPG),White-browed Laughingthrush 白颊噪鹛 ![](pixelart/whitethroatedlaughingthrush_s),*pterohinus sannio*,Laughingthrushes and allies,"July '20, Chengdu Sichuan",NA
+![](birdspics/Vinous_Throated_Parrotbill_2507.JPG),Vinous-Throated Parrotbill 棕头鸦雀 ![](pixelart/vinousthroatedparrotbill_s.png),*suthora webbiana*,Parrotbills,"July '25, Beijing",small & cute
 ![](birdspics/carolina_chickadee_2203.jpg),Carolina Chickadee 卡罗莱纳山雀 ![](pixelart/carolinachickadee_s.png),*poecile carolinensis*,"Tits, Chickadees, and Titmice","Mar '22, Durham NC",NA
 ![](birdspics/tufted_titmouse_2504.JPG),Tufted Titmouse 美洲凤头山雀 ![](pixelart/tuftedtitmouse_s.png),*baeolophus bicolor*,"Tits, Chickadees, and Titmice","Oct '25, West Lafayette IN",small round fluffy ball
 ![](birdspics/white_breasted_nuthatch_2203.jpg),White-breasted Nuthatch 白胸䴓 ![](pixelart/whitebreastednuthatch_s.png),*sitta carolinensis*,Nuthatches,"Nov '25, West Lafayette IN",NA
-![](birdspics/carolina_wren_2501.JPG),Carolina Wren 卡罗苇鹪鹩,*thryothorus ludovicianus*,Wrens,"Jan '25, Cambridge MD",NA
-![](birdspics/oriental_reed_warbler_2507.JPG),Oriental Reed Warbler 东方大苇莺,*acrocephalus orientalis*,Warblers,"July '25, Beijing",have a noisy song
-![](birdspics/ruby_crowned_kinglet_2203.jpg),Ruby-crowned Kinglet 红冠戴菊,*corthylio calendula*,Kinglets,"Mar '22, Durham NC",NA
-![](birdspics/ovenbird_2510.JPeG),Ovenbird 灯顶灶莺,*seiurus aurocapilla*,Wood-Warblers,"Oct '25, West Lafayette IN",dead due to bird strike
-![](birdspics/tennessee_warbler_2510.JPG),Tennessee Warbler 灰冠虫森莺,*leiothlypis peregrina*,Wood-Warblers,"Oct '25, West Lafayette IN",actually really hard to ID so not sure
-![](birdspics/yellow_rumped_warbler_2511.JPG),Yellow-rumped Warbler 黄腰白喉林莺,*setophaga auduboni*,Wood-Warblers,"Nov '25, West Lafayette IN",NA
-![](birdspics/white_wagtail_2303.JPG),White Wagtail 白鹡鸰,*motacilla alba*,Wagtails and Pipits,"Mar '23, Lijiang Yunnan","tail wags endlessly, and flies in 'sine function'"
+![](birdspics/carolina_wren_2501.JPG),Carolina Wren 卡罗苇鹪鹩 ![](pixelart/carolinawren_s.png),*thryothorus ludovicianus*,Wrens,"Jan '25, Cambridge MD",NA
+![](birdspics/oriental_reed_warbler_2507.JPG),Oriental Reed Warbler 东方大苇莺 ![](pixelart/orientalreedwarbler_s.png),*acrocephalus orientalis*,Warblers,"July '25, Beijing",have a noisy song
+![](birdspics/ruby_crowned_kinglet_2203.jpg),Ruby-crowned Kinglet 红冠戴菊 ![](pixelart/rubycrownedkinglet_s.png),*corthylio calendula*,Kinglets,"Mar '22, Durham NC",NA
+![](birdspics/ovenbird_2510.JPeG),Ovenbird 灯顶灶莺 ![](pixelart/ovenbird_s.png),*seiurus aurocapilla*,Wood-Warblers,"Oct '25, West Lafayette IN",dead due to bird strike
+![](birdspics/tennessee_warbler_2510.JPG),Tennessee Warbler 灰冠虫森莺 ![](pixelart/tennesseewarbler_s.png),*leiothlypis peregrina*,Wood-Warblers,"Oct '25, West Lafayette IN",actually really hard to ID so not sure
+![](birdspics/yellow_rumped_warbler_2511.JPG),Yellow-rumped Warbler 黄腰白喉林莺 ![](pixelart/yellowrumpedwarbler_s.png),*setophaga auduboni*,Wood-Warblers,"Nov '25, West Lafayette IN",NA
+![](birdspics/white_wagtail_2303.JPG),White Wagtail 白鹡鸰 ![](pixelart/whitewagtail_s.png),*motacilla alba*,Wagtails and Pipits,"Mar '23, Lijiang Yunnan","tail wags endlessly, and flies in 'sine function'"
 ![](birdspics/chipping_sparrow_2510.JPG),Chipping Sparrow 褐斑翅雀鹀 ![](pixelart/chippingsparrow_s.png),*spizella passerina*,New World Sparrows,"Oct '25, West Lafayette IN",NA
 ![](birdspics/white_throated_sparrow_2410.JPG),White-throated Sparrow 白喉带鹀 ![](pixelart/whitethroatedsparrow_s.png),*zonotrichia albicollis*,New World Sparrows,"Oct '24, Baltimore MD","found dead around MICA, bird strike"
 ![](birdspics/song_sparrow_2510.jpg),Song Sparrow 歌带鹀 ![](pixelart/songsparrow_s.png),*melospiza melodia*,New World Sparrows,"Oct '25, West Lafayette IN",NA
@@ -122,7 +122,7 @@ NA,Eurasian Hoopoe 戴胜,*upupa epops*,Hoopoes,"Apr '23, Suzhou Jiangsu",NA
 ![](birdspics/grey_capped_greenfinch_2507.jpg),Grey-capped Greenfinch 金翅雀 ![](pixelart/greycappedgoldfinch_s.png),*chloris sinica*,"Finches, Euphonias, and allies","July '25, Yantai Shandong",NA
 ![](birdspics/american_goldfinch_2510.jpg),American Goldfinch 北美金翅雀 ![](pixelart/americangoldfinch_s.png),*spinus tristis*,"Finches, Euphonias, and allies","Oct '25, West Lafayette IN",NA
 ![](birdspics/lesser_goldfinch_2506.jpg),Lesser Goldfinch 暗背金翅雀 ![](pixelart/lessergoldfinch_s.png),*carduelis psaltria*,"Finches, Euphonias, and allies","June '25, Los Angeles CA",NA
-![](birdspics/northern_cardinal_2203.jpg),Northern Cardinal 主红雀 ![](pixelart/redcardinal_s.png),*cardinalis cardinalis*,"Cardinals, Grosbeaks, and allies","Nov '25, West Lafayette IN",cutest and most iconic bird in the u.s.a.
+![](birdspics/northern_cardinal_2203.jpg),Northern Cardinal 主红雀 ![](pixelart/redcardinal_s.png),*cardinalis cardinalis*,"Cardinals, Grosbeaks, and allies","Nov '25, West Lafayette IN","cutest and most iconic bird in the USA, state bird of Indiana"
 ![](birdspics/red_winged_blackbird_2504.JPG),Red-winged Blackbird 红翅黑鹂 ![](pixelart/redwingedblackbird_s.png),*agelaius phoeniceus*,Blackbirds,"Apr '25, Cambridge MD",have a very loud and distinguishable song
 ![](birdspics/common_grackle_2505.jpg),Common Grackle 普通拟八哥 ![](pixelart/commongrackle_s.png),*quiscalus quiscula*,Blackbirds,"May '25, Annapolis MD",NA
 ![](birdspics/great_tailed_grackle_2506.jpg),Great-tailed Grackle 大尾拟八哥 ![](pixelart/greattailedgrackle_s.png),*quiscalus mexicanus*,Blackbirds,"June '25, Malibu CA",NA

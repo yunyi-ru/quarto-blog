@@ -9,6 +9,17 @@
     ]
   },
   {
+    "listing": "/music.html",
+    "items": [
+      "/music/25springradio/index.html",
+      "/music/24winterradio/index.html",
+      "/music/24autumnradio/index.html",
+      "/music/25autumnradio/index.html",
+      "/music/25summerradio/index.html",
+      "/music/24summerradio/index.html"
+    ]
+  },
+  {
     "listing": "/project.html",
     "items": [
       "/projects/all_about_birding/index.html",
