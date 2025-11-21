@@ -2,30 +2,22 @@
 title: "2024 Autumn Radio"
 author: "Yunyi Ru"
 date: "2024-12-14"
-categories: [Seasonal music recommendation, Autumn, 2024, rock, pop, electronic]
+categories: [seasonal music recommendation, autumn, 2024, rock, pop, electronic]
 ---
 
 # 音乐与我的秋天
 
-## 十月
+-   十月：去DC看了JAMC的演出。印象最深刻的是reverence。和朋友一起冲到纽约去看了万青的演出。结尾的永嘉彗星真好听。好多好多人，几近窒息…喜欢秦皇岛的小号。
 
--   去DC看了JAMC的演出。印象最深刻的是reverence。
+-   十一月：和朋友一起去DC看了slowdive的演出，我果然更喜欢他们重组以后的专辑哈哈哈。Rachel Goswell一头半黑半金的头发，在迷幻的音乐中挥舞铃鼓，好美好美。
 
--   和朋友一起冲到纽约去看了万青的演出。结尾的永嘉彗星真好听。好多好多人，几近窒息…喜欢秦皇岛的小号。
-
-## 十一月
-
--   和朋友一起去DC看了slowdive的演出，我果然更喜欢他们重组以后的专辑哈哈哈。Rachel Goswell一头半黑半金的头发，在迷幻的音乐中挥舞铃鼓，好美好美。
-
-## 十二月
-
--   和朋友一起去DC看了ride的演出（又一次）！音效有点拉不过节奏组一如既往地帅气逼人。
+-   十二月：和朋友一起去DC看了RIDE的演出（又一次）！音效有点拉不过节奏组一如既往地帅气逼人。
 
 ------------------------------------------------------------------------
 
 # 我的秋日专辑
 
-## Joy Division - Peel Sessions
+## [Joy Division - Peel Sessions](https://www.youtube.com/watch?v=ckK7TNJbAJ4)
 
 ::: column-margin
 ![](../covers/jdpeelsessions.jpg)
@@ -37,7 +29,7 @@ categories: [Seasonal music recommendation, Autumn, 2024, rock, pop, electronic]
 
 ***推荐曲目：**Love Will Tear Us Apart/24 Hours/She’s Lost Control*
 
-## Charli XCX - Brat
+## [Charli XCX - Brat](https://open.spotify.com/album/2lIZef4lzdvZkiiCzvPKj7)
 
 ::: column-margin
 ![](../covers/brat.jpg)
@@ -49,7 +41,7 @@ Brat summer终于在十一月正式入侵了我的大脑。我喜欢和Caroline 
 
 ***推荐曲目：**360/Apple/Everything is Romantic*
 
-## Mazzy Star - She Hangs Brightly
+## [Mazzy Star - She Hangs Brightly](https://open.spotify.com/album/2ZAcLWdHBHrdybwws1PVuA)
 
 ::: column-margin
 ![](../covers/shehangsbrightly.jpg)

@@ -2,7 +2,7 @@
 title: "2025 Spring Radio"
 author: "Yunyi Ru"
 date: "2025-05-12"
-categories: [Seasonal music recommendation, Spring, 2025, rock, pop, rap/hip-hop, electronic]
+categories: [seasonal music recommendation, spring, 2025, rock, pop, rap/hip-hop, electronic]
 ---
 
 *我感觉有必要把这个四季音乐推荐系列提前一个月，六月份已经是夏天了，而三月份肯定是春天。*
@@ -11,27 +11,17 @@ categories: [Seasonal music recommendation, Spring, 2025, rock, pop, rap/hip-hop
 
 # 音乐与我的春天
 
-## 三月
+-   三月: 非常抑郁的一个月，靠In the Modern World和Starburster活下去的，听着Grian的喘息我感觉自己也要惊恐发作了。
 
--   非常抑郁的一个月，靠In the Modern World和Starburster活下去的，听着Grian的喘息我感觉自己也要惊恐发作了。
+-   四月: 和学妹去看了La Luz，乐队成员优雅又神秘，就像小精灵一样！在室友的带领下疯狂地探索嘻哈/说唱。
 
-## 四月
-
--   和学妹去看了La Luz，乐队成员优雅又神秘，就像小精灵一样！
-
--   在室友的带领下疯狂地探索嘻哈/说唱。
-
-## 五月
-
--   和室友去费城看了Kendrick Lamar和SZA，观众好热情啊！并且舞台一直在喷火。
-
--   和同事去华盛顿看了Fontaines D.C.，非常棒，Grian Chatten的台风就像一个真正的摇滚明星，歌词又那么有诗意。希望他们未来能越来越好。
+-   五月: 和室友去费城看了Kendrick Lamar和SZA，观众好热情啊！并且舞台一直在喷火。和同事去华盛顿看了Fontaines D.C.，非常棒，Grian Chatten的台风就像一个真正的摇滚明星，歌词又那么有诗意。希望他们未来能越来越好。
 
 ------------------------------------------------------------------------
 
 # 我的春日专辑
 
-## Fontaines D.C. - Romance
+## [Fontaines D.C. - Romance](https://open.spotify.com/album/287QQ922OsJYh8aFNGdJG5)
 
 ::: column-margin
 ![](../covers/romance.jpg)
@@ -43,7 +33,7 @@ categories: [Seasonal music recommendation, Spring, 2025, rock, pop, rap/hip-hop
 
 ***推荐曲目：**In the Modern World/Starburster/Bug/Death Kink*
 
-## Kendrick Lamar - GNX
+## [Kendrick Lamar - GNX](https://open.spotify.com/album/0hvT3yIEysuuvkK73vgdcW)
 
 ::: column-margin
 ![](../covers/gnx.jpg)
@@ -55,7 +45,7 @@ categories: [Seasonal music recommendation, Spring, 2025, rock, pop, rap/hip-hop
 
 ***推荐曲目：**Luther/Reincarnated/TV off*
 
-## yeule - Glitch Princess
+## [yeule - Glitch Princess](https://open.spotify.com/album/6jBRjtrgSlOvQvrSdtQa8Q)
 
 ::: column-margin
 ![](../covers/glitchprincess.jpg)

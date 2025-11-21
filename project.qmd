@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 listing:
+- id: projects
   contents: projects/**/*.qmd
   sort: "date desc"
   type: grid

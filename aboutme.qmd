@@ -15,8 +15,6 @@ I made this blog to share...
 
 -   random bioinfo/CS projects
 
--   life updates, music recommendations, anything on my mind
-
 ::: column-margin
 **Recent Highlights**
 

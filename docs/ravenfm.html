@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Yunyi Ru">
-<meta name="dcterms.date" content="2024-12-14">
 
-<title>2024 Autumn Radio – Yunyi’s Blog</title>
+<title>渡鸦FM – Yunyi’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../figs/crow_s.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./figs/crow_s.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XJSP4R93HW"></script>
 
 <script type="text/javascript">
@@ -79,9 +108,38 @@ gtag('js', new Date());
 gtag('config', 'G-XJSP4R93HW', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../styles.css">
-</head>
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="alternate" type="application/rss+xml" title="Yunyi's Blog" href="ravenfm.xml" data-external="1"></head>
 
 <body class="nav-fixed">
 
@@ -90,7 +148,7 @@ gtag('config', 'G-XJSP4R93HW', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Yunyi’s Blog</span>
     </a>
   </div>
@@ -101,26 +159,26 @@ gtag('config', 'G-XJSP4R93HW', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../aboutme.html"> 
+    <a class="nav-link" href="./aboutme.html"> 
 <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./project.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../project.html"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../blog.html"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../music.html"> 
-<span class="menu-text">Raven Radio</span></a>
+    <a class="nav-link active" href="./ravenfm.html" aria-current="page"> 
+<span class="menu-text">渡鸦FM</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/yunyi-ru"> <i class="bi bi-github" role="img">
@@ -140,45 +198,25 @@ gtag('config', 'G-XJSP4R93HW', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="2024">2024 <span class="quarto-category-count">(3)</span></div><div class="category" data-category="2025">2025 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="autumn">autumn <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blogging">blogging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="electronic">electronic <span class="quarto-category-count">(4)</span></div><div class="category" data-category="pop">pop <span class="quarto-category-count">(4)</span></div><div class="category" data-category="rap/hip-hop">rap/hip-hop <span class="quarto-category-count">(2)</span></div><div class="category" data-category="rock">rock <span class="quarto-category-count">(5)</span></div><div class="category" data-category="seasonal music recommendation">seasonal music recommendation <span class="quarto-category-count">(5)</span></div><div class="category" data-category="spring">spring <span class="quarto-category-count">(1)</span></div><div class="category" data-category="summer">summer <span class="quarto-category-count">(2)</span></div><div class="category" data-category="winter">winter <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">2024 Autumn Radio</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Seasonal music recommendation</div>
-    <div class="quarto-category">Autumn</div>
-    <div class="quarto-category">2024</div>
-    <div class="quarto-category">rock</div>
-    <div class="quarto-category">pop</div>
-    <div class="quarto-category">electronic</div>
-  </div>
-  </div>
+<h1 class="title">渡鸦FM</h1>
+</div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Yunyi Ru </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">December 14, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -188,65 +226,143 @@ gtag('config', 'G-XJSP4R93HW', { 'anonymize_ip': true});
 </header>
 
 
-<section id="音乐与我的秋天" class="level1">
-<h1>音乐与我的秋天</h1>
-<section id="十月" class="level2">
-<h2 class="anchored" data-anchor-id="十月">十月</h2>
-<ul>
-<li><p>去DC看了JAMC的演出。印象最深刻的是reverence。</p></li>
-<li><p>和朋友一起冲到纽约去看了万青的演出。结尾的永嘉彗星真好听。好多好多人，几近窒息…喜欢秦皇岛的小号。</p></li>
-</ul>
-</section>
-<section id="十一月" class="level2">
-<h2 class="anchored" data-anchor-id="十一月">十一月</h2>
-<ul>
-<li>和朋友一起去DC看了slowdive的演出，我果然更喜欢他们重组以后的专辑哈哈哈。Rachel Goswell一头半黑半金的头发，在迷幻的音乐中挥舞铃鼓，好美好美。</li>
-</ul>
-</section>
-<section id="十二月" class="level2">
-<h2 class="anchored" data-anchor-id="十二月">十二月</h2>
-<ul>
-<li>和朋友一起去DC看了ride的演出（又一次）！音效有点拉不过节奏组一如既往地帅气逼人。</li>
-</ul>
-<hr>
-</section>
-</section>
-<section id="我的秋日专辑" class="level1 page-columns page-full">
-<h1>我的秋日专辑</h1>
-<section id="joy-division---peel-sessions" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="joy-division---peel-sessions">Joy Division - Peel Sessions</h2>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><img src="../covers/jdpeelsessions.jpg" class="img-fluid"></p>
-</div></div><p><em>‘Love will tear us apart again.’</em></p>
-<p>在巴尔的摩的唱片店the sound garden随便拿的一张，听了以后感觉自己第一次真正地开始爱上Joy Division…</p>
-<p><em><strong>推荐曲目：</strong>Love Will Tear Us Apart/24 Hours/She’s Lost Control</em></p>
-</section>
-<section id="charli-xcx---brat" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="charli-xcx---brat">Charli XCX - Brat</h2>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><img src="../covers/brat.jpg" class="img-fluid"></p>
-</div></div><p><em>‘In a place that can make you change/Fall in love again and again/Fall in love again and again…’</em></p>
-<p>Brat summer终于在十一月正式入侵了我的大脑。我喜欢和Caroline Polachek合作的那个版本，原版像夏天，这个版本像深秋。</p>
-<p><em><strong>推荐曲目：</strong>360/Apple/Everything is Romantic</em></p>
-</section>
-<section id="mazzy-star---she-hangs-brightly" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="mazzy-star---she-hangs-brightly">Mazzy Star - She Hangs Brightly</h2>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><img src="../covers/shehangsbrightly.jpg" class="img-fluid"></p>
-</div></div><p><em>‘Superstar in your own private movie/I wanted just a minor part/But I’m no fool/I know you’re cool/I never really wanted your heart’</em></p>
-<p>Hope Sandoval是嗓音最美丽的美国女人，不用多说。感觉这或许是一个我开始听paisley underground的契机…</p>
-<p><em><strong>推荐曲目：</strong>Blue Flower/Ghost Highway/Be My Angel</em></p>
-<hr>
-<p>2025的音乐愿望是：1.明年继续弹吉他！我要学乐理！2.ride请不要解散好吗好的</p>
+<p><strong>渡鸦FM</strong> is my personal blog. [<em>CN/中文注意</em>]</p>
+<p><strong>内容</strong>: 📻音乐推荐</p>
 
 
-</section>
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="seasonal music recommendation,summer,2025,rock,pop,rap/hip-hop,electronic" data-listing-date-sort="1758686400000" data-listing-file-modified-sort="1763750201261" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<a href="./ravenfm/seasonradio/25summerradio.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="ravenfm/covers/dawnfm.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+2025 Summer Radio
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 24, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="seasonal music recommendation,spring,2025,rock,pop,rap/hip-hop,electronic" data-listing-date-sort="1747022400000" data-listing-file-modified-sort="1763749378038" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
+<a href="./ravenfm/seasonradio/25springradio.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="ravenfm/covers/romance.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+2025 Spring Radio
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 12, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="seasonal music recommendation,winter,2024,rock,pop" data-listing-date-sort="1741064400000" data-listing-file-modified-sort="1763748922018" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
+<a href="./ravenfm/seasonradio/24winterradio.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="ravenfm/covers/alcest2024.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+2024 Winter Radio
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 4, 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="seasonal music recommendation,autumn,2024,rock,pop,electronic" data-listing-date-sort="1734152400000" data-listing-file-modified-sort="1763747863465" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
+<a href="./ravenfm/seasonradio/24autumnradio.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="ravenfm/covers/jdpeelsessions.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+2024 Autumn Radio
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 14, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="blogging" data-listing-date-sort="1730088000000" data-listing-file-modified-sort="1734757257153" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
+<a href="./ravenfm/seasonradio/25autumnradio.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Blog Design Checklist
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 28, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="seasonal music recommendation,summer,2024,rock,electronic" data-listing-date-sort="1726804800000" data-listing-file-modified-sort="1763748556242" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
+<a href="./ravenfm/seasonradio/24summerradio.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="ravenfm/covers/darklands.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+2024 Summer Radio
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sep 20, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

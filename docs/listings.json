@@ -9,14 +9,14 @@
     ]
   },
   {
-    "listing": "/music.html",
+    "listing": "/ravenfm.html",
     "items": [
-      "/music/25springradio/index.html",
-      "/music/24winterradio/index.html",
-      "/music/24autumnradio/index.html",
-      "/music/25autumnradio/index.html",
-      "/music/25summerradio/index.html",
-      "/music/24summerradio/index.html"
+      "/ravenfm/seasonradio/25summerradio.html",
+      "/ravenfm/seasonradio/25springradio.html",
+      "/ravenfm/seasonradio/24winterradio.html",
+      "/ravenfm/seasonradio/24autumnradio.html",
+      "/ravenfm/seasonradio/25autumnradio.html",
+      "/ravenfm/seasonradio/24summerradio.html"
     ]
   },
   {

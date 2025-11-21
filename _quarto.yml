@@ -6,7 +6,7 @@ website:
   favicon: figs/crow_s.png
   title: "Yunyi's Blog"
   google-analytics: "G-XJSP4R93HW"
-  site-url: "https://yunyi-ru.github.io/quarto-blog/"
+  site-url: https://yunyi-ru.github.io/quarto-blog/
   site-path: "/"
   search: true
   navbar:
@@ -15,13 +15,13 @@ website:
         href: index.qmd
       - text: About
         href: aboutme.qmd
-    right:
       - text: Projects
         href: project.qmd
       - text: Blog
         href: blog.qmd
-      - text: Raven Radio
-        href: music.qmd
+    right:
+      - text: 渡鸦FM
+        href: ravenfm.qmd
       - icon: github
         href: https://github.com/yunyi-ru
       - icon: twitter
