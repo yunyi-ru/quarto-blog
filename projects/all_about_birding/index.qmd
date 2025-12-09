@@ -22,7 +22,7 @@ You can see birds I've sighted all around the world at [**bird list**](#birdlist
 ***Note**: Only wild birds were recorded. All photos taken by me (most with Sony WX800). All pixel arts created by me.*
 
 ::: callout-note
-The next bird I want to see is: ***Sandhill Crane***, wish me good luck in Jasper-Pulaski!
+The next bird I want to see is: ***Eastern Screech-Owl***, Ruby I heard that you reside in the Celery Bog, let me find you!
 :::
 
 ------------------------------------------------------------------------
@@ -108,6 +108,8 @@ fillOpacity = 1, radius = 5) %>%
 
 # Places I Went For Birding {#places}
 
+*For 'Birds', I only record the bird species I've seen. For a full list, please see ebird and other reference.*
+
 ## Midwest, USA
 
 ### West Lafayette, IN: Celery Bog
@@ -131,10 +133,23 @@ fillOpacity = 1, radius = 5) %>%
 
 -   **Type**: Rural \| Forest
 -   **First Visited**: Sep 2025
--   **Last Visited**: Nov 2025
--   **Birds**: American Robin, Red-winged Blackbird, Red-bellied Woodpecker, Eastern Bluebird, Chipping Sparrow, European Starling, Northern Cardinal, Northern Flicker, Hairy Woodpecker, Tufted Titmouse, Killdeer, White-breasted Nuthatch
--   **Comments**: Nice trail. A large flock of robins and starlings rest on the trees near the open grass edge. 
+-   **Last Visited**: Dec 2025
+-   **Birds**: American Robin, Red-winged Blackbird, Eastern Bluebird, Chipping Sparrow, White-throated Sparrow, European Starling, Northern Cardinal, Northern Flicker, Hairy Woodpecker, Pileated Woodpecker, Red-bellied Woodpecker, Tufted Titmouse, Killdeer, White-breasted Nuthatch, American Crow, Blue Jay
+-   **Comments**: Nice trail. A large flock of robins and starlings rest on the trees near the open grass edge, and you can find jays and woodpeckers in the trails through the woods.
 -   **Link**: [ebird](https://ebird.org/region/L457935)
+
+### Pulaski, IN: Jasper-Pulaski Fish & Wildlife Area
+
+::: column-margin
+![Jasper-Pulaski FWA, Nov 2025](landspics/jasperpulaski.JPG){group="landspics"}
+:::
+
+-   **Type**: Rural \| Grassland
+-   **First Visited**: Nov 2025
+-   **Last Visited**: Nov 2025
+-   **Birds**: Sandhill Crane, Red-bellied Woodpecker
+-   **Comments**: Dreamy and Beautiful at sunset.
+-   **Link**: [IN.gov](https://www.in.gov/dnr/fish-and-wildlife/properties/jasper-pulaski-fwa/) | [ebird](https://ebird.org/hotspot/L1004877)
 
 ## East Coast, USA
 
@@ -329,13 +344,17 @@ fillOpacity = 1, radius = 5) %>%
 
 -   [Sibagu The Ornithological Linguist](http://www.sibagu.com/index.html)
 
+- [International Crane Foundation](https://www.savingcranes.org/)
+
 ## Get Involved! Local Birding Communities
 
 ### Greater Lafayette Area/Indiana
 
-- [Indiana Audubon Society](https://indianaaudubon.org/?gad_source=1&gad_campaignid=21995197654&gbraid=0AAAAA-ntAryrvNln6hfm3BpUPxyGhJT8p&gclid=CjwKCAiAlfvIBhA6EiwAcErpyeTMNfIKmKEf22hABxUe4D7o2iVdij-c1_HrgXzbwycJQclpmfWiIhoCrvIQAvD_BwE)
+-   [Indiana Audubon Society](https://indianaaudubon.org/?gad_source=1&gad_campaignid=21995197654&gbraid=0AAAAA-ntAryrvNln6hfm3BpUPxyGhJT8p&gclid=CjwKCAiAlfvIBhA6EiwAcErpyeTMNfIKmKEf22hABxUe4D7o2iVdij-c1_HrgXzbwycJQclpmfWiIhoCrvIQAvD_BwE)
 
-- [Purdue Bird Club](https://www.instagram.com/birdclubpu/)
+-   [Purdue Bird Club](https://www.instagram.com/birdclubpu/)
+
+- [Purdue University Forestry](https://www.purdue.edu/fnr/extension/)
 
 ### Baltimore/Maryland
 
