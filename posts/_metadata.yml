@@ -21,3 +21,12 @@ from: markdown+emoji
 comments:
   utterances:
     repo:  yunyi-ru/quarto-blog-comments
+
+format:
+  html:
+    include-before-body:
+      - text: |
+          <div class="mylikebutton">♥</div>
+    include-after-body:
+      - text: |
+          <div class="mylikebutton">Kudos ♥</div> <script src="../../scripts/mylikebutton.js"></script>

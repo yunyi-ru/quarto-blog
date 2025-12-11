@@ -2,10 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/useful_bio_links/index.html",
-      "/posts/blog_design/index.html",
-      "/posts/coding_resources/index.html",
-      "/posts/welcome/index.html"
+      "/posts/useful_bio_links/biopages.html",
+      "/posts/coding_resources/codingresources.html",
+      "/posts/firstpost/firstpost.html"
     ]
   },
   {

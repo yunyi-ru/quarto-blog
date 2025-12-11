@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.body.appendChild(popup);
 
     // Google Form and Sheet details
-    const GOOGLE_FORM_ID = "1FAIpQLSeRbRGSe6s2T3UeygFTMGOA9rnbJnGHvlLgshLH5NqlWsREsQ"";
+    const GOOGLE_FORM_ID = "1FAIpQLSeRbRGSe6s2T3UeygFTMGOA9rnbJnGHvlLgshLH5NqlWsREsQ";
     const EMOJI_ENTRY_ID = "entry.2001286875"; // Entry ID for emoji field
     const PAGE_ENTRY_ID = "entry.628503202"; // Entry ID for page path field
     const GOOGLE_SHEET_ID = "18z7scX_3dOqRFgGaLox6EIXK1L9YyPgMwIiKA7irJx4";
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
 
                 // Show a feedback popup near the click location
-                popup.textContent = "Thank you very much, you've liked this page!";
+                popup.textContent = "Thanks for liking this page!";
                 popup.style.display = 'block';
 
                 const popupRect = popup.getBoundingClientRect();

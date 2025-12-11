@@ -5,7 +5,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>RAVENSNEST</title>
+<title>ravensnest</title>
 <link>https://yunyi-ru.github.io/quarto-blog/blog.html</link>
 <atom:link href="https://yunyi-ru.github.io/quarto-blog/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
@@ -13,8 +13,9 @@
 <lastBuildDate>Sat, 09 Nov 2024 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Bookmarks for Biologists</title>
-  <link>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/</link>
+  <link>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/biopages.html</link>
   <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
 
 
 
@@ -152,53 +153,14 @@
 <p>© 2024-2025 RavensNest.</p> ]]></description>
   <category>biology</category>
   <category>resources</category>
-  <guid>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/</guid>
+  <guid>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/biopages.html</guid>
   <pubDate>Sat, 09 Nov 2024 05:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Blog Design Checklist</title>
-  <link>https://yunyi-ru.github.io/quarto-blog/posts/blog_design/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This is a checklist/memo for some elements I want to add to this blog.</p>
-<section id="checklist" class="level2">
-<h2 class="anchored" data-anchor-id="checklist">Checklist</h2>
-<section id="functions" class="level3">
-<h3 class="anchored" data-anchor-id="functions">Functions</h3>
-<ul class="task-list">
-<li><label><input type="checkbox">RSS Subscription</label></li>
-<li><label><input type="checkbox" checked="">Comment section (use <a href="https://utteranc.es/">utterances</a>) <em>241109</em></label></li>
-<li><label><input type="checkbox" checked="">Customized theme <em>241221</em></label></li>
-<li><label><input type="checkbox" checked="">Customized favicon <em>241109</em></label></li>
-</ul>
-</section>
-<section id="contents" class="level3">
-<h3 class="anchored" data-anchor-id="contents">Contents</h3>
-<ul class="task-list">
-<li><label><input type="checkbox" checked="">Move ‘Useful links for A Molecular Biologist’ here, categories -&gt; molbio <em>241109</em></label></li>
-<li><label><input type="checkbox">Add some blog posts about viral phylogenetics learning resources, categories -&gt; genetics</label></li>
-</ul>
-<div class="mylikebutton">
-♡
-</div>
-<script src="../../scripts/mylikebutton.js"></script>
-
-
-</section>
-</section>
-
-<p>© 2024-2025 RavensNest.</p> ]]></description>
-  <category>blogging</category>
-  <guid>https://yunyi-ru.github.io/quarto-blog/posts/blog_design/</guid>
-  <pubDate>Mon, 28 Oct 2024 04:00:00 GMT</pubDate>
-</item>
-<item>
   <title>Coding Resources</title>
-  <link>https://yunyi-ru.github.io/quarto-blog/posts/coding_resources/</link>
+  <link>https://yunyi-ru.github.io/quarto-blog/posts/coding_resources/codingresources.html</link>
   <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
 
 
 
@@ -216,13 +178,14 @@
 <p>© 2024-2025 RavensNest.</p> ]]></description>
   <category>coding</category>
   <category>resources</category>
-  <guid>https://yunyi-ru.github.io/quarto-blog/posts/coding_resources/</guid>
+  <guid>https://yunyi-ru.github.io/quarto-blog/posts/coding_resources/codingresources.html</guid>
   <pubDate>Mon, 28 Oct 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>First Blog Post! &amp; Blogging Resources</title>
-  <link>https://yunyi-ru.github.io/quarto-blog/posts/welcome/</link>
+  <link>https://yunyi-ru.github.io/quarto-blog/posts/firstpost/firstpost.html</link>
   <description><![CDATA[ 
+<div class="mylikebutton">♥</div>
 
 
 
@@ -246,7 +209,7 @@
 <p>© 2024-2025 RavensNest.</p> ]]></description>
   <category>blogging</category>
   <category>resources</category>
-  <guid>https://yunyi-ru.github.io/quarto-blog/posts/welcome/</guid>
+  <guid>https://yunyi-ru.github.io/quarto-blog/posts/firstpost/firstpost.html</guid>
   <pubDate>Fri, 13 Sep 2024 04:00:00 GMT</pubDate>
 </item>
 </channel>

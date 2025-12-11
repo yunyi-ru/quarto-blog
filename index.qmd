@@ -35,7 +35,7 @@ I worked with my friend Juanyu to create an interactive dashboard which explores
 
 ### LINKS
 
-[Projects](project.qmd){.button} [Blog](blog.qmd){.button} [About](aboutme.qmd){.button} [Gallery](photos.qmd){.button}
+[Projects](project.qmd){.button} [Blog](blog.qmd){.button} [Log|Credits](credit.qmd){.button} [About](aboutme.qmd){.button} [Gallery](photos.qmd){.button}
 
 [GitHub](https://github.com) \| [Email](mailto:ru1@purdue.edu)
 :::
