@@ -19,3 +19,9 @@ This is a checklist/memo for some elements I want to add to this blog.
 
 -   [x] Move 'Useful links for A Molecular Biologist' here, categories -\> molbio *241109*
 -   [ ] Add some blog posts about viral phylogenetics learning resources, categories -\> genetics
+
+```{=html}
+<div class="mylikebutton">♡</div>
+
+<script src="../../mylikebutton.js"></script>
+```

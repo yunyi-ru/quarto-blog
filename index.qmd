@@ -4,8 +4,7 @@ from: markdown
 format: 
   html:
     page-layout: article
-navbar: true
-search: true
+navbar: false
 ---
 
 Hi, I’m Yunyi, welcome to my blog.
@@ -22,23 +21,23 @@ I worked with my friend Juanyu to create an interactive dashboard which explores
 :::
 
 ::: g-col-6
-##### Currently Reading
+##### Now Reading/Playing
 
 📖 *Not in My Neighborhood* by *Antero Pietila*
-
-##### Currently Spinning
 
 🎧 *Did you know there's a tunnel under Ocean Blvd* by *Lana Del Rey*
 :::
 :::
 
 ::: column-margin
----
+
+------------------------------------------------------------------------
+
 ### LINKS
+
 [Projects](project.qmd){.button} [Blog](blog.qmd){.button} [About](aboutme.qmd){.button} [Gallery](photos.qmd){.button}
 
 [GitHub](https://github.com) \| [Email](mailto:ru1@purdue.edu)
-
 :::
 
 ------------------------------------------------------------------------

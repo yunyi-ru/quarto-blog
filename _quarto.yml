@@ -10,28 +10,24 @@ website:
   site-url: https://yunyi-ru.github.io/quarto-blog/
   site-path: "/"
   body-footer: |
-    This blog is built with [Quarto](https://quarto.org/). © 2024-2025 Yunyi. All Rights Reserved.
-  search:
-    location: navbar
-    type: overlay
+    © 2024-2025 RavensNest.
   navbar:
     left:
-      - text: Projects
-        href: project.qmd
-      - text: Blog
-        href: blog.qmd
+    - text: Projects
+      href: project.qmd
+    - text: Blog
+      href: blog.qmd
     right:
-      - text: About
-        href: aboutme.qmd
-      - icon: github
-        href: https://github.com/yunyi-ru
+    - text: About
+      href: aboutme.qmd
+    - icon: github
+      href: https://github.com/yunyi-ru
 
 format:
   html:
     theme:
       - morph
       - custom.scss
-    css: styles.css
 
 editor: visual
 
