@@ -324,8 +324,8 @@
   {
     "objectID": "credit.html",
     "href": "credit.html",
-    "title": "Log & Credits",
+    "title": "Log | Credits",
     "section": "",
-    "text": "This blog was initially made using Quarto. I mainly use RStudio as my text editor and publish it to GitHub Pages.\n\nLog\n\n240913 Blog started\n241109 Comment section using utterances\n241109 Customized favicon (a focused crow!)\n241221 Customized css theme\n251211 Kudos button using code by Fritzi.\n\n\n\n\n\n© 2024-2025 RavensNest."
+    "text": "This blog was initially made using Quarto. I mainly use RStudio as my text editor and publish it to GitHub Pages.\n\nLog\n\n240913 Blog started\n241109 Comment section using utterances\n241109 Customized favicon (a focused crow!)\n241221 Customized css theme\n251211 Kudos button using code by Fritzi\n\n\n\n\n\n\n© 2024-2025 RavensNest."
   }
 ]

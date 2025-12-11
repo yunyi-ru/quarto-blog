@@ -20,7 +20,7 @@ from: markdown+emoji
 
 comments:
   utterances:
-    repo:  yunyi-ru/quarto-blog-comments
+    repo:  yyraven/quarto-blog-comments
 
 format:
   html:
