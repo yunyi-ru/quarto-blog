@@ -37,10 +37,6 @@ Climate and weather conditions can influence the activity and spread of both vir
 Please go to the [source repository](https://github.com/jhu-statprogramming-fall-2024/project4-team-mmi) for more details.
 :::
 
-# Team
-
-**Team MMI** are **Yunyi Ru** ([email](mailto:yru3@jh.edu); [GitHub](https://github.com/yunyi-ru)) and **Juanyu Zhang** ([email](mailto:jzhan398@jh.edu); [GitHub](https://github.com/JuYZhang)).
-
 ------------------------------------------------------------------------
 
 *This is a class project of Johns Hopkins University [Biostatistics 140.777 Statistical Programming Paradigms](https://www.stephaniehicks.com/jhustatprogramming2024/) course*.
