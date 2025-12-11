@@ -1,21 +1,21 @@
 /*-- scss:defaults --*/
 /* Color Palette */
-$body-bg: #eef4e8;
+$body-bg: #f4f4f4;
 $body-color: #222222;
-$link-color: #04756F;
-$link-hover-color: #689F38;
+$link-color: #635d5d;
+$link-hover-color: #9f3838;
 $code-color: #222222;
-$code-bg: #f7fff3;
-$code-block-bg: #f7fff3;
+$code-bg: #e7e7e7;
+$code-block-bg: $code-bg;
 $h2-font-size: 1.6rem;
 $headings-font-weight: 700;
 
 /* Spacing and Borders */
 $padding: 1.2rem;
 $margin: 1rem;
-$border-radius: 0; /* no rounding */
-$divider-color: #04756F;
-$shadow-color: rgba(238, 244, 232, 0.8);
+$border-radius: 0;
+$divider-color: $link-color;
+$shadow-color: rgba($body-bg, 0.8);
 
 /*-- scss:mixins --*/
 /* Mixin for sharp corners */
@@ -46,7 +46,6 @@ a {
   &:hover {
     color: $link-hover-color;
     text-decoration-style: wavy;
-    text-shadow: 0 0 8px rgba(238, 244, 232, 0.8);
   }
 }
 
@@ -85,7 +84,7 @@ h2 {
 /* Buttons */
 .button {
   background-color: $link-color;
-  color: #fff;
+  color: $body-bg;
   border: 1px solid $link-color;
   padding: 0.1rem 0.1rem;
   @include sharp-corners();
@@ -97,6 +96,7 @@ h2 {
   box-shadow: none;
 
   &:hover {
+    color: $body-bg;
     background-color: $link-hover-color;
     border-color: $link-hover-color;
   }
@@ -152,8 +152,7 @@ hr {
 
 /* Navbar */
 .navbar {
-  backdrop-filter: blur(4px);
-  background: linear-gradient(90deg, rgba(4,117,111,0.2), rgba(104,159,56,0.2));
+  background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
   border-bottom: 2px double;
   font-family: 'Special Elite', cursive;
   text-transform: lowercase;
@@ -161,15 +160,13 @@ hr {
   transition: all 0.3s ease;
   @include sharp-corners();
 
-  padding: 0.2rem 1rem;   // vertical padding very small
-  font-size: 0.8rem;      // smaller text
-  line-height: 1;         // tight line spacing
+  padding: 0.2rem 1rem;
+  font-size: 0.8rem;
+  line-height: 1;
 }
 
 .navbar:hover {
-  /* Luminescent glow */
-  box-shadow: 0 0 20px 6px rgba(4, 117, 111, 0.6); /* same green, glowing */
-  border-bottom-color: $link-hover-color; /* optional: color shift */
+  box-shadow: 0 0 20px 6px rgba($link-color, 0.6);
 }
 
 h1, h2, h3, h4, h5, h6 {
