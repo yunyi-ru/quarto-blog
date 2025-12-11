@@ -1,6 +1,5 @@
 ---
 title: "Coding Resources"
-author: "Yunyi Ru"
 date: "2024-10-28"
 categories: [coding, resources]
 ---

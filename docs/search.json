@@ -4,14 +4,14 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\nNov 9, 2024\n\n\nBookmarks for Biologists\n\n\nbiology, resources\n\n\n3 min\n\n\n\n\nOct 28, 2024\n\n\nBlog Design Checklist\n\n\nblogging\n\n\n1 min\n\n\n\n\nOct 28, 2024\n\n\nCoding Resources\n\n\ncoding, resources\n\n\n1 min\n\n\n\n\nSep 13, 2024\n\n\nFirst Blog Post! & Blogging Resources\n\n\nblogging, resources\n\n\n1 min\n\n\n\n\n\nNo matching items\n\nThis blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\nReading Time\n\n\n\n\n\n\nNov 9, 2024\n\n\nBookmarks for Biologists\n\n\nbiology, resources\n\n\n3 min\n\n\n\n\nOct 28, 2024\n\n\nBlog Design Checklist\n\n\nblogging\n\n\n1 min\n\n\n\n\nOct 28, 2024\n\n\nCoding Resources\n\n\ncoding, resources\n\n\n1 min\n\n\n\n\nSep 13, 2024\n\n\nFirst Blog Post! & Blogging Resources\n\n\nblogging, resources\n\n\n1 min\n\n\n\n\n\nNo matching items\n\nThis blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   },
   {
     "objectID": "photos.html",
     "href": "photos.html",
     "title": "Gallery",
     "section": "",
-    "text": "This blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "This blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   },
   {
     "objectID": "photos.html#homepage-archive",
@@ -25,21 +25,21 @@
     "href": "aboutme.html",
     "title": "About",
     "section": "",
-    "text": "Me \nMy name is Yunyi. I am a Ph.D. student at Purdue University. I major in life sciences, and my research interest resides in immunology and host-pathogen interaction.\nI was born in Suzhou, China, a beautiful watertown; and I’m currently living in Lafayette, Indiana. Outside of lab, I enjoy digital painting, reading, birdwatching, and listening to music.\n\n\nWhy Blogging\nThis blog started as a class project to build professional profile in one of my biostats classes. Over time, I decided to make it more personal, as I have been feeling increasingly overwhelmed by social media platforms. So what you’ll see here would be a mix of life science-related and more fun/personal projects. You can filter them using tags.\n\n\nWhat’s that bird?\n‘Raven’ has been my online name from a very, very young age… so I kind of adopted it as my favicon/logo. Corvids like shiny things, and I think blogging nowadays is like collecting and displaying trinkets online - inherent resemblance?\nWhen I lived in Baltimore, I used to see flocks of American crows and fish crows gathering on trees during colder times at dusk and dawn, and that’s so fun. Tried to re-create that effect in the homepage XD\n\n\nEducation\nPurdue University | West Lafayette, IN | PhD Student ???\nJohns Hopkins University | Baltimore, MD | ScM ’25, Molecular Microbiology and Immunology\nDuke Kunshan University/Duke University | Kunshan, China/Durham, NC | BS ’23, Cell and Molecular Biology (Dual Degree)\n\n\nResearch\nThe Pekosz Lab, Johns Hopkins University | Graduate Student | Oct ’23 - May ’25\n\nCharacterized respiratory syncytial virus using various molecular biology and genetics methods.\n\nThe Lin Lab, Duke Kunshan University | Undergraduate Student | Oct ’21 - May ’23\n\nMonitored and analyzed changes in antibiotic resistance gene prevalence in a local shallow lake over the year.\n\n\n\nOthers\nR3ISE Center, Johns Hopkins University | Research Assistant | Oct ’23 - Oct ’24\n\nInitiated the ‘R3 Read Today’ project on responsible scientific practices for science communication on X and Instagram.\n\niGEM 2022, Duke Kunshan University | Team Leader | Dec ’21 - Oct ’22\n\nDesigned an engineered bacteria strain by molecular cloning and protein expression.\n\nHOB Biotech Group Suzhou Co., Ltd | R&D Intern | Jul - Aug ’21\nCrystal Pharmatech Co., Ltd | R&D Intern | May - Jun ’20\n\n\n\n\n\n\nThis blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "Me \nMy name is Yunyi. I am a Ph.D. student major in life sciences, and my research interest resides in immunology and host-pathogen interaction.\nI was born in Suzhou, China; and I’m currently living in Indiana, USA. Outside of lab, I enjoy digital painting, reading, birdwatching, and listening to music.\n\n\nWhy Blogging\nThis blog started as a class project to build a professional profile in one of my biostats classes. Over time, I decided to make it more personal, as I have been feeling increasingly overwhelmed by social media platforms. Blogging offers a peaceful online experience without corporate manipulation.\nSo, what you’ll see here would be a mix of life science-related and more fun/personal projects. You can filter them using tags.\n\n\nWhy’s it called ‘Raven’s Nest’\n‘Raven’ has been my online name from a very, very young age… so I kind of adopted it as my favicon/logo. Corvids like shiny trinkets, and I think blogging nowadays is like collecting and displaying trinkets online - inherent resemblance?\nWhen I lived in Baltimore, I used to see flocks of American crows and fish crows gathering on trees during colder times at dusk and dawn. Sometimes what you think is a tree would actually be a flock of birds. Tried to re-create that effect in the homepage XD\n\n\n\n\n\nThis blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   },
   {
     "objectID": "projects/RESPweather_dashboard/weatherdashboard.html",
     "href": "projects/RESPweather_dashboard/weatherdashboard.html",
     "title": "Weather-Respiratory Disease Correlation Explorer",
     "section": "",
-    "text": "Project\nThis Weather-Respiratory Diseases Correlation Explorer R Shiny Dashboard aims to investigate the relationship between climate and weather-related conditions and outbreaks of two respiratory viruses, influenza and respiratory syncytial virus (RSV).\n\nInfluenza is an RNA virus from the Orthomyxoviridae family that frequently mutates, causing seasonal epidemics, while RSV is an RNA virus from the Paramyxoviridae family that primarily affects young children and the elderly, often leading to severe lower respiratory infections. Both viruses pose significant public health challenges due to their widespread transmission and potential for severe disease.\nClimate and weather conditions can influence the activity and spread of both viruses. Studies have suggested that factors like cold temperatures, low indoor humidity, limited sunlight, and rapid weather changes may increase the risk of disease outbreaks.\n\n\nFeatures\n\nWeekly Rates: This dashboard uses CDC RESP-NET data to give an overview of influenza and rsv hospitalization rates of each state from 2018 to 2024. The user can select year, state, and pathogen of interest using the interactive filters.\n\n\n\nWeather Explorer: This dashboard integrates environmental parameter data from openmeteo API and respiratory virus-associated hospitalization rate data to perform regression analysis. The user can select year, state, weather variable and pathogen of interest using the interactive filters.\n\n\n\n\nData\n\nRespiratory Virus Related Hospitalization Rate: Disease rate data were scrapped from CDC RESP-NET.\nEnvironmental Parameters: Weather data were scrapped from Openmeteo API.\n\n\n\n\n\n\n\nPlease go to the source repository for more details.\n\n\n\n\n\nTeam\nTeam MMI are Yunyi Ru (email; GitHub) and Juanyu Zhang (email; GitHub).\n\nThis is a class project of Johns Hopkins University Biostatistics 140.777 Statistical Programming Paradigms course.\n\n\n\n\nThis blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "Project\nThis Weather-Respiratory Diseases Correlation Explorer R Shiny Dashboard aims to investigate the relationship between climate and weather-related conditions and outbreaks of two respiratory viruses, influenza and respiratory syncytial virus (RSV).\n\nInfluenza is an RNA virus from the Orthomyxoviridae family that frequently mutates, causing seasonal epidemics, while RSV is an RNA virus from the Paramyxoviridae family that primarily affects young children and the elderly, often leading to severe lower respiratory infections. Both viruses pose significant public health challenges due to their widespread transmission and potential for severe disease.\nClimate and weather conditions can influence the activity and spread of both viruses. Studies have suggested that factors like cold temperatures, low indoor humidity, limited sunlight, and rapid weather changes may increase the risk of disease outbreaks.\n\n\nFeatures\n\nWeekly Rates: This dashboard uses CDC RESP-NET data to give an overview of influenza and rsv hospitalization rates of each state from 2018 to 2024. The user can select year, state, and pathogen of interest using the interactive filters.\n\n\n\nWeather Explorer: This dashboard integrates environmental parameter data from openmeteo API and respiratory virus-associated hospitalization rate data to perform regression analysis. The user can select year, state, weather variable and pathogen of interest using the interactive filters.\n\n\n\n\nData\n\nRespiratory Virus Related Hospitalization Rate: Disease rate data were scrapped from CDC RESP-NET.\nEnvironmental Parameters: Weather data were scrapped from Openmeteo API.\n\n\n\n\n\n\n\nPlease go to the source repository for more details.\n\n\n\n\n\nTeam\nTeam MMI are Yunyi Ru (email; GitHub) and Juanyu Zhang (email; GitHub).\n\nThis is a class project of Johns Hopkins University Biostatistics 140.777 Statistical Programming Paradigms course.\n\n\n\n\nThis blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   },
   {
     "objectID": "posts/useful_bio_links/biolpages.html",
     "href": "posts/useful_bio_links/biolpages.html",
     "title": "Biology Websites Collection",
     "section": "",
-    "text": "This blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "This blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   },
   {
     "objectID": "posts/useful_bio_links/biolpages.html#molecular-cloning",
@@ -116,7 +116,7 @@
     "href": "posts/blog_design/index.html",
     "title": "Blog Design Checklist",
     "section": "",
-    "text": "This is a checklist/memo for some elements I want to add to this blog.\nThis blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "This is a checklist/memo for some elements I want to add to this blog.\nThis blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   },
   {
     "objectID": "posts/blog_design/index.html#checklist",
@@ -130,7 +130,7 @@
     "href": "posts/welcome/index.html",
     "title": "First Blog Post! & Blogging Resources",
     "section": "",
-    "text": "🎉 Hi, this is my first blog post!\nThis blog was initially built as a project of the statistical computing class I’m taking.\nThis blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "🎉 Hi, this is my first blog post!\nThis blog was initially built as a project of the statistical computing class I’m taking.\nThis blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   },
   {
     "objectID": "posts/welcome/index.html#resources",
@@ -144,7 +144,7 @@
     "href": "posts/coding_resources/index.html",
     "title": "Coding Resources",
     "section": "",
-    "text": "This page lists some coding resources that I find useful.\nThis blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "This page lists some coding resources that I find useful.\nThis blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   },
   {
     "objectID": "posts/coding_resources/index.html#resources",
@@ -158,7 +158,7 @@
     "href": "posts/useful_bio_links/index.html",
     "title": "Bookmarks for Biologists",
     "section": "",
-    "text": "NCBI BLAST/Basic Local Alignment Search Tool: Just BLAST.\nAddgene: A database for plasmids and vectors.\nCARD/The Comprehensive Antibiotic Resistance Database: A database for ARGs/ARBs.\nRCSB PDB/Protein Data Bank: A database for protein structures.\nThe Jackson Laboratory: A database for mouse models.\nAlphaFold: A database/tool for protein structures predicted by AlphaFold.\nTALEN Designer: A TALEN vector designer.\nUCSF Chimera: A tool for protein 3D structure analysis.\nBenchling: A cloud-based platform for biotech R&D. Similar to SnapGene.\nSignalP: Predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms.\nBioconductor: A powerful R package for bioinformatics analysis.\nTimeTree: The Timescale of Life: A tool for phylogenetic analysis (for fun).\nVitascientific.com: Melting Temperature (Tm) Calculation\nNCBI Primer Blast: Primer Designing Tool\nBioRender: A tool to make scientific graphs.\n国家气象信息中心-中国气象数据网\n中国气象局国家气候中心\nThis blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "NCBI BLAST/Basic Local Alignment Search Tool: Just BLAST.\nAddgene: A database for plasmids and vectors.\nCARD/The Comprehensive Antibiotic Resistance Database: A database for ARGs/ARBs.\nRCSB PDB/Protein Data Bank: A database for protein structures.\nThe Jackson Laboratory: A database for mouse models.\nAlphaFold: A database/tool for protein structures predicted by AlphaFold.\nTALEN Designer: A TALEN vector designer.\nUCSF Chimera: A tool for protein 3D structure analysis.\nBenchling: A cloud-based platform for biotech R&D. Similar to SnapGene.\nSignalP: Predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms.\nBioconductor: A powerful R package for bioinformatics analysis.\nTimeTree: The Timescale of Life: A tool for phylogenetic analysis (for fun).\nVitascientific.com: Melting Temperature (Tm) Calculation\nNCBI Primer Blast: Primer Designing Tool\nBioRender: A tool to make scientific graphs.\n国家气象信息中心-中国气象数据网\n中国气象局国家气候中心\nThis blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   },
   {
     "objectID": "posts/useful_bio_links/index.html#molecular-cloning",
@@ -214,7 +214,7 @@
     "href": "projects/lyric_analysis/index.html",
     "title": "Who Is The Saddest Shoegaze Band?",
     "section": "",
-    "text": "I’m interested in the ‘shoegaze’ subgenre of indie rock. This less-known genre, also called ‘the scene that celebrates itself’, rose from the noise pop scene in the late 80s and early 90s, and has regained popularity recently. An article titled ‘The Shoegaze Revival Hit Its Stride in 2023’ (Sherburne 2023) by pitchfork also captures the revival of shoegaze among GenZ populations.\n\n\n\n\n\nMy bloody valentine’s 1988 EP ‘You made me realise’ is a classic shoegaze record.\n\n\nShoegaze is characterized by heavy use of overdriven guitar and various effect pedals with the combination of the ethereal vocals; the lyrics are often regarded as blank, poetic, and sometimes difficult to distinguish from the instruments. So here comes this project for the indieheads - I want to analyze those usually overlooked lyrics, especially from the perspective of sentiment.\nThe bands I want to study are the so-called classic ‘big-three’ of shoegaze: my bloody valentine, Ride, and slowdive. They were all on the independent record label Creation from London, UK, reached their peak in early 90s, disbanded in late 90s due to the fading of the subgenre, and reunited in the 21st century, which make them a perfect fit to study the changes in the lyrics over the years.\n\n\n\n\nWhat words frequently appear in their lyrics?\nWhich bands have the longest and shortest lyrics?\nWho is the saddest shoegaze band?\nAre bands trending towards happiness or sadness over time?\nThis blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "I’m interested in the ‘shoegaze’ subgenre of indie rock. This less-known genre, also called ‘the scene that celebrates itself’, rose from the noise pop scene in the late 80s and early 90s, and has regained popularity recently. An article titled ‘The Shoegaze Revival Hit Its Stride in 2023’ (Sherburne 2023) by pitchfork also captures the revival of shoegaze among GenZ populations.\n\n\n\n\n\nMy bloody valentine’s 1988 EP ‘You made me realise’ is a classic shoegaze record.\n\n\nShoegaze is characterized by heavy use of overdriven guitar and various effect pedals with the combination of the ethereal vocals; the lyrics are often regarded as blank, poetic, and sometimes difficult to distinguish from the instruments. So here comes this project for the indieheads - I want to analyze those usually overlooked lyrics, especially from the perspective of sentiment.\nThe bands I want to study are the so-called classic ‘big-three’ of shoegaze: my bloody valentine, Ride, and slowdive. They were all on the independent record label Creation from London, UK, reached their peak in early 90s, disbanded in late 90s due to the fading of the subgenre, and reunited in the 21st century, which make them a perfect fit to study the changes in the lyrics over the years.\n\n\n\n\nWhat words frequently appear in their lyrics?\nWhich bands have the longest and shortest lyrics?\nWho is the saddest shoegaze band?\nAre bands trending towards happiness or sadness over time?\nThis blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   },
   {
     "objectID": "projects/lyric_analysis/index.html#why-this-project",
@@ -270,7 +270,7 @@
     "href": "projects/all_about_birding/birding.html",
     "title": "All About Birding",
     "section": "",
-    "text": "Shorebirds at Blackwater Natural Wildlife Reservoir, Cambridge MD, Mar ’25\nThis blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "Shorebirds at Blackwater Natural Wildlife Reservoir, Cambridge MD, Mar ’25\nThis blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   },
   {
     "objectID": "projects/all_about_birding/birding.html#birdlist",
@@ -326,13 +326,13 @@
     "href": "index.html",
     "title": "RAVENSNEST",
     "section": "",
-    "text": "Hi, I’m Yunyi, welcome to my blog.\n         \n\nBlog Update\nI worked with my friend Juanyu to create an interactive dashboard which explores the relationship between environmental parameters and respiratory virus-associated hospitalization rates. Check it out!.\n\n\n First winter in midwest :-&gt;\n\n\n\nCurrently Reading\n📖 Not in My Neighborhood by Antero Pietila\n\n\nCurrently Spinning\n🎧 Did you know there’s a tunnel under Ocean Blvd by Lana Del Rey\n\n\n\n\n\n\nLINKS\nTwitter | LinkedIn | GitHub | Email\n\nProjects Blog About Gallery\n\n\n\n\nThis blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "Hi, I’m Yunyi, welcome to my blog.\n      \n\nBlog Update\nI worked with my friend Juanyu to create an interactive dashboard which explores the relationship between environmental parameters and respiratory virus-associated hospitalization rates. Check it out!.\n\n\n First winter in midwest :-&gt;\n\n\n\nCurrently Reading\n📖 Not in My Neighborhood by Antero Pietila\n\n\nCurrently Spinning\n🎧 Did you know there’s a tunnel under Ocean Blvd by Lana Del Rey\n\n\n\n\n\n\nLINKS\nProjects Blog About Gallery\nTwitter | LinkedIn | GitHub | Email\n\n\n\n\nThis blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   },
   {
     "objectID": "project.html",
     "href": "project.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAll About Birding\n\n\n12 min\n\n\n\nfun\n\n\nbirding\n\n\nweb development\n\n\n\n\n\n\n\nJan 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWeather-Respiratory Disease Correlation Explorer\n\n\n2 min\n\n\n\ndata analysis\n\n\nrespiratory virus\n\n\ndashboard\n\n\nR\n\n\nR Shiny\n\n\n\n\n\n\n\nDec 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWho Is The Saddest Shoegaze Band?\n\n\n18 min\n\n\n\nfun\n\n\ndata analysis\n\n\ntext analysis\n\n\nsentiment analysis\n\n\nR\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\nThis blog is built with Quarto. © 2023-2025 Yunyi. All Rights Reserved."
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nAll About Birding\n\n\n12 min\n\n\n\nfun\n\n\nbirding\n\n\nweb development\n\n\n\n\n\n\n\nJan 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWeather-Respiratory Disease Correlation Explorer\n\n\n2 min\n\n\n\ndata analysis\n\n\nrespiratory virus\n\n\ndashboard\n\n\nR\n\n\nR Shiny\n\n\n\n\n\n\n\nDec 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWho Is The Saddest Shoegaze Band?\n\n\n18 min\n\n\n\nfun\n\n\ndata analysis\n\n\ntext analysis\n\n\nsentiment analysis\n\n\nR\n\n\n\n\n\n\n\nNov 8, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\nThis blog is built with Quarto. © 2024-2025 Yunyi. All Rights Reserved."
   }
 ]

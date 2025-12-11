@@ -1,6 +1,5 @@
 ---
 title: "Weather-Respiratory Disease Correlation Explorer"
-author: "Yunyi Ru"
 date: "2024-12-19"
 categories: [data analysis, respiratory virus, dashboard, R, R Shiny]
 output:
@@ -42,6 +41,6 @@ Please go to the [source repository](https://github.com/jhu-statprogramming-fall
 
 **Team MMI** are **Yunyi Ru** ([email](mailto:yru3@jh.edu); [GitHub](https://github.com/yunyi-ru)) and **Juanyu Zhang** ([email](mailto:jzhan398@jh.edu); [GitHub](https://github.com/JuYZhang)).
 
------
+------------------------------------------------------------------------
 
 *This is a class project of Johns Hopkins University [Biostatistics 140.777 Statistical Programming Paradigms](https://www.stephaniehicks.com/jhustatprogramming2024/) course*.

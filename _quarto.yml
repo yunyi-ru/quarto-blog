@@ -10,7 +10,7 @@ website:
   site-url: https://yunyi-ru.github.io/quarto-blog/
   site-path: "/"
   body-footer: |
-    This blog is built with [Quarto](https://quarto.org/). © 2023-2025 Yunyi. All Rights Reserved.
+    This blog is built with [Quarto](https://quarto.org/). © 2024-2025 Yunyi. All Rights Reserved.
   search:
     location: navbar
     type: overlay

@@ -1,6 +1,5 @@
 ---
 title: "First Blog Post! & Blogging Resources"
-author: "Yunyi Ru"
 date: "2024-09-13"
 categories: [blogging, resources]
 ---
@@ -21,4 +20,4 @@ Here are some useful resources for a blogging newbie... Will add more in future 
 
 -   [**Complete List of Github Markdown Emoji Markup**](https://gist.github.com/rxaviers/7360908)
 
-- [**UCSB Customizing Quarto Websites**](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide)
+-   [**UCSB Customizing Quarto Websites**](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide)

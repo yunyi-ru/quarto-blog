@@ -10,7 +10,7 @@ search: true
 
 Hi, I’m Yunyi, welcome to my blog.
 
-![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/> ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/><img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/>![](figs/crow_s_flip.png) ![](figs/crow_s_flip.png)![](figs/crow_s_flip.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/> ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s_flip.png)
+![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/> ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/><img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/>![](figs/crow_s_flip.png) ![](figs/crow_s_flip.png)![](figs/crow_s_flip.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/> ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png)
 
 #### Blog Update
 
@@ -34,12 +34,10 @@ I worked with my friend Juanyu to create an interactive dashboard which explores
 
 ::: column-margin
 ### LINKS
+[Projects](project.qmd){.button} [Blog](blog.qmd){.button} [About](aboutme.qmd){.button} [Gallery](photos.qmd){.button}
 
 [Twitter](https://twitter.com) \| [LinkedIn](https://linkedin.com) \| [GitHub](https://github.com) \| [Email](mailto:ru1@purdue.edu)
 
-------------------------------------------------------------------------
-
-[Projects](project.qmd){.button} [Blog](blog.qmd){.button} [About](aboutme.qmd){.button} [Gallery](photos.qmd){.button}
 :::
 
 ------------------------------------------------------------------------

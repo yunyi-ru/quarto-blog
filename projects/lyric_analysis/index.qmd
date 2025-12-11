@@ -1,6 +1,5 @@
 ---
 title: "Who Is The Saddest Shoegaze Band?"
-author: "Yunyi Ru"
 date: "2024-11-08"
 categories: [fun, data analysis, text analysis, sentiment analysis, R]
 bibliography: 
@@ -568,6 +567,6 @@ ggplot(ride_afinn_score_by_lyricist_album,
 
 Are people getting sadder when they get old?
 
-------
+------------------------------------------------------------------------
 
 *This is a class project of Johns Hopkins University [Biostatistics 140.777 Statistical Programming Paradigms](https://www.stephaniehicks.com/jhustatprogramming2024/) course*.

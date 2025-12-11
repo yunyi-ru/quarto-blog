@@ -1,6 +1,5 @@
 ---
 title: "Bookmarks for Biologists"
-author: "Yunyi Ru"
 date: "2024-11-9"
 categories: [biology, resources]
 ---
