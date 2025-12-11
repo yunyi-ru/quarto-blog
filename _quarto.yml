@@ -4,28 +4,27 @@ project:
 
 website:
   favicon: figs/crow_s.png
-  title: "Yunyi's Blog"
+  title: "RAVENSNEST"
   google-analytics: "G-XJSP4R93HW"
+  open-graph: true
   site-url: https://yunyi-ru.github.io/quarto-blog/
   site-path: "/"
-  search: true
+  body-footer: |
+    This blog is built with [Quarto](https://quarto.org/). © 2023-2025 Yunyi. All Rights Reserved.
+  search:
+    location: navbar
+    type: overlay
   navbar:
     left:
-      - text: Home
-        href: index.qmd
-      - text: About
-        href: aboutme.qmd
       - text: Projects
         href: project.qmd
       - text: Blog
         href: blog.qmd
     right:
-      - text: 渡鸦FM
-        href: ravenfm.qmd
+      - text: About
+        href: aboutme.qmd
       - icon: github
         href: https://github.com/yunyi-ru
-      - icon: twitter
-        href: https://twitter.com/yunyi_ru
 
 format:
   html:

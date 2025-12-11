@@ -86,8 +86,8 @@ h2 {
 .button {
   background-color: $link-color;
   color: #fff;
-  border: 2px solid $link-color;
-  padding: 0.8rem 1.5rem;
+  border: 1px solid $link-color;
+  padding: 0.1rem 0.1rem;
   @include sharp-corners();
   font-family: 'Special Elite', cursive;
   font-size: 1rem;
@@ -127,9 +127,18 @@ ul {
 /* Divider Line */
 hr {
   border: none;
-  border-top: 3px double $divider-color;
+  height: auto;
+  text-align: center;
   margin: 2rem 0;
-  opacity: 0.7;
+  opacity: 1;
+
+  &::before {
+    content: "⇢⇢+~+~+⇠⇠";
+    color: $divider-color;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+  }
 }
 
 /* Section */
@@ -143,14 +152,36 @@ hr {
 
 /* Navbar */
 .navbar {
-  background-image: linear-gradient(rgba(238, 244, 232, 0.8), rgba(238, 244, 232, 0.8)),
-                    url('figs/herons&egrets1.PNG');
-  background-repeat: repeat;      /* tile horizontally & vertically */
-  background-position: top left;  /* starting point for tiling */
-  background-size: auto;
-  border-bottom: 3px double $divider-color;
+  backdrop-filter: blur(4px);
+  background: linear-gradient(90deg, rgba(4,117,111,0.2), rgba(104,159,56,0.2));
+  border-bottom: 2px double;
   font-family: 'Special Elite', cursive;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 1px;
-  padding: 0.8rem 1.2rem;
+  transition: all 0.3s ease;
+  @include sharp-corners();
+
+  padding: 0.2rem 1rem;   // vertical padding very small
+  font-size: 0.8rem;      // smaller text
+  line-height: 1;         // tight line spacing
+}
+
+.navbar:hover {
+  /* Luminescent glow */
+  box-shadow: 0 0 20px 6px rgba(4, 117, 111, 0.6); /* same green, glowing */
+  border-bottom-color: $link-hover-color; /* optional: color shift */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+.bird-swap {
+  content: url("figs/crow_s.png");
+  transition: 0.3s ease;
+}
+
+.bird-swap:hover {
+  content: url("figs/crow_s_flip.png");
 }

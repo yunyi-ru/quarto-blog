@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – Yunyi’s Blog</title>
+<title>Blog – RAVENSNEST</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -54,7 +54,6 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -79,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-description','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -139,7 +138,10 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Yunyi's Blog" href="blog.xml" data-external="1"></head>
+<link rel="alternate" type="application/rss+xml" title="RAVENSNEST" href="blog.xml" data-external="1"><meta property="og:title" content="Blog – RAVENSNEST">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="RAVENSNEST">
+</head>
 
 <body class="nav-fixed">
 
@@ -149,7 +151,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Yunyi’s Blog</span>
+    <span class="navbar-title">RAVENSNEST</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -158,14 +160,6 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./aboutme.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./project.html"> 
 <span class="menu-text">Projects</span></a>
@@ -177,16 +171,11 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./ravenfm.html"> 
-<span class="menu-text">渡鸦FM</span></a>
+    <a class="nav-link" href="./aboutme.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/yunyi-ru"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/yunyi_ru"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -230,21 +219,21 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
      <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
          <option value="listing-date-sort" data-direction="asc">
           Date - Oldest
         </option>
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
         </option>
      </select>
   </div>
@@ -253,133 +242,86 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="biology,resources" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1731177687915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/useful_bio_links/index.html" class="no-external">Bookmarks for Biologists</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/useful_bio_links/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('biology'); return false;">
-biology
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('resources'); return false;">
-resources
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/useful_bio_links/index.html" class="no-external">NCBI BLAST/Basic Local Alignment Search Tool: Just BLAST.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/useful_bio_links/index.html" class="no-external">
-<div class="listing-date">
-Nov 9, 2024
-</div>
-<div class="listing-reading-time">
-3 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="blogging" data-listing-date-sort="1730088000000" data-listing-file-modified-sort="1734757257153" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/blog_design/index.html" class="no-external">Blog Design Checklist</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/blog_design/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blogging'); return false;">
-blogging
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/blog_design/index.html" class="no-external">This is a checklist/memo for some elements I want to add to this blog.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/blog_design/index.html" class="no-external">
-<div class="listing-date">
-Oct 28, 2024
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="coding,resources" data-listing-date-sort="1730088000000" data-listing-file-modified-sort="1731177689387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/coding_resources/index.html" class="no-external">Coding Resources</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/coding_resources/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('coding'); return false;">
-coding
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('resources'); return false;">
-resources
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/coding_resources/index.html" class="no-external">This page lists some coding resources that I find useful.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/coding_resources/index.html" class="no-external">
-<div class="listing-date">
-Oct 28, 2024
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="blogging,resources" data-listing-date-sort="1726200000000" data-listing-file-modified-sort="1731728315846" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">First Blog Post! &amp; Blogging Resources</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blogging'); return false;">
-blogging
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('resources'); return false;">
-resources
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/index.html" class="no-external"><span class="emoji" data-emoji="tada">🎉</span> Hi, this is my first blog post!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Sep 13, 2024
-</div>
-<div class="listing-reading-time">
-1 min
-</div>
-</a>
-</div>
-</div>
-</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+Categories
+</th>
+<th>
+Reading Time
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="biology,resources" data-listing-date-sort="1731128400000" data-listing-file-modified-sort="1731177687915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518" data-listing-title-sort="Bookmarks for Biologists" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Nov 9, 2024</span>
+</td>
+<td>
+<a href="./posts/useful_bio_links/index.html" class="title listing-title">Bookmarks for Biologists</a>
+</td>
+<td>
+<span class="listing-categories">biology, resources</span>
+</td>
+<td>
+<span class="listing-reading-time">3 min</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="blogging" data-listing-date-sort="1730088000000" data-listing-file-modified-sort="1734757257153" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73" data-listing-title-sort="Blog Design Checklist" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Oct 28, 2024</span>
+</td>
+<td>
+<a href="./posts/blog_design/index.html" class="title listing-title">Blog Design Checklist</a>
+</td>
+<td>
+<span class="listing-categories">blogging</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="coding,resources" data-listing-date-sort="1730088000000" data-listing-file-modified-sort="1731177689387" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35" data-listing-title-sort="Coding Resources" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Oct 28, 2024</span>
+</td>
+<td>
+<a href="./posts/coding_resources/index.html" class="title listing-title">Coding Resources</a>
+</td>
+<td>
+<span class="listing-categories">coding, resources</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="blogging,resources" data-listing-date-sort="1726200000000" data-listing-file-modified-sort="1731728315846" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78" data-listing-title-sort="First Blog Post! &amp; Blogging Resources" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Sep 13, 2024</span>
+</td>
+<td>
+<a href="./posts/welcome/index.html" class="title listing-title">First Blog Post! &amp; Blogging Resources</a>
+</td>
+<td>
+<span class="listing-categories">blogging, resources</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div><p>This blog is built with <a href="https://quarto.org/">Quarto</a>. © 2023-2025 Yunyi. All Rights Reserved.</p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

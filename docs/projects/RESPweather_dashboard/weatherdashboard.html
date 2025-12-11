@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Yunyi Ru">
+<meta name="dcterms.date" content="2024-12-19">
 
-<title>渡鸦FM – Yunyi’s Blog</title>
+<title>Weather-Respiratory Disease Correlation Explorer – RAVENSNEST</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./figs/crow_s.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../figs/crow_s.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -54,7 +54,6 @@ ul.task-list li input[type="checkbox"] {
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -69,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XJSP4R93HW"></script>
 
 <script type="text/javascript">
@@ -108,38 +78,12 @@ gtag('js', new Date());
 gtag('config', 'G-XJSP4R93HW', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Yunyi's Blog" href="ravenfm.xml" data-external="1"></head>
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Weather-Respiratory Disease Correlation Explorer – RAVENSNEST">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="RAVENSNEST">
+</head>
 
 <body class="nav-fixed">
 
@@ -148,8 +92,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Yunyi’s Blog</span>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">RAVENSNEST</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -159,34 +103,21 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./aboutme.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./project.html"> 
+    <a class="nav-link" href="../../project.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./ravenfm.html" aria-current="page"> 
-<span class="menu-text">渡鸦FM</span></a>
+    <a class="nav-link" href="../../aboutme.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/yunyi-ru"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/yunyi_ru"> <i class="bi bi-twitter" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -198,25 +129,53 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="2024">2024 <span class="quarto-category-count">(3)</span></div><div class="category" data-category="2025">2025 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R&amp;B">R&amp;B <span class="quarto-category-count">(1)</span></div><div class="category" data-category="autumn">autumn <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blogging">blogging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="electronic">electronic <span class="quarto-category-count">(3)</span></div><div class="category" data-category="pop">pop <span class="quarto-category-count">(4)</span></div><div class="category" data-category="rap/hip-hop">rap/hip-hop <span class="quarto-category-count">(1)</span></div><div class="category" data-category="rock">rock <span class="quarto-category-count">(5)</span></div><div class="category" data-category="seasonal music recommendation">seasonal music recommendation <span class="quarto-category-count">(5)</span></div><div class="category" data-category="spring">spring <span class="quarto-category-count">(1)</span></div><div class="category" data-category="summer">summer <span class="quarto-category-count">(2)</span></div><div class="category" data-category="winter">winter <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#project" id="toc-project" class="nav-link active" data-scroll-target="#project">Project</a></li>
+  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">Features</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#team" id="toc-team" class="nav-link" data-scroll-target="#team">Team</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">渡鸦FM</h1>
-</div>
+<h1 class="title">Weather-Respiratory Disease Correlation Explorer</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">data analysis</div>
+    <div class="quarto-category">respiratory virus</div>
+    <div class="quarto-category">dashboard</div>
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">R Shiny</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Yunyi Ru </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 19, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -226,143 +185,51 @@ window.Quarto = {
 </header>
 
 
-<p><strong>渡鸦FM</strong> is my personal blog. [<em>CN/中文注意</em>]</p>
-<p><strong>内容</strong>: 📻音乐推荐</p>
+<section id="project" class="level1">
+<h1>Project</h1>
+<p>This <a href="https://yunyiru.shinyapps.io/RESPweather_dashboard/"><strong>Weather-Respiratory Diseases Correlation Explorer</strong></a> R Shiny Dashboard aims to investigate the relationship between climate and weather-related conditions and outbreaks of two respiratory viruses, <strong>influenza</strong> and <strong>respiratory syncytial virus (RSV)</strong>.</p>
+<p><img src="photo/shiny1.PNG" class="img-fluid"></p>
+<p>Influenza is an RNA virus from the <em>Orthomyxoviridae</em> family that frequently mutates, causing seasonal epidemics, while RSV is an RNA virus from the <em>Paramyxoviridae</em> family that primarily affects young children and the elderly, often leading to severe lower respiratory infections. Both viruses pose significant public health challenges due to their widespread transmission and potential for severe disease.</p>
+<p>Climate and weather conditions can influence the activity and spread of both viruses. Studies have suggested that factors like <strong>cold temperatures</strong>, <strong>low indoor humidity</strong>, <strong>limited sunlight</strong>, and <strong>rapid weather changes</strong> may increase the risk of disease outbreaks.</p>
+</section>
+<section id="features" class="level1">
+<h1>Features</h1>
+<ul>
+<li><strong>Weekly Rates</strong>: This dashboard uses <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET data</a> to give an overview of influenza and rsv hospitalization rates of each state from 2018 to 2024. The user can select year, state, and pathogen of interest using the interactive filters.</li>
+</ul>
+<p><img src="photo/shiny2.PNG" class="img-fluid"></p>
+<ul>
+<li><strong>Weather Explorer</strong>: This dashboard integrates <a href="https://open-meteo.com/">environmental parameter data</a> from openmeteo API and respiratory virus-associated hospitalization rate data to perform regression analysis. The user can select year, state, weather variable and pathogen of interest using the interactive filters.</li>
+</ul>
+<p><img src="photo/shiny3.PNG" class="img-fluid"></p>
+</section>
+<section id="data" class="level1">
+<h1>Data</h1>
+<ul>
+<li><p><strong>Respiratory Virus Related Hospitalization Rate</strong>: Disease rate data were scrapped from <a href="https://data.cdc.gov/Public-Health-Surveillance/Rates-of-Laboratory-Confirmed-RSV-COVID-19-and-Flu/kvib-3txy/about_data">CDC RESP-NET</a>.</p></li>
+<li><p><strong>Environmental Parameters</strong>: Weather data were scrapped from <a href="https://open-meteo.com/">Openmeteo API</a>.</p></li>
+</ul>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Please go to the <a href="https://github.com/jhu-statprogramming-fall-2024/project4-team-mmi">source repository</a> for more details.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="team" class="level1">
+<h1>Team</h1>
+<p><strong>Team MMI</strong> are <strong>Yunyi Ru</strong> (<a href="mailto:yru3@jh.edu">email</a>; <a href="https://github.com/yunyi-ru">GitHub</a>) and <strong>Juanyu Zhang</strong> (<a href="mailto:jzhan398@jh.edu">email</a>; <a href="https://github.com/JuYZhang">GitHub</a>).</p>
+<hr>
+<p><em>This is a class project of Johns Hopkins University <a href="https://www.stephaniehicks.com/jhustatprogramming2024/">Biostatistics 140.777 Statistical Programming Paradigms</a> course</em>.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="seasonal music recommendation,summer,2025,rock,pop,R&amp;B" data-listing-date-sort="1758686400000" data-listing-file-modified-sort="1763750360535" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
-<a href="./ravenfm/seasonradio/25summerradio.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="ravenfm/covers/dawnfm.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2025 Summer Radio
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 24, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="seasonal music recommendation,spring,2025,rock,pop,rap/hip-hop,electronic" data-listing-date-sort="1747022400000" data-listing-file-modified-sort="1763749378038" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
-<a href="./ravenfm/seasonradio/25springradio.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="ravenfm/covers/romance.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2025 Spring Radio
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 12, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="seasonal music recommendation,winter,2024,rock,pop" data-listing-date-sort="1741064400000" data-listing-file-modified-sort="1763748922018" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
-<a href="./ravenfm/seasonradio/24winterradio.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="ravenfm/covers/alcest2024.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2024 Winter Radio
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 4, 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="seasonal music recommendation,autumn,2024,rock,pop,electronic" data-listing-date-sort="1734152400000" data-listing-file-modified-sort="1763747863465" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
-<a href="./ravenfm/seasonradio/24autumnradio.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="ravenfm/covers/jdpeelsessions.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2024 Autumn Radio
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Dec 14, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="blogging" data-listing-date-sort="1730088000000" data-listing-file-modified-sort="1734757257153" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
-<a href="./ravenfm/seasonradio/25autumnradio.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Blog Design Checklist
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Oct 28, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="seasonal music recommendation,summer,2024,rock,electronic" data-listing-date-sort="1726804800000" data-listing-file-modified-sort="1763748556242" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
-<a href="./ravenfm/seasonradio/24summerradio.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="ravenfm/covers/darklands.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2024 Summer Radio
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 20, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+<p>This blog is built with <a href="https://quarto.org/">Quarto</a>. © 2023-2025 Yunyi. All Rights Reserved.</p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -782,6 +649,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
+</script>
+<script src="https://utteranc.es/client.js" repo="yunyi-ru/quarto-blog-comments" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 

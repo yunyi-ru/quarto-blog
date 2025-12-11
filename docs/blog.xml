@@ -5,7 +5,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Yunyi&#39;s Blog</title>
+<title>RAVENSNEST</title>
 <link>https://yunyi-ru.github.io/quarto-blog/blog.html</link>
 <atom:link href="https://yunyi-ru.github.io/quarto-blog/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
@@ -150,7 +150,7 @@
 
 </section>
 
- ]]></description>
+<p>This blog is built with <a href="https://quarto.org/">Quarto</a>. © 2023-2025 Yunyi. All Rights Reserved.</p> ]]></description>
   <category>biology</category>
   <category>resources</category>
   <guid>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/</guid>
@@ -188,7 +188,7 @@
 </section>
 </section>
 
- ]]></description>
+<p>This blog is built with <a href="https://quarto.org/">Quarto</a>. © 2023-2025 Yunyi. All Rights Reserved.</p> ]]></description>
   <category>blogging</category>
   <guid>https://yunyi-ru.github.io/quarto-blog/posts/blog_design/</guid>
   <pubDate>Mon, 28 Oct 2024 04:00:00 GMT</pubDate>
@@ -212,7 +212,7 @@
 
 </section>
 
- ]]></description>
+<p>This blog is built with <a href="https://quarto.org/">Quarto</a>. © 2023-2025 Yunyi. All Rights Reserved.</p> ]]></description>
   <category>coding</category>
   <category>resources</category>
   <guid>https://yunyi-ru.github.io/quarto-blog/posts/coding_resources/</guid>
@@ -243,7 +243,7 @@
 
 </section>
 
- ]]></description>
+<p>This blog is built with <a href="https://quarto.org/">Quarto</a>. © 2023-2025 Yunyi. All Rights Reserved.</p> ]]></description>
   <category>blogging</category>
   <category>resources</category>
   <guid>https://yunyi-ru.github.io/quarto-blog/posts/welcome/</guid>

@@ -1,0 +1,15 @@
+---
+title: "Gallery"
+from: markdown
+format: 
+  html:
+    page-layout: article
+lightbox: auto
+---
+
+---
+
+## Homepage Archive
+
+![**Dec '25** First winter in midwest :->](figs/2512.jpg){group="home"}
+---

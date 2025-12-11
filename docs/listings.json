@@ -9,21 +9,10 @@
     ]
   },
   {
-    "listing": "/ravenfm.html",
-    "items": [
-      "/ravenfm/seasonradio/25summerradio.html",
-      "/ravenfm/seasonradio/25springradio.html",
-      "/ravenfm/seasonradio/24winterradio.html",
-      "/ravenfm/seasonradio/24autumnradio.html",
-      "/ravenfm/seasonradio/25autumnradio.html",
-      "/ravenfm/seasonradio/24summerradio.html"
-    ]
-  },
-  {
     "listing": "/project.html",
     "items": [
-      "/projects/all_about_birding/index.html",
-      "/projects/RESPweather_dashboard/index.html",
+      "/projects/all_about_birding/birding.html",
+      "/projects/RESPweather_dashboard/weatherdashboard.html",
       "/projects/lyric_analysis/index.html"
     ]
   }

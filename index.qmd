@@ -1,24 +1,52 @@
 ---
-title: "![](figs/crow_s.png) YUNYI'S BLOG ![](figs/crow_s_flip.png)"
-from: markdown+emoji
-about:
-  template: solana
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: GitHub
-      href: https://github.com
-    - text: Contact me via Email
-      href: mailto:ru1@purdue.edu
+title: "RAVENSNEST"
+from: markdown
+format: 
+  html:
+    page-layout: article
+navbar: true
+search: true
+---
+::: column-margin
+### LINKS
+
+[Twitter](https://twitter.com) | [LinkedIn](https://linkedin.com) | [GitHub](https://github.com) | [Email](mailto:ru1@purdue.edu)
+
 ---
 
-Hi, I’m Yunyi, a 1^st^ year Ph.D. student from the PULSe Interdisciplinary Life Science program at Purdue University, West Lafayette. Looking forward to sharing some useful information with you here!
+[Projects](project.qmd){.button}
 
-------------------------------------------------------------------------
+[Blog](blog.qmd){.button}
 
-*This blog is built with [Quarto](https://quarto.org/)*.
+[About](aboutme.qmd){.button}
+
+[Gallery](photos.qmd){.button}
+
+:::
+
+Hi, I’m Yunyi, welcome to my blog.
+
+![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/> ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/><img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/>![](figs/crow_s_flip.png) ![](figs/crow_s_flip.png)![](figs/crow_s_flip.png)<img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"/> ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s.png) ![](figs/crow_s_flip.png)![](figs/crow_s.png) ![](figs/crow_s_flip.png)
+
+#### Blog Update
+
+I worked with my friend Juanyu to create an interactive dashboard which explores the relationship between *environmental parameters* and *respiratory virus-associated hospitalization rates*. [**Check it out!**](projects/RESPweather_dashboard/weatherdashboard.qmd).
+
+::: {.grid}
+
+::: {.g-col-4}
+![](figs/2512.jpg)
+First winter in midwest :->
+:::
+
+::: {.g-col-8}
+##### Currently Reading
+📖 *Not in My Neighborhood* by *Antero Pietila*
+
+##### Currently Spinning
+🎧 *Did you know there's a tunnel under Ocean Blvd* by *Lana Del Rey*
+:::
+
+:::
+
+---
