@@ -181,9 +181,10 @@
 <li><label><input type="checkbox" checked="">Move ‘Useful links for A Molecular Biologist’ here, categories -&gt; molbio <em>241109</em></label></li>
 <li><label><input type="checkbox">Add some blog posts about viral phylogenetics learning resources, categories -&gt; genetics</label></li>
 </ul>
-<div class="mylikebutton">♡</div>
-
-<script src="../../mylikebutton.js"></script>
+<div class="mylikebutton">
+♡
+</div>
+<script src="../../scripts/mylikebutton.js"></script>
 
 
 </section>
