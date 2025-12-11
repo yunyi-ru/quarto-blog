@@ -21,7 +21,7 @@ I worked with my friend Juanyu to create an interactive dashboard which explores
 ![](figs/2512.jpg) First winter in midwest :-\>
 :::
 
-::: g-col-8
+::: g-col-6
 ##### Currently Reading
 
 📖 *Not in My Neighborhood* by *Antero Pietila*
