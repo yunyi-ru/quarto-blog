@@ -178,3 +178,21 @@ h1, h2, h3, h4, h5, h6 {
 .bird-swap:hover {
   content: url("figs/crow_s_flip.png");
 }
+
+
+details p {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  color: $link-color;
+  font-size: 0.8rem;
+}
+
+.photo-row {
+  display: flex;
+  flex-direction: row;      /* 水平排列 */
+  flex-wrap: nowrap;
+  justify-content: center;  /* 居中对齐 */
+  gap: 1rem;                /* 图片之间间距 */
+  overflow-x: auto;
+  padding: 0.5rem 0;
+}

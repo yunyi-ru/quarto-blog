@@ -7,10 +7,10 @@ website:
   title: "ravensnest"
   google-analytics: "G-XJSP4R93HW"
   open-graph: true
-  site-url: https://yunyi-ru.github.io/quarto-blog/
+  site-url: https://yyraven.github.io/quarto-blog/
   site-path: "/"
   body-footer: |
-    © 2024-2025 RavensNest.
+    <center>© 2024-2025 RavensNest.</center>
   navbar:
     left:
     - text: Projects
@@ -21,7 +21,7 @@ website:
     - text: About
       href: aboutme.qmd
     - icon: github
-      href: https://github.com/yunyi-ru
+      href: https://github.com/yyraven
 
 format:
   html:

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>RAVENSNEST – ravensnest</title>
+<title>ravensnest</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./figs/crow_s.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -67,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-feed .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-feed'] = new List('listing-feed', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XJSP4R93HW"></script>
 
 <script type="text/javascript">
@@ -77,8 +108,37 @@ gtag('js', new Date());
 gtag('config', 'G-XJSP4R93HW', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="RAVENSNEST – ravensnest">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="– ravensnest">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="ravensnest">
 </head>
@@ -96,30 +156,31 @@ gtag('config', 'G-XJSP4R93HW', { 'anonymize_ip': true});
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">RAVENSNEST</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Hi, I’m Yunyi, welcome to my blog.</p>
+<center>
+<section id="ravensnest" class="level1">
+<h1>RAVENSNEST</h1>
 <p><img src="figs/crow_s.png" class="img-fluid"><img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"> <img src="figs/crow_s_flip.png" class="img-fluid"><img src="figs/crow_s.png" class="img-fluid"> <img src="figs/crow_s.png" class="img-fluid"> <img src="figs/crow_s_flip.png" class="img-fluid"><img src="figs/crow_s.png" class="img-fluid"><img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"><img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"><img src="figs/crow_s_flip.png" class="img-fluid"> <img src="figs/crow_s_flip.png" class="img-fluid"><img src="figs/crow_s_flip.png" class="img-fluid"><img src="figs/crow_s.png" class="bird-swap" data-hover="figs/crow_s_flip.png"> <img src="figs/crow_s_flip.png" class="img-fluid"><img src="figs/crow_s.png" class="img-fluid"> <img src="figs/crow_s_flip.png" class="img-fluid"><img src="figs/crow_s.png" class="img-fluid"></p>
-<section id="blog-update" class="level4 page-columns page-full">
-<h4 class="anchored">Blog Update</h4>
-<p>I worked with my friend Juanyu to create an interactive dashboard which explores the relationship between <em>environmental parameters</em> and <em>respiratory virus-associated hospitalization rates</em>. <a href="./projects/RESPweather_dashboard/weatherdashboard.html"><strong>Check it out!</strong></a>.</p>
+<section id="welcome-my-friend" class="level6">
+<h6 class="anchored" data-anchor-id="welcome-my-friend"><em>welcome, my friend</em></h6>
+</section></section></center>
+<hr>
+
+
+<div class="no-row-height column-margin column-container"><div class="">
+<hr>
+<section id="links" class="level4">
+<h4 class="anchored" data-anchor-id="links">LINKS</h4>
+<p><a href="./project.html" class="button">Projects</a> <a href="./blog.html" class="button">Blog</a> <a href="./readmusic.html" class="button">Music|Reads</a> <a href="./credit.html" class="button">Log|Credit</a> <a href="./aboutme.html" class="button">About</a> <a href="./photos.html" class="button">Gallery</a></p>
+<p><a href="https://github.com/yyraven">GitHub</a> | <a href="mailto:ru1@purdue.edu">Email</a></p>
+<hr>
+</section>
+</div></div><section id="blog-update" class="level4">
+<h4 class="anchored" data-anchor-id="blog-update">Blog Update</h4>
+<p>+ I’ve been constantly updating my birding blog… <a href="./projects/all_about_birding/birding.html"><strong>Check it out!</strong></a></p>
+<p>+ Now you can play chasing with the little black cat. See change log <a href="./credit.html"><strong>here</strong></a>.</p>
 <div class="grid">
 <div class="g-col-4">
 <p><img src="figs/2512.jpg" class="img-fluid"> First winter in midwest :-&gt;</p>
@@ -130,20 +191,65 @@ gtag('config', 'G-XJSP4R93HW', { 'anonymize_ip': true});
 <p>🎧 <em>Did you know there’s a tunnel under Ocean Blvd</em> by <em>Lana Del Rey</em></p>
 </section>
 </div>
-
-<div class="no-row-height column-margin column-container"><div class="">
+</section>
+<section id="feed" class="level4">
+<h4 class="anchored" data-anchor-id="feed">Feed</h4>
+<div id="listing-feed" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Date
+</th>
+<th>
+Title
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="radio,fun,music,2025,中文" data-listing-date-sort="1765429200000" data-listing-file-modified-sort="1765510507275" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="289" data-listing-title-sort="音乐电台｜2025" data-listing-filename-sort="25radio.qmd">
+<td>
+<span class="listing-date">12/11/25</span>
+</td>
+<td>
+<a href="./readmusic/seasonradio/25radio.html" class="title listing-title">音乐电台｜2025</a>
+</td>
+<td>
+<span class="listing-description"><em>我感觉有必要把这个四季音乐推荐系列提前一个月，六月份已经是夏天了，而三月份肯定是春天。</em></span>
+</td>
+</tr>
+<tr data-index="1" data-categories="fun,birding,web development" data-listing-date-sort="1736312400000" data-listing-file-modified-sort="1765472500916" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2274" data-listing-title-sort="All About Birding" data-listing-filename-sort="birding.qmd">
+<td>
+<span class="listing-date">1/8/25</span>
+</td>
+<td>
+<a href="./projects/all_about_birding/birding.html" class="title listing-title">All About Birding</a>
+</td>
+<td>
+<span class="listing-description"><strong>I love birding!</strong> Welcome to my personal birding records. I’m a casual…</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 <hr>
-<section id="links" class="level3">
-<h3 class="anchored" data-anchor-id="links">LINKS</h3>
-<p><a href="./project.html" class="button">Projects</a> <a href="./blog.html" class="button">Blog</a> <a href="./credit.html" class="button">Log|Credits</a> <a href="./aboutme.html" class="button">About</a> <a href="./photos.html" class="button">Gallery</a></p>
-<p><a href="https://github.com">GitHub</a> | <a href="mailto:ru1@purdue.edu">Email</a></p>
-</section>
-</div></div><hr>
+<script>NekoType="black"</script>
+<h1 id="nl"><script src="https://webneko.net/n20171213.js"></script><a href="https://webneko.net">Neko</a></h1>
+
 
 
 </section>
 
-<p>© 2024-2025 RavensNest.</p></main> <!-- /main -->
+
+<center>
+© 2024-2025 RavensNest.
+</center></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -236,7 +342,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/yunyi-ru\.github\.io\/quarto-blog\/");
+      var filterRegex = new RegExp("https:\/\/yyraven\.github\.io\/quarto-blog\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

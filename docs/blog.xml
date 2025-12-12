@@ -6,14 +6,14 @@
       version="2.0">
 <channel>
 <title>ravensnest</title>
-<link>https://yunyi-ru.github.io/quarto-blog/blog.html</link>
-<atom:link href="https://yunyi-ru.github.io/quarto-blog/blog.xml" rel="self" type="application/rss+xml"/>
+<link>https://yyraven.github.io/quarto-blog/blog.html</link>
+<atom:link href="https://yyraven.github.io/quarto-blog/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
 <lastBuildDate>Sat, 09 Nov 2024 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Bookmarks for Biologists</title>
-  <link>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/biopages.html</link>
+  <link>https://yyraven.github.io/quarto-blog/posts/useful_bio_links/biopages.html</link>
   <description><![CDATA[ 
 <div class="mylikebutton">♥</div>
 
@@ -150,15 +150,17 @@
 
 </section>
 
-<p>© 2024-2025 RavensNest.</p> ]]></description>
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
   <category>biology</category>
   <category>resources</category>
-  <guid>https://yunyi-ru.github.io/quarto-blog/posts/useful_bio_links/biopages.html</guid>
+  <guid>https://yyraven.github.io/quarto-blog/posts/useful_bio_links/biopages.html</guid>
   <pubDate>Sat, 09 Nov 2024 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Coding Resources</title>
-  <link>https://yunyi-ru.github.io/quarto-blog/posts/coding_resources/codingresources.html</link>
+  <link>https://yyraven.github.io/quarto-blog/posts/coding_resources/codingresources.html</link>
   <description><![CDATA[ 
 <div class="mylikebutton">♥</div>
 
@@ -175,15 +177,17 @@
 
 </section>
 
-<p>© 2024-2025 RavensNest.</p> ]]></description>
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
   <category>coding</category>
   <category>resources</category>
-  <guid>https://yunyi-ru.github.io/quarto-blog/posts/coding_resources/codingresources.html</guid>
+  <guid>https://yyraven.github.io/quarto-blog/posts/coding_resources/codingresources.html</guid>
   <pubDate>Mon, 28 Oct 2024 04:00:00 GMT</pubDate>
 </item>
 <item>
   <title>First Blog Post! &amp; Blogging Resources</title>
-  <link>https://yunyi-ru.github.io/quarto-blog/posts/firstpost/firstpost.html</link>
+  <link>https://yyraven.github.io/quarto-blog/posts/firstpost/firstpost.html</link>
   <description><![CDATA[ 
 <div class="mylikebutton">♥</div>
 
@@ -206,10 +210,12 @@
 
 </section>
 
-<p>© 2024-2025 RavensNest.</p> ]]></description>
+<center>
+© 2024-2025 RavensNest.
+</center> ]]></description>
   <category>blogging</category>
   <category>resources</category>
-  <guid>https://yunyi-ru.github.io/quarto-blog/posts/firstpost/firstpost.html</guid>
+  <guid>https://yyraven.github.io/quarto-blog/posts/firstpost/firstpost.html</guid>
   <pubDate>Fri, 13 Sep 2024 04:00:00 GMT</pubDate>
 </item>
 </channel>

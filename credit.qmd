@@ -1,15 +1,16 @@
 ---
-title: "Log | Credits"
+title: "Log | Credit"
 ---
 
-This blog was initially made using [Quarto](https://quarto.org/). I mainly use RStudio as my text editor and publish it to GitHub Pages.
+This blog was made using [Quarto](https://quarto.org/). I mainly use RStudio as my text editor and publish it to GitHub Pages.
 
-# Log
+## Change Log
 
-- **240913** Blog started
-- **241109** Comment section using [utterances](https://utteranc.es/)
-- **241109** Customized favicon (a focused crow!)
-- **241221** Customized css theme
-- **251211** Kudos button using [code](https://bohemiansultriness.nekoweb.org/goodies/mylikebutton.txt) by [Fritzi](https://bohemiansultriness.nekoweb.org)
+-   **240913** Blog started
+-   **241109** Comment section using [utterances](https://utteranc.es/)
+-   **241109** Customized favicon (a focused crow!)
+-   **241221** Customized css theme
+-   **251211** Kudos button using [code](https://bohemiansultriness.nekoweb.org/goodies/mylikebutton.txt) by [Fritzi](https://bohemiansultriness.nekoweb.org)
+- **251211** The little black cat cartoon on the landing page is enabled by [Neko](https://webneko.net/?white)!
 
----
+------------------------------------------------------------------------

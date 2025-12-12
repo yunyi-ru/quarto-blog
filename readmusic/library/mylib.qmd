@@ -1,0 +1,40 @@
+---
+title: "置顶 | 个人图书馆"
+date: "N/A"
+categories: [book, movie, fun, 中文]
+toc: false
+output:
+  html_document:
+    code_folding: hide
+---
+
+书影记录，对抗短视频的绝望努力……
+
+A record of books/movie/anime + reviews.
+
+---
+
+# 书
+
+```{r book list, echo = FALSE, message = FALSE}
+library(tidyverse)
+library(DT)
+
+book_list <- read.csv("mylib/book_df.csv", fileEncoding = "UTF-8")
+ma_list <- read.csv("mylib/movieanime_df.csv", fileEncoding = "UTF-8")
+
+knitr::kable(book_list, 
+      col.names = gsub("[.]", " ", names(book_list)),
+      title = "书")
+```
+---
+
+# 电影/动画
+
+```{r ma list, echo = FALSE, message = FALSE}
+knitr::kable(ma_list, 
+      col.names = gsub("[.]", " ", names(ma_list)),
+      title = "电影/动画")
+```
+
+---
