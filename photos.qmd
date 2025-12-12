@@ -4,12 +4,31 @@ from: markdown
 format: 
   html:
     page-layout: article
-lightbox: auto
+lightbox: true
 ---
 
----
+------------------------------------------------------------------------
 
 ## Homepage Archive
 
-![**Dec '25** First winter in midwest :->](figs/2512.jpg){group="home"}
+![Dec '25 First winter in midwest :-\>](figs/2512.jpg){group="home"}
+
+---
+
+## GIF Archive
+<center>
+
+Retro-style GIFs made by me using *Procreate*... birds and US road-trip fantasies. 
+
+And Pete Townshend of the Who.![](figs/gifs_7.gif)
+
+<img src="figs/gifs_1.gif" height="150">
+<img src="figs/gifs_2.gif" height="150">
+
+<img src="figs/gifs_3.gif" height="150">
+<img src="figs/gifs_4.gif" height="150">
+
+<img src="figs/gifs_5.gif" height="150">
+<img src="figs/gifs_6.gif" height="150">
+</center>
 ---
