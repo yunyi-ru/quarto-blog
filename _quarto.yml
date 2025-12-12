@@ -17,6 +17,8 @@ website:
       href: project.qmd
     - text: Blog
       href: blog.qmd
+    - text: Archive
+      href: archive.qmd
     right:
     - text: About
       href: aboutme.qmd

@@ -26,17 +26,29 @@
       "/projects/lyric_analysis/index.html",
       "/posts/coding_resources/codingresources.html",
       "/posts/firstpost/firstpost.html",
-      "/readmusic/library/mygig.html",
       "/readmusic/library/mylib.html"
     ]
   },
   {
     "listing": "/readmusic.html",
     "items": [
-      "/readmusic/library/mygig.html",
       "/readmusic/library/mylib.html",
       "/readmusic/seasonradio/25radio.html",
       "/readmusic/seasonradio/24radio.html"
+    ]
+  },
+  {
+    "listing": "/archive.html",
+    "items": [
+      "/readmusic/seasonradio/25radio.html",
+      "/projects/all_about_birding/birding.html",
+      "/projects/RESPweather_dashboard/weatherdashboard.html",
+      "/readmusic/seasonradio/24radio.html",
+      "/posts/useful_bio_links/biopages.html",
+      "/projects/lyric_analysis/index.html",
+      "/posts/coding_resources/codingresources.html",
+      "/posts/firstpost/firstpost.html",
+      "/readmusic/library/mylib.html"
     ]
   }
 ]

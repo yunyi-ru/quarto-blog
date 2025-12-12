@@ -1,18 +1,18 @@
 ---
-title: "置顶 | 个人图书馆"
+title: "置顶 | 工业风豆瓣"
 date: "N/A"
-categories: [book, movie, fun, 中文]
-toc: false
+categories: [book, movie, music, fun, 中文]
+toc: true
 output:
   html_document:
     code_folding: hide
 ---
 
-书影记录，对抗短视频的绝望努力……
+书影音记录，对抗短视频的绝望努力……
 
-A record of books/movie/anime + reviews.
+A record of books/movie/anime/records + reviews, no doom-scrolling anymore I promise.
 
----
+------------------------------------------------------------------------
 
 # 书
 
@@ -22,12 +22,14 @@ library(DT)
 
 book_list <- read.csv("mylib/book_df.csv", fileEncoding = "UTF-8")
 ma_list <- read.csv("mylib/movieanime_df.csv", fileEncoding = "UTF-8")
+gig_list <- read.csv("mylib/gig_df.csv", fileEncoding = "UTF-8")
 
 knitr::kable(book_list, 
       col.names = gsub("[.]", " ", names(book_list)),
       title = "书")
 ```
----
+
+------------------------------------------------------------------------
 
 # 电影/动画
 
@@ -37,4 +39,13 @@ knitr::kable(ma_list,
       title = "电影/动画")
 ```
 
----
+------------------------------------------------------------------------
+
+# 音乐现场
+
+```{r gig list, echo = FALSE, message = FALSE}
+knitr::kable(gig_list, 
+      col.names = gsub("[.]", " ", names(gig_list)))
+```
+
+-------

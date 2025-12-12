@@ -35,16 +35,27 @@ listing:
 ------------------------------------------------------------------------
 
 ::: column-margin
-
-------------------------------------------------------------------------
+---
 
 #### LINKS
 
-[Projects](project.qmd){.button} [Blog](blog.qmd){.button} [Music\|Reads](readmusic.qmd){.button} [Log\|Credit](credit.qmd){.button} [About](aboutme.qmd){.button} [Gallery](photos.qmd){.button}
+[Projects](project.qmd){.button} 
+
+[Blog](blog.qmd){.button}
+
+[Music\|Reads](readmusic.qmd){.button}
+
+[Log\|Credit](credit.qmd){.button}
+
+[About](aboutme.qmd){.button}
+
+[Gallery](photos.qmd){.button}
+
+[Archive](photos.qmd){.button}
 
 [GitHub](https://github.com/yyraven) \| [Email](mailto:ru1@purdue.edu)
 
-------------------------------------------------------------------------
+-----
 :::
 
 #### Blog Update

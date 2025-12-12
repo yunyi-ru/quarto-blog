@@ -1,0 +1,21 @@
+---
+title: "Archive"
+listing:
+  id: feed
+  contents: 
+    - projects/**/*.qmd
+    - posts/**/*.qmd
+    - readmusic/**/*.qmd
+  sort: "date desc"
+  max-items: 100
+  type: table
+  sort-ui: true
+  filter-ui: true
+  categories: true
+  image-height: 150px
+  max-description-length: 75
+  date-format: short
+  fields: [date, title, description, categories]
+page-layout: full
+title-block-banner: false
+---

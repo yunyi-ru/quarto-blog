@@ -1,5 +1,5 @@
 ---
-title: "Music | Reads"
+title: "Blog"
 listing:
   contents: readmusic/**/*.qmd
   sort: "date desc"
