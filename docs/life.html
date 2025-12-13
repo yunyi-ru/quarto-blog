@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-life .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-life'] = new List('listing-life', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -206,7 +206,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="2024">2024 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="2025">2025 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="book">book <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fun">fun <span class="quarto-category-count">(3)</span></div><div class="category" data-category="movie">movie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="music">music <span class="quarto-category-count">(3)</span></div><div class="category" data-category="radio">radio <span class="quarto-category-count">(2)</span></div><div class="category" data-category="中文">中文 <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="2024">2024 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="2025">2025 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="book">book <span class="quarto-category-count">(1)</span></div><div class="category" data-category="documentary">documentary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fun">fun <span class="quarto-category-count">(4)</span></div><div class="category" data-category="movie">movie <span class="quarto-category-count">(2)</span></div><div class="category" data-category="music">music <span class="quarto-category-count">(4)</span></div><div class="category" data-category="radio">radio <span class="quarto-category-count">(3)</span></div><div class="category" data-category="review">review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="中文">中文 <span class="quarto-category-count">(5)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -229,11 +229,15 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-life" class="quarto-listing quarto-listing-container-table">
+
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-life-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-life'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-date-sort" data-direction="asc">
@@ -284,12 +288,12 @@ Reading Time
 <span class="listing-reading-time">4 min</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="radio,fun,music,2025,中文" data-listing-date-sort="1765429200000" data-listing-file-modified-sort="1765518880869" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="289" data-listing-title-sort="音乐电台｜2025" data-listing-filename-sort="25radio.qmd">
+<tr data-index="1" data-categories="radio,fun,music,2025,中文" data-listing-date-sort="1765429200000" data-listing-file-modified-sort="1765603851647" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="289" data-listing-title-sort="音乐电台｜2025 音乐与我的四季" data-listing-filename-sort="25radio.qmd">
 <td>
 <span class="listing-date">Dec 11, 2025</span>
 </td>
 <td>
-<a href="./life/seasonradio/25radio.html" class="title listing-title">音乐电台｜2025</a>
+<a href="./life/seasonradio/25radio.html" class="title listing-title">音乐电台｜2025 音乐与我的四季</a>
 </td>
 <td>
 <span class="listing-categories">radio, fun, music, 2025, 中文</span>
@@ -298,12 +302,12 @@ Reading Time
 <span class="listing-reading-time">2 min</span>
 </td>
 </tr>
-<tr data-index="2" data-categories="radio,fun,music,2024,中文" data-listing-date-sort="1734152400000" data-listing-file-modified-sort="1765597425047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226" data-listing-title-sort="音乐电台｜2024" data-listing-filename-sort="24radio.qmd">
+<tr data-index="2" data-categories="radio,fun,music,2024,中文" data-listing-date-sort="1734152400000" data-listing-file-modified-sort="1765603844550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226" data-listing-title-sort="音乐电台｜2024 音乐与我的四季" data-listing-filename-sort="24radio.qmd">
 <td>
 <span class="listing-date">Dec 14, 2024</span>
 </td>
 <td>
-<a href="./life/seasonradio/24radio.html" class="title listing-title">音乐电台｜2024</a>
+<a href="./life/seasonradio/24radio.html" class="title listing-title">音乐电台｜2024 音乐与我的四季</a>
 </td>
 <td>
 <span class="listing-categories">radio, fun, music, 2024, 中文</span>
@@ -312,23 +316,40 @@ Reading Time
 <span class="listing-reading-time">2 min</span>
 </td>
 </tr>
+<tr data-index="3" data-categories="radio,fun,music,2024,中文" data-listing-date-sort="1718683200000" data-listing-file-modified-sort="1765603708684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="961" data-listing-title-sort="音乐电台｜2024 上半年的一周一曲" data-listing-filename-sort="24radio_weekly.qmd">
+<td>
+<span class="listing-date">Jun 18, 2024</span>
+</td>
+<td>
+<a href="./life/seasonradio/24radio_weekly.html" class="title listing-title">音乐电台｜2024 上半年的一周一曲</a>
+</td>
+<td>
+<span class="listing-categories">radio, fun, music, 2024, 中文</span>
+</td>
+<td>
+<span class="listing-reading-time">5 min</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="review,movie,documentary,中文" data-listing-date-sort="1711944000000" data-listing-file-modified-sort="1765602269223" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="101" data-listing-title-sort="观后感 | All Watched Over by Machines of Loving Grace" data-listing-filename-sort="allwatched.qmd">
+<td>
+<span class="listing-date">Apr 1, 2024</span>
+</td>
+<td>
+<a href="./life/review/allwatched.html" class="title listing-title">观后感 | All Watched Over by Machines of Loving Grace</a>
+</td>
+<td>
+<span class="listing-categories">review, movie, documentary, 中文</span>
+</td>
+<td>
+<span class="listing-reading-time">1 min</span>
+</td>
+</tr>
 </tbody>
 </table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-<center>
-<p><em>ℒℴℴ𝓀𝒾𝓃ℊ 𝒻ℴ𝓇 𝓂ℯ 𝒾𝓃 𝓉𝒽ℯ 𝓌ℴ𝓇𝒹𝓈 ℐ’𝓂 𝓇ℯ𝒶𝒹𝒾𝓃ℊ</em></p>
-<p><em>𝒮𝒽𝓎𝒾𝓃ℊ 𝒶𝓌𝒶𝓎 𝒻𝓇ℴ𝓂 𝓉𝒽ℯ 𝓁𝒾𝒻ℯ ℐ’𝓂 𝓁ℯ𝒶𝒹𝒾𝓃ℊ 𝒽ℯ𝓇ℯ</em></p>
-<p><em>ℱ𝒶𝓁𝓁 ℴ𝓃 𝓉𝒽ℯ 𝒻𝓁ℴℴ𝓇, 𝓈𝓉𝒶𝓇ℯ 𝓊𝓅 𝒶𝓉 𝓉𝒽ℯ 𝒸ℯ𝒾𝓁𝒾𝓃ℊ</em></p>
-<p><em>ℐ 𝓀𝓃ℴ𝓌 𝓉𝒽𝒶𝓉 𝓂𝓎 ℯ𝓎ℯ𝓈 𝒶𝓇ℯ 𝓉ℴℴ 𝓌𝒾𝒹ℯ 𝓉ℴ 𝓈ℯℯ 𝓉𝒽𝒾𝓃ℊ𝓈 𝒸𝓁ℯ𝒶𝓇</em></p>
-</center>
-
-
-
-
-<center>
+</div><center>
 © 2024-2025 RavensNest.
 </center></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

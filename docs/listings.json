@@ -26,7 +26,9 @@
       "/posts/useful_bio_links/biopages.html",
       "/projects/lyric_analysis/index.html",
       "/posts/coding_resources/codingresources.html",
-      "/posts/firstpost/firstpost.html"
+      "/posts/firstpost/firstpost.html",
+      "/life/seasonradio/24radio_weekly.html",
+      "/life/review/allwatched.html"
     ]
   },
   {
@@ -34,7 +36,9 @@
     "items": [
       "/life/library/mylib.html",
       "/life/seasonradio/25radio.html",
-      "/life/seasonradio/24radio.html"
+      "/life/seasonradio/24radio.html",
+      "/life/seasonradio/24radio_weekly.html",
+      "/life/review/allwatched.html"
     ]
   },
   {
@@ -48,7 +52,9 @@
       "/posts/useful_bio_links/biopages.html",
       "/projects/lyric_analysis/index.html",
       "/posts/coding_resources/codingresources.html",
-      "/posts/firstpost/firstpost.html"
+      "/posts/firstpost/firstpost.html",
+      "/life/seasonradio/24radio_weekly.html",
+      "/life/review/allwatched.html"
     ]
   }
 ]
