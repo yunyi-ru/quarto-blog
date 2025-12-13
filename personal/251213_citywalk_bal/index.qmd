@@ -1,0 +1,155 @@
+---
+title: "遛弯指南 | 巴尔的摩：港口·排屋·爱伦坡"
+date: "2025-12-13"
+categories: [draft, citywalk, travel, baltimore, 中文]
+---
+
+::: callout
+\[这还是一篇草稿。This is still a draft and all contents are subject to change.\]
+:::
+
+我很喜欢散步，本科期间基本每周都要在学校的小池子或者邻近的森林公园逛上一个小时再回去。可惜，以一个中国人的标准来看，目前为止生活过的美国城市没一个是walkable的：要么没有人行道，要么有人行道，但是人不敢上街。目前在的中西部大学城属于前者，巴尔的摩属于后者。
+
+不过，只要你又没车[穷]{.blur}又腿痒[闲]{.blur}，再不walkable的城市也可以变得walkable。这篇博客便是来介绍我在巴尔的摩的两年期间摸索出来的几条遛弯路线的。这也是未来想写的一个巴尔的摩系列的一部分——研究生两年让我对这座城市生出了多余的情感，不吐不快…
+
+::: column-margin
+**+ 小贴士 +**
+
+当我们说中文“巴尔的摩”的时候，一般指的是“巴尔的摩市（Baltimore City）”。巴尔的摩市被范围更广的巴尔的摩县（Baltimore County）包围（*这里需要注意的是巴尔的摩市是一个独立城市（Independent city），并不隶属于巴尔的摩县，以至于两者并不共享税率，政府，基建等等；可以感受到的就是开车开出巴尔的摩市范围后路况有变好*），后者内部有巴尔的摩留子最爱的Ellicott City，Towson等小镇，可供吃喝玩乐。
+
+但此篇博客主要讨论巴尔的摩市内的遛弯路线。因为博主在东校区上学所以以Inner Harbor/Downtown周围的路线为主，基本都是JHU的校车系统能够到的地方。
+:::
+
+::: callout
+**免责声明**：鉴于巴尔的摩的特殊性，这并不是一篇“指南”，更多是对博主自己过去两年生活的记录；在巴尔的摩生活还是要警觉，安全第一，感觉不对劲赶紧跑。
+:::
+
+# 写在正文之前
+
+由于非常复杂的历史原因，现在的巴尔的摩是一个非常分裂的城市。摩根州立大学的教授Lawrence Brown提出了非常形象的[“两个巴尔的摩”概念](https://www.religionandcities.org/hope-baltimores)——白人聚居的“L”形区域以两条南北贯穿的街道Saint Paul St和Calvert St为中心，向东延伸到港口周围的Fell's Point和Canton；黑人聚居的“蝴蝶”形区域则散落在城市的东西两端。
+
+> The white neighborhoods on \[the city’s racial mapping\] that form the shape of an ‘L’ accumulate structured advantages, while Black neighborhoods, shaped in the form of a butterfly, accumulate structured disadvantages. Baltimore’s hypersegregation is the root cause of racial inequity, crime, health inequities/disparities, and civil unrest.
+
+::: column-margin
+![](figs/bal1.jpg)
+
+这是The Urban Insitute做的一张互动式地图。[点这里](https://apps.urban.org/features/baltimore-investment-flows/)可以看到巴尔的摩的贫困率/社会经济地位在地域上极度不平等。
+:::
+
+结构性歧视和历史上的购房不平等导致这两个区域的安全程度差别很大，一个人行走的话最好还是在这个“L”形区域内呆着。虽然“L”形区域内也时有危险事件，并且有时这个街区一片祥和，下一个街区气氛就变得不妙起来了。——*随时保持警惕*。[但其实呆久了就麻木了（别学）。]{.blur}
+
+# 遛弯路线
+
+这里介绍的都是比较短的路线。其实很多路线都连在一起，可以根据体力酌情组合。
+
+::: column-margin
+**+ 安全程度 +**
+
+完全是博主的主观感受。
+
+5★：可以一个人安心走路和休息
+
+4★：可以一个人安心走路
+
+3★：部分路段有可疑人物，但还能走
+
+2★：部分路段*感觉很不妙*，别一个人去
+
+1★：不会推荐这种路线的lol
+:::
+
+## 1. 内港环线
+
+-   **路线**：Marriott Harbor East -\> Institute for Marine & Environmental Technology -\> National Aquarium -\> Jake's Skate Park -\> Federal Hill Park
+
+-   **推荐程度**：★★★★★
+
+-   **安全程度**：★★★★☆
+
+-   **步行时间**：1小时
+
+巴尔的摩市中心便是位于南部的Inner Harbor周围区域。切萨皮克湾是一个彗星撞击形成的深水港湾，大西洋的海风吹到巴尔的摩已经变得非常温和，所以这条路线天气好的时候是非常宜人的。National Aquarium非常值得一去，建筑非常XXXX
+
+## 2. 港口东部线
+
+-   **路线**：Marriott Harbor East -\> Whole Foods Market -\> Constellation -\> Fredrick Douglass-Issac Myers Maritime Park -\> Thames St -\> Fell's Point Farmer's Market -\> Broadway Pier
+
+-   **推荐程度**：★★★★★
+
+-   **安全程度**：★★★★★
+
+-   **步行时间**：1小时
+
+xxxxxx
+
+## 3. 医学院下班摸鱼线
+
+-   **路线**：Johns Hopkins East Baltimore Campus -\> Ministry of Brewing -\> Patterson Park -\> Eastern Avenue -\> Broadway Market -\> Fell's Point Farmer's Market
+
+-   **推荐程度**：★★★★☆
+
+-   **安全程度**：★★★☆☆
+
+-   **步行时间**：3小时
+
+xxxxxx
+
+## 4. 爱伦坡线
+
+-   **路线**：Lafayette Monument -\> N Howard St -\> Lexington Market -\> Edgar Allan Poe Grave
+
+-   **推荐程度**：★★★★☆
+
+-   **安全程度**：★★☆☆☆
+
+-   **步行时间**：1小时
+
+xxxxxx
+
+## 5. MICA线
+
+-   **路线**：Penn Station -\> University of Baltimore -\> Lyric Baltimore -\> B&O Slope Park -\> Maryland Institute College of Art -\> Decker Library -\> MICA Store
+
+-   **推荐程度**：★★★☆☆
+
+-   **安全程度**：★★★★★
+
+-   **步行时间**：0.5小时
+
+xxxxxx
+
+## 6. Mount Vernon线
+
+-   **路线**：Penn Station -\> N Charles St -\> Mount Vernon Place United Methodist Church -\> Lafayette Monument -\> George Peabody Library
+
+-   **推荐程度**：★★★★☆
+
+-   **安全程度**：★★★☆☆
+
+-   **步行时间**：0.5小时
+
+xxxxxx
+
+## 6. 城区线
+
+-   **路线**：George Peabody Library -\> N Charles St -\> Old Saint Paul's Church -\> Baltimore City Hall -\> Inner Harbor
+
+-   **推荐程度**：★★☆☆☆
+
+-   **安全程度**：★★★☆☆
+
+-   **步行时间**：0.5小时
+
+比起费城和纽约的downtown/city hall周边，巴尔的摩的下城区实在是有些乏善可陈。主干道周围有一些历史建筑和古着店，秋天银杏叶落一地还是很好看的。博主走这条路纯粹是想试试靠脚走到inner harbor。
+
+## 7. JHU主校区-Hampden线
+
+-   **路线**：JHU Homewood Campus -\> Wyman Park -\> W 36th St
+
+-   **推荐程度**：★★★★☆
+
+-   **安全程度**：★★★★★
+
+-   **步行时间**：2小时
+
+XXXX

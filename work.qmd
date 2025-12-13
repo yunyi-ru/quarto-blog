@@ -1,9 +1,7 @@
 ---
-title: "Archive"
+title: "Work"
 listing:
-  contents: 
-    - personal/**/*.qmd
-    - work/**/*.qmd
+  contents: work/**/*.qmd
   sort: "date desc"
   type: table
   categories: true

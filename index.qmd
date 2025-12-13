@@ -8,9 +8,8 @@ navbar: false
 listing:
   id: latest
   contents: 
-    - projects/**/*.qmd
-    - posts/**/*.qmd
-    - life/**/*.qmd
+    - personal/**/*.qmd
+    - work/**/*.qmd
   sort: "date desc"
   max-items: 4
   type: table
@@ -42,31 +41,28 @@ listing:
 
 #### + links +
 
-[Projects](project.qmd){.button}
+[Work](work.qmd){.button}
 
-[Blog](blog.qmd){.button}
+[Personal](personal.qmd){.button}
 
-[Life](life.qmd){.button}
+[Log\|Credit](log.qmd){.button}
 
-[Log\|Credit](credit.qmd){.button}
+[About](about.qmd){.button}
 
-[About](aboutme.qmd){.button}
-
-[Gallery](photos.qmd){.button}
+[Gallery](gallery.qmd){.button}
 
 [Archive](archive.qmd){.button}
 
-[GitHub](https://github.com/yyraven) \| [Email](mailto:cosmicraven0530@gmail.com) \|
-[RSS](index.xml)
+[GitHub](https://github.com/yyraven) \| [Email](mailto:cosmicraven0530@gmail.com) \| [RSS](index.xml)
 
 ------------------------------------------------------------------------
 :::
 
 #### + status +
 
-\+ I've been constantly updating my birding blog... [**Check it out!**](projects/all_about_birding/birding.qmd)
+\+ I've been constantly updating my birding blog... [**Check it out!**](personal/nd_birding/index.qmd)
 
-\+ 251211 Now you can play chasing with the little black cat. See changelog [**here**](credit.qmd).
+\+ 251211 Now you can play mouse chasing with the little black cat.
 
 ::: grid
 ::: g-col-4
@@ -74,7 +70,7 @@ listing:
 :::
 
 ::: g-col-6
-##### + now reading/playing + 
+##### + now reading/playing +
 
 📖 *Not in My Neighborhood* by *Antero Pietila*
 

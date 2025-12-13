@@ -6,13 +6,13 @@
       version="2.0">
 <channel>
 <title>Raven&#39;s Nest</title>
-<link>https://yyraven.github.io/quarto-blog/</link>
-<atom:link href="https://yyraven.github.io/quarto-blog/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://yyraven.github.io/quarto-blog/archive.html</link>
+<atom:link href="https://yyraven.github.io/quarto-blog/archive.xml" rel="self" type="application/rss+xml"/>
 <description>Raven&#39;s Nest, a personal blog</description>
 <image>
 <url>https://yyraven.github.io/quarto-blog/figs/preview.png</url>
 <title>Raven&#39;s Nest</title>
-<link>https://yyraven.github.io/quarto-blog/</link>
+<link>https://yyraven.github.io/quarto-blog/archive.html</link>
 <height>82</height>
 <width>144</width>
 </image>

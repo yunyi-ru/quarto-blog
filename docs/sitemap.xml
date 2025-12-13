@@ -1,83 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://yyraven.github.io/quarto-blog/blog.html</loc>
-    <lastmod>2025-12-11T06:42:34.167Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yyraven.github.io/quarto-blog/project.html</loc>
-    <lastmod>2025-11-21T18:03:03.388Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yyraven.github.io/quarto-blog/index.html</loc>
-    <lastmod>2025-12-13T09:10:39.716Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yyraven.github.io/quarto-blog/life/seasonradio/24radio.html</loc>
-    <lastmod>2025-12-13T05:30:44.550Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yyraven.github.io/quarto-blog/life/seasonradio/24radio_weekly.html</loc>
-    <lastmod>2025-12-13T05:28:28.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yyraven.github.io/quarto-blog/life/library/mylib.html</loc>
-    <lastmod>2025-12-13T03:47:03.975Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yyraven.github.io/quarto-blog/aboutme.html</loc>
-    <lastmod>2025-12-13T04:04:08.995Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yyraven.github.io/quarto-blog/projects/RESPweather_dashboard/weatherdashboard.html</loc>
-    <lastmod>2025-12-11T22:49:17.280Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yyraven.github.io/quarto-blog/posts/useful_bio_links/biopages.html</loc>
-    <lastmod>2025-12-11T07:55:52.869Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yyraven.github.io/quarto-blog/posts/firstpost/firstpost.html</loc>
-    <lastmod>2025-12-11T07:56:18.308Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yyraven.github.io/quarto-blog/life.html</loc>
-    <lastmod>2025-12-13T09:07:59.992Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yyraven.github.io/quarto-blog/posts/coding_resources/codingresources.html</loc>
-    <lastmod>2025-12-11T21:59:13.532Z</lastmod>
-  </url>
-  <url>
-    <loc>https://yyraven.github.io/quarto-blog/projects/lyric_analysis/index.html</loc>
+    <loc>https://yyraven.github.io/quarto-blog/work/241108_lyric_analysis/index.html</loc>
     <lastmod>2025-12-13T02:49:27.459Z</lastmod>
   </url>
   <url>
-    <loc>https://yyraven.github.io/quarto-blog/projects/all_about_birding/birding.html</loc>
-    <lastmod>2025-12-11T17:01:40.916Z</lastmod>
+    <loc>https://yyraven.github.io/quarto-blog/work/241219_RESPweather_dashboard/index.html</loc>
+    <lastmod>2025-12-13T22:09:32.225Z</lastmod>
   </url>
   <url>
-    <loc>https://yyraven.github.io/quarto-blog/life/citywalk/citywalk_baltimore.html</loc>
-    <lastmod>2025-12-13T08:48:12.140Z</lastmod>
+    <loc>https://yyraven.github.io/quarto-blog/personal.html</loc>
+    <lastmod>2025-12-13T22:01:45.560Z</lastmod>
   </url>
   <url>
-    <loc>https://yyraven.github.io/quarto-blog/life/review/allwatched.html</loc>
+    <loc>https://yyraven.github.io/quarto-blog/about.html</loc>
+    <lastmod>2025-12-13T22:10:44.863Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yyraven.github.io/quarto-blog/index.html</loc>
+    <lastmod>2025-12-13T22:10:46.483Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yyraven.github.io/quarto-blog/work.html</loc>
+    <lastmod>2025-12-13T22:02:43.069Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yyraven.github.io/quarto-blog/personal/nd_personal_library/index.html</loc>
+    <lastmod>2025-12-13T22:08:54.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yyraven.github.io/quarto-blog/personal/251213_citywalk_bal/index.html</loc>
+    <lastmod>2025-12-13T22:08:24.230Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yyraven.github.io/quarto-blog/personal/241214_radio/index.html</loc>
+    <lastmod>2025-12-13T21:50:27.093Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yyraven.github.io/quarto-blog/personal/nd_birding/index.html</loc>
+    <lastmod>2025-12-13T22:08:33.864Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yyraven.github.io/quarto-blog/personal/240618_radio/index.html</loc>
+    <lastmod>2025-12-13T05:28:28.684Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yyraven.github.io/quarto-blog/personal/251211_radio/index.html</loc>
+    <lastmod>2025-12-13T21:51:47.201Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yyraven.github.io/quarto-blog/personal/240401_review_allwatched/index.html</loc>
     <lastmod>2025-12-13T05:04:29.223Z</lastmod>
   </url>
   <url>
-    <loc>https://yyraven.github.io/quarto-blog/life/seasonradio/25radio.html</loc>
-    <lastmod>2025-12-13T05:30:51.647Z</lastmod>
-  </url>
-  <url>
     <loc>https://yyraven.github.io/quarto-blog/archive.html</loc>
-    <lastmod>2025-12-13T09:08:22.446Z</lastmod>
+    <lastmod>2025-12-13T22:02:13.923Z</lastmod>
   </url>
   <url>
-    <loc>https://yyraven.github.io/quarto-blog/photos.html</loc>
+    <loc>https://yyraven.github.io/quarto-blog/gallery.html</loc>
     <lastmod>2025-12-12T21:28:22.903Z</lastmod>
   </url>
   <url>
-    <loc>https://yyraven.github.io/quarto-blog/credit.html</loc>
+    <loc>https://yyraven.github.io/quarto-blog/log.html</loc>
     <lastmod>2025-12-13T04:29:06.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yyraven.github.io/quarto-blog/work/240913_first_post/index.html</loc>
+    <lastmod>2025-12-13T22:12:41.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://yyraven.github.io/quarto-blog/work/241109_useful_bio_links/index.html</loc>
+    <lastmod>2025-12-11T07:55:52.869Z</lastmod>
   </url>
 </urlset>

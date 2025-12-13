@@ -5,7 +5,6 @@ project:
 website:
   favicon: figs/crow_s.png
   title: "Raven's Nest"
-  google-analytics: "G-XJSP4R93HW"
   image: figs/preview.png
   open-graph: true
   description: "Raven's Nest, a personal blog"
@@ -15,17 +14,15 @@ website:
     <center>© 2024-2025 RavensNest.</center>
   navbar:
     left:
-    - text: Projects
-      href: project.qmd
-    - text: Blog
-      href: blog.qmd
-    - text: Life
-      href: life.qmd
+    - text: Work
+      href: work.qmd
+    - text: Personal
+      href: personal.qmd
     - text: Archive
       href: archive.qmd
     right:
     - text: About
-      href: aboutme.qmd
+      href: about.qmd
     - text: RSS
       href: index.xml
     - icon: github
@@ -36,7 +33,5 @@ format:
     theme:
         - morph
         - custom.scss
-
-editor: visual
 
 callout-appearance: simple
