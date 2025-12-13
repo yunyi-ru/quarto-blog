@@ -189,10 +189,19 @@ details p {
 
 .photo-row {
   display: flex;
-  flex-direction: row;      /* 水平排列 */
+  flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;  /* 居中对齐 */
-  gap: 1rem;                /* 图片之间间距 */
+  justify-content: center;
+  gap: 1rem;
   overflow-x: auto;
   padding: 0.5rem 0;
+}
+
+.blur {
+  filter: blur(3px);
+  transition: filter 0.3s ease;
+}
+
+.blur:hover {
+  filter: blur(0);
 }

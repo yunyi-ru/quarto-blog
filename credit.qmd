@@ -2,15 +2,14 @@
 title: "Log | Credit"
 ---
 
-This blog was made using [Quarto](https://quarto.org/). I mainly use RStudio as my text editor and publish it to GitHub Pages. I like MarkDown, so that's the main reason I chose Quarto. 
-
-## Change Log
+This blog was made using [Quarto](https://quarto.org/). I mainly use RStudio as my text editor and publish it to GitHub Pages.
 
 -   **240913** Blog started
 -   **241109** Comment section using [utterances](https://utteranc.es/)
 -   **241109** Customized favicon (a focused crow!)
--   **241221** Customized css theme
+-   **241221** Customized css theme, fonts = special elite/tahoma/courier new
 -   **251211** Kudos button using [code](https://bohemiansultriness.nekoweb.org/goodies/mylikebutton.txt) by [Fritzi](https://bohemiansultriness.nekoweb.org)
--   **251211** The little black cat cartoon on the landing page is enabled by [Neko](https://webneko.net/?white)!
+-   **251211** The little black cat cartoon on the landing page is powered by [Neko](https://webneko.net/?white)!
+-   **251212** RSS feed
 
 ------------------------------------------------------------------------

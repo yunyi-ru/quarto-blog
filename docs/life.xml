@@ -5,702 +5,785 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>ravensnest</title>
-<link>https://yyraven.github.io/quarto-blog/readmusic.html</link>
-<atom:link href="https://yyraven.github.io/quarto-blog/readmusic.xml" rel="self" type="application/rss+xml"/>
-<description></description>
+<title>Raven&#39;s Nest</title>
+<link>https://yyraven.github.io/quarto-blog/life.html</link>
+<atom:link href="https://yyraven.github.io/quarto-blog/life.xml" rel="self" type="application/rss+xml"/>
+<description>Raven&#39;s Nest, a personal blog</description>
 <image>
 <url>https://yyraven.github.io/quarto-blog/figs/preview.png</url>
-<title>ravensnest</title>
-<link>https://yyraven.github.io/quarto-blog/readmusic.html</link>
+<title>Raven&#39;s Nest</title>
+<link>https://yyraven.github.io/quarto-blog/life.html</link>
 <height>82</height>
 <width>144</width>
 </image>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Invalid Date</lastBuildDate>
+<lastBuildDate>Fri, 12 Dec 2025 05:00:00 GMT</lastBuildDate>
 <item>
   <title>置顶 | 工业风豆瓣</title>
-  <link>https://yyraven.github.io/quarto-blog/readmusic/library/mylib.html</link>
+  <link>https://yyraven.github.io/quarto-blog/life/library/mylib.html</link>
   <description><![CDATA[ 
 <div class="mylikebutton">♥</div>
 
 
 
 
-<p>书影音记录，对抗短视频的绝望努力……</p>
-<p>A record of books/movie/anime/records + reviews, no doom-scrolling anymore I promise.</p>
+<center>
+<p>书影音记录，对抗短视频时代的绝望努力</p>
+<p>A record of all books/movie/anime/live music since Aug ’23 + some statistics.</p>
+<p>I’m fighting my instinct of doom-scrolling!</p>
+</center>
 <hr>
-<section id="书" class="level1">
-<h1>书</h1>
+<section id="年度总结" class="level1">
+<h1>年度总结</h1>
+<details open="">
+<summary>
+2025
+</summary>
+<p>2025年，我一共看了 <code>5</code> 本书，<code>4</code> 部电影/动画，<code>7</code> 场演出。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 21%">
+<col style="width: 11%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">date</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: left;">author</th>
+<th style="text-align: right;">publish</th>
+<th style="text-align: right;">rating</th>
+<th style="text-align: left;">comment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2025-02-05</td>
+<td style="text-align: left;">小径分岔的花园</td>
+<td style="text-align: left;">J.L. Borges</td>
+<td style="text-align: right;">1941</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">意境很美的小说</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-03-05</td>
+<td style="text-align: left;">蜘蛛女之吻</td>
+<td style="text-align: left;">M. Puig</td>
+<td style="text-align: right;">1976</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">结构精巧，内容动人的小说，两位主角都是那么的惹人喜爱…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-08-15</td>
+<td style="text-align: left;">九故事</td>
+<td style="text-align: left;">J.D. Salinger</td>
+<td style="text-align: right;">1953</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">充满禅意的杰作，让人后悔自己没在青春期读到它们</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-08-17</td>
+<td style="text-align: left;">在路上</td>
+<td style="text-align: left;">J. Kerouac</td>
+<td style="text-align: right;">1957</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">非常美丽而浪漫的公路小说，为了它我可以再次爱上美国</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-09-05</td>
+<td style="text-align: left;">抬高房梁，木匠们/西摩小传</td>
+<td style="text-align: left;">J.D. Salinger</td>
+<td style="text-align: right;">1963</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">抬高房梁还不错，西摩小传无法欣赏</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 29%">
+<col style="width: 11%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">date</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: left;">author</th>
+<th style="text-align: right;">publish</th>
+<th style="text-align: right;">rating</th>
+<th style="text-align: left;">comment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2025-06-05</td>
+<td style="text-align: left;">Nosferatu</td>
+<td style="text-align: left;">R. Eggers</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">吸血鬼色情片，吸血鬼草了男女主两个人</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-08-14</td>
+<td style="text-align: left;">魔法少女小圆</td>
+<td style="text-align: left;">新房昭之</td>
+<td style="text-align: right;">2011</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">叙事非常完满的杰作，无须多言</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-10-26</td>
+<td style="text-align: left;">电锯人剧场版：蕾塞篇</td>
+<td style="text-align: left;">藤本树/吉原达矢</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">打斗画面非常可以，但完全没给context，不看原著估计一头雾水</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-11-25</td>
+<td style="text-align: left;">Harry Potter and the Prisoner of Azkaban</td>
+<td style="text-align: left;">A. C. Orozco</td>
+<td style="text-align: right;">2004</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">唯一一部值得看第二遍的哈利波特电影</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 31%">
+<col style="width: 14%">
+<col style="width: 12%">
+<col style="width: 11%">
+<col style="width: 17%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">date</th>
+<th style="text-align: left;">tour</th>
+<th style="text-align: left;">headliner</th>
+<th style="text-align: left;">opener</th>
+<th style="text-align: left;">location</th>
+<th style="text-align: left;">venue</th>
+<th style="text-align: right;">rating</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2025-02-21</td>
+<td style="text-align: left;">Les Chants de l’Aurore</td>
+<td style="text-align: left;">Alcest</td>
+<td style="text-align: left;">Kælan Mikla, MONO</td>
+<td style="text-align: left;">Baltimore MD</td>
+<td style="text-align: left;">Baltimore Soundstage</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-04-17</td>
+<td style="text-align: left;">La Luz Spring Tour</td>
+<td style="text-align: left;">La Luz</td>
+<td style="text-align: left;">Color Green</td>
+<td style="text-align: left;">Baltimore MD</td>
+<td style="text-align: left;">Ottobar</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-05-05</td>
+<td style="text-align: left;">Grand National Tour: Kendrick Lamar and SZA</td>
+<td style="text-align: left;">Kendrick Lamar, SZA</td>
+<td style="text-align: left;">Mustard</td>
+<td style="text-align: left;">Philadelphia PA</td>
+<td style="text-align: left;">Lincoln Financial Field</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-05-10</td>
+<td style="text-align: left;">Romance</td>
+<td style="text-align: left;">Fontaines D.C.</td>
+<td style="text-align: left;">Jadu Heart</td>
+<td style="text-align: left;">Washington DC</td>
+<td style="text-align: left;">The Anthem</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-06-05</td>
+<td style="text-align: left;">Somewhere in Time</td>
+<td style="text-align: left;">RINI</td>
+<td style="text-align: left;">Bathe</td>
+<td style="text-align: left;">Los Angeles CA</td>
+<td style="text-align: left;">The Belasco</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-07-05</td>
+<td style="text-align: left;">口 Aha</td>
+<td style="text-align: left;">Carsick Cars</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">苏州</td>
+<td style="text-align: left;">山丘LiveHouse</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-10-25</td>
+<td style="text-align: left;">破晓还潮</td>
+<td style="text-align: left;">Sadless</td>
+<td style="text-align: left;">野草 The Ruderals</td>
+<td style="text-align: left;">Lafayette IN</td>
+<td style="text-align: left;">Digby’s Pub &amp; Patio</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>我可以解释…因为申请、毕业和适应新学校什么的…（心虚（算了今年就是不思进取！全部用来doomscrolling了！不好！</p>
+</details>
+<details>
+<summary>
+2024
+</summary>
+<p>2024年，我一共看了 <code>9</code> 本书，<code>15</code> 部电影/动画，<code>9</code> 场演出。</p>
 <div class="cell">
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
 <col style="width: 4%">
 <col style="width: 16%">
-<col style="width: 7%">
-<col style="width: 2%">
-<col style="width: 2%">
-<col style="width: 67%">
+<col style="width: 5%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 66%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">日期</th>
-<th style="text-align: left;">书名</th>
-<th style="text-align: left;">作者</th>
-<th style="text-align: right;">评分</th>
-<th style="text-align: left;">状态</th>
-<th style="text-align: left;">简评</th>
+<th style="text-align: left;">date</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: left;">author</th>
+<th style="text-align: right;">publish</th>
+<th style="text-align: right;">rating</th>
+<th style="text-align: left;">comment</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">8/19/23</td>
-<td style="text-align: left;">那不勒斯四部曲</td>
-<td style="text-align: left;">E. Ferrante</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">已读</td>
-<td style="text-align: left;">新颖的视角，细腻的文笔</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">1/10/24</td>
+<td style="text-align: left;">2024-01-10</td>
 <td style="text-align: left;">论中国</td>
 <td style="text-align: left;">H. Kissinger</td>
+<td style="text-align: right;">2011</td>
 <td style="text-align: right;">8</td>
-<td style="text-align: left;">已读</td>
 <td style="text-align: left;">中美关系/20世纪新中国史入门</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">1/19/24</td>
-<td style="text-align: left;">存在主义咖啡馆</td>
-<td style="text-align: left;">S. Bakewell</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: left;">已读</td>
-<td style="text-align: left;">不错的入门书</td>
-</tr>
 <tr class="even">
-<td style="text-align: left;">1/19/24</td>
-<td style="text-align: left;">存在主义是一种人道主义</td>
-<td style="text-align: left;">J. P. Sartre</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">已读</td>
-<td style="text-align: left;">醍醐灌顶</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1/19/24</td>
-<td style="text-align: left;">德米安：彷徨少年时</td>
-<td style="text-align: left;">H. Hesse</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: left;">已读</td>
-<td style="text-align: left;">虽然有很多名言警句，但依然不是很能理解这种精神状态</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">1/19/24</td>
+<td style="text-align: left;">2024-01-19</td>
 <td style="text-align: left;">1968 撞击世界的年代</td>
 <td style="text-align: left;">M. Kurlansky</td>
+<td style="text-align: right;">2009</td>
 <td style="text-align: right;">8</td>
-<td style="text-align: left;">已读</td>
 <td style="text-align: left;">非常详尽的1968年世界学运史</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">2/17/24</td>
+<td style="text-align: left;">2024-02-17</td>
 <td style="text-align: left;">Warhol</td>
 <td style="text-align: left;">K. Honnef</td>
+<td style="text-align: right;">2000</td>
 <td style="text-align: right;">8</td>
-<td style="text-align: left;">已读</td>
 <td style="text-align: left;">不错的书。着重于对Warhol艺术概念的介绍，挺有启发性的，图很好看，内容更多点就好了。虽然本来买了是想看VU的八卦——八卦是一点都没有</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">2/17/24</td>
+<td style="text-align: left;">2024-02-17</td>
 <td style="text-align: left;">UNCUT ultimate genre guide shoegaze</td>
 <td style="text-align: left;">UNCUT</td>
+<td style="text-align: right;">2021</td>
 <td style="text-align: right;">8</td>
-<td style="text-align: left;">已读</td>
 <td style="text-align: left;">粉丝狂喜的一本杂志。对想了解这个流派的人也很有帮助</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">3/5/24</td>
-<td style="text-align: left;">蜘蛛女之吻</td>
-<td style="text-align: left;">M. Puig</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">已读</td>
-<td style="text-align: left;">结构精巧，内容动人的小说，两位主角都是那么的惹人喜爱…</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">3/13/24</td>
+<td style="text-align: left;">2024-03-13</td>
 <td style="text-align: left;">Creation Stories</td>
 <td style="text-align: left;">A. McGee</td>
+<td style="text-align: right;">2013</td>
 <td style="text-align: right;">4</td>
-<td style="text-align: left;">已读</td>
 <td style="text-align: left;">如果你不是和我一样是一位正在绝望地从全世界找资料给盯鞋乐队拉磨的同人女的话，这本书真的没什么看的必要。讲McGee嗑昏过去的部份比讲怎么运营乐队的部份多</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">5/26/24</td>
+<tr class="even">
+<td style="text-align: left;">2024-05-09</td>
 <td style="text-align: left;">霍乱时期的爱情</td>
 <td style="text-align: left;">G. Marquez</td>
+<td style="text-align: right;">1985</td>
 <td style="text-align: right;">9</td>
-<td style="text-align: left;">已读</td>
 <td style="text-align: left;">重读依旧很喜欢</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">5/26/24</td>
+<tr class="odd">
+<td style="text-align: left;">2024-05-26</td>
 <td style="text-align: left;">仿生人会梦见电子羊吗</td>
 <td style="text-align: left;">P. Dick</td>
+<td style="text-align: right;">1968</td>
 <td style="text-align: right;">9</td>
-<td style="text-align: left;">已读</td>
 <td style="text-align: left;">相当不错的小说</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">9/5/24</td>
-<td style="text-align: left;">九故事</td>
-<td style="text-align: left;">J.D. Salinger</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">已读</td>
-<td style="text-align: left;">充满禅意的杰作，让人后悔自己没在青春期读到它们</td>
-</tr>
 <tr class="even">
-<td style="text-align: left;">9/5/24</td>
-<td style="text-align: left;">抬高房梁，木匠们/西摩小传</td>
-<td style="text-align: left;">J.D. Salinger</td>
-<td style="text-align: right;">6</td>
-<td style="text-align: left;">已读</td>
-<td style="text-align: left;">抬高房梁还不错，西摩小传无法欣赏</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">12/13/24</td>
+<td style="text-align: left;">2024-12-13</td>
 <td style="text-align: left;">我们最幸福</td>
 <td style="text-align: left;">B. Demick</td>
+<td style="text-align: right;">2009</td>
 <td style="text-align: right;">9</td>
-<td style="text-align: left;">已读</td>
 <td style="text-align: left;">除了朝鲜的部分，这些脱北者开启新生活的决心也让人印象深刻。女性真是坚强啊</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">12/26/24</td>
+<tr class="odd">
+<td style="text-align: left;">2024-12-26</td>
 <td style="text-align: left;">倚天屠龙记</td>
 <td style="text-align: left;">金庸</td>
+<td style="text-align: right;">1961</td>
 <td style="text-align: right;">7</td>
-<td style="text-align: left;">已读</td>
 <td style="text-align: left;">感觉也没什么特别打动人的地方，那种文笔挺好的龙傲天小说即视感，四个妹妹已成梗</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">8/17/25</td>
-<td style="text-align: left;">在路上</td>
-<td style="text-align: left;">J. Kerouac</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">已读</td>
-<td style="text-align: left;">非常美丽而浪漫的公路小说，为了它我可以再次爱上美国</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">潘多拉文件</td>
-<td style="text-align: left;">R. Ferré</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">在读</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">二手时间</td>
-<td style="text-align: left;">S. A. Alexievich</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">在读</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">乌鸦</td>
-<td style="text-align: left;">A. Poe</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">在读</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Barbed Wire Kisses</td>
-<td style="text-align: left;">Z. Howe</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">在读</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Sonic Life</td>
-<td style="text-align: left;">T. Moore</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">在读</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">南方高速</td>
-<td style="text-align: left;">J. Cortázar</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">在读</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">性权利：21世纪的女性主义</td>
-<td style="text-align: left;">A. Srinivasan</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">在读</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Johnathan Livingston Seagull</td>
-<td style="text-align: left;">R. Bach</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">在读</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">单向度的人</td>
-<td style="text-align: left;">H. Marcuse</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">在读</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Not in my Neighbourhood</td>
-<td style="text-align: left;">A. Pietila</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">在读</td>
-<td style="text-align: left;"></td>
-</tr>
 </tbody>
 </table>
 </div>
-</div>
-<hr>
-</section>
-<section id="电影动画" class="level1">
-<h1>电影/动画</h1>
-<div class="cell">
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
 <col style="width: 3%">
-<col style="width: 16%">
+<col style="width: 15%">
 <col style="width: 5%">
-<col style="width: 1%">
-<col style="width: 1%">
-<col style="width: 70%">
+<col style="width: 2%">
+<col style="width: 2%">
+<col style="width: 69%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">日期</th>
-<th style="text-align: left;">作品名</th>
-<th style="text-align: left;">作者</th>
-<th style="text-align: right;">评分</th>
-<th style="text-align: left;">状态</th>
-<th style="text-align: left;">简评</th>
+<th style="text-align: left;">date</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: left;">author</th>
+<th style="text-align: right;">publish</th>
+<th style="text-align: right;">rating</th>
+<th style="text-align: left;">comment</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">1/19/24</td>
-<td style="text-align: left;">燃冬</td>
-<td style="text-align: left;">陈哲艺</td>
-<td style="text-align: right;">4.0</td>
-<td style="text-align: left;">已看</td>
-<td style="text-align: left;">拍摄手法出了大问题</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">1/19/24</td>
+<td style="text-align: left;">2024-01-19</td>
 <td style="text-align: left;">咒</td>
 <td style="text-align: left;">柯孟融</td>
-<td style="text-align: right;">7.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: left;">邪教片，拍得不错，作为无神论者没啥后劲</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">1/19/24</td>
+<tr class="even">
+<td style="text-align: left;">2024-01-19</td>
 <td style="text-align: left;">1991: The Year Punk Broke</td>
 <td style="text-align: left;">D. Markey</td>
-<td style="text-align: right;">6.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">1992</td>
+<td style="text-align: right;">6</td>
 <td style="text-align: left;">音乐录影带。现场很棒，叙事几乎没有。说好听点就是很忠实的客观记录吧</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">2/17/24</td>
+<tr class="odd">
+<td style="text-align: left;">2024-02-17</td>
 <td style="text-align: left;">Withnail &amp; I</td>
 <td style="text-align: left;">B. Robinson</td>
-<td style="text-align: right;">7.5</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">1987</td>
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">疯子天才Withnail和没那么天才却也没那么疯的Marwood，需要有一定英国文化和时代背景知识储备才能有感触的电影…心情和电影里的阴雨一般闷闷的</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">3/15/24</td>
+<tr class="even">
+<td style="text-align: left;">2024-03-15</td>
 <td style="text-align: left;">DIG!</td>
 <td style="text-align: left;">O. Timoner</td>
-<td style="text-align: right;">8.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">2004</td>
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">在乐队纪录片中算质量很高了，我觉得可以与Supersonic媲美。讲的是90S Mozart vs.&nbsp;Salieri (Brian Jonestown Massacre vs.&nbsp;The Dandy Warhols) 的故事，虽然这样的叙事是以消耗客观性为代价的，但作为电影很棒</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">4/1/24</td>
+<tr class="odd">
+<td style="text-align: left;">2024-04-01</td>
 <td style="text-align: left;">All Watched Over by Machines of Loving Grace</td>
 <td style="text-align: left;">A. Curtis</td>
-<td style="text-align: right;">8.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">2011</td>
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">相当不错的纪录片，观后感得单独摘出来写</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">5/26/24</td>
+<tr class="even">
+<td style="text-align: left;">2024-05-26</td>
 <td style="text-align: left;">This Is Spinal Tap</td>
 <td style="text-align: left;">R. Reiner</td>
-<td style="text-align: right;">7.5</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">1984</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: left;">狠狠地拿摇滚文化开涮了，感想是很爽</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">5/26/24</td>
+<tr class="odd">
+<td style="text-align: left;">2024-05-26</td>
 <td style="text-align: left;">Beautiful Noise</td>
 <td style="text-align: left;">E. Green</td>
-<td style="text-align: right;">7.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">2014</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: left;">著名的盯鞋纪录片，信息量蛮足的，和这个genre一样是性冷淡风（笑</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">5/29/24</td>
+<tr class="even">
+<td style="text-align: left;">2024-05-29</td>
 <td style="text-align: left;">Upside Down: The Creation Records Story</td>
 <td style="text-align: left;">D. O’Connor</td>
-<td style="text-align: right;">8.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">2010</td>
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">比McGee自己写的那书好看多了</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">10/20/24</td>
+<tr class="odd">
+<td style="text-align: left;">2024-10-20</td>
 <td style="text-align: left;">Blade Runner 2049</td>
 <td style="text-align: left;">D. Villeneuve</td>
-<td style="text-align: right;">7.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">2017</td>
+<td style="text-align: right;">7</td>
 <td style="text-align: left;">剧情有点落入俗套，每个人一张嘴你就知道他们想要说什么</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">10/20/24</td>
+<tr class="even">
+<td style="text-align: left;">2024-10-20</td>
 <td style="text-align: left;">The Shape Of Water</td>
 <td style="text-align: left;">G. del Toro</td>
-<td style="text-align: right;">8.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">2017</td>
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">Underrepresented Baltimore people beat the shit out of a Texas racist。虽然剧情很老套但人外太萌音乐太好听画面太美我原谅了一切，喜欢chill到爆的巴尔的摩vibe</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">12/22/24</td>
+<tr class="odd">
+<td style="text-align: left;">2024-12-22</td>
 <td style="text-align: left;">蓦然回首</td>
 <td style="text-align: left;">藤本树/押山清高</td>
-<td style="text-align: right;">8.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">8</td>
 <td style="text-align: left;">蛮好的虽然感觉节奏把控上和原作有挺大区别……这个分主要还是给原作</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">12/22/24</td>
+<tr class="even">
+<td style="text-align: left;">2024-12-22</td>
 <td style="text-align: left;">狂飙</td>
 <td style="text-align: left;">徐纪周</td>
-<td style="text-align: right;">9.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">9</td>
 <td style="text-align: left;">非常好看的警匪剧</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">12/24/24</td>
+<tr class="odd">
+<td style="text-align: left;">2024-12-24</td>
 <td style="text-align: left;">Blade Runner</td>
 <td style="text-align: left;">R. Scott</td>
-<td style="text-align: right;">10.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">1982</td>
+<td style="text-align: right;">10</td>
 <td style="text-align: left;">重温了一遍还是觉得非常完美</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">12/26/24</td>
+<tr class="even">
+<td style="text-align: left;">2024-12-26</td>
 <td style="text-align: left;">Lost in Translation</td>
 <td style="text-align: left;">S. Coppola</td>
-<td style="text-align: right;">10.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">2003</td>
+<td style="text-align: right;">10</td>
 <td style="text-align: left;">很好看的片子…总之就是很好看的片子，讲述成年人生活的困惑</td>
 </tr>
-<tr class="even">
-<td style="text-align: left;">12/26/24</td>
+<tr class="odd">
+<td style="text-align: left;">2024-12-26</td>
 <td style="text-align: left;">My Own Private Idaho</td>
 <td style="text-align: left;">Gus Van Sant</td>
-<td style="text-align: right;">10.0</td>
-<td style="text-align: left;">已看</td>
+<td style="text-align: right;">1991</td>
+<td style="text-align: right;">10</td>
 <td style="text-align: left;">非常喜欢的氛围和节奏，让人看了觉得悲伤且无力，但又不会愤怒，只是淡淡的……</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">6/5/25</td>
-<td style="text-align: left;">Nosferatu</td>
-<td style="text-align: left;">R. Eggers</td>
-<td style="text-align: right;">7.0</td>
-<td style="text-align: left;">已看</td>
-<td style="text-align: left;">吸血鬼色情片，吸血鬼草了男女主两个人</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">电锯人剧场版：蕾塞篇</td>
-<td style="text-align: left;">藤本树/吉原达矢</td>
-<td style="text-align: right;">7.0</td>
-<td style="text-align: left;">已看</td>
-<td style="text-align: left;">打斗画面非常可以，但完全没给context，不看原著估计一头雾水</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">死亡笔记</td>
-<td style="text-align: left;">大场鸫/小畑健</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">在看</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">The Aviator</td>
-<td style="text-align: left;">M. Scorsese</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">在看</td>
-<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
 </div>
-</div>
-<hr>
-</section>
-<section id="音乐现场" class="level1">
-<h1>音乐现场</h1>
-<div class="cell">
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
-<col style="width: 3%">
-<col style="width: 19%">
-<col style="width: 19%">
-<col style="width: 19%">
-<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 8%">
 <col style="width: 9%">
 <col style="width: 3%">
-<col style="width: 2%">
-<col style="width: 15%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Date</th>
-<th style="text-align: left;">Tour</th>
-<th style="text-align: left;">Headliner</th>
-<th style="text-align: left;">Opener</th>
-<th style="text-align: left;">Location</th>
-<th style="text-align: left;">Venue</th>
-<th style="text-align: left;">Status</th>
-<th style="text-align: right;">Rating</th>
-<th style="text-align: left;">Noise Level</th>
+<th style="text-align: left;">date</th>
+<th style="text-align: left;">tour</th>
+<th style="text-align: left;">headliner</th>
+<th style="text-align: left;">opener</th>
+<th style="text-align: left;">location</th>
+<th style="text-align: left;">venue</th>
+<th style="text-align: right;">rating</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">11/8/23</td>
-<td style="text-align: left;">Still… At Their Very Best</td>
-<td style="text-align: left;">The 1975</td>
-<td style="text-align: left;">Dora Jar</td>
-<td style="text-align: left;">Baltimore MD</td>
-<td style="text-align: left;">CFG Bank Arena</td>
-<td style="text-align: left;">Attended</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: left;">Tinnitus for a while w/o earplugs</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">12/9/23</td>
-<td style="text-align: left;">Bluebond Band Program Holiday Concerts</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Philadelphia PA</td>
-<td style="text-align: left;">Bluebond Guitar Shop</td>
-<td style="text-align: left;">Attended</td>
-<td style="text-align: right;">NA</td>
-<td style="text-align: left;">Tinnitus for a while w/o earplugs</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">1/19/24</td>
+<td style="text-align: left;">2024-01-19</td>
 <td style="text-align: left;">Between Nowhere</td>
 <td style="text-align: left;">RIDE, The Charlatans</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">Philadelphia PA</td>
 <td style="text-align: left;">Union Transfer</td>
-<td style="text-align: left;">Attended</td>
 <td style="text-align: right;">10</td>
-<td style="text-align: left;">Tinnitus until next day w/o earplugs</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">5/11/24</td>
+<td style="text-align: left;">2024-05-11</td>
 <td style="text-align: left;">Interplay 1st Leg</td>
 <td style="text-align: left;">RIDE</td>
 <td style="text-align: left;">Knifeplay</td>
 <td style="text-align: left;">Boston MA</td>
 <td style="text-align: left;">Big Night Live</td>
-<td style="text-align: left;">Attended</td>
 <td style="text-align: right;">10</td>
-<td style="text-align: left;">Good w/o earplugs</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">6/14/24</td>
+<td style="text-align: left;">2024-06-14</td>
 <td style="text-align: left;">The Collective</td>
 <td style="text-align: left;">Kim Gordon</td>
 <td style="text-align: left;">Bill Nace</td>
 <td style="text-align: left;">Philadelphia PA</td>
 <td style="text-align: left;">Union Transfer</td>
-<td style="text-align: left;">Attended</td>
 <td style="text-align: right;">7</td>
-<td style="text-align: left;">Good w/ earplugs</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">7/16/24</td>
+<td style="text-align: left;">2024-07-16</td>
 <td style="text-align: left;">Frog in Boiling Water</td>
 <td style="text-align: left;">DIIV</td>
 <td style="text-align: left;">Dutch Interior, Horse Jumper of Love</td>
 <td style="text-align: left;">Washington DC</td>
 <td style="text-align: left;">Howard Theatre</td>
-<td style="text-align: left;">Attended</td>
 <td style="text-align: right;">9</td>
-<td style="text-align: left;">Good w/ earplugs</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">8/9/24</td>
+<td style="text-align: left;">2024-08-09</td>
 <td style="text-align: left;">The Saviors</td>
 <td style="text-align: left;">Green Day</td>
 <td style="text-align: left;">Rancid, The Linda Lindas, The Smashing Pumpkins</td>
 <td style="text-align: left;">Philadelphia PA</td>
 <td style="text-align: left;">Citizen Bank Park</td>
-<td style="text-align: left;">Attended</td>
 <td style="text-align: right;">7</td>
-<td style="text-align: left;">Good w/ earplugs</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">10/6/24</td>
+<td style="text-align: left;">2024-10-06</td>
 <td style="text-align: left;">The Psychedelic Furs &amp; The Jesus and Mary Chain</td>
 <td style="text-align: left;">The Jesus and Mary Chain, The Psychedelic Furs</td>
 <td style="text-align: left;">Frankie Rose</td>
 <td style="text-align: left;">Washington DC</td>
 <td style="text-align: left;">The Anthem</td>
-<td style="text-align: left;">Attended</td>
 <td style="text-align: right;">8</td>
-<td style="text-align: left;">Good w/o earplugs</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">10/29/24</td>
+<td style="text-align: left;">2024-10-29</td>
 <td style="text-align: left;">冀西南林路行</td>
 <td style="text-align: left;">万能青年旅店</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">New York NY</td>
 <td style="text-align: left;">Terminal 5</td>
-<td style="text-align: left;">Attended</td>
 <td style="text-align: right;">9</td>
-<td style="text-align: left;">Good w/o earplugs</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">11/17/24</td>
+<td style="text-align: left;">2024-11-17</td>
 <td style="text-align: left;">Everything is Alive</td>
 <td style="text-align: left;">slowdive</td>
 <td style="text-align: left;">quannnic</td>
 <td style="text-align: left;">Washington DC</td>
 <td style="text-align: left;">The Anthem</td>
-<td style="text-align: left;">Attended</td>
 <td style="text-align: right;">8</td>
-<td style="text-align: left;">Good w/o earplugs</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">12/7/24</td>
+<td style="text-align: left;">2024-12-07</td>
 <td style="text-align: left;">Interplay 2nd Leg</td>
 <td style="text-align: left;">RIDE</td>
 <td style="text-align: left;">Rocket</td>
 <td style="text-align: left;">Washington DC</td>
 <td style="text-align: left;">9:30 Club</td>
-<td style="text-align: left;">Attended</td>
 <td style="text-align: right;">8</td>
-<td style="text-align: left;">Good w/o earplugs</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2/21/25</td>
-<td style="text-align: left;">Les Chants de l’Aurore</td>
-<td style="text-align: left;">Alcest</td>
-<td style="text-align: left;">Kælan Mikla, MONO</td>
-<td style="text-align: left;">Baltimore MD</td>
-<td style="text-align: left;">Baltimore Soundstage</td>
-<td style="text-align: left;">Attended</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">Good w/o earplugs</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">4/17/25</td>
-<td style="text-align: left;">La Luz Spring Tour</td>
-<td style="text-align: left;">La Luz</td>
-<td style="text-align: left;">Color Green</td>
-<td style="text-align: left;">Baltimore MD</td>
-<td style="text-align: left;">Ottobar</td>
-<td style="text-align: left;">Attended</td>
-<td style="text-align: right;">9</td>
-<td style="text-align: left;">Good w/o earplugs</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">5/5/25</td>
-<td style="text-align: left;">Grand National Tour: Kendrick Lamar and SZA</td>
-<td style="text-align: left;">Kendrick Lamar, SZA</td>
-<td style="text-align: left;">Mustard</td>
-<td style="text-align: left;">Philadelphia PA</td>
-<td style="text-align: left;">Lincoln Financial Field</td>
-<td style="text-align: left;">Attended</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">Good w/o earplugs</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">5/10/25</td>
-<td style="text-align: left;">Romance</td>
-<td style="text-align: left;">Fontaines D.C.</td>
-<td style="text-align: left;">Jadu Heart</td>
-<td style="text-align: left;">Washington DC</td>
-<td style="text-align: left;">The Anthem</td>
-<td style="text-align: left;">Attended</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">Tinnitus for a while w/o earplugs</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">6/5/25</td>
-<td style="text-align: left;">Somewhere in Time</td>
-<td style="text-align: left;">RINI</td>
-<td style="text-align: left;">Bathe</td>
-<td style="text-align: left;">Los Angeles CA</td>
-<td style="text-align: left;">The Belasco</td>
-<td style="text-align: left;">Attended</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: left;">Good w/o earplugs</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">7/5/25</td>
-<td style="text-align: left;">口 Aha</td>
-<td style="text-align: left;">Carsick Cars</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">苏州</td>
-<td style="text-align: left;">山丘LiveHouse</td>
-<td style="text-align: left;">Attended</td>
-<td style="text-align: right;">9</td>
-<td style="text-align: left;">Good w/o earplugs</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">10/25/25</td>
-<td style="text-align: left;">破晓还潮</td>
-<td style="text-align: left;">Sadless</td>
-<td style="text-align: left;">野草 The Ruderals</td>
-<td style="text-align: left;">Lafayette IN</td>
-<td style="text-align: left;">Digby’s Pub &amp; Patio</td>
-<td style="text-align: left;">Attended</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: left;">Good w/o earplugs</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
+<p>过得最爽的一年。</p>
+</details>
+<details>
+<summary>
+2023
+</summary>
+<p>2023年，我一共看了 <code>4</code> 本书，<code>1</code> 部电影/动画，<code>2</code> 场演出。</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 20%">
+<col style="width: 10%">
+<col style="width: 7%">
+<col style="width: 6%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">date</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: left;">author</th>
+<th style="text-align: right;">publish</th>
+<th style="text-align: right;">rating</th>
+<th style="text-align: left;">comment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2023-08-19</td>
+<td style="text-align: left;">那不勒斯四部曲</td>
+<td style="text-align: left;">E. Ferrante</td>
+<td style="text-align: right;">2018</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">新颖的视角，细腻的文笔</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2023-08-26</td>
+<td style="text-align: left;">存在主义咖啡馆</td>
+<td style="text-align: left;">S. Bakewell</td>
+<td style="text-align: right;">2016</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">不错的入门书</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2023-09-14</td>
+<td style="text-align: left;">德米安：彷徨少年时</td>
+<td style="text-align: left;">H. Hesse</td>
+<td style="text-align: right;">1919</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">虽然有很多名言警句，但依然不是很能理解这种精神状态</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2023-10-06</td>
+<td style="text-align: left;">存在主义是一种人道主义</td>
+<td style="text-align: left;">J.P. Sartre</td>
+<td style="text-align: right;">1946</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">醍醐灌顶</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">date</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: left;">author</th>
+<th style="text-align: right;">publish</th>
+<th style="text-align: right;">rating</th>
+<th style="text-align: left;">comment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2023-12-23</td>
+<td style="text-align: left;">燃冬</td>
+<td style="text-align: left;">陈哲艺</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">拍摄手法出了大问题</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 34%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 14%">
+<col style="width: 18%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">date</th>
+<th style="text-align: left;">tour</th>
+<th style="text-align: left;">headliner</th>
+<th style="text-align: left;">opener</th>
+<th style="text-align: left;">location</th>
+<th style="text-align: left;">venue</th>
+<th style="text-align: right;">rating</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2023-11-08</td>
+<td style="text-align: left;">Still… At Their Very Best</td>
+<td style="text-align: left;">The 1975</td>
+<td style="text-align: left;">Dora Jar</td>
+<td style="text-align: left;">Baltimore MD</td>
+<td style="text-align: left;">CFG Bank Arena</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2023-12-09</td>
+<td style="text-align: left;">Bluebond Band Program Holiday Concerts</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Philadelphia PA</td>
+<td style="text-align: left;">Bluebond Guitar Shop</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</details>
+<hr>
+</section>
+<section id="数据分析" class="level1">
+<h1>数据分析</h1>
+<p><strong>这</strong>就是为什么这个博客要用Quarto的原因。</p>
+<section id="哪些天不是读书天" class="level2">
+<h2 class="anchored" data-anchor-id="哪些天不是读书天">+ 哪些天不是读书天</h2>
+<p><strong>读书</strong>指的是读<strong>正经</strong>书。也就是说所有的<strong>文艺活动</strong>都在不务正业、玩物丧志之列。看看啥时候我最不务正业吧。</p>
+<div class="blur">
+<p>现场音乐不在统计之列，因为这主要看乐队什么时候巡演，不是我能决定的……</p>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://yyraven.github.io/quarto-blog/life/library/mylib_files/figure-html/happy times-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>很明显，冬天没法出门所以在装文艺逼。夏天全部用来现充了，是好事啊（是好事啊</p>
+</section>
+<section id="比大时代晚了千分之一秒" class="level2">
+<h2 class="anchored" data-anchor-id="比大时代晚了千分之一秒">+ 比大时代晚了<em>千分之一</em>秒</h2>
+<blockquote class="blockquote">
+<p>“你和我出生在尘埃落定后的时代，晚了千分之一秒” ——乔伊斯（极乐迪斯科）</p>
+</blockquote>
+<p>看看我到底是时代的弄潮儿还是活在20世纪的老古董…？</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://yyraven.github.io/quarto-blog/life/library/mylib_files/figure-html/retro-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>看书比较平均，60年代<strong>较</strong>多，这也确实是我想要的；电影看的都是最近上映的（本来就并非狂热电影迷）；音乐嘛，我是狂热的90年代爱好者，这确实也体现出来了…</p>
+<p>&amp;居然最近三年完全没有看过19世纪及以前的书。震撼。</p>
 <hr>
 
 
+</section>
 </section>
 
 <center>
@@ -711,12 +794,12 @@
   <category>music</category>
   <category>fun</category>
   <category>中文</category>
-  <guid>https://yyraven.github.io/quarto-blog/readmusic/library/mylib.html</guid>
-  <pubDate>Invalid Date</pubDate>
+  <guid>https://yyraven.github.io/quarto-blog/life/library/mylib.html</guid>
+  <pubDate>Fri, 12 Dec 2025 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>音乐电台｜2025</title>
-  <link>https://yyraven.github.io/quarto-blog/readmusic/seasonradio/25radio.html</link>
+  <link>https://yyraven.github.io/quarto-blog/life/seasonradio/25radio.html</link>
   <description><![CDATA[ 
 <div class="mylikebutton">♥</div>
 
@@ -741,7 +824,7 @@
 <h3 class="anchored" data-anchor-id="alcest---les-chants-de-laurore"><a href="https://open.spotify.com/intl-fr/album/24nGcIMJdnThRbgxpovlpy">Alcest - Les Chants de l’Aurore</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/alcest2024.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/alcest2024.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/alcest2024.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/alcest2024.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘Ta main contre la mienne/Les mémoires incandescentes/De ton visage rieur/Et tout pour pouvoir les revivre’</em></p>
 <p>一个字也听不懂但就是很美，很喜欢，Flamme Jumelle让我想到了身边逝去的人，与我渐行渐远的人，还有再也无法触及的回忆…</p>
 <p><em><strong>推荐曲目：</strong>Flamme Jumelle/Amethyste</em></p>
@@ -750,7 +833,7 @@
 <h3 class="anchored" data-anchor-id="lana-del-rey---ultraviolence"><a href="https://open.spotify.com/album/1ORxRsK3MrSLvh7VQTF01F">Lana Del Rey - Ultraviolence</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/ultraviolence.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/ultraviolence.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/ultraviolence.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/ultraviolence.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘My boyfriend’s pretty cool/But he’s not as cool as me’</em></p>
 <p>因为春天来了，所以开始重温16岁的时候听的东西…感觉自己像个自我感觉良好的沉浸在自己脑内幻想中的bitch，这就是我想有的心态。</p>
 <p><em><strong>推荐曲目：</strong>Brooklyn Baby/Black Beauty</em></p>
@@ -759,7 +842,7 @@
 <h3 class="anchored" data-anchor-id="mazzy-star---so-tonight-that-i-might-see"><a href="https://open.spotify.com/album/5K18gTgac0q6Jma5HkV1vA">Mazzy Star - So Tonight that I Might See</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/mazzystar3.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/mazzystar3.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/mazzystar3.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/mazzystar3.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘There is a blue light in my best friend’s room/There is a blue light in his eye/There is a blue light, yeah/I want to see it shine’</em></p>
 <p>孤独安静又浪漫，听得我非常非常想去加州（以及学滑棒吉他）。</p>
 <p><em><strong>推荐曲目：</strong>Fade Into You/Five String Serenade/Blue Light</em></p>
@@ -783,7 +866,7 @@
 <h3 class="anchored" data-anchor-id="fontaines-d.c.---romance"><a href="https://open.spotify.com/album/287QQ922OsJYh8aFNGdJG5">Fontaines D.C. - Romance</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/romance.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/romance.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/romance.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/romance.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘I feel alive/in the city/that you despise’</em></p>
 <p>今年三月最抑郁的时候每次走过巴尔的摩的街道都会想到in the modern world。22年的Skinty Fia也好听的。</p>
 <p><em><strong>推荐曲目：</strong>In the Modern World/Starburster/Bug/Death Kink</em></p>
@@ -792,7 +875,7 @@
 <h3 class="anchored" data-anchor-id="kendrick-lamar---gnx"><a href="https://open.spotify.com/album/0hvT3yIEysuuvkK73vgdcW">Kendrick Lamar - GNX</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/gnx.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/gnx.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/gnx.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/gnx.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘If it was up to me/I wouldn’t give these nobodies no sympathy’</em></p>
 <p>超级碗中场秀后整个美国的soundtrack，我也不能免俗——也是开始了解说唱的契机！和SZA合作的Luther实在太美，<a href="https://www.youtube.com/watch?v=sNY_2TEmzho">mv</a>也很优雅。</p>
 <p><em><strong>推荐曲目：</strong>Luther/Reincarnated/TV off</em></p>
@@ -801,7 +884,7 @@
 <h3 class="anchored" data-anchor-id="yeule---glitch-princess"><a href="https://open.spotify.com/album/6jBRjtrgSlOvQvrSdtQa8Q">yeule - Glitch Princess</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/glitchprincess.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/glitchprincess.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/glitchprincess.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/glitchprincess.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘I had to walk into the fire to know how to feel’</em></p>
 <p>非常美，非常酷，并且，太潮了。听着这个感觉自己是世界上最亚逼的亚逼。我做了一个playboi carti x yeule的歌单，有生之年能看到两位合作吗。</p>
 <p><em><strong>推荐曲目：</strong>Bites on My Neck/Don’t be Too Harsh on Your Own Beauty/I &lt;3 U</em></p>
@@ -825,7 +908,7 @@
 <h3 class="anchored" data-anchor-id="the-weeknd---dawn-fm"><a href="https://open.spotify.com/album/2nLOHgzXzwFEpl62zAgCEC">The Weeknd - Dawn FM</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/dawnfm.png" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/dawnfm.png" class="img-fluid"></a></p>
+<p><a href="../covers/dawnfm.png" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/dawnfm.png" class="img-fluid"></a></p>
 </div></div><p><em>‘Intense, graphic, sexy, euphoric/provocative, edgy, thought-provoking/technically and visually stunning’</em></p>
 <p>室友最喜欢的盆栽专辑，在接连不断地听了好几遍全专后此专已经把我浸出味了。</p>
 <p><em><strong>推荐曲目：</strong>Gasoline/Sacrifice/Out of Time</em></p>
@@ -834,7 +917,7 @@
 <h3 class="anchored" data-anchor-id="american-football---american-football"><a href="https://open.spotify.com/album/1oKympEq5JvFhS1asxnF8A">American Football - American Football</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/americanfootball.png" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/americanfootball.png" class="img-fluid"></a></p>
+<p><a href="../covers/americanfootball.png" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/americanfootball.png" class="img-fluid"></a></p>
 </div></div><p><em>‘How should I say goodbye/with a handshake/or an embrace/or a kiss on the cheek’</em></p>
 <p>一个人搬到中西部后不可避免地就是要听中西部情绪（诶。真的很好听，节奏变化非常灵动，并且也确实很符合中西部的氛围。American Football似乎是Urbana的乐队，离我们这里很近呢。</p>
 <p><em><strong>推荐曲目：</strong>The Summer Ends/But The Regrets Are Killing Me</em></p>
@@ -843,14 +926,14 @@
 <h3 class="anchored" data-anchor-id="the-cranberries---everyone-else-is-doing-it-so-why-cant-we"><a href="https://open.spotify.com/album/0AP5O47kJWlaKVnnybKvQI">The Cranberries - Everyone Else is Doing it, so Why Can’t We?</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/cranberries1.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/cranberries1.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/cranberries1.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/cranberries1.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘But I’m in so deep/you know I’m such a fool for you/you got me wrapped around your finger/do you have to, do you have to let it linger?’</em></p>
 <p>你爸妈喜欢王菲那你一定会喜欢小红莓吧！望着辽阔的淡蓝色夏日天空再次被这张专感动了。</p>
 <p><em><strong>推荐曲目：</strong>Dreams/Waltzing Back/Linger/Wanted/How</em></p>
 <hr>
 <div class="photo-row">
-<p><a href="../captures/fdc.jpeg" class="lightbox" data-gallery="captures"><img src="https://yyraven.github.io/quarto-blog/readmusic/captures/fdc.jpeg" class="img-fluid"></a></p>
-<p><a href="../captures/llz.jpeg" class="lightbox" data-gallery="captures"><img src="https://yyraven.github.io/quarto-blog/readmusic/captures/llz.jpeg" class="img-fluid"></a></p>
+<p><a href="../captures/fdc.jpeg" class="lightbox" data-gallery="captures"><img src="https://yyraven.github.io/quarto-blog/life/captures/fdc.jpeg" class="img-fluid"></a></p>
+<p><a href="../captures/llz.jpeg" class="lightbox" data-gallery="captures"><img src="https://yyraven.github.io/quarto-blog/life/captures/llz.jpeg" class="img-fluid"></a></p>
 </div>
 <hr>
 
@@ -867,12 +950,12 @@
   <category>music</category>
   <category>2025</category>
   <category>中文</category>
-  <guid>https://yyraven.github.io/quarto-blog/readmusic/seasonradio/25radio.html</guid>
+  <guid>https://yyraven.github.io/quarto-blog/life/seasonradio/25radio.html</guid>
   <pubDate>Thu, 11 Dec 2025 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>音乐电台｜2024</title>
-  <link>https://yyraven.github.io/quarto-blog/readmusic/seasonradio/24radio.html</link>
+  <link>https://yyraven.github.io/quarto-blog/life/seasonradio/24radio.html</link>
   <description><![CDATA[ 
 <div class="mylikebutton">♥</div>
 
@@ -897,7 +980,7 @@
 <h3 class="anchored" data-anchor-id="the-jesus-and-mary-chain---darklands"><a href="https://open.spotify.com/album/7KLJM2KoVkWIaOpLzfyGHh">The Jesus and Mary Chain - Darklands</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/darklands.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/darklands.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/darklands.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/darklands.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘I’m going to the darklands/to talk in rhyme/with my chaotic soul’</em></p>
 <p>目前九月最爱的专辑，摸鱼的时候看Loz的采访，看到他推荐的这张。同名曲几乎是一瞬间就爱上了。好静谧美丽的氛围…和Psychocandy完全不一样，让人对这个乐队产生了很大的兴趣。</p>
 <p><em><strong>推荐曲目：</strong>Darklands/April Skies/Cherry Came Too</em></p>
@@ -906,7 +989,7 @@
 <h3 class="anchored" data-anchor-id="daft-punk---random-access-memories"><a href="https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa">Daft Punk - Random Access Memories</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/RAM.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/RAM.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/RAM.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/RAM.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘Once you free your mind about a concept of harmony, and of music being correct, you can do whatever you want… So, nobody told me what to do. And there was no preconception of what to do.’</em></p>
 <p>年轻人的第一张电子乐专辑！Get Lucky是很久之前玩明日方舟的时候就听过的歌（因为游戏内致敬了）。Instant Crush是和The Strokes的主唱Julian Casablancas合作的，听了一遍立刻就喜欢上了。</p>
 <p><em><strong>推荐曲目：</strong>Giorgio by Moroder/Instant Crush/Get Lucky</em></p>
@@ -915,7 +998,7 @@
 <h3 class="anchored" data-anchor-id="galaxie-500---the-portable"><a href="https://open.spotify.com/album/1hjEh9pioJlwgQ8aJoomwP">Galaxie 500 - The Portable</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/theportable.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/theportable.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/theportable.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/theportable.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘The heat is just delicious’</em></p>
 <p>是合集，绿色的封面设计好美。Don’t Let Our Youth Go to Waste是翻唱曲，但感觉Galaxie 500的翻唱曲都有自己独有的味道。Dean在后来的乐队Luna里翻唱的Indian Summer和Ride Into the Sun也都好好听。</p>
 <p><em><strong>推荐曲目：</strong>Blue Thunder (w/ Sax)/Listen, the Snow is Falling/Don’t Let Our Youth Go to Waste</em></p>
@@ -940,7 +1023,7 @@
 <h3 class="anchored" data-anchor-id="joy-division---peel-sessions"><a href="https://www.youtube.com/watch?v=ckK7TNJbAJ4">Joy Division - Peel Sessions</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/jdpeelsessions.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/jdpeelsessions.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/jdpeelsessions.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/jdpeelsessions.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘Love will tear us apart again.’</em></p>
 <p>在巴尔的摩的唱片店the sound garden随便拿的一张，听了以后感觉自己第一次真正地开始爱上Joy Division…</p>
 <p><em><strong>推荐曲目：</strong>Love Will Tear Us Apart/24 Hours/She’s Lost Control</em></p>
@@ -949,7 +1032,7 @@
 <h3 class="anchored" data-anchor-id="charli-xcx---brat"><a href="https://open.spotify.com/album/2lIZef4lzdvZkiiCzvPKj7">Charli XCX - Brat</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/brat.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/brat.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/brat.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/brat.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘In a place that can make you change/Fall in love again and again/Fall in love again and again…’</em></p>
 <p>Brat summer终于在十一月正式入侵了我的大脑。我喜欢和Caroline Polachek合作的那个版本，原版像夏天，这个版本像深秋。</p>
 <p><em><strong>推荐曲目：</strong>360/Apple/Everything is Romantic</em></p>
@@ -958,15 +1041,15 @@
 <h3 class="anchored" data-anchor-id="mazzy-star---she-hangs-brightly"><a href="https://open.spotify.com/album/2ZAcLWdHBHrdybwws1PVuA">Mazzy Star - She Hangs Brightly</a></h3>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><a href="../covers/shehangsbrightly.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/readmusic/covers/shehangsbrightly.jpg" class="img-fluid"></a></p>
+<p><a href="../covers/shehangsbrightly.jpg" class="lightbox" data-gallery="cover"><img src="https://yyraven.github.io/quarto-blog/life/covers/shehangsbrightly.jpg" class="img-fluid"></a></p>
 </div></div><p><em>‘Superstar in your own private movie/I wanted just a minor part/But I’m no fool/I know you’re cool/I never really wanted your heart’</em></p>
 <p>Hope Sandoval是嗓音最美丽的美国女人，不用多说。感觉这或许是一个我开始听paisley underground的契机…</p>
 <p><em><strong>推荐曲目：</strong>Blue Flower/Ghost Highway/Be My Angel</em></p>
 <p>2025的音乐愿望是：1.明年继续弹吉他！我要学乐理！2.ride请不要解散好吗好的</p>
 <hr>
 <div class="photo-row">
-<p><a href="../captures/sd_1.jpeg" class="lightbox" data-gallery="captures"><img src="https://yyraven.github.io/quarto-blog/readmusic/captures/sd_1.jpeg" class="img-fluid"></a></p>
-<p><a href="../captures/ride.jpeg" class="lightbox" data-gallery="captures"><img src="https://yyraven.github.io/quarto-blog/readmusic/captures/ride.jpeg" class="img-fluid"></a></p>
+<p><a href="../captures/sd_1.jpeg" class="lightbox" data-gallery="captures"><img src="https://yyraven.github.io/quarto-blog/life/captures/sd_1.jpeg" class="img-fluid"></a></p>
+<p><a href="../captures/ride.jpeg" class="lightbox" data-gallery="captures"><img src="https://yyraven.github.io/quarto-blog/life/captures/ride.jpeg" class="img-fluid"></a></p>
 </div>
 <hr>
 
@@ -983,7 +1066,7 @@
   <category>music</category>
   <category>2024</category>
   <category>中文</category>
-  <guid>https://yyraven.github.io/quarto-blog/readmusic/seasonradio/24radio.html</guid>
+  <guid>https://yyraven.github.io/quarto-blog/life/seasonradio/24radio.html</guid>
   <pubDate>Sat, 14 Dec 2024 05:00:00 GMT</pubDate>
 </item>
 </channel>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ravensnest</title>
+<title>Raven’s Nest</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-feed .list');
+    const listingTargetEl = window.document.querySelector('#listing-latest .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-feed'] = new List('listing-feed', options);
+    window['quarto-listings']['listing-latest'] = new List('listing-latest', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -138,19 +138,71 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="– ravensnest">
-<meta property="og:description" content="">
+<link rel="alternate" type="application/rss+xml" title="Raven's Nest" href="index.xml" data-external="1"><meta property="og:title" content="– Raven’s Nest">
+<meta property="og:description" content="Raven’s Nest, a personal blog">
 <meta property="og:image" content="https://yyraven.github.io/quarto-blog/figs/preview.png">
-<meta property="og:site_name" content="ravensnest">
+<meta property="og:site_name" content="Raven's Nest">
 <meta property="og:image:height" content="731">
 <meta property="og:image:width" content="1280">
 </head>
 
-<body>
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Raven’s Nest</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./project.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./life.html"> 
+<span class="menu-text">Life</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./aboutme.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.xml"> 
+<span class="menu-text">RSS</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/yyraven"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
@@ -175,35 +227,35 @@ window.Quarto = {
 <div class="no-row-height column-margin column-container"><div class="">
 <hr>
 <section id="links" class="level4">
-<h4 class="anchored" data-anchor-id="links">LINKS</h4>
+<h4 class="anchored" data-anchor-id="links">+ links +</h4>
 <p><a href="./project.html" class="button">Projects</a></p>
 <p><a href="./blog.html" class="button">Blog</a></p>
-<p><a href="./readmusic.html" class="button">Music|Reads</a></p>
+<p><a href="./life.html" class="button">Life</a></p>
 <p><a href="./credit.html" class="button">Log|Credit</a></p>
 <p><a href="./aboutme.html" class="button">About</a></p>
 <p><a href="./photos.html" class="button">Gallery</a></p>
-<p><a href="./photos.html" class="button">Archive</a></p>
-<p><a href="https://github.com/yyraven">GitHub</a> | <a href="mailto:ru1@purdue.edu">Email</a></p>
+<p><a href="./archive.html" class="button">Archive</a></p>
+<p><a href="https://github.com/yyraven">GitHub</a> | <a href="mailto:cosmicraven0530@gmail.com">Email</a> | <a href="index.xml">RSS</a></p>
 <hr>
 </section>
-</div></div><section id="blog-update" class="level4">
-<h4 class="anchored" data-anchor-id="blog-update">Blog Update</h4>
+</div></div><section id="status" class="level4">
+<h4 class="anchored" data-anchor-id="status">+ status +</h4>
 <p>+ I’ve been constantly updating my birding blog… <a href="./projects/all_about_birding/birding.html"><strong>Check it out!</strong></a></p>
-<p>+ Now you can play chasing with the little black cat. See change log <a href="./credit.html"><strong>here</strong></a>.</p>
+<p>+ 251211 Now you can play chasing with the little black cat. See changelog <a href="./credit.html"><strong>here</strong></a>.</p>
 <div class="grid">
 <div class="g-col-4">
 <p><img src="figs/2512.jpg" class="img-fluid"> First winter in midwest :-&gt;</p>
 </div>
 <section id="now-readingplaying" class="level5 g-col-6">
-<h5 class="anchored" data-anchor-id="now-readingplaying">Now Reading/Playing</h5>
+<h5 class="anchored" data-anchor-id="now-readingplaying">+ now reading/playing +</h5>
 <p>📖 <em>Not in My Neighborhood</em> by <em>Antero Pietila</em></p>
 <p>🎧 <em>Did you know there’s a tunnel under Ocean Blvd</em> by <em>Lana Del Rey</em></p>
 </section>
 </div>
 </section>
-<section id="feed" class="level4">
-<h4 class="anchored" data-anchor-id="feed">Feed</h4>
-<div id="listing-feed" class="quarto-listing quarto-listing-container-table">
+<section id="latest" class="level4">
+<h4 class="anchored" data-anchor-id="latest">+ latest +</h4>
+<div id="listing-latest" class="quarto-listing quarto-listing-container-table">
 <table class="quarto-listing-table table">
 <thead>
 <tr>
@@ -219,18 +271,29 @@ Description
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="radio,fun,music,2025,中文" data-listing-date-sort="1765429200000" data-listing-file-modified-sort="1765518880869" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="289" data-listing-title-sort="音乐电台｜2025" data-listing-filename-sort="25radio.qmd">
+<tr data-index="0" data-categories="book,movie,music,fun,中文" data-listing-date-sort="1765515600000" data-listing-file-modified-sort="1765597623975" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="660" data-listing-title-sort="置顶 | 工业风豆瓣" data-listing-filename-sort="mylib.qmd">
+<td>
+<span class="listing-date">12/12/25</span>
+</td>
+<td>
+<a href="./life/library/mylib.html" class="title listing-title">置顶 | 工业风豆瓣</a>
+</td>
+<td>
+<span class="listing-description">书影音记录，对抗短视频时代的绝望努力</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="radio,fun,music,2025,中文" data-listing-date-sort="1765429200000" data-listing-file-modified-sort="1765518880869" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="289" data-listing-title-sort="音乐电台｜2025" data-listing-filename-sort="25radio.qmd">
 <td>
 <span class="listing-date">12/11/25</span>
 </td>
 <td>
-<a href="./readmusic/seasonradio/25radio.html" class="title listing-title">音乐电台｜2025</a>
+<a href="./life/seasonradio/25radio.html" class="title listing-title">音乐电台｜2025</a>
 </td>
 <td>
 <span class="listing-description"><em>我感觉有必要把这个四季音乐推荐系列提前一个月，六月份已经是夏天了，而三月份肯定是春天。</em></span>
 </td>
 </tr>
-<tr data-index="1" data-categories="fun,birding,web development" data-listing-date-sort="1736312400000" data-listing-file-modified-sort="1765472500916" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2274" data-listing-title-sort="All About Birding" data-listing-filename-sort="birding.qmd">
+<tr data-index="2" data-categories="fun,birding,web development" data-listing-date-sort="1736312400000" data-listing-file-modified-sort="1765472500916" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2274" data-listing-title-sort="All About Birding" data-listing-filename-sort="birding.qmd">
 <td>
 <span class="listing-date">1/8/25</span>
 </td>
@@ -239,6 +302,17 @@ Description
 </td>
 <td>
 <span class="listing-description"><strong>I love birding!</strong> Welcome to my personal birding records. I’m a casual…</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="data analysis,respiratory virus,dashboard,R,R Shiny" data-listing-date-sort="1734584400000" data-listing-file-modified-sort="1765493357280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="253" data-listing-title-sort="Weather-Respiratory Disease Correlation Explorer" data-listing-filename-sort="weatherdashboard.qmd">
+<td>
+<span class="listing-date">12/19/24</span>
+</td>
+<td>
+<a href="./projects/RESPweather_dashboard/weatherdashboard.html" class="title listing-title">Weather-Respiratory Disease Correlation Explorer</a>
+</td>
+<td>
+<span class="listing-description">This <strong>Weather-Respiratory Diseases Correlation Explorer</strong> R Shiny Dashboard…<strong></strong><strong></strong></span>
 </td>
 </tr>
 </tbody>

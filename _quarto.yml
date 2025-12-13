@@ -4,10 +4,11 @@ project:
 
 website:
   favicon: figs/crow_s.png
-  title: "ravensnest"
+  title: "Raven's Nest"
   google-analytics: "G-XJSP4R93HW"
-  open-graph: true
   image: figs/preview.png
+  open-graph: true
+  description: "Raven's Nest, a personal blog"
   site-url: https://yyraven.github.io/quarto-blog/
   site-path: "/"
   body-footer: |
@@ -18,19 +19,23 @@ website:
       href: project.qmd
     - text: Blog
       href: blog.qmd
+    - text: Life
+      href: life.qmd
     - text: Archive
       href: archive.qmd
     right:
     - text: About
       href: aboutme.qmd
+    - text: RSS
+      href: index.xml
     - icon: github
       href: https://github.com/yyraven
 
 format:
   html:
     theme:
-      - morph
-      - custom.scss
+        - morph
+        - custom.scss
 
 editor: visual
 

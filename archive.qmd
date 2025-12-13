@@ -1,11 +1,10 @@
 ---
 title: "Archive"
 listing:
-  id: feed
   contents: 
     - projects/**/*.qmd
     - posts/**/*.qmd
-    - readmusic/**/*.qmd
+    - life/**/*.qmd
   sort: "date desc"
   max-items: 100
   type: table

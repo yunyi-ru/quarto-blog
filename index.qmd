@@ -4,22 +4,21 @@ from: markdown
 format: 
   html:
     page-layout: article
-navbar: false
 listing:
-  id: feed
+  id: latest
   contents: 
     - projects/**/*.qmd
     - posts/**/*.qmd
-    - readmusic/**/*.qmd
+    - life/**/*.qmd
   sort: "date desc"
-  max-items: 2
+  max-items: 4
   type: table
   sort-ui: false
   filter-ui: false
-  image-height: 150px
   max-description-length: 75
   date-format: short
   fields: [date, title, description]
+  feed: true
 ---
 
 <center>
@@ -35,15 +34,16 @@ listing:
 ------------------------------------------------------------------------
 
 ::: column-margin
----
 
-#### LINKS
+------------------------------------------------------------------------
 
-[Projects](project.qmd){.button} 
+#### + links +
+
+[Projects](project.qmd){.button}
 
 [Blog](blog.qmd){.button}
 
-[Music\|Reads](readmusic.qmd){.button}
+[Life](life.qmd){.button}
 
 [Log\|Credit](credit.qmd){.button}
 
@@ -51,18 +51,19 @@ listing:
 
 [Gallery](photos.qmd){.button}
 
-[Archive](photos.qmd){.button}
+[Archive](archive.qmd){.button}
 
-[GitHub](https://github.com/yyraven) \| [Email](mailto:ru1@purdue.edu)
+[GitHub](https://github.com/yyraven) \| [Email](mailto:cosmicraven0530@gmail.com) \|
+[RSS](index.xml)
 
------
+------------------------------------------------------------------------
 :::
 
-#### Blog Update
+#### + status +
 
 \+ I've been constantly updating my birding blog... [**Check it out!**](projects/all_about_birding/birding.qmd)
 
-\+ Now you can play chasing with the little black cat. See change log [**here**](credit.qmd).
+\+ 251211 Now you can play chasing with the little black cat. See changelog [**here**](credit.qmd).
 
 ::: grid
 ::: g-col-4
@@ -70,7 +71,7 @@ listing:
 :::
 
 ::: g-col-6
-##### Now Reading/Playing
+##### + now reading/playing + 
 
 📖 *Not in My Neighborhood* by *Antero Pietila*
 
@@ -78,9 +79,9 @@ listing:
 :::
 :::
 
-#### Feed
+#### + latest +
 
-::: {#feed}
+::: {#latest}
 :::
 
 ------------------------------------------------------------------------
