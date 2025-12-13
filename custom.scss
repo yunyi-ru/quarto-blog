@@ -25,12 +25,14 @@ $shadow-color: rgba($body-bg, 0.8);
 
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=VT323&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*-- scss:rules --*/
 /* Base Styles */
 body {
   background-color: $body-bg;
   color: $body-color;
-  font-family: 'Tahoma', sans-serif;
+  font-family: 'Noto Serif', 'Noto Serif SC', serif;
   font-size: 0.9rem;
   line-height: 1.5;
   margin: 0;
@@ -55,7 +57,7 @@ code {
   color: $code-color;
   padding: 0.2rem 0.4rem;
   @include sharp-corners();
-  font-family: 'Courier New', monospace;
+  font-family: 'Noto Sans Mono', monospace;
   font-size: 1rem;
 }
 
@@ -65,13 +67,13 @@ pre {
   padding: $padding;
   @include sharp-corners();
   overflow-x: auto;
-  font-family: 'Courier New', monospace;
+  font-family: 'Noto Sans Mono', monospace;
   font-size: 1rem;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Special Elite', cursive;
+  font-family: 'Special Elite', 'Noto Serif SC', cursive;
   color: $link-color;
   margin: $margin 0;
 }
@@ -88,7 +90,7 @@ h2 {
   border: 1px solid $link-color;
   padding: 0.1rem 0.1rem;
   @include sharp-corners();
-  font-family: 'Special Elite', cursive;
+  font-family: 'Special Elite', 'Noto Serif SC', cursive;
   font-size: 1rem;
   cursor: pointer;
   letter-spacing: 1px;
@@ -120,7 +122,6 @@ ul {
 
   li {
     margin-bottom: 0.5rem;
-    font-family: 'Tahoma', sans-serif;
   }
 }
 
@@ -135,7 +136,7 @@ hr {
   &::before {
     content: "⇢⇢+~+~+⇠⇠";
     color: $divider-color;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', 'Noto Serif SC', cursive;
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
   }
@@ -154,7 +155,7 @@ hr {
 .navbar {
   background: linear-gradient(90deg, $body-bg, rgba(255,255,255,0.1));
   border-bottom: 2px double;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Special Elite', 'Noto Serif SC', cursive;
   text-transform: lowercase;
   letter-spacing: 1px;
   transition: all 0.3s ease;
