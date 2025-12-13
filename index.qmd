@@ -4,6 +4,7 @@ from: markdown
 format: 
   html:
     page-layout: article
+navbar: false
 listing:
   id: latest
   contents: 
